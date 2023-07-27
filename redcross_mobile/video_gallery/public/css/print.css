@@ -1,0 +1,30 @@
+#area_header,
+#area_etc_link,
+#area_footer,
+#area_lnb,
+#navigator,
+#area_contents_utility {
+  display: none !important;
+}
+#area_section {
+  width: 100% !important;
+  color: #000 !important;
+  font-size: 100% !important;
+  background-color: #fff !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/*#area_section h2,
+#area_section h3,
+#area_section h4,
+#area_section h5                        { text-indent:0px !important; }*/
+#area_section .page_message {
+  text-indent: 0px !important;
+}
+
+#area_section.contentsBox {
+  background-color: transparent !important;
+  margin-left: 0px !important;
+  width: 966px !important;
+  padding: 57px 0 0 50px !important;
+}

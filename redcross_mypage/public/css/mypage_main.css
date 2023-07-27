@@ -1,0 +1,800 @@
+@charset "UTF-8";
+.flex_center {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+/* font size */
+@font-face {
+  font-family: "NotoSansBold";
+  src: url(../fonts/NotoSansKR-Bold.woff2) format("woff2"), url(../fonts/NotoSansKR-Bold.woff) format("woff"), url(../fonts/NotoSansKR-Bold.otf) format("opentype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "NotoSansMedium";
+  src: url(../fonts/NotoSansKR-Medium.woff2) format("woff2"), url(../fonts/NotoSansKR-Medium.woff) format("woff"), url(../fonts/NotoSansKR-Medium.otf) format("opentype");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "NotoSansRegular";
+  src: url(../fonts/NotoSansKR-Regular.woff2) format("woff2"), url(../fonts/NotoSansKR-Regular.woff) format("woff"), url(../fonts/NotoSansKR-Regular.otf) format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+.font_regular {
+  font-family: "NotoSansRegular", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+}
+
+.font_medium {
+  font-family: "NotoSansMedium", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+}
+
+.font_bold {
+  font-family: "NotoSansBold", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+}
+
+.color_white {
+  color: #fff !important;
+}
+
+.color_f5 {
+  color: #f5f5f5 !important;
+}
+
+.color_aaa {
+  color: #aaa !important;
+}
+
+.color_ddd {
+  color: #ddd !important;
+}
+
+.color_eee {
+  color: #eee !important;
+}
+
+.color_red {
+  color: #cf3e23 !important;
+}
+
+.color_black {
+  color: #222 !important;
+}
+
+/* reset */
+* {
+  font-family: "NotoSansRegular", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #222;
+}
+
+body.mypage #area_section {
+  background-image: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+  text-decoration: unset;
+}
+
+#area_container {
+  width: 100%;
+  margin-left: 0;
+  margin: 0;
+}
+
+/* reset end */
+.wrap_page_mypage {
+  width: 948px;
+  margin-left: 43px;
+  color: #222;
+  font-family: "NotoSansRegular", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+}
+.wrap_page_mypage h4 {
+  font-size: 16px;
+}
+
+/*  상단 개인 정보 */
+.area_mypage_top {
+  border-radius: 20px;
+  background-color: #e9e9e9;
+  background-image: url("../img/mypage/bg_top_mypage.png");
+  background-repeat: no-repeat;
+  background-size: 320px auto;
+  background-position: bottom right 36px;
+  margin-top: 40px;
+  padding-top: 55px;
+  padding-left: 74px;
+  padding-bottom: 54px;
+}
+.area_mypage_top h2 {
+  font-family: "NotoSansMedium", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 30px;
+}
+.area_mypage_top h4 {
+  margin: 16px 0;
+}
+.area_mypage_top .wrap_top_visual_anchor {
+  margin-top: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 11px;
+}
+.area_mypage_top .wrap_top_visual_anchor .top_visual_anchor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 118px;
+  height: 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  background-color: #cf3e23;
+}
+
+/* 개별 element */
+.wrap_box_myinfo {
+  padding: 0 20px;
+  word-break: keep-all;
+}
+
+.box_myinfo {
+  margin-top: 70px;
+}
+.box_myinfo .box_myinfo_tit {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.box_myinfo .box_myinfo_tit h2 {
+  margin-right: 30px;
+  padding-left: 52px;
+  font-family: "NotoSansMedium", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 28px;
+  background-image: url("../img/mypage/icon_01.png");
+  background-repeat: no-repeat;
+  background-size: 36px 26px;
+  background-position: left 6px center;
+}
+.box_myinfo .box_myinfo_type01 .box_myinfo_tit h2 {
+  background-image: url("../img/mypage/icon_01.png");
+  background-size: 36px 26px;
+  background-position: left 6px center;
+}
+.box_myinfo .box_myinfo_type02 .box_myinfo_tit h2 {
+  background-image: url("../img/mypage/icon_02.png");
+  background-size: 23px 31px;
+  background-position: left 12px center;
+}
+.box_myinfo .box_myinfo_type03 .box_myinfo_tit h2 {
+  background-image: url("../img/mypage/icon_03.png");
+  background-size: 31px 30px;
+  background-position: left 9px center;
+}
+.box_myinfo .box_myinfo_type04 .box_myinfo_tit h2 {
+  background-image: url("../img/mypage/icon_04.png");
+  background-size: 35px 20px;
+  background-position: left 7px center;
+}
+.box_myinfo .box_myinfo_subtit h3 {
+  font-family: "NotoSansMedium", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 20px;
+}
+.box_myinfo .box_myinfo_subtit .box_myinfo_tit_anchor {
+  position: absolute;
+  bottom: 0;
+  right: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  width: 130px;
+  height: 30px;
+  text-align: center;
+  font-size: 14px;
+  background-color: #e8e8e8;
+  border: 1px solid #919191;
+}
+
+.wrap_box_myinfo_cnt {
+  width: 100%;
+  /* red 버튼 스타일 common */
+  /* <!-- 정보등록 전 --> */
+  /*  <!-- 정보등록 후 common --> */
+}
+.wrap_box_myinfo_cnt .box_myinfo_cnt_anchor {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0 21px;
+  width: auto;
+  line-height: 38px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  background-color: #cf3e23;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.wrap_box_myinfo_cnt .box_btn_bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 11px;
+}
+.wrap_box_myinfo_cnt .box_btn_bottom .box_links {
+  margin-top: 20px;
+}
+.wrap_box_myinfo_cnt .box_myinfo_before {
+  padding: 26px 53px 30px;
+  border: solid 1px #c6c6c6;
+  border-radius: 18px;
+}
+.wrap_box_myinfo_cnt .box_myinfo_before .myinfo_cnt_inner h4 {
+  margin-bottom: 4px;
+}
+.wrap_box_myinfo_cnt .box_myinfo_before .myinfo_cnt_inner h3 {
+  font-family: "NotoSansMedium", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 18px;
+}
+.wrap_box_myinfo_cnt .box_myinfo_after {
+  padding: 45px 55px 55px;
+  border: solid 1px #c6c6c6;
+  border-radius: 18px;
+  /* 우측 상세정보  */
+  /* 정보등록 후 - 상세정보 */
+}
+.wrap_box_myinfo_cnt .box_myinfo_after .myinfo_cnt_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.wrap_box_myinfo_cnt .box_myinfo_after .wrap_box_txt {
+  display: inline-block;
+  padding-right: 60px;
+}
+.wrap_box_myinfo_cnt .box_myinfo_after .wrap_box_txt > .box_btn_bottom .box_myinfo_cnt_anchor {
+  margin-top: 20px;
+}
+.wrap_box_myinfo_cnt .box_myinfo_after .wrap_box_detail {
+  position: relative;
+}
+.wrap_box_myinfo_cnt .box_myinfo_after .wrap_box_detail::before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  content: "";
+  display: block;
+  height: 100%;
+  border-left: 1px solid #ddd;
+}
+.wrap_box_myinfo_cnt .box_myinfo_after .wrap_box_detail h2 {
+  font-size: 24px;
+}
+.wrap_box_myinfo_cnt .box_myinfo_after .wrap_box_detail .box_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding-left: 50px;
+  gap: 15px;
+}
+.wrap_box_myinfo_cnt .box_myinfo_after .box_info_detail {
+  width: 100%;
+}
+.wrap_box_myinfo_cnt .box_myinfo_after .box_info_detail span.befor_left_bar {
+  position: relative;
+  font-family: "NotoSansBold", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  padding-left: 26px;
+}
+.wrap_box_myinfo_cnt .box_myinfo_after .box_info_detail span.befor_left_bar::before {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  content: "";
+  width: 2px;
+  height: 15px;
+  background-color: #ddd;
+}
+.wrap_box_myinfo_cnt .box_myinfo_after .color_red {
+  margin-top: 4px;
+}
+
+/* 정보등록 후 - 상세정보 - 폰트 사이즈 */
+.box_myinfo_type01 .wrap_box_txt .box_info_detail h4 span,
+.box_myinfo_type02 .wrap_box_txt .box_info_detail h4 span {
+  font-size: 20px;
+}
+
+/* 하단 문의 버튼 */
+.wrap_bottom_btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 18px;
+  margin-top: 52px;
+  margin-bottom: 190px;
+}
+.wrap_bottom_btns .q_anchor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  text-align: center;
+  width: 31.85%;
+  height: 60px;
+  font-size: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding-left: 6%;
+  background-repeat: no-repeat;
+  background-image: url("../img/mypage/icon_05.png");
+  background-size: 47px 29px;
+  background-position: right 82% center;
+}
+.wrap_bottom_btns .q_anchor:nth-of-type(1) {
+  background-image: url("../img/mypage/icon_05.png");
+  background-size: 47px 29px;
+}
+.wrap_bottom_btns .q_anchor:nth-of-type(2) {
+  background-image: url("../img/mypage/icon_06.png");
+  background-size: 34px 28px;
+}
+.wrap_bottom_btns .q_anchor:nth-of-type(3) {
+  background-image: url("../img/mypage/icon_07.png");
+  background-size: 25px 32px;
+}
+
+/* checkbox custom */
+.box_detail_inner {
+  padding-left: 50px;
+}
+
+.box_checkbox {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+.box_checkbox > label {
+  cursor: pointer;
+  font-size: 24px;
+  font-family: "NotoSansBold", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #cf3e23;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 48px;
+}
+
+.checkbox {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 2px solid #686868;
+  height: 22px;
+  width: 22px;
+  position: relative;
+  cursor: pointer;
+  line-height: 48px;
+  margin: 4px 0 0 14px;
+}
+.checkbox::after {
+  content: "";
+  display: none;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.checkbox:checked::after {
+  color: #686868;
+  content: "";
+  font-family: "NotoSansBold", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  display: block;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 14px;
+  height: 12px;
+  background-image: url("../../public/img/mypage/icon_check.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.checkbox:disabled {
+  border: 1px solid #eee;
+}
+.checkbox:disabled:checked::after {
+  background-color: #eee;
+}
+
+@media screen and (max-width: 1024px) {
+  #area_container {
+    width: 100%;
+    margin-left: 0;
+    margin: 0;
+  }
+  .wrap_page_mypage {
+    width: 100%;
+    margin-left: 0;
+  }
+  .page_mypage {
+    margin: 0 3%;
+  }
+  /*  상단 개인 정보 */
+  .area_mypage_top {
+    border-radius: 15px;
+    background-size: auto 80%;
+    background-position: bottom right;
+    padding-top: 38px;
+    padding-left: 26px;
+    padding-bottom: 30px;
+  }
+  .area_mypage_top h2 {
+    font-size: 24px;
+  }
+  .area_mypage_top h4 {
+    margin: 16px 0;
+  }
+  .wrap_page_mypage {
+    font-size: 14px;
+  }
+  .wrap_page_mypage h4 {
+    font-size: 14px;
+  }
+  /*  상단 개인 정보 */
+  .area_mypage_top {
+    margin-top: 20px;
+    background-size: auto 65%;
+    background-position: bottom right -50px;
+  }
+  .area_mypage_top h2 {
+    margin-bottom: 16px;
+  }
+  .area_mypage_top h4 {
+    display: none;
+  }
+  .area_mypage_top .wrap_top_visual_anchor {
+    margin-top: 30px;
+    gap: 9px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .area_mypage_top .wrap_top_visual_anchor .top_visual_anchor {
+    position: relative;
+    width: 114px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    text-align: left;
+    text-indent: 15px;
+  }
+  .area_mypage_top .wrap_top_visual_anchor .top_visual_anchor::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 8.5px;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 6px;
+    height: 9px;
+    background-image: url("../img/mypage/icon_arr.png");
+    background-repeat: no-repeat;
+    background-size: 6px 9px;
+    background-position: center;
+  }
+  /* 개별 element */
+  .wrap_box_myinfo {
+    padding: 0;
+  }
+  .box_myinfo {
+    margin-top: 40px;
+  }
+  .box_myinfo .box_myinfo_tit {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .box_myinfo .box_myinfo_tit h2 {
+    width: 100%;
+    margin-right: 0;
+    font-size: 24px;
+    padding-left: 48px;
+    background-size: 26px 18px;
+    background-position: left 15px center;
+    margin-bottom: 8px;
+  }
+  .box_myinfo .box_myinfo_type01 .box_myinfo_tit h2 {
+    background-size: 26px 18px;
+    background-position: left 15px center;
+  }
+  .box_myinfo .box_myinfo_type02 .box_myinfo_tit h2 {
+    background-size: 18px 23px;
+    background-position: left 16px center;
+  }
+  .box_myinfo .box_myinfo_type03 .box_myinfo_tit h2 {
+    background-size: 26px 23px;
+    background-position: left 14px center;
+  }
+  .box_myinfo .box_myinfo_type04 .box_myinfo_tit h2 {
+    background-size: 26px 14px;
+    background-position: left 13px center;
+  }
+  .box_myinfo .box_myinfo_subtit h3 {
+    font-size: 14px;
+    text-indent: 14px;
+  }
+  .box_myinfo .box_myinfo_subtit .box_myinfo_tit_anchor {
+    width: 117px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .wrap_box_myinfo_cnt {
+    /* red 버튼 스타일 common */
+    /* <!-- 정보등록 전 --> */
+    /*  <!-- 정보등록 후 common --> */
+  }
+  .wrap_box_myinfo_cnt .box_myinfo_cnt_anchor {
+    padding: 0 10px;
+    line-height: 30px;
+    font-size: 14px;
+    border-radius: 5px;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .wrap_box_myinfo_cnt .box_btn_bottom {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    margin-top: 24px;
+    gap: 12px 4px;
+  }
+  .wrap_box_myinfo_cnt .box_btn_bottom .box_links {
+    gap: 12px 4px;
+    margin-top: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .wrap_box_myinfo_cnt .box_myinfo_before {
+    padding: 30px 30px 20px;
+    border-radius: 15px;
+  }
+  .wrap_box_myinfo_cnt .box_myinfo_before .myinfo_cnt_inner h4 {
+    font-size: 14px;
+  }
+  .wrap_box_myinfo_cnt .box_myinfo_before .myinfo_cnt_inner h3 {
+    font-size: 14px;
+  }
+  .wrap_box_myinfo_cnt .box_myinfo_after {
+    padding: 30px 30px 20px;
+    border-radius: 15px;
+    /* 우측 상세정보  */
+    /* 정보등록 후 - 상세정보 */
+  }
+  .wrap_box_myinfo_cnt .box_myinfo_after .myinfo_cnt_inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .wrap_box_myinfo_cnt .box_myinfo_after .wrap_box_txt {
+    padding-right: 0;
+  }
+  .wrap_box_myinfo_cnt .box_myinfo_after .wrap_box_txt > .box_btn_bottom {
+    border-top: none;
+    width: auto;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-left: 2.5px;
+  }
+  .wrap_box_myinfo_cnt .box_myinfo_after .wrap_box_txt > .box_btn_bottom .box_myinfo_cnt_anchor {
+    margin-top: 0;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    padding: 0 23px;
+  }
+  .wrap_box_myinfo_cnt .box_myinfo_after .wrap_box_detail {
+    margin-top: 17px;
+    position: relative;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    gap: 12px 4px;
+  }
+  .wrap_box_myinfo_cnt .box_myinfo_after .wrap_box_detail .box_links {
+    padding-left: 0;
+    gap: 12px 4px;
+    margin-top: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .wrap_box_myinfo_cnt .box_myinfo_after .wrap_box_detail .box_myinfo_cnt_anchor {
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    padding: 0 23px;
+  }
+  .wrap_box_myinfo_cnt .box_myinfo_after .wrap_box_detail::before {
+    display: none;
+  }
+  .wrap_box_myinfo_cnt .box_myinfo_after .wrap_box_detail h2 {
+    font-size: 18px;
+  }
+  .wrap_box_myinfo_cnt .box_myinfo_after .box_info_detail {
+    width: 100%;
+  }
+  .wrap_box_myinfo_cnt .box_myinfo_after .box_info_detail span.befor_left_bar {
+    position: relative;
+    font-family: "NotoSansBold", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    padding-left: 26px;
+  }
+  .wrap_box_myinfo_cnt .box_myinfo_after .box_info_detail span.befor_left_bar::before {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    content: "";
+    width: 2px;
+    height: 15px;
+    background-color: #ddd;
+  }
+  .wrap_box_myinfo_cnt .box_myinfo_after .color_red {
+    margin-top: 4px;
+  }
+  /* 정보등록 후 - 상세정보 - 폰트 사이즈 */
+  .box_myinfo_type01 .wrap_box_txt .box_info_detail h4 span,
+  .box_myinfo_type02 .wrap_box_txt .box_info_detail h4 span {
+    font-size: 14px;
+  }
+  /* checkbox custom */
+  .box_detail_inner {
+    padding-left: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .box_checkbox > label {
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 48px;
+  }
+  .checkbox {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border: 2px solid #686868;
+    height: 18px;
+    width: 18px;
+    position: relative;
+    cursor: pointer;
+    line-height: 48px;
+    margin: 4px 0 0 14px;
+  }
+  .checkbox::after {
+    width: 16px;
+    height: 16px;
+  }
+  .checkbox:checked::after {
+    line-height: 18px;
+    width: 9px;
+    height: 7px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrap_bottom_btns {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+    padding: 0 24px;
+    margin-top: 36px;
+    margin-bottom: 40px;
+  }
+  .wrap_bottom_btns .q_anchor {
+    width: unset;
+    padding-left: 64px;
+    height: 70px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-size: 39px 21px;
+    background-position: right 72% center;
+  }
+  .wrap_bottom_btns .q_anchor:nth-of-type(1) {
+    background-size: 39px 21px;
+    background-position: right 72% center;
+  }
+  .wrap_bottom_btns .q_anchor:nth-of-type(2) {
+    background-size: 24px 20px;
+    background-position: right 72% center;
+  }
+  .wrap_bottom_btns .q_anchor:nth-of-type(3) {
+    background-size: 18px 22px;
+    background-position: right 72% center;
+  }
+}

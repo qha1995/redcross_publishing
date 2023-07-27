@@ -1,0 +1,1339 @@
+@charset "utf-8";
+
+@import url('/css/main_v14/common_respon.css');
+/* CSS Document */
+
+/* header */
+.wrap.subPage {padding-top:130px;}
+.wrap.subPage .header {height:auto;background-color:#fff;}
+.header {position:absolute !important;border-bottom:none;}/*header_v14 鍮④컙�쇱씤 鍮쇨린*/
+#outline {margin-top:130px;padding-top:43px;}
+.main #outline {padding-top:0;}
+.header .bottom .logo {z-index:100;}
+
+/* gnb */
+.main-menu > li > ul {box-shadow:0px 5px 10px rgba(0,0,0,0.2);top:100px;border-bottom:1px solid #a18e8a;}
+.header_mobile button {width:100%;display:block;background-color:#fff;border:0;text-align:left;color:#4f4f4f;}
+.header_mobile .gnbBox .depth01.alink {background:none;}
+.header_mobile .gnbBox .depth02 > li > a {font-size:15px;}
+.header_mobile .gnbBox .depth02 .depth02_btn {position:relative;height:36px; line-height:36px; padding-left:24px;font-size:15px;}
+.header_mobile .gnbBox .depth02 .depth02_btn:after {content:"";position:absolute;display:inline-block;width: 7px;height: 7px;border-right: 2px solid #aaa;border-bottom: 2px solid #aaa;transform: rotate(45deg);top: 10px;right: 25px;}
+.header_mobile .gnbBox .depth02 .depth02_btn.on {color:#ed1c24;}
+.header_mobile .gnbBox .depth02 .depth02_btn.on:after {border:0;border-left: 2px solid #aaa;border-top: 2px solid #aaa;top:15px;}
+/**/.header_mobile .gnbBox .depth03 {display:none;padding-left:0px;}
+.header_mobile .gnbBox .depth03 > li > a,
+/**/.header_mobile .gnbBox .depth03 > li > .depth03_btn {height:36px;line-height:36px;background-color: #f5f5f5;border-top: 1px dashed #ddd;padding-left: 27px;}
+.header_mobile .gnbBox .depth03 .depth03_btn {position:relative;height:36px; line-height:36px; padding-left:24px;}
+.header_mobile .gnbBox .depth02 .depth03_btn:before {content:"";position:absolute;display:inline-block;width: 10px;height: 2px;background-color:#333;top: 18px;right: 20px;}
+.header_mobile .gnbBox .depth02 .depth03_btn:after {content:"";position:absolute;display:inline-block;width: 2px;height: 10px;background-color:#333;top: 14px;right: 24px;}
+.header_mobile .gnbBox .depth03 .depth03_btn.on {font-weight:bold;color:#ed1c24;}
+.header_mobile .gnbBox .depth03 .depth03_btn.on:after {display:none;}
+.header_mobile .gnbBox .depth04 {display:none;background-color: #ffffff;}
+.header_mobile .gnbBox .depth04 > li > a {position: relative;padding-left: 35px;}
+.header_mobile .gnbBox .depth04 > li > a:before {content:"";display:inline-block;width:4px;height:4px;border-radius:50%;background-color: #ed1c24;top: 16px;left: 24px;position:absolute;}
+.header_mobile .gnbBox .depth04 > li > a.on {color:#ed1c24;font-weight:bold;}
+
+/* footer */
+#footer {height:auto !important;}
+.footer .center-width {position:relative;}
+.wrapper {top:-345px;}
+
+/* sub */
+.mobile_v {display:none;}
+.hide {visibility:visible;position:absolute !important;}
+h4 {padding-left:12px;margin-bottom:15px;}
+table caption {position:relative;}
+.t_red {color:#ff0000;}
+.t_blue {color:#1858a6;}
+.tit_redline {background:url("../../images/v3/bu.gif") no-repeat left 5px !important;padding-left:12px;font-size:16px;line-height:23px;}
+.subVisual.bg01 {display:none;}
+
+.container {margin-bottom:0;margin:0 !important;}
+.container .contentsArea {padding-bottom:50px;}
+.container .contentsArea:after {content: "" !important;display: block !important;height: 0 !important;clear: both !important;visibility: hidden !important;}
+.sd_container_wrap {margin:0 auto !important;}
+
+#area_windmill {display:none;}
+
+.ul_form {display:inline-block;}
+.ul_form > li {float:left;}
+.ul_form > li .sel_yearmonth {width:295px;}
+.ul_form > li .sel_yearmonth > li {float:left;margin-left:5px;}
+.ul_form > li .sel_yearmonth > li:first-child {margin-left:0;}
+
+.president_greeting p strong {display:inline-block;}
+
+h4.headline_2020 {background-repeat:no-repeat;}
+
+.smenu_only li {margin-bottom:5px;}
+.smenu_only .strategy2020 {width:56px;}
+.smenu_only .bornbackground {width:56px;}
+.smenu_only .ideology {width:51px;}
+.smenu_only .composition {width:25px;}
+.smenu_only .decisionmaking {width:51px;}
+.smenu_only .humanitariallaw {width:63px;}
+.smenu_only .publication {width:124px;}
+.smenu_only .timeline {width:160px;}
+
+.ifrc_summary h4 {background:none !important;}
+
+div#timelineContainer {position:relative}
+div.timelineToggle {display:inline-block;margin-left:0;margin-top:0;top:100px;right:0;}
+a.expandAll {margin-right:0;}
+
+/* ���쒖쟻��옄�� �뚭컻 - 硫붿씤*/
+.area_outter .bottom_rc_board .cs_qna {left:0;top:0;}
+.area_outter .bottom_rc_board .rc_news {height:260px;}
+.rc_news table th.bullet_icon {box-sizing:border-box;}
+.rc_news table td {box-sizing:border-box;}
+.area_outter .middle_program .btn_arrow_link2 {left:auto;right:0;}
+
+/* 援먯쑁 - 硫붿씤 */
+.w_area {margin-top:130px;}
+
+/* �꾩썝 */ 
+.donation_custom {padding-top:130px;}
+.sd_container_wrap2 .contentsArea,
+.container .contentsArea {padding-top:43px !important;}
+.responD {padding-bottom:65px;}
+.samd2 .prc_cont2_wrap ul > li {width:33.3%;box-sizing:border-box;}
+
+@media (max-width:1024px){
+	.samd.inputfrom_p table.table.formTable tbody tr td .sum_input001{max-width:25% !important;height:auto;line-height:35px;font-size:14px;width: 10px;}
+    #area_section.contentsBox {width:100% !important;}
+    #aside_banner {display:none;}
+    /* �쇱떆�꾩썝 �꾨즺 �섏씠吏�*/
+    .samd.complete_p.contentsBox .donationTxtBox{height:auto !important;}
+    
+    .center-width {width:100%;}    
+    
+    /* gnb */
+    .menuMain {display:none;}
+    .header_mobile .gnbBox .depth02 {display:none;}
+    
+    /* footer */
+    .main-ct6 {padding:10px;}
+    .main-ct6 ul.ul1,
+    .main-ct6 ul.ul2 {float:none;margin:0 auto;text-align:center;}
+    .main-ct6 ul.ul2 {margin-top:5px;}
+    .main-ct6 ul > li {float:none !important;display:inline-block;}
+    .footer1, .footer2 {float:none;text-align:center;}
+    .footer2 {margin:20px 0 0;}
+    .footer2 .p1 {height:24px;}
+    
+    /* sub - �섎닎*/
+    .subVisual {display:none;}
+    .contentsBox {width:100% !important;padding:30px 20px !important;box-sizing:border-box;}
+    .container .contentsArea {min-height:auto;}
+    
+    .pc_v {display:none;}
+    .mobile_v {display:block !important;}
+    .mobile_v ol {padding-left:20px;}
+    .mobile_v ol > li {list-style:decimal-leading-zero;margin-bottom:5px;}
+    .mobile_v ul {padding-left:20px;}
+    .mobile_v ul > li {list-style:disc;margin-bottom:5px;}
+    
+    .tab_respon {margin-bottom:20px;height:auto;width:100%;}
+    .tab_respon:after {content: "" !important;display: block !important;height: 0 !important;clear: both !important;visibility: hidden !important;}
+    .tab_respon li {background:none !important;height:auto !important;width:auto !important;}
+    .tab_respon li a {font-size:15px;text-indent:0 !important;;padding:10px 15px;width:auto !important;height:auto !important;margin-bottom:5px;box-sizing:border-box;border:1px solid #ddd;}
+    .tab_respon li.on a {background-color:#555;color:#fff;}
+    
+    .category1_tab {width:100%;height:auto;}
+    .category1_tab:after {content: "" !important;display: block !important;height: 0 !important;clear: both !important;visibility: hidden !important;}
+    .category1_tab li {width:auto;background:#fff;line-height:31px;box-sizing:border-box;margin-bottom:3px;}
+    .category1_tab li a {padding:0 10px;width:auto;}
+    .category1_tab li.on {border:1px solid #db0606;background-color:#db0605;color:#fff;height:30px;}
+    
+    .ul_bullet_red > li {background:url('../../images/icon/bullet_arrow3.gif') no-repeat left 3px;padding-left:10px;}
+    .ol_dezero {padding-left:22px;}
+    .ol_dezero > li {list-style:decimal-leading-zero;}
+    
+    /* popup */
+    #divpop1 {top:500px !important;left:5% !important;width:90% !important;box-sizing:border-box;}
+    #divpop1 > div {width:100% !important;}
+    
+    /* table */    
+    table.table.formTable {display:block; width:100%; border:1px solid #ccc;border-bottom:none;}
+    table.table.formTable tbody{display:block; width:100%;}
+    table.table.formTable tbody tr{display:block; width:100%; height:auto !important; overflow:hidden;}
+    table.table.formTable tbody tr th, table.table.formTable tbody tr td{display:block; height:auto !important; border:0; width:100%; line-height:2rem; padding-left:1rem; border-bottom:1px solid #ccc;box-sizing:border-box;}
+    table.table.formTable tbody tr th{padding:1rem 0.75rem; font-size:14px;}
+    table.table.formTable tbody tr td.bdb {border-bottom:1px dashed #ddd !important;}
+    table.table.formTable tbody tr td{padding:0.75rem 0.75rem;}
+    table.table.formTable tbody tr td input:after{display:block; content:""; }
+    table.table.formTable tbody tr td input{max-width:100% !important;height:auto;line-height:35px;font-size:14px;}
+    table.table tbody tr td a.btnB{line-height:35px; height:35px; padding:0 10px;}
+    table.table.formTable tbody tr td select{vertical-align:middle;height:35px;}
+    table.table.formTable tbody tr td .icon-badge{padding:0.2rem 2.5rem 0.2rem 0; background: url(/images/donation_participation_v2/icon_badge.png) repeat-y center right; background-size:auto 100%;}
+    table.table.formTable tbody tr td .icon-nameplate{padding:0.2rem 2.5rem 0.2rem 0; background: url(/images/donation_participation_v2/icon_nameplate.png) repeat-y center right; background-size:auto 100%;}
+    .fieldset_wrap fieldset{margin-bottom:0.5rem;}
+    .fieldset_wrap fieldset:first-child{margin-top:0.5rem;}
+    .fieldset_wrap fieldset label{width:20%; display:inline-block; line-height:27px;}
+    .fieldset_wrap fieldset label:before{content:"-"; margin-right:5px;}
+    .title_th{font-weight:600;}
+    .btnBox {text-align:center !important;}
+    .btnBox .btnB{display:block; width:100%; margin:1rem auto 1rem auto; text-align:center; float:none;}
+    .otguide {color:#ff0000;margin-bottom:10px;text-align:right;}
+    .overtable {width:100%;overflow-y:auto;}
+    .overtable table {min-width:900px;}
+    
+    .ds_table01 th, 
+    .ds_table01 td {padding:1rem 0.75rem;display:block;height:auto !important;width:100%;line-height:2rem;padding-left:1rem;border-bottom:1px solid #ccc;box-sizing:border-box;}
+    .ds_table01 th.title, 
+    .ds_table01 td.title {width:100%;text-align:left;}
+    
+    .linebox_w .question {padding-top:30px;}
+    
+    .area_button {text-indent:0;text-align:center;}
+    .area_button .submit,
+    .area_button .btn_cancel {display:inline-block;position:relative;right:0;vertical-align:top;}
+    
+    /* �섎닎 - �섎닎�띿감 */
+    .gallery_area .cont_group {widtH:32%;margin-left:2%;box-sizing:border-box;}
+    .gallery_area .cont_group > p > img {width:100%;}
+    .donation_company_partition p {width:auto;margin:0 10px 10px 0;border:1px solid #ddd;padding:5px 15px;}
+    
+     /* �섎닎 - 湲닿툒吏��� */
+    .emergency-support-box01 ul li {position:relative;min-height:174px;}
+    .emergency-support-box01 ul li .l-b {position:absolute;top:0;left:0;}
+    .emergency-support-box01 ul li .r-b {padding-left:253px;width:100%;box-sizing:border-box;}
+    .emergency-support.arrow-down {width:100%;margin:5px 0;background-position:center;}
+    
+    .emergency-support-box01 ul.s2 li {width:100%;height:auto;}
+    .emergency-support-box01 ul.s2 li:last-child {padding-left:0;background:none;}
+    .emergency-support-box01 ul.s2 li .r-b {width:100%;}
+    
+    .emergency-support-box02 ul li {margin-bottom:20px;}
+    
+    /* �섎닎 - 寃곗뿰吏��� */
+    .donation_company p {width:auto;margin:0 10px 10px 0;border:1px solid #ddd;padding:5px 15px;}
+    
+    /* �섎닎 - 留욎땄吏��� */
+    ul.thum_banner_list li.female img {width:100%;}
+    ul.thum_banner_list.li3n > li {width:32%;margin-right:2%;}
+    ul.thum_banner_list.li3n > li:nth-of-type(3n) {margin-right:0;}
+    ul.thum_banner_list.li3n > li div.text ul li span {padding-left:0 !important;padding-bottom:3px;}/*異쒖궛�⑺뭹*/
+    div.thum_box_h, 
+    div.thum_box_h p.img {width:100%;height:auto;text-align:center;}
+    div.thum_box_h p.img img {width:100%;max-width:290px;}
+    .ul_t1 > li {position:relative;margin-bottom:3px;padding-left:60px;}
+    .ul_t1 > li span {padding-bottom:0;line-height:21px;}
+    .ul_t1 > li .tit {position:absolute;width:53px;top:0;left:0;}
+    .h_07 .wind_title_h {padding-right:20px;word-break:keep-all;}
+    
+    /* �섎닎 - 援ы샇 - 援ы샇�쒕룞 吏��� */
+    .data_list ul {width:100%;height:auto;}
+    .data_list ul > li {margin-bottom:20px;} 
+    .recovery-top {background:#f7f7f9;border:1px dashed #ddd;padding-left:0;}
+    .recovery-top .text {padding:20px;box-sizing:border-box;}
+    .recovery-top .text p {padding:26px 0 0 26px;width:100%;margin:0 auto;box-sizing:border-box;}
+    .recovery-top .text p br {display:none;}
+    
+    .recovery-box01 ul li {width:100%;border:1px dashed #ddd;border-bottom:0;height:auto;}
+    .recovery-box01 ul li:last-child {border-bottom:1px dashed #ddd;}
+    .recovery-box01 ul li.bg01 {background:#fcf5e3;}
+    .recovery-box01 ul li.bg02 {background:#ecf3e1;}
+    .recovery-box01 ul li.bg03 {background:#fdf2f0;}
+    .recovery-box01 ul li.bg04 {background:#f7f7f9;}
+    .recovery-box01 ul li p {margin:0;padding:20px;box-sizing:border-box;}
+    .recovery-box01 ul li.bg03 p,
+    .recovery-box01 ul li.bg04 p {margin-top:0;text-align:left;}
+    
+    /* �섎닎 - 援ы샇 - �щ궃痍⑥빟怨꾩링吏��� */
+    .box0314 {width:100%;border-right:1px solid #ddd;}
+    
+    /* �섎닎 - 遊됱궗�쒕룞�좎껌 - 遊됱궗�쒕룞 媛��대뱶 */
+    .my_volunteer {text-indent:0 !important;background:none !important;height:auto !important;line-height: 1.8em;}
+    .my_volunteer h3 {border:1px solid #ddd;padding:5px 10px;margin-bottom:10px;display:inline-block;}
+    .my_volunteer ol > li > p {color:#000;}
+    .my_volunteer .tit {color:#666;}
+    .my_volunteer .tit span {color:#666;}
+    .my_volunteer .txtbox {padding:5px 10px;}
+    .my_volunteer a {display:inline-block;padding:5px 10px;background-color:#e40000;color:#fff;}
+    
+    /* board - gallery */
+    .area_image_list div ul {height:auto;padding-left:0 !important;}
+    .area_image_list div ul li {width:24%;margin:0 1% 10px 0;}
+    .area_image_list div ul li:nth-of-type(4n) {margin-right:0;}
+    .area_image_list div ul li p.thumbnail {width:100%;overflow:hidden;}
+    .area_image_list div ul li p.thumbnail img {width:100%;}
+    .area_image_detail table .view_image div .img {max-width:516px;width:100%;box-sizing:border-box;}
+    .area_image_detail table .view_image div .img img {width:100%;}
+    .area_image_detail table .thumb_image ul {max-width:645px;width:100%;}
+    
+    /*board - category */
+    .area_jisa_businessdept .area_jisa ul {height:auto;}
+    .area_rcy_activity ul {height:auto;}
+    
+    /* board - video */
+    .area_movie .detail {width:100%;margin-bottom:30px;}
+    .myPlayer-dimensions {width:100%;}
+    .area_movie .list {position:relative;width:100%;border-top:none;}
+    .area_movie .list .movie_list li {float:left;width:49%;margin-right:2%;margin-bottom:20px;}
+    .area_movie .list .movie_list li:nth-of-type(2n) {margin-right:0;}
+    .area_movie .list .movie_list li p {text-align:center;}
+    .area_movie .list .movie_list li img {min-height:130px;width:100%;max-width:250px;}
+    
+    /* board - qna */
+    .search_faq {padding:20px 16px;box-sizing:border-box;width:100%;height:auto;background:url('../../images/board/group_bg3.gif') no-repeat 100% 0;border:1px solid #dedede;}
+    .search_faq p {word-break:keep-all;text-indent:0;text-align:center;margin-bottom:5px;}
+    .search_faq p strong {color:#cb450c;}
+    .search_faq fieldset {position:relative;padding-right:55px;}
+    .search_faq .search_keyword {position:relative;top:0;left:0;width:100%;}
+    .search_faq .btn_search {top:0;left:auto;right:0;}
+    .search_faq ul {margin-top:10px;position:relative;top:0;left:0;width:100%;height:auto;}
+    .search_faq ul li {display:inline-block;}
+    .area_list .list_info {position:relative;}
+    .area_list table {table-layout:auto;}
+    .area_list table .col_answer div {width:100%;}
+    
+    /* �섎닎 - �ㅽ넗由�*/
+    ul.tc_story > li {width:32%;margin-right:2%;box-sizing:border-box;height:auto;}
+    ul.tc_story > li:first-child+li {margin-right:2%;}
+    ul.tc_story > li:nth-of-type(3n) {margin-right:0;}
+    ul.tc_story > li > a > img {width:100%;height:auto;}
+    
+    /* sub 援먯쑁�좎껌 */
+    #outline {margin-top:52px;width:100%;}
+    #area_container {background:none;width:100%;}
+    .area_container {background: none;width:100%;}
+    /*0401*/.area_container_ucc_list.style2 {background: none;width:100%;}
+    /*0401*/.result_message.style2 h3{display: inline-block;word-break: break-all;margin: 112px 0 0 0;text-align: center;}
+    /*0401*/.result_message.style2{width:100%;border: 1px solid #dedede;background: none;}
+    /*0401*/.result_message.style2 .inner{background: none;}
+    /*0401*/.result_message.style2 .area_button{background: none;border-top: 1px solid #dedede;}
+    /*0401*/.result_message.style2 .ment{text-align:center;padding-left: 0;}
+    /*0401*/.result_message.style2 .information{background-position: center top;}
+    
+    
+    #area_lnb {display:none;}
+    #area_section {width:100%;padding:30px 20px 50px;box-sizing:border-box;margin-left:0;background:none !important;}
+    #navigator {display:none;}
+    #area_contents_utility {display:none;}
+    
+    /* board - normal */
+    .area_list table tbody tr .subject {white-space:normal;height:auto;}
+    
+    /* 援먯쑁�좎껌 - �덉쟾�ъ뾽�고쁺*/
+    .tab_history {margin-bottom:20px;height:auto;}
+    .tab_history:after {content: "" !important;display: block !important;height: 0 !important;clear: both !important;visibility: hidden !important;}
+    .tab_history li {background:none !important;height:auto;}
+    .tab_history li a {font-size:15px;text-indent:0;padding:10px 15px;width:auto;height:auto;margin-bottom:5px;box-sizing:border-box;border:1px solid #ddd;}
+    .tab_history li.on a {background-color:#555;color:#fff;}
+    .warp_history .dummy_year p {padding-left:170px;word-break:keep-all;}
+    .warp_history .dummy_year p label.date {left:95px;}
+    .warp_history .dummy_year p label.date_long {left:105px;}
+    .image_history > p {position:relative;top:0 !important;left:0 !important;margin-bottom:10px;}
+    
+    /* 援먯쑁�좎껌 - 媛뺤뒿 */
+    .top_box {text-indent:0;height:auto;background:none;border:1px solid #ddd;margin-bottom:25px;padding:20px;box-sizing:border-box;word-break:keep-all;}
+    .top_box h4 {background:url("/images/v3/bu.gif") no-repeat left 3px !important;font-size:18px;margin-bottom:10px;color:#cf390c;font-weight:bold;}
+    .top_box .txt {margin-bottom:10px;}
+    .top_box a {float:none;height:auto;position:relative;top:0 !important;left:0 !important;}
+    .top_box a.edu_tel {background:none;width:auto;}
+    .top_box .btns a {display:inline-block;color:#fff;font-weight:bold;padding:5px 10px;margin-right:5px;}
+    .top_box .btns a.btn_red {background-color:#d23702;}
+    .top_box .btns a.btn_black {background-color:#333;}
+    .emergency_info,
+    .emergency_info1,
+    .rescueagent_info,
+    .rescueagent_info1,
+    .mountain_info,
+    .mental_info {text-indent:0;margin-bottom:20px;background:none;height:auto;}
+    .emergency_info h5,
+    .emergency_info1 h5,
+    .rescueagent_info h5,
+    .rescueagent_info1 h5,
+    .mountain_info h5,
+    .mental_info h5 {font-size:18px;margin-bottom:10px;}
+    .emergency_info .txt_box {border:1px solid #ddd;padding:10px;}
+    .emergency_info .txt_box strong {display:block;width:100%;margin-bottom:5px;}
+    .emergency_info1 p {text-indent:0;}
+    body.education.safety.emergency .contents_message_tab02 {width:100%;}
+    
+    /* 援먯쑁 -媛뺤뒿�� */
+    .tab_emergency,
+    .tab_rescueagent,
+    .tab_mountain,
+    .tab_mental {height:auto;}
+    .tab_emergency li,
+    .tab_rescueagent li,
+    .tab_mountain li,
+    .tab_mental li {box-sizing:border-box;height:auto;background:#fff !important;border:1px solid #ddd;width:49.5%;margin-right:0 !important;}
+    .tab_emergency li:nth-of-type(2n),
+    .tab_rescueagent li:nth-of-type(2n),
+    .tab_mountain li:nth-of-type(2n),
+    .tab_mental li:nth-of-type(2n) {margin-left:1%;}
+    .tab_emergency li a,
+    .tab_rescueagent li a,
+    .tab_mountain li a,
+    .tab_mental li a {font-size:16px;text-align:center;text-indent:0;width:100%;height:auto;padding:10px;box-sizing:border-box;word-break:keep-all;}
+    .tab_emergency li.on,
+    .tab_rescueagent li.on,
+    .tab_mountain li.on,
+    .tab_mental li.on {background:#ce4c00 !important;border:1px solid #ce3c00;}
+    .tab_emergency li.on a,
+    .tab_rescueagent li.on a,
+    .tab_mountain li.on a,
+    .tab_mental  li.on a {color:#fff;}
+    
+    .search_educourse {height:auto;padding-bottom:20px;}
+    .search_educourse form {padding-left:110px;background-position:20px 0;}
+    .search_educourse ul {height:auto;}
+    .search_educourse ul.emergency {padding-bottom:0;}
+    
+    /* 援먯쑁 - �앹뾽 */
+    /*0130*/
+    body .layer_outline.edu_tel ul{width:100%;margin: 6px 3px 0 0;}
+    body .layer_outline.edu_tel.top-s2{top: 57px !important;}
+    body .layer_outline.edu_tel {width:98%;top:80px !important;left:1% !important;box-sizing:border-box;min-width:auto;}
+    .tab_tel {margin:0 0 10px;}
+    .tab_tel li {width:49.5%;background:#fff;border:1px solid #ddd;box-sizing:border-box;}
+    .tab_tel li.tab_safety_tel {margin-right:1%;}
+    .tab_tel li a {width:100%;text-indent:0;text-align:center;line-height:28px;}
+    .tab_tel li.on {background:#e10c15;border:1px solid #e10c14;}
+    .tab_tel li.on a {color:#fff;}
+    .tab_tel li.tab_safety_tel,
+    .tab_tel li.tab_health_tel {background-image:none;}
+    /*0130*/
+    
+    /* 援먯쑁 - 援ы샇援먯쑁 */
+    .schedule_info p.rescue_offlineedu_comment {background:none;text-indent:0;margin-bottom:10px;height:auto;}
+    .schedule_info ol.purpose_list {background:none;text-indent:0;padding-left:20px;}
+    .schedule_info ol.purpose_list li {list-style:decimal;}
+    
+    /* 援먯쑁 - 援먯쑁媛꾪뻾臾� */
+    .area_magazine .detail {width:100%;padding-bottom:20px;overflow:hidden;}
+    .area_magazine .list {width:100%;position:relative;}
+    .area_magazine ul.items li {width:32%;margin:0 2% 15px 0;height:auto;text-align:center;}
+    .area_magazine ul.items li:nth-of-type(3n) {margin-right:0;}
+    .area_magazine ul.items li p.image {margin:0 auto;box-sizing:border-box;overflow:hidden;display:inline-block;}
+    .area_magazine ul.items li .jisaname {text-align:center;}
+    .area_magazine ul.items li .subject {width:100%;text-align:center;}
+    
+    /* 援먯쑁 - 援먯쑁臾몄쓽 */
+    body.education.customer.qna #area_section .page_message {background:none;text-indent:0;}
+    
+    /* RCY */
+    .real_contents h4 {background:url("/images/v3/bu.gif") no-repeat left 3px !important;text-indent:0;height:auto !important;font-size:16px;line-height:18px;margin-bottom:15px;}
+    .real_contents .participant_method,
+    .real_contents .children_rcy_introduce,
+    .real_contents .teen_rcy_introduce,
+    .real_contents .youth_rcy_introduce,
+    .real_contents .communty_rcy_introduce,
+    .real_contents .title_top_img,
+    .real_contents .teacherday_intro,
+    .real_contents .youth_abroad_intro,
+    .real_contents .green_schoo_intro,
+    .real_contents .friendship_intro,
+    .real_contents .active_program {background:none;text-indent:0;height:auto;}
+    .real_contents .children_rcy_introduce h3,
+    .real_contents .teen_rcy_introduce h3,
+    .real_contents .youth_rcy_introduce h3,
+    .real_contents .communty_rcy_introduce h3,
+    .real_contents .title_top_img h3,
+    .real_contents .teacherday_intro h3,
+    .real_contents .active_program h3 {background:url("/images/v3/bu.gif") no-repeat left 3px !important;text-indent:0;height:auto !important;font-size:16px;line-height:18px;margin-bottom:15px;padding-left:12px;}
+    .real_contents .mobile_img {width:265px;height:167px;}
+    .real_contents .children_rcy_introduce .mobile_img {background:url('../../images/rcy_info/children_member.gif') no-repeat;}
+    .real_contents .teen_rcy_introduce .mobile_img {background:url('../../images/rcy_info/youth_member.gif') no-repeat;}
+    .real_contents .youth_rcy_introduce .mobile_img {background:url('../../images/rcy_info/college_member.gif') no-repeat;}
+    .real_contents .communty_rcy_introduce .mobile_img {background:url('../../images/rcy_info/community_member.gif') no-repeat;}
+    .real_contents .title_top_img .mobile_img {background:url("../../images/rcy_info/localrcy_member.gif") no-repeat top left;}
+    .real_contents .teacherday_intro .mobile_img {background:url('../../images/rcy_activity/teacher_day.gif') no-repeat;}
+    .real_contents .youth_abroad_intro .mobile_img {background:url('../../images/rcy_activity/youth_abroad_intro.gif') no-repeat;}
+    .real_contents .green_schoo_intro .mobile_img {background:url('../../images/rcy_activity/green_schoo_intro.gif') no-repeat;}
+    .real_contents .friendship_intro .mobile_img {background:url('../../images/rcy_activity/friendship_intro.gif') no-repeat;}
+    .real_contents .participant_method .mobile_img {background:url('../../images/rcy_info/participant_method.gif') no-repeat;}
+    .real_contents .active_program .mobile_img {background:url('../../images/rcy_info/active_rcy.gif') no-repeat;}
+    
+    /* RCY �섍린 */
+    .private_information .btn_agree_yn,
+    .community_information .btn_agree_yn {position:relative;bottom:auto;top:auto;right:auto;width:100%;text-align:right;}
+    
+    /* RCY - �쒕룞�뚭컻 */
+    .real_contents .teacherday_enact,
+    .real_contents .teacherday_tower {margin-bottom:10px;background:none;width:100%;height:auto;text-indent:0;border:1px solid #ddd;}
+    .real_contents .teacherday_enact dt,
+    .real_contents .teacherday_tower dt {background:#efefef;padding:10px;}
+    .real_contents .teacherday_enact dd,
+    .real_contents .teacherday_tower dd {padding:10px;}
+    .sol_flash object {width:100% !important;height:auto !important;}    
+    .but_area {width:100%;}
+    body.rcy #area_section .layer_outline {width:98% !important;top:50px !important;left:1% !important;box-sizing:border-box;min-width:auto;}
+    #lightbox-container-image-box {width:100%;box-sizing:border-box;}
+    #lightbox-container-image img {width:100%;}
+    #lightbox-container-image-data-box {width:100%;box-sizing:border-box;}
+    .real_contents .sub_menu {margin-bottom:20px;height:auto;}
+    .real_contents .sub_menu:after {content: "" !important;display: block !important;height: 0 !important;clear: both !important;visibility: hidden !important;}
+    .real_contents .sub_menu li {background:none !important;height:auto;width:auto !important;}
+    .real_contents .sub_menu li a {font-size:15px;text-indent:0;padding:10px 15px;width:auto;height:auto;margin-bottom:5px;box-sizing:border-box;border:1px solid #ddd;}
+    .real_contents .sub_menu li.on a {background-color:#555;color:#fff;}
+    .real_contents .photo_list {padding:10px;box-sizing:border-box;}
+    .real_contents .photo_list ul {width:100%;}
+    .real_contents .photo_list ul li {margin-bottom:5px;}
+    .real_contents h4.news_kookmin,
+    .real_contents h4.news_mbn {text-indent:0;}
+    .real_contents .media_contents {width:100%;}
+    .real_contents .media_contents .profile_box {position:relative;padding-left:130px;box-sizing:border-box;}
+    .real_contents .media_contents .profile {position:absolute;top:0;left:0;}
+    .real_contents .media_contents .profile_title {width:100%;}
+    .real_contents #news_contents {width:100%;}
+    .real_contents #news_contents .profile_title {width:100%;}
+    .real_contents #farewell_contents {width:100%;}
+    .real_contents #farewell_contents .profile_title {width:100%;}
+    .real_contents #keumkang_contents {width:100%;}
+    .real_contents #keumkang_contents #head_title {width:100%;height:auto;}
+    
+    /* RCY - �먮즺蹂닿린 */
+    #indo_program {width:100%;height:auto;}
+    .area_image_detail table .album_contents p span {line-height:1.6em;}
+    .area_movie .youtobe_player {width:100%;max-width:480px;}
+    .area_movie .detail iframe {width:100%;}    
+    
+    /* board - webzine */
+    .area_best_photo ul li {width:33.3%;box-sizing:border-box;margin:0;padding:40px 10px 30px 45px;}
+    .area_best_photo ul li p {top:5px !important;left:5px !important;}
+    .area_best_photo ul li .area_image {margin:0 auto;}
+    .area_photo_list li {padding-left:250px;box-sizing:border-box;}
+    .area_photo_list li .contents {width:100%;margin-bottom:10px;}
+    
+    /* ���쒖쟻��옄�� �뚭컻 */
+    #area_section h3 {background:none;text-indent:0;width: calc(100% - 40px);height:auto;font-size:22px;line-height:28px;margin-bottom:10px;}
+    #area_section p.description {text-indent:0;margin-bottom:20px;}
+    .warp_movie_area {max-width:496px;width:100%;}
+    .warp_movie_area .video_player {height:auto;}
+    .warp_movie_area .bg_insert_info {width:100%;max-width:496px;background:#fafafa;border:1px solid #ddd;}
+    .warp_movie_area .bg_insert_info div .contents_jamak {width:100%;height:auto;}
+    .warp_contens_area .bg_born_p {background:none;width:100%;height:auto;text-indent:0;}
+    .warp_contens_area .bg_born_p h5 {margin-bottom:10px;}
+    .warp_contens_area .bg_born_p p {text-indent:0;visibility:visible;margin-bottom:5px;}
+    .warp_contens_area .btn_cybermuseum {position:relative;top:0;left:0;margin-bottom:10px;}
+    .president_greeting {margin:0 0 25px;width:100%;}
+    .president_greeting .message {width:100%;height:auto;background:none;}
+    .president_greeting p {text-indent:0;margin-bottom:10px;font-size:15px;line-height:1.6em;word-break:keep-all;max-width:600px;}
+    .president_greeting p strong {text-indent:0;}
+    .img_organization img {width:100%;max-width:735px;}
+    .bg_organization {position:absolute;width:0;height:0;overflow:hidden;}
+    .tab_wrap_organization {margin-bottom:20px;height:auto;}
+    .tab_wrap_organization:after {content: "" !important;display: block !important;height: 0 !important;clear: both !important;visibility: hidden !important;}
+    .tab_wrap_organization li {background:none !important;height:auto;}
+    .tab_wrap_organization li a {font-size:15px;text-indent:0;padding:10px 15px;width:auto;height:auto;margin-bottom:5px;box-sizing:border-box;border:1px solid #ddd;}
+    .tab_wrap_organization li.on a {background-color:#555;color:#fff;}
+    .member_adviser {height:auto;}
+    .wrap_list ul.top_line,
+    .wrap_list ul.top_line_short,
+    .wrap_list ul.top_line_long {position:relative;height:auto !important;padding-left:100px;}
+    .wrap_list ul li.photo {position:absolute;top:10px;left:10px;}
+    .wrap_list ul li.left,
+    .wrap_list ul li.right {width:100%;}
+    .area_volunteerwork,
+    .area_womanvolunteer,
+    .area_relief_work {height:auto;padding-bottom:20px;}
+    .area_volunteerwork .img_volunteerwork,
+    .area_womanvolunteer .img_womanvolunteer,
+    .area_relief_work .img_relief_work,
+    .area_iredcross .img_iredcross {background:none;width:100%;height:auto;text-indent:0;}
+    .area_volunteerwork .img_volunteerwork dl,
+    .area_womanvolunteer .img_womanvolunteer dl,
+    .area_iredcross .img_iredcross dl {padding:20px 0;line-height:1.6em;}
+    .area_volunteerwork .img_volunteerwork dt,
+    .area_womanvolunteer .img_womanvolunteer dt,
+    .area_iredcross .img_iredcross dt {font-size:18px;margin-bottom:10px;}
+    .area_relief_work .img_relief_work .mobile_img + p {padding:20px 0;line-height:1.6em;font-size:18px;margin-bottom:10px;}
+    .area_volunteerwork .img_volunteerwork h6,
+    .area_womanvolunteer .img_womanvolunteer h6,
+    .area_relief_work .img_relief_work h6,
+    .area_iredcross .img_iredcross h6 {display:inline-block;padding:5px 20px;background:#e7262b;color:#fff;font-size:15px;margin-bottom:10px;}
+    .area_volunteerwork .img_volunteerwork ol,
+    .area_womanvolunteer .img_womanvolunteer ol,
+    .area_relief_work .img_relief_work ol,
+    .area_iredcross .img_iredcross ol {padding-left:20px;}
+    .area_volunteerwork .img_volunteerwork ol > li,
+    .area_womanvolunteer .img_womanvolunteer ol > li,
+    .area_relief_work .img_relief_work ol > li,
+    .area_iredcross .img_iredcross ol > li {list-style:decimal;}
+    .area_volunteerwork .img_volunteerwork .mobile_img {background:url('../../images/redcross_krc/committee/img_volunteerwork.jpg') no-repeat top right;width:250px;height:150px;}
+    .area_womanvolunteer .img_womanvolunteer .mobile_img {background:url('../../images/redcross_krc/committee/img_womanvolunteer.jpg') no-repeat top right;width:250px;height:150px;}
+    .area_relief_work .img_relief_work .mobile_img {background:url('../../images/redcross_krc/committee/img_relief_work.jpg') no-repeat top right;width:250px;height:150px;}
+    .tab_cal {margin-bottom:20px;height:auto;}
+    .tab_cal > ul:after {content: "" !important;display: block !important;height: 0 !important;clear: both !important;visibility: hidden !important;}
+    .tab_cal li {width:auto;background:none !important;height:auto;margin-right:3px;}
+    .tab_cal li a {font-size:15px;text-indent:0;padding:10px 15px;width:auto;height:auto;margin-bottom:5px;box-sizing:border-box;border:1px solid #ddd;}
+    .tab_cal li.on a {background-color:#dd2129;color:#fff;}
+    #area_container .smenu_only,
+    #area_container .smenu_only ul,
+    #area_container .cybermuseum_imagery,
+    #area_container .flash_movie {width:100%;max-width:990px;}
+    
+    #area_section .page_message {height: auto !important;background-image: none !important;}
+    #area_section .page_message > p {text-indent: initial;}
+
+    /*���쒖쟻��옄�� �뚭컻 - 援�젣�곸떗�먯슫��*/
+    .video_player {width:100%;max-width:650px;}
+    .jamak {width:100%;box-sizing:border-box;max-width:650px;}
+    .strategy_2020 {text-indent:0px;background:none;height:auto;width:100%;text-align:center;}
+    .check_state {width:100%;height:auto;box-sizing:border-box;background:none;}
+    .check_state p {padding:10px;box-sizing:border-box;position:relative;top:0 !important;left:0 !important;height:auto;float:left;width:32%;margin:0 2% 10px 0;border:1px solid #aaa;border-radius:10px;text-align:center;}
+    .check_state p:nth-of-type(3n) {margin-right:0;}
+    .check_state p label {text-indent:0;display:inline-block;width:auto;height:auto;}
+    .check_state p input {position:relative;top:0;left:0;}
+    body.redcross.rcmovement.movement #area_section .page_message {text-indent:0;background:none;font-size:15px;height:auto;}
+    #area_container h2.detal_h2 {width:100%;}
+    .area_search {width:100%;text-align:center;}    
+    .strategy_2020 .mobile_img {margin-bottom:20px;}
+    .strategy_2020 img {width:100%;max-width:550px;}
+    .summary_2020 {width:100%;height:auto;}
+    .summary_2020 a {position:relative;top:0 !important;left:0 !important;}
+    .summary_2020 a.btn_2020 {margin:10px 0;}
+    .summary_2020 p {position:relative;top:0;left:0;width:100%;height:auto;text-indent:0;background:none;line-height:1.6em;margin-bottom:10px;}
+    .great_story {background:none;width:100%;height:auto;}
+    .great_story .mobile_v img {width:100%;max-width:735px;}
+    .great_story a {position:relative;top:0 !important;left:0 !important;margin-top:0 !important;}
+    .solferino_story1,
+    .solferino_story2 {text-indent:0;background:none;width:100%;height:auto;}
+    .solferino_story1 p,
+    .solferino_story2 p {font-size:15px;line-height:1.6em;margin-bottom:10px;}
+    .mevement_contents {box-sizing:border-box;}
+    .mevement_contents .frame_wrapper {box-sizing:border-box;margin:0 0 10px;padding:10px;}
+    .mevement_contents .frame_wrapper iframe {overflow-x:auto;}
+    body.redcross.rcmovement.bornbackground #area_section .layer_outline.memory_of_solferino {width:98%;left:1% !important;box-sizing:border-box;}
+    body.redcross.rcmovement.bornbackground #area_section .scroll {width:100%;height:500px;}
+    body.redcross.rcmovement.bornbackground #area_section .layer_outline.memory_of_solferino .memory_of_solferino_img {height:auto;width:100%;background:none;text-indent:0;font-size:15px;line-height:1.6em;}
+    body.redcross.rcmovement.bornbackground #area_section .layer_outline.memory_of_solferino .memory_of_solferino_img p {margin-bottom:10px;}
+    body.redcross.rcmovement.bornbackground #area_section .layer_outline.memory_of_solferino .memory_of_solferino_img dl {padding:10px;border:1px solid #ddd;margin-bottom:10px;}
+    .rcmovement_ideology {background:none;width:100%;height:auto;text-indent:0;}
+    .rcmovement_ideology h3, .rcmovement_ideology h4, .rcmovement_ideology p, .rcmovement_ideology dl {text-indent:0;margin-bottom:10px;}
+    .rcmovement_ideology h3 {background:url("../../images/v3/bu.gif") no-repeat left 5px !important;padding-left:12px;}
+    .rcmovement_ideology p, .rcmovement_ideology dl {font-size:15px;}
+    .rcmovement_ideology dt {font-size:16px;margin-bottom:5px;}
+    .rcmovement_ideology dd {margin-bottom:10px;}
+    .slogan_ifrc {width:100%;height:auto;background:none;}
+    .slogan_ifrc h3, .slogan_ifrc h4, .slogan_ifrc p {text-indent:0;margin-bottom:5px;}
+    .slogan_ifrc label {position:relative;left:0;}
+    .slogan_ifrc p strong {font-size:16px;}
+    .composition_ifrc {width:100%;height:auto;text-align:center;}
+    .composition_ifrc .ICRC,
+    .composition_ifrc .IFRC,
+    .composition_ifrc .NRCS {float:none !important;margin-bottom:20px;display:inline-block;vertical-align:top;}
+    body.redcross.rcmovement.composition #area_section .layer_outline {width:98% !important;box-sizing:border-box;left:1% !important;overflow-x:auto;}
+    .layer_outline .inner {box-sizing:border-box;}
+    .layer_outline {min-width:0;}
+    .diagram {width:100%;height:auto;background:none;}
+    .diagram .mobile_img {text-align:center;margin-bottom:30px;}
+    .diagram .mobile_img img {width:100%;max-width:657px;}
+    .diagram ul,
+    .diagram p {position:absolute;}
+    .tab_decision {margin-bottom:20px;height:auto;}
+    .tab_decision:after {content: "" !important;display: block !important;height: 0 !important;clear: both !important;visibility: hidden !important;}
+    .tab_decision li {background:none !important;height:auto;width:auto !important;}
+    .tab_decision li a {font-size:15px;text-indent:0;padding:10px 15px;width:auto;height:auto;margin-bottom:5px;box-sizing:border-box;border:1px solid #ddd;}
+    .tab_decision li.on a {background-color:#555;color:#fff;}
+    .area_icrc,
+    .area_ifrc,
+    .area_socities,
+    .area_delegate,
+    .area_etc {width:100%;height:auto;background:none;}
+    .area_icrc > ul,
+    .area_ifrc > ul,
+    .area_socities > ul,
+    .area_delegate > ul,
+    .area_etc > ul,
+    .area_jisa > ul,
+    .area_blood > ul,
+    .area_hospital ul,
+    .area_relation_org > ul,
+    .area_redcross_othernation > ul {padding:10px;background-color:#efefef;border:1px solid #ddd;}
+    .area_icrc li,
+    .area_ifrc li,
+    .area_socities li,
+    .area_delegate li,
+    .area_etc li {text-indent:0;}
+    .area_etc ul li {width:100%;}
+    .tab_humanitariallaw  {margin-bottom:20px;height:auto;}
+    .tab_humanitariallaw :after {content: "" !important;display: block !important;height: 0 !important;clear: both !important;visibility: hidden !important;}
+    .tab_humanitariallaw  li {background:none !important;height:auto;width:auto !important;}
+    .tab_humanitariallaw  li a {font-size:15px;text-indent:0;padding:10px 15px;width:auto;height:auto;margin-bottom:5px;box-sizing:border-box;border:1px solid #ddd;}
+    .tab_humanitariallaw  li.on a {background-color:#555;color:#fff;}
+    .area_concept,
+    .area_concept .ihl,
+    .area_concept .ihl_descrip {width:100%;height:auto;background:none;}
+    .area_concept h3, 
+    .area_concept h4, 
+    .area_concept p {text-indent:0;}
+    .area_concept p {margin-bottom:20px;}
+    .area_concept .ihl_descrip label {position:relative;display:inline-block;margin-bottom:20px;}
+    .area_pact {width:100%;}
+    .area_pact .ihl_pact,
+    .area_pact .geneva_history1,
+    .area_pact .geneva_history2 {width:100%;height:auto;background:none;}
+    .area_pact h3, 
+    .area_pact h4, 
+    .area_pact h5, 
+    .area_pact li, 
+    .area_pact p {text-indent:0;}
+    .area_pact h4 {font-size:16px;padding-left:0;margin-bottom:5px;margin-top:20px;}
+    .area_pact h4,
+    .area_pact h5 {color:#ff0000;}
+    .area_pact p {margin-bottom:10px;line-height:1.6em;}
+    .area_pact .geneva_history1 label {position:relative;display:inline-block;}
+    .area_sort {width:100%;line-height:1.6em;}
+    .area_sort .ihl_sort,
+    .area_sort .geneva_origin,
+    .area_sort .geneva_development,
+    .area_sort .geneva_add1,
+    .area_sort .geneva_add2,
+    .area_sort .hague_summary {width:100%;height:auto;background:none;}
+    .area_sort h3, 
+    .area_sort h5, 
+    .area_sort li, 
+    .area_sort p {text-indent:0;}
+    .area_sort h5 {color:#ff0000;font-size:15px;margin:10px 0;}
+    .area_sort p {margin-bottom:5px;}
+    .area_sort strong {color:#ff0000;}
+    .area_sort ol {padding:5px 0 5px 15px;}
+    .emblem_definition,
+    .area_function .protective_emblem,
+    .area_function .indicative_emblem,
+    .area_abuse .abuse_summary,
+    .area_abuse .case_abuse {background:none;width:100%;height:auto;line-height:1.6em;word-break:keep-all;}
+    .emblem_definition h3, .emblem_definition p {text-indent:0;}
+    .emblem_definition .mobile_img {background:url('../../images/redcross_rcmovement/decisionmaking_summary.gif') -387px bottom no-repeat;width:340px;height:160px;}
+    .area_history {width:100%;height:auto;background:none;}
+    .area_history p {text-indent:0;line-height:1.6em;word-break:keep-all;}
+    .area_function {width:100%;}
+    .area_function h5, .area_function li, .area_function p,
+    .area_abuse h3, .area_abuse h5, .area_abuse p {text-indent:0;}
+    .area_abuse h4,
+    .area_function h5,
+    .area_abuse h5 {margin-top:20px;}
+    .area_function p,
+    .area_abuse p {margin-top:10px;}
+    div#timelineContainer {width:100%;overflow:hidden;}
+    div.timelineToggle {top:0;}
+    div.timelineMajor,
+    dl.timelineMinor {width:100%;max-width:100%;box-sizing:border-box;margin:0;}    
+    .timelineMinor dt,
+    .timelineMinor dd {width:100%;box-sizing:border-box;margin-left:0;padding-left:20px;}
+    #area_container p {margin-left:0;}
+    .area_rolling_program {width:100% !important;}
+    
+    /* ���쒖쟻��옄�� �뚭컻 - �곸떗�� �띾낫愿� */
+    body.redcross.publicrelation.campaign_people #area_section .page_message {background:none;height:auto;text-indent:0;}
+    .people_program {width:100%;box-sizing:border-box;}
+    .main_contents {width:100%;text-indent:0;line-height:1.6em;}
+    .main_contents .billion {background:none;height:auto;}
+    .main_contents {margin-bottom:10px;}
+    .main_contents h3 {margin:10px 0 20px;}
+    .main_contents p {margin-bottom:10px;}
+    .area_poster_popup {width:100%;max-width:735px;}
+    .main_contents.on > div {background:none !important;height:auto !important;}
+    .ambassador_list li.left,
+    .ambassador_list li.right {width:50%;}
+    .area_script_btn .btn_close,
+    .area_script_btn .btn_all {left:50%;margin-left:-33px;}
+    .award {background-position:top left;}
+    .song_area .listsong {width:100%;height:auto;background:none;}
+    .song_area .listsong li {margin-bottom:30px;}
+    .song_area .listsong02 {width:100%;height:auto;background:none;}
+    .song_area .listsong02 li {margin-bottom:30px;}
+    
+    /* ���쒖쟻��옄�� �뚭컻 - �ㅼ떆媛� �뚯떇�� */
+    .board_wrap {width:100%;}
+    .board_view {width:100%;}
+    .survey_box {width:100%;box-sizing:border-box;}
+    .survey_box li.dot_line {width:100%;}
+    .board_wrap p {width:100%;box-sizing:border-box;}
+    .survey_box li.survey_list  {margin-left:10px;}
+    .board_wrap .survey_list p,
+    .board_wrap .survey_list3 p {padding-right:155px;}
+    .survey_box li.result {position:absolute;left:auto;right:10px;top:80px;}
+    .survey_result ul,
+    .survey_result3 ul {right:0;width:150px;}
+    .survey_result li {margin:0 0 1px;}
+    .survey_result .g_bar,
+    .survey_result3 .g_bar {left:auto;right:0;}
+    .survey_result .g_bar span.data2,
+    .survey_result3 .g_bar span.data2 {width:150px;}
+    
+    /* ���쒖쟻��옄�� �뚭컻 - �щ챸寃쎌쁺 */
+    .tab_menu_morgue {width:100%;}
+    .common_contents {background:none;text-indent:0;width:100%;height:auto;}
+    .common_contents > p {font-size:15px;}
+    .iframe_wrap {width:100%;overflow-x:auto;}
+    .business_plan {width:100%;}
+    .business_plan .diagram {background:none;width:100%;height:auto;}
+    .area_jisa_businessdept .area_brdclasscode h4 {top:0 !important;}
+    .area_jisa_businessdept .area_brdclasscode .total {top:0;}
+    .area_jisa_businessdept .area_brdclasscode ul {margin-left:0;height:auto;}
+    
+    /* ���쒖쟻��옄�� �뚭컻 - 怨좉컼�쇳꽣 */
+    body.redcross.customer.faq #area_section .page_message {background:none;text-indent:0;height:auto;}
+    .contents_tab01 {background:none;width:100%;height:auto;text-indent:0;}
+    .contents textarea {width:100%;}
+    .dec28_bgfont {display:block;background:none;padding:30px 20px;border:10px solid #baa97a;height:auto;}
+    .dec28_bgfont > p {width:100%;}
+    .dec28_bgfont > ul > li {width:100%;box-sizing:border-box;}
+    .area_button p a.list {text-indent:-9999px;}
+    body.redcross.customer.quidance_homepage #area_section .page_message,
+    body.redcross.customer.quidance_policyofprivateinfo #area_section .page_message,
+    body.redcross.customer.quidance_rejectemail #area_section .page_message,
+    body.redcross.customer.quidance_terms #area_section .page_message,
+    body.redcross.customer.quidance_infoguideline #area_section .page_message,
+    .infoguideline_wrap .infoguideline01 p {background:none;height:auto;text-indent:0;}
+    .quidance_homepage #area_font_setting div.intro_inform .img_wrap {text-align:center;padding-bottom:10px;}
+    .quidance_homepage #area_font_setting div.intro_inform img {margin:0;}
+    .quidance_homepage #area_font_setting div.intro_inform,
+    .quidance_homepage #area_homepage_manual div.intro_inform {width:100%;height:auto;padding:20px 10px;box-sizing:border-box;}
+    .quidance_homepage #area_font_setting ul.font_size {margin-bottom:40px;}
+    .quidance_homepage #area_font_setting ul.font_size,
+    .quidance_homepage #area_font_setting div.font_larger,
+    .quidance_homepage #area_homepage_manual div.information {box-sizing:border-box;width:100%;height:auto;background:none;border:1px solid #ddd;padding-bottom:20px;}
+    .quidance_homepage #area_font_setting div.intro_inform p.guide,
+    .quidance_homepage #area_homepage_manual div.intro_inform p.guide {width:100%;height:auto;background:none;text-indent:0;}
+    .privateinfo_wrap .ver22_definition01 p {box-sizing:border-box;padding-right:20px;}
+    .privateinfo_wrap .ver22_definition01 a.chapter_link {right:0;}
+    .privateinfo_wrap .inner_image_area01,
+    .privateinfo_wrap .inner_image_area02 {background:none;width:100%;height:auto;text-indent:0;padding-left:0;margin-left:0;}
+    .rejectemail {background:none;padding:20px;box-sizing:border-box;width:100%;height:auto;text-indent:0;border:1px solid #ddd;box-shadow:0 5px 10px rgba(0,0,0,0.2);}
+    
+    /* ���쒖쟻��옄�� �뚭컻 - 李얠븘�ㅼ떆�� 湲� */
+    .area_detail .map_frame,
+    .area_detail .map_frame .map {width:100%;}
+    .area_detail .map_frame_seoul,
+    .area_detail .map_frame_seoul .map_seoul {width:100%;}
+    .search_worksite {padding:10px;width:100%;border:1px solid #ddd;background:none;text-indent:0;}
+    .search_worksite form {width:100%;left:0;text-align:center;}
+    .search_worksite p {text-indent:0;text-align:center;}
+    
+    /* ���쒖쟻��옄�� �뚭컻 - 硫붿씤 */
+    body.krc_main div#outline {margin-top:52px !important;}
+    .area_main_title {width:100%;background:none;height:auto;margin:0;padding:28px 10px;box-sizing:border-box;}
+    .area_main_title h3 {text-indent:0;font-size:20px;}
+    .area_jisa_location {left:auto;right:0;background:#fff;}
+    .area_outter .middle_program {box-sizing:border-box;padding-right:25px;}
+    .area_outter .middle_program .area_rolling_program on {width:100%;}
+    .area_outter .bottom_rc_board {width:100%;position:relative;text-align:center;}
+    .area_outter .bottom_rc_board > div {display:inline-block;float:none !important;vertical-align:top;}
+    .area_outter .bottom_rc_board .this_year {height:240px;}
+    .area_outter .bottom_rc_board .rc_news {}
+    .area_outter .bottom_rc_board .cs_qna {height:240px;}
+    
+    /* RCY - 硫붿씤 */
+    .area_top_contents  {width:100%;overflow:hidden;}
+    #area_container {padding:10px;box-sizing:border-box;}
+    .main_image img {width:100%;}
+    .area_btn_rcy_info {right:10px;}
+    .rcy_media {width:100%;height:auto;}
+    .rcy_media .no2 .r_title {padding:0;}
+    .rcy_media .no2 .r_script .r_text {padding:10px;}
+    .rcy_media .no1 {background:none;width:100%;}
+    .rcy_media .no1 .r_media {max-width:526px;width:100%;}
+    .rcy_media .no2 {background:none;width:100%;height:auto;border:1px solid #ddd;padding:10px;box-sizing:border-box;}
+    .rcy_media .no2 .r_script {width:100%;height:auto;}
+    .area_event_location {width:100%;float:none;background:none;border:1px solid #ddd;box-sizing:border-box;margin-bottom:20px;}
+    h3.rcy_event_info {position:relative;right:auto;}
+    .area_category_contents {padding-bottom:0;width:100%;margin-left:0;float:none;background:none;border:1px solid #ddd;box-sizing:border-box;}
+    .area_category_contents .area_middle_contents_outter {background:none;margin:0;}
+    .area_category_contents .area_middle_contents_inner {background:none;box-sizing:border-box;padding:20px;}
+    table.category {width:100%;}
+    .area_category_contents .area_category_title {width:100%;margin:11px 0 13px;}
+    .area_category_contents .btn_category_01_more {left:auto !important;right:10px;top:30px !important;}
+    table.category th.subject {display:block;float:left;border:none;width:60%;box-sizing:border-box;}
+    table.category td {display:block;float:left;border:none;}
+    table.category td.actday {width:40%;}
+    table.category td.button {width:100%;text-align:right;border-bottom:1px dashed #ddd;}
+    table.category td.button a {float:none;display:inline-block;text-indent:9999px;overflow:hidden;}
+    .area_bottom_contents .area_news {width:100%;margin-bottom:20px;}
+    .area_bottom_contents .area_news #notice_list {min-height:auto;}
+    .area_bottom_contents .area_news.on .btn_notice_more {left:auto;right:0;}
+    .photo_gallery,
+    .popup_zone {margin-left:0;width:50%;margin-bottom:20px;}
+    .popup_zone img {width:100%;}
+    .area_link ul {text-align:center;}
+    .area_link ul li {float:none;width:240px;text-align:center;display:inline-block;margin:0 1px 5px;}
+    .area_link h3 {background-position:0 5px;}
+    .area_link a {width:100%;display:inline-block;border:1px solid #ddd;}
+    .area_rcy_event input.text{width:100%;}
+    #area_section h2 {font-size: 0;text-indent: 0;margin-bottom: 0;height: 40px;}
+    #area_section h2.style2{font-size: 18px;text-indent: 0;margin-bottom: 0;height: 40px;}
+    .inputcontents input[type=file]{width: 100%;}
+    .area_rcy_event input.textbox {width: 100%;}
+
+    /* 援먯쑁 - 硫붿씤 */
+    .andw_w .w_area {margin-top:43px;}
+    .andw_w .visual,
+    .andw_w .safety-visual,
+    .andw_w .safety-visual-a,
+    .andw_w .visual>div div a img,
+    .andw_w .disaster-visual,
+    .andw_w .disaster-visual-a,
+    .andw_w .visual, .andw_w .safety-visual, .andw_w .safety-visual-a, .andw_w .visual>div div a img {width:100%;height:auto;}
+    .andw_w .safety-wrap,
+    .andw_w .disaster-wrap {width:50%;}
+    .andw_w .detail {width:33%;}
+    .andw_w .detail:last-child {width:34%;}
+    .andw_w .board-wrap {width:100%;height:auto;}
+    .andw_w .board_group {width:48%;}
+    .andw_w .notice-group {margin-right:4%;}
+    .andw_w .board_group:last-child {width:100%;}
+    .andw_w .n_title,
+    .andw_w .r-title,
+    .andw_w .reference-wrap {width:100%;}
+    .education.main.andw_w .notice-group .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {right:35px;}
+    .education.main.andw_w .notice-group .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager,
+    .education.main.andw_w .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {right:40px;}
+    .andw_w .b_more {right:0;}
+    .bx-wrapper {margin-bottom:40px;}
+    
+    /* �꾩썝 */
+    .wrap.subPage .container .contentsArea {padding-top:0 !important;}
+    .samd2 .prc_cont2_wrap ul > li {width:50%;}
+    /* .samd2 img {width:100%;} */
+    
+    table.apply_table input.w200 {width: 100% !important;}
+    table.apply_table input.w120 {width: 100% !important;}
+    table.apply_table input.w230 {width: 100% !important;}
+    table.apply_table2 input.inp_style01 {width: 100% !important;}
+    table.apply_table2 input.w200 {width: 100% !important;}
+    
+    .donation.mob-i01{height:auto !important;}
+    #area_section.mob-i02{width: calc(100% - 50px) !important;}
+    .wrap.subPage.mob-i03 {padding-top:60px;}
+
+	/* 媛쒖씤�뺣낫 �� 硫붾돱 異붽� - 221222 */
+	.prv_menu_tabs ul li { margin:16px 0 0 16px; width:calc((100% / 3) - 16px); }
+	/* 媛쒖씤�뺣낫 �� 硫붾돱 異붽� - 221222 end */
+}
+@media (max-width:780px){
+    .donation_custom {margin-top: 0px !important;}
+    .visual_wrap.posi01 {padding-top: 0px !important;}
+    /* footer */
+    #new_area_localunion_and_worldredcross {position:relative;float:none;}
+    #new_area_localunion_and_worldredcross .btn_link_open,
+    #new_area_localunion_and_worldredcross .btn_link_close {top:0;right:50%;margin-right:-51px;}
+    .familySite {text-align:center;}
+    .footer3 .box {float:none;margin-top:25px;}
+    .green-logo {text-align:center;}
+    .wrapper {z-index:2000;padding:20px 20px 10px;box-sizing:border-box;top:auto;bottom:126px;width:320px;margin-left:-160px;text-indent:0;background:#fff;border:1px solid #ddd;height:auto;}
+    .wrapper h3 {position:relative;text-indent:0;top:0;margin-bottom:5px;}
+    .wrapper ul {margin-bottom:10px;}
+    .wrapper ul:after{content: "" !important;display: block !important;height: 0 !important;clear: both !important;visibility: hidden !important;}
+    .wrapper ul li {position:relative !important;top:0 !important;left:0 !important;float:left;}
+    
+    
+    /* �섎닎 - �섎닎�띿감 */
+    .gallery_area .cont_group {width:100%;margin-left:0;margin-bottom:20px;}
+    .gallery_area .cont_group > p {text-align:center;}
+    .gallery_area .cont_group > p > img {max-width:290px;}
+    
+    /* �섎닎 - 湲닿툒吏��� */
+    .emergency-support-top {padding:20px;width:100%;box-sizing:border-box;background-position:right bottom;}
+    .emergency-support-top > img {max-width:524px;width:100%;}
+    .emergency-support-box02 ul li {width:48%;margin-right:2%;}
+    .emergency-support-box02 ul li:nth-of-type(2n) {margin-right:0;}
+    
+    /* �섎닎 - 留욎땄吏��� */
+    ul.thum_banner_list.li3n > li {width:100%;margin-right:0;}
+    .h_01 .wind_title_h {padding-left:0;background:#fafafa;padding:20px;}
+    
+    /* 遊됱궗�쒕룞 �좎껌 */
+    .colArea >.col {display:block;width:100% !important;}
+    
+    
+    /* form */
+    .accordion .ac_bottom .choicebox {position: static !important;top: 0;right: 0;text-align: left;width: 200px;margin-top: 8px;display: inline-block;}
+    .accordion .ac_bottom .choicebox > label {float:none !important;}
+    .chk_group .chk_agree_line {position:relative;top:0;right:0;}
+    
+    .ul_form {width:100%;}
+    .ul_form > li {position:relative;width:100%;padding-left:65px;box-sizing:border-box;margin-bottom:5px;}
+    .ul_form > li.full {padding-left:0;}
+    .ul_form > li select,
+    .ul_form > li input {width:100% !important;margin:0 !important;}
+    .ul_form > li .txt3 {position:absolute;top:0;left:0;}
+    .ul_form > li .sel_yearmonth {width:100%;}
+    .ul_form > li .sel_yearmonth > li {width:49%;margin-left:2%;}
+    
+    /* board - gallery */
+    .area_image_list div ul li {width:32%;margin:0 2% 10px 0;}
+    .area_image_list div ul li:nth-of-type(4n) {margin-right:2%;}
+    .area_image_list div ul li:nth-of-type(3n) {margin-right:0;}
+    .area_image_detail table .thumb_image ul li {width:20%;margin:0;padding:0 5px;box-sizing:border-box;height:auto;}
+    .area_image_detail table .thumb_image ul li p {width:100%;height:auto;}
+    .area_image_detail table .thumb_image ul li img {width:100%;}
+    
+    /* �섎닎 - �ㅽ넗由�*/
+    ul.tc_story > li {width:49%;}
+    ul.tc_story > li:first-child+li+li {margin-right:2%;}
+    ul.tc_story > li:nth-of-type(3n) {margin-right:2%;}
+    ul.tc_story > li:nth-of-type(2n) {margin-right:0 !important;}
+    
+    /*board - category */
+    .area_jisa_businessdept {padding:0 15px 10px;}
+    .area_jisa_businessdept > div {position:relative;padding-top:10px;}
+    .area_jisa_businessdept h4 {position:relative;margin-bottom:10px;top:0 !important;left:0;}
+    .area_jisa_businessdept .total {top:10px !important;}
+    .area_jisa_businessdept .area_jisa ul,
+    .area_jisa_businessdept .area_businessdept ul {height:auto;width:92%;margin-left:0;}
+    .area_rcy_activity {padding:10px 16px;}
+    .area_rcy_activity h3 {position:relative;margin-bottom:10px;top:0;left:0;}
+    .area_rcy_activity .total {top:10px;left:70px;}
+    .area_rcy_activity ul {margin-left:0;}
+    
+    /* board - normal */
+    .totalrecordcount {position:relative;top:0;}
+    .area_list form {position:relative;width:100%;text-align:right;}
+    .area_list form .search_type {text-indent:9999px;overflow:hidden;}
+    
+    /* board - webzine */
+    .area_best_photo ul li {width:50%;}
+    
+    /* ���쒖쟻��옄�� �뚭컻 */
+    .president_list_top_area {width:100%;height:auto;background:none;}
+    .president_list_top_area h3 {position:relative;text-indent:0;top:0;}
+    .president_list_top_area ul.toplist01,
+    .president_list_top_area ul.toplist02,
+    .president_list_top_area ul.toplist03 {width:100%;position:relative;top:0;right:auto;border:1px solid #ddd;margin-bottom:20px;}
+    .president_list {height:auto;width:100%;}
+    .president_list ul {width:100%;}
+    .president_list li {width:100%;position:relative;}
+    .president_list li div.list {width:100%;}
+    .president_list li div.detail {width:100%;background:#efefef;}
+    .president_list li span a.close {left:auto;right:20px;}
+    
+    /* ���쒖쟻��옄�� - �곸떗�� �띾낫愿� */
+    .area_poster_popup {background:none;height:auto;width:100%;padding:20px;border:10px solid #ddd;box-sizing:border-box;}
+    .area_popup_list {position:relative;top:0;right:auto;width:100%;}
+    .img-listDiv13 {padding:190px 10px 20px;background-position:center top;}
+    .ambassador_list li.left, .ambassador_list li.right {width:100%;}
+    .award {position:relative;padding:20px 20px 20px 250px;min-height:258px;text-indent:0;background:none !important;height:auto !important;}
+    .award h4 {background:url("/images/v3/bu.gif") no-repeat left 3px !important;text-indent:0;height:auto !important;font-size:16px;line-height:18px;margin-bottom:15px;padding-left:12px;}
+    .award .mobile_img {position:absolute;top:0;left:0;width:240px;height:258px;}
+    .award01 .mobile_img {background:url('../../images/redcross_publicrelation/award/award01.jpg') -50px top no-repeat;}
+    .award02 .mobile_img {background:url('../../images/redcross_publicrelation/award/award02.jpg') -50px top no-repeat;}
+    .award03 .mobile_img {background:url('../../images/redcross_publicrelation/award/award03.jpg') -25px top no-repeat;}
+    .award04 .mobile_img {background:url('../../images/redcross_publicrelation/award/award04.jpg') -25px top no-repeat;}
+    .award05 .mobile_img {background:url('../../images/redcross_publicrelation/award/award05.jpg') -25px top no-repeat;}
+    .award06 .mobile_img {background:url('../../images/redcross_publicrelation/award/award06.jpg') -25px top no-repeat;}
+    .award07 .mobile_img {background:url('../../images/redcross_publicrelation/award/award07.jpg') -50px top no-repeat;}
+    .award08 .mobile_img {background:url('../../images/redcross_publicrelation/award/award08.jpg') -50px top no-repeat;}
+    .list01,
+    .list02 {background:none;height:auto;}
+    .list01 .mobile_img img,
+    .list02 .mobile_img img {width:100%;max-width:735px;}
+    
+    /* ���쒖쟻��옄�� �뚭컻 - �ㅼ떆媛� �뚯떇�� */
+    #area_section .event_list li {padding:100px 0 35px;min-height:0;}
+    #area_section .event_list li .button {top:auto;bottom:10px;right:auto;left:0;}
+    #area_section .area_event_detail table .contents {width:100%;box-sizing:border-box;}
+    
+    /* 援먯쑁 - 硫붿씤 */
+    .education.main #colorbox {width:100% !important;max-width:500px;}
+    ul.thum_banner_list li.female div.btnS1 span{display: inline-block;margin: 5px 10px !important;}
+    ul.thum_banner_list li.female div.btnS1 span.ml50 {display:none;}
+
+	.tab_respon li a {font-size:13px;}
+	.prv_menu_tab_wrap > p { height:70px; line-height:20px;}
+		
+	/* 媛쒖씤�뺣낫 �� 硫붾돱 異붽� - 221222 */
+	.prv_menu_summary { background:url("/images/redcross_customer/private/prv_rc_logo.png") center 20px / 75px auto no-repeat #f5f5f5; border-radius:13px; font-size:14px; line-height:1.5; padding:105px 15px 23px 15px; }
+
+	.prv_menu_tabs { margin-top:0; }
+	.prv_menu_tabs ul { margin:0 0 0 -15px; padding:0 15px; }
+	.prv_menu_tabs ul li { height:144px; margin:15px 0 0 15px; width:calc((100% / 2) - 15px); }
+	.prv_menu_tabs ul li a { font-size:14px; padding-top:100px; }
+	.prv_menu_tabs ul li.prv_menu01 a { background:url("/images/redcross_customer/private/prv_policy_list_icon01.png") center 21px / 61px auto no-repeat; }
+	.prv_menu_tabs ul li.prv_menu02 a { background:url("/images/redcross_customer/private/prv_policy_list_icon02.png") center 21px / 61px auto no-repeat; }
+	.prv_menu_tabs ul li.prv_menu03 a { background:url("/images/redcross_customer/private/prv_policy_list_icon03.png") center 21px / 61px auto no-repeat; }
+	.prv_menu_tabs ul li.prv_menu04 a { background:url("/images/redcross_customer/private/prv_policy_list_icon04.png") center 21px / 61px auto no-repeat; }
+	.prv_menu_tabs ul li.prv_menu05 a { background:url("/images/redcross_customer/private/prv_policy_list_icon05.png") center 21px / 61px auto no-repeat; }
+	.prv_menu_tabs ul li.prv_menu06 a { background:url("/images/redcross_customer/private/prv_policy_list_icon06.png") center 21px / 61px auto no-repeat; }
+
+	.prv_menu_tabs ul li div.prv_layer { bottom:153px; padding:14px 38px 14px 14px; width:calc((100% * 2) + 15px); }
+	.prv_menu_tabs ul li div.prv_layer strong { font-size:13px; }
+	.prv_menu_tabs ul li div.prv_layer p { font-size:12px; }
+	.prv_menu_tabs ul li div.prv_layer button { background:url("/images/redcross_customer/private/prv_layer_close.png") no-repeat; }
+	.prv_menu_tabs ul li div.prv_layer:after { background:url("/images/redcross_customer/private/prv_layer_arrow.png") no-repeat; }
+
+	.prv_menu_tabs ul li div.prv_layer.layer01,
+	.prv_menu_tabs ul li div.prv_layer.layer03,
+	.prv_menu_tabs ul li div.prv_layer.layer05 { left:0; }
+	.prv_menu_tabs ul li div.prv_layer.layer02,
+	.prv_menu_tabs ul li div.prv_layer.layer04,
+	.prv_menu_tabs ul li div.prv_layer.layer06 { left:auto; right:0; }
+	.prv_menu_tabs ul li div.prv_layer.layer01:after,
+	.prv_menu_tabs ul li div.prv_layer.layer03:after,
+	.prv_menu_tabs ul li div.prv_layer.layer05:after { left:79px; }
+	.prv_menu_tabs ul li div.prv_layer.layer02:after,
+	.prv_menu_tabs ul li div.prv_layer.layer04:after,
+	.prv_menu_tabs ul li div.prv_layer.layer06:after { left:auto; right:79px; }
+	/* 媛쒖씤�뺣낫 �� 硫붾돱 異붽� - 221222 end */
+}
+@media (max-width:660px){
+    
+    /* �꾩썝 */
+    .samd2 .prc_cont2_wrap ul > li {width:100%;}
+    
+}
+@media (max-width:580px){
+    .area_magazine ul.items li {width:49%;}
+    .area_magazine ul.items li:nth-of-type(3n) {margin-right:2%;}
+    .area_magazine ul.items li:nth-of-type(2n) {margin-right:0;}
+    
+    /* RCY */
+    .real_contents .image_zoom ul img {width:100%;}
+    
+    /* board - webzine */
+    .area_best_photo ul li {width:100%;}
+    .area_photo_list li {padding:200px 20px 10px;}
+    .area_photo_list li .area_image {left:50%;margin-left:-87px;}
+    
+    /* ���쒖쟻��옄�� - �뚭컻 */
+    .president_list li div.detail {height:auto;padding-bottom:20px;}
+    .president_list li span.name2,
+    .president_list li span.career,
+    .president_list li span.career2,
+    .president_list li span.career3 {position:relative;top:0;left:0;}
+    
+    /* ���쒖쟻��옄�� - 援�젣�곸떗�먯슫��*/
+    .check_state p {width:49%;}
+    .check_state p:nth-of-type(3n) {margin-right:2%;}
+    .check_state p:nth-of-type(2n) {margin-right:0;}
+    .award {padding:258px 20px 20px;min-height:0;border-bottom:1px dashed #ddd;margin-bottom:20px;}
+    .award .mobile_img {left:50%;margin-left:-120px;}
+    
+    /* board search */
+    .area_search .inline {width:100%;}
+    .area_search select,
+    .area_search input[type=text] {width:100%;margin-bottom:5px;}
+    
+    /* ���쒖쟻��옄�� �뚭컻 - 硫붿씤 */
+    .area_jisa_location {top:600px;left:0;width:100%;border:1px solid #ddd;box-sizing:border-box;}
+    .area_jisa_location ul.map {margin:0 auto;}
+    .area_outter .middle_program {margin-bottom:370px;}
+    .area_outter .bottom_rc_board .this_year,
+    .area_outter .bottom_rc_board .rc_news,
+    .area_outter .bottom_rc_board .cs_qna {width:100%;}
+    .area_outter .bottom_rc_board .this_year h3,
+    .area_outter .bottom_rc_board .rc_news h3,
+    .area_outter .bottom_rc_board .cs_qna h3 {background:none;text-indent:0;width:100%;font-weight:bold;text-align:left;border-bottom:none;}
+    .area_outter .bottom_rc_board .this_year p,
+    .area_outter .bottom_rc_board .rc_news p,
+    .area_outter .bottom_rc_board .cs_qna p {text-indent:0;text-align:left;margin-bottom:10px;border-bottom:1px dashed #ddd;}
+    .area_outter .bottom_rc_board p.more {border-bottom:none;}
+    .rc_news.on p.more a.more1,
+    .rc_news.on p.more a.more2,
+    .rc_news.on p.more a.more3,
+    .rc_news.on p.more a.more4 {text-indent:-9999px;left:auto;right:0;}
+    .area_outter .bottom_rc_board .this_year a {width:100%;background-position:center top;text-indent:-9999px;}
+    .rc_news .tab_rc_news {position:relative;width:100%;margin-top:50px;}
+    .rc_news .tab_rc_news li.title_li {height:auto;width:100%;position:absolute;top:0;left:0;background:none;}
+    .rc_news .tab_rc_news li.title_li > a {position:absolute;top:-30px;left:0;width:60px;}
+    .rc_news .tab_rc_news li.title_li.on > a {border:1px solid #ff0000;}
+    .rc_news .tab_rc_news li.tab_media_report > a {background:url('../../images/redcross_krc/tab_media_report.gif') left top;}
+    .rc_news .tab_rc_news li.tab_press_release > a {left:65px;background:url('../../images/redcross_krc/tab_press_release.gif') left top;}
+    .rc_news .tab_rc_news li.tab_notice > a {left:130px;background:url('../../images/redcross_krc/tab_notice.gif') left top;}
+    .rc_news .tab_rc_news li.tab_newnews > a {left:195px;background:url('../../images/redcross_krc/tab_newnews.gif') left top;}
+    .rc_news li.title_li .tab_detail {width:100%;left:0;margin-top:0;}
+    .area_outter .bottom_rc_board .cs_qna ul.img_qna_wrap,
+    .area_outter .bottom_rc_board .cs_qna ul.qna_list {display:inline-block;float:none;}
+    .area_outter .bottom_rc_board .cs_qna {text-align:center;}
+    
+    /* RCY - 硫붿씤 */
+    table.category th.subject,
+    table.category td.actday,
+    .photo_gallery,
+    .popup_zone {width:100%;}
+    table.category td.actday {text-align:right;}
+    
+    /* 援먯쑁 - 硫붿씤 */
+    .andw_w .visual-txt1 {font-size:16px;}
+    .andw_w .safety-wrap, 
+    .andw_w .disaster-wrap,
+    .andw_w .board_group, 
+    .andw_w .board_group {width:100%;}
+    .andw_w .notice-group {margin-right:0;}
+    .andw_w .reference-group {margin-bottom:40px;}
+     
+}
+@media (max-width:480px){
+    
+    /* sub */
+    .contentsBox#area_section {padding:20px 10px !important;}
+    #area_section.mob-i02 {width: calc(100% - 0px) !important;}
+    .formGroup .formBox {padding:10px;}
+    .fl_list .txt3 {min-width:55px;}
+    
+    /* �섎닎 - 湲닿툒吏��� */
+    .emergency-support-box01 ul li .l-b {width:100%;text-align:center;}
+    .emergency-support-box01 ul li .r-b {padding:189px 0 10px;}
+    .emergency-support-box02 ul li {width:100%;margin-right:0;}
+    
+    /* board - gallery */
+    .area_image_list div ul li {width:49%;margin:0 2% 10px 0;}
+    .area_image_list div ul li:nth-of-type(3n) {margin-right:2%;}
+    .area_image_list div ul li:nth-of-type(2n) {margin-right:0;}
+    
+    /* �섎닎 - �ㅽ넗由�*/
+    ul.tc_story > li {width:100%;margin-right:0 !important;}
+    
+}
+
+
+
+/*0414s*/
+.p-txt01072-mob{display:none;}
+.p-txt01072-pc{display:block;}
+#sel_moot{width: 135px !important;}
+.page_message_img img {display:none;}
+
+
+@media screen and (max-width:1024px) {
+    .result_message{width:100%;background-size: 100% auto;}
+    .result_message .inner{background-size: 100%;}
+    #area_section .myinfo{width: 100%;height: auto !important;background: #f5f0e9;padding-left: 25px;padding-right: 25px;padding-bottom: 30px;}
+    .myinfo_wrapper{width: 100%;height: auto;margin-bottom: 100px;}
+    #area_section .myinfo0107 a{margin-top: 5px;position: static;}
+    #area_section .myinfo0107 a.red-bt07-2{margin-top: 25px;}
+    .my_donation_area{border:0;width: 100%;padding: 15px 0px;border-bottom: 1px solid #dedede;}
+    .my_vip_area{border:0;height: auto;width: 100%;padding: 15px 0px;border-bottom: 1px solid #dedede;}
+    .myinfo_wrapper_tr1{border:0;}
+    .btns_area{width:100%;margin-top: -80px;}
+    .my_edu_area{border:0;width: 100%;padding: 15px 0px;border-bottom: 1px solid #dedede;}
+    .my_rcy_area{border:0;height: auto;width: 100%;padding: 15px 0px;border-bottom: 1px solid #dedede;}
+    .myinfo_wrapper .bottom-border {background: none;}
+    .my_donation_area0107 .btn-sty01.posimmm2{position:static;margin-top: 10px;display: block;}
+    .my_donation_area0107 .btn-sty01.posimmm3{position:static;margin-top: 5px;display: block;}
+    .my_donation_area0107 .btn-sty01.posimmm1{position:static;margin-top: 5px;display: block;}
+    .my_donation_area0107 .btn-sty01.posimmm4{position:static;margin-top: 5px;margin-bottom: 10px;}
+    .my_donation_area0107 .positext1{position:static;}
+    .my_donation_area0107 .content2{height:auto;}
+    .my_donation_area0107 a.btn-sty01{position:static;margin-top: 10px;display: block;}
+    .my_donation_area0107 .btn_detail2{position:static;margin-top: 20px;display: block;}
+    #area_section .area_memberpwd form{bottom: auto !important;padding: 0;width: 318px;}
+    #area_section .area_memberpwd form input.btn_submit{right: 0;}
+    .area_info_message .info_message{width:100%;}
+    #area_section .result_message h3 {text-indent: 1px !important;overflow: hidden;background-image: none;height: auto;width: 100%;word-break: keep-all;/* text-align: center; */}
+    #area_section .result_message h3 strong {color:red;}
+    .linebox.type3 > div.l4 > p.img{padding-left: 0;margin: 0 auto 20px auto !important;width: 70px;position: relative;}
+    .linebox.type3 > div .txtBox{text-align: center;margin: 0px auto !important;}
+    .linebox.type3 > div .txtBox p{line-height: 22px !important;padding: 0 20px !important;width: calc(100% - 30px) !important;word-break: keep-all;}
+    #frm_jumin{width: 310px;padding: 30px 0px;margin: 0 auto;}
+    #frm_jumin .guide2{display: block;margin: 3px 0 3px 70px;}
+    #frm_jumin .memberid{width: 200px;}
+    #frm_jumin .membername {width: 200px;}
+    #area_section .tabmenu {margin-top: 30px;}
+    #frm_jumin .submit{position:static;}
+    #frm_jumin .guide{background:none;}
+    #frm_jumin #birthyear{margin-right: 5px;}
+    #frm_jumin #birthmonth{margin-right: 5px;margin-left: 5px;}
+    #frm_jumin #birthday{margin-right: 5px;margin-left: 5px;}
+    #frm_jumin p{width:100%;}
+    #frm_jumin .area_jumin{width: 100%;}
+    #frm_jumin p.button{text-align: center;margin-top: 30px;}
+    #area_section .area_login{left: 0 !important;right: 0;margin: 0 auto;width: 325px !important;}
+    #area_section .area_find a{position:static;}
+    #area_section .area_member_join{position:relative;margin: 0 auto;width: 325px !important;text-indent: 1px;background: none;height: auto;}
+    #area_section .area_find{margin: 20px auto 15px auto;width: 334px !important;text-indent: 1px;background: none;height: auto;text-align: left;}
+    #area_section .area_find a.find_memberid{font-size: 0;display: inline-block;margin-right: 5px;}
+    #area_section .area_find a.find_memberpwd{font-size: 0;display: inline-block;}
+    #area_section .area_member_join a{position: static;font-size: 0;margin-top: 4px;}
+    .area_info_message .info_message{font-size: 19px;line-height: 30px;word-break: keep-all;text-indent: 1px;font-weight: bold;padding: 10px 0;background: none;height: auto;text-align: center;border-top: 1px solid #dedede;border-bottom: 1px solid #dedede;}
+    .area_info_message ul li.member_general{position: absolute;left: 50%;margin-left: -120px;}
+    .area_info_message ul li.member_kids{position: absolute;right: 50%;margin-right: -120px;left: auto;}
+    #area_section .area_agreement textarea{width:100%;}
+    #area_section .area_pin_agree > div{margin-bottom: 10px;width: calc(100% - 25px) !important;}
+    .ul1901041{background: none;height: auto;}
+    .ul1901041 li{font-size: 15px;line-height: 20px !important;text-indent: -10px;padding-left: 16px;margin-bottom: 5px;word-break: keep-all;}
+
+
+    .donation_list {width: 100%;height: auto;margin: 0 auto 72px auto;position: relative;}
+    .donation_list ul li p.total_new{}
+    .info{background: none;text-indent: 1px;width: 100%;margin-bottom: 64px;}
+    .info p:first-child{font-size: 20px;line-height: 29px;font-weight: bold;}
+    .donation_list .past {margin-top: 0;margin-left: 0;left: auto;right: 90px;position: static;margin-bottom: 10px;}
+    #area_section .result_message.paydonation_not_exist h3{background-image: none;}
+    #area_section .result_message h3.G1 {background: url(/images/common/message_alert_title.gif) no-repeat 0 10px;font-size: 0;width: 90px;}
+    #haddr_addr1{width:100% !important;}
+    #haddr_addr2{width:100% !important;}
+    .textbox.tel{width: 100% !important;margin-bottom: 5px;display: block;}
+    #email_id{display: block;float: none;margin-bottom: -13px !important;width: 100% !important;}
+    #email_domain{width:100% !important;margin-bottom:5px;}
+
+    .divpop_contents{width: 100% !important;height: auto !important;}
+    .divpop_contents img{width:100%;height: auto;}
+    #divpop1 > div.close{position: absolute;right: 0;bottom: 0;}
+    #divpop1{/* position: relative !important; */height: auto !important;}
+    .divpop_contents a {display: inline-block;width: 100%;}
+    .buttons_area {width: 100%;}
+    .buttons_area a{display:block;margin: 0 0 8px 0;}
+    .page_message_challenge{width: calc(100% - 30px);}
+    .area_list {width: 100%;}
+    .search_print .searchday {width: 90px;height: 25px;}
+    .search_print #btn_print_acthistory {margin-top: -1px;vertical-align: middle;cursor: pointer;height: 25px;}
+    .search_print {position: absolute;right: 0;left: auto;top: -22px;color: #878787;}
+    .area_list {width: 100%;padding-top: 5px;}
+
+    .donation_list ul li p.total_new {width: calc(100% - 27px);height: auto;padding-top: 0;padding-left: 0;border: 3px solid #dedede;background: none;padding: 20px 10px;}
+    .donation_list ul li {float: none;padding-left: 0;margin: 0;}
+
+#area_container p.list_title{
+    margin-top: 0;
+}
+
+}
+
+
+
+
+@media screen and (max-width:840px) {
+    .ipin01071{background: none;width: 343px !important;margin: 50px auto 0 auto;height: 830px;}
+    .ipin05141 > a.phoneLink{background: url(/images/member_v11/ipin20190514.jpg) no-repeat -14px -10px;width: 348px;height: 205px;position: absolute;left: -15px;top: 0;border-bottom: 1px solid #dedede;}
+    .ipin05141 > a.cardLink514{background: url(/images/member_v11/ipin20190514.jpg) no-repeat -14px -221px;width: 348px;height: 198px;position: absolute;left: -15px;bottom: auto;top: 218px;border-bottom: 1px solid #dedede;}
+    .ipin01071 > a.pinLink{background: url(/images/member_v11/ipin20190514.jpg) no-repeat -397px -13px;width: 348px;height: 402px;float: none;position: absolute;left: -15px;top: 436px;}
+}
+
+@media screen and (max-width:768px) {
+    .linebox.type3 > div > p.img span{right: -13px;width: 70px;bottom: 18px;}
+    #area_section .area_step ol{width:100%;background: none;height: auto;}
+    #area_section .area_step ol li{text-indent: 1px;width: calc(100% - 40px) !important;text-align: left;float: none;font-size: 18px;line-height: 22px;font-weight: bold;border: 1px solid #b3b3b3;margin-top: -1px;padding: 10px 20px;background: #ececec !important;}
+    .ul1901071{width:100%;}
+    .ipin01071{width:100%;}
+    #area_section p.page_ttl{text-indent: 1px;background: none;font-size: 20px;line-height: 26px;font-weight: bold;width: 100%;word-break: keep-all;height: auto;}
+    #area_section p.page_ttl strong {color:red;}
+    #area_section .area_step ol li.on{background:#ffffff !important;}
+    #area_section .area_step ol li.on span {color:red;}
+    .p-txt01072-mob{display:block;margin-top: 30px;margin-bottom: 50px;}
+    .p-txt01072-pc{display:none;}
+    .p-txt01072-mob p{font-size: 14px;line-height: 20px;text-indent: -10px;padding-left: 10px;word-break: keep-all;}
+    .p-txt01072-mob p span {display:inline-block;color:red;margin: 0;text-indent: 0;}
+    .p-txt01072-mob a {display: block;background: #e40000;color: #ffffff;font-size: 14px;line-height: 14px;padding: 6px 10px;width: 73px;margin: 15px auto 0 auto;}
+    #memberpwd{display: block;float: none;margin-bottom: 5px;width: 100%;}
+    #memberpwd_confirm{display: block;float: none;margin-bottom: 5px;width: 100%;}
+    #mobiletel{display: block;float: none;margin-bottom: 5px;width: 100%;}
+    #email_id{display: block;float: none;margin-bottom: 5px;width: 100%;}
+    #email_domain_input{display: block;float: none;margin-bottom: 5px;width: 100%;}
+    #email_domainlist_choice{display: block;float: none;margin-bottom: 5px;width: 100%;margin-left: 0;}
+    #zipcode{margin-bottom:5px;width: 100%;}
+    .area_form .addr1{width: 100%;}
+    .area_form .addr2{width: 100%;}
+    .area_form table th {padding-left: 25px;width: 90px;text-align: left;}
+    .page_message_img{width:100%;height: auto;background: none;margin-bottom: 10px;}
+    .page_message_img img {width:100%;display:block;}
+    .page_message_img ul {display:none;}
+}
+
+@media screen and (max-width:600px) {
+    #area_section .page_message_area img{width:100%;}
+}
+
+@media screen and (max-width:500px) {
+    #parent_name{width: 100% !important;margin-bottom:5px;margin-left: 0;}
+    #parent_hp{width: 100% !important;margin-bottom:5px;margin-left: 0;}
+}
+
+@media screen and (max-width:460px) {
+    .area_list {width: 100%;}
+}

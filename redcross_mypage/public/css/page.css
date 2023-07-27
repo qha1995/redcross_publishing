@@ -1,0 +1,6185 @@
+/* section 영역 - 대메뉴에 따른 배경 */
+body.member #area_section {
+  background-image: url("../images/member/section_bg.jpg");
+}
+
+/* 회원서비스 */
+/* body.donation.participation                                         #area_section { background-image:url('../images/donation_participation/section_bg.jpg');                                } */
+/* 후원참여__noimage_이미지바뀔예정 */
+body.donation.power #area_section {
+  background-image: url("../images/donation_power/section_bg.jpg");
+}
+
+/* 후원의 힘 */
+body.donation.memberservice #area_section {
+  background-image: url("../images/donation_memberservice/section_bg.jpg");
+}
+
+/* 후원회원 서비스_noimage_2차때 */
+body.donation.question #area_section {
+  background-image: url("../images/redcross_customer/section_bg.jpg");
+}
+
+/* 고객센터 */
+body.voluntary.activity #area_section {
+  background-image: url("../images/voluntary_activity/section_bg.jpg");
+}
+
+/* 자원봉사활동소개_noimage_2차때 */
+body.voluntary.participation #area_section {
+  background-image: url("../images/voluntary_participation/section_bg.jpg");
+}
+
+/* 봉사참여하기_noimage_2차때 */
+body.voluntary.empathy #area_section {
+  background-image: url("../images/voluntary_enjoyment/section_bg.jpg");
+}
+
+/* 봉사즐기기_noimage_2차때 */
+body.voluntary.question #area_section {
+  background-image: url("../images/voluntary_question/section_bg.jpg");
+}
+
+/* 봉사문의_noimage_2차때 */
+body.education.inform #area_section {
+  background-image: url("../images/education_inform/section_bg.jpg");
+}
+
+/* 알립니다_교육noimage_2차때 */
+body.education.safety #area_section {
+  background-image: url("../images/education_safety/section_bg.jpg");
+}
+
+/* 안전교육_noimage_2차때 */
+body.education.rescue #area_section {
+  background-image: url("../images/education_rescue/section_bg.jpg");
+}
+
+/* 온라인구호교육_noimage_2차때 */
+body.education.health #area_section {
+  background-image: url("../images/education_health/section_bg.jpg");
+}
+
+/* 보건교육_noimage_2차때 */
+body.education.formbox #area_section {
+  background-image: url("../images/education_formbox/section_bg.jpg");
+}
+
+/* 서식함_noimage_2차때 */
+body.education.customer #area_section {
+  background-image: url("../images/education_customer/section_bg.jpg");
+}
+
+/* 교육문의_noimage_2차때 */
+body.education.search #area_section {
+  background-image: url("../images/education_search/section_bg.jpg");
+}
+
+/* 통합검색 */
+body.redcross.krc #area_section {
+  background-image: url("../images/redcross_krc/section_bg.jpg");
+}
+
+/* 대한적십자사 */
+body.redcross.rcmovement #area_section {
+  background-image: url("../images/redcross_rcmovement/section_bg.jpg");
+}
+
+/* 국제적십자 운동 */
+body.redcross.publicrelation #area_section {
+  background-image: url("../images/redcross_publicrelation/section_bg.jpg");
+}
+
+/* 적십자 홍보관 */
+body.redcross.whatsnew #area_section {
+  background-image: url("../images/redcross_whatsnew/section_bg.jpg");
+}
+
+/* 실시간 소식통 */
+body.redcross.morgue #area_section {
+  background-image: url("../images/redcross_morgue/section_bg.jpg");
+}
+
+/* 정보자료센터 */
+body.redcross.customer #area_section {
+  background-image: url("../images/redcross_customer/section_bg.jpg");
+}
+
+/* 고객센터 */
+body.redcross.coming #area_section {
+  background-image: url("../images/redcross_coming/section_bg.jpg");
+}
+
+/* 찾아오시는 길 */
+body.mypage #area_section {
+  background-image: url("../images/mypage/section_bg.jpg");
+}
+
+/* 마이페이지 */
+body.rcy.info #area_section {
+  background-image: url("../images/rcy_info/section_bg.jpg");
+}
+
+/* RCY되기 */
+body.rcy.activity #area_section {
+  background-image: url("../images/rcy_activity/section_bg.jpg");
+}
+
+/* 활동소개하기 */
+body.rcy.participation #area_section {
+  background-image: url("../images/rcy_participation/section_bg.jpg");
+}
+
+/* 행사참여하기 */
+body.rcy.reference #area_section {
+  background-image: url("../images/rcy_reference/section_bg.jpg");
+}
+
+/* 자료보기 */
+body.rcy.notice #area_section {
+  background-image: url("../images/rcy_notice/section_bg.jpg");
+}
+
+/* 알립니다 */
+body.rcy.customer #area_section {
+  background-image: url("../images/rcy_customer/section_bg.jpg");
+}
+
+/* RCY 문의 */
+body.jisa.branch #area_section {
+  background-image: url("../images/jisa/branch/section_bg.jpg");
+}
+
+/* 지사소개 */
+body.jisa.bizintroduce #area_section {
+  background-image: url("../images/jisa/bizintroduce/section_bg.jpg");
+}
+
+/* 사업소개 */
+body.jisa.publicreference #area_section {
+  background-image: url("../images/jisa/publicreference/section_bg.jpg");
+}
+
+/* 홍보자료실 */
+body.jisa.formreference #area_section {
+  background-image: url("../images/jisa/formreference/section_bg.jpg");
+}
+
+/* 서식자료실 */
+body.jisa.news #area_section {
+  background-image: url("../images/jisa/news/section_bg.jpg");
+}
+
+/* 소식란 */
+body.jisa.transparent #area_section {
+  background-image: url("../images/jisa/transparent/section_bg.jpg");
+}
+
+/* 투명경영 */
+body.jisa.customer #area_section {
+  background-image: url("../images/jisa/customer/section_bg.jpg");
+}
+
+/* 고객센터 */
+body.jisa.coming #area_section {
+  background-image: url("../images/jisa/coming/section_bg.jpg");
+}
+
+/* 찾아오시는길 */
+body.site_map #area_section {
+  background-image: url("../images/sitemap/section_bg.jpg");
+}
+
+/* 사이트맵 */
+body.windmill.support #area_section {
+  background-image: url("../images/donation_participation/section_bg.jpg");
+}
+
+/* 사이트맵 */
+body.windmill.sr #area_section {
+  background-image: url("../images/windmill/section_bg.jpg");
+  top: 3px;
+  left: -3px;
+}
+
+/* 희망풍차 SR 나눔로드 */
+body.windmill.serious #area_section {
+  background-image: url("../images/windmill/section_sr_bg.jpg");
+}
+
+/* 희망풍차 SR */
+body.windmill.holland #area_section {
+  background-image: url("../images/windmill/section_sr_bg_rc.jpg");
+}
+
+/* 희망풍차 RC 네덜란드 */
+/* section 영역 - 각 페이지 타이틀 정의 */
+body.member.register #area_section h2 {
+  background-image: url("../images/pagetitle/member_register.gif");
+}
+
+/* 010000 회원가입 */
+body.member.search #area_section h2 {
+  background-image: url("../images/pagetitle/member_find_redcross.gif");
+}
+
+/* 010000 회원가입 */
+body.member.register.redcross #area_section h2 {
+  background-image: url("../images/pagetitle/member_register_redcross.gif");
+}
+
+/* 010000 적십자활동회원가입 */
+body.member.register.general #area_section h2 {
+  background-image: url("../images/pagetitle/member_register_general.gif");
+}
+
+/* 010100 일반회원가입 */
+body.member.register.general_kids #area_section h2 {
+  background-image: url("../images/pagetitle/member_register_kids.gif");
+}
+
+/* 010100 일반회원가입 */
+body.member.register.recovery #area_section h2 {
+  background-image: url("../images/pagetitle/member_register_recovery.gif");
+}
+
+/* 010100 일반회원가입 */
+body.member.register.regdonation #area_section h2 {
+  background-image: url("../images/pagetitle/member_register_donation.gif");
+}
+
+/* 010200 후원회원가입 */
+body.member.register.volunteer #area_section h2 {
+  background-image: url("../images/pagetitle/member_register_voluntary.gif");
+}
+
+/* 010300 봉사회원가입 */
+body.member.register.rcyjoin #area_section h2 {
+  background-image: url("../images/pagetitle/member_register_rcy.gif");
+}
+
+/* 010400 RCY등록신청 */
+body.member.register.rcycommunity #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_info_community_member.gif");
+}
+
+/* 010500 커뮤니티회원가입 */
+body.member.register.rcytroop #area_section h2 {
+  background-image: url("../images/pagetitle/member_register_rcytroop.gif");
+}
+
+/* 010400 RCY단원 */
+body.member.register.rcyleader #area_section h2 {
+  background-image: url("../images/pagetitle/member_register_rcyleader.gif");
+}
+
+/* 010500 RCY지도자 */
+body.member.findid #area_section h2 {
+  background-image: url("../images/pagetitle/member_findid.gif");
+}
+
+/* 020000 아이디 찾기 */
+body.member.findpwd #area_section h2 {
+  background-image: url("../images/pagetitle/member_findpwd.gif");
+}
+
+/* 030000 비밀번호 찾기 */
+body.member.login #area_section h2 {
+  background-image: url("../images/pagetitle/member_login.gif");
+}
+
+/* 040000 로그인 */
+body.member.logout #area_section h2 {
+  background-image: url("../images/pagetitle/member_logout.gif");
+}
+
+/* 050000 로그아웃 */
+body.member.changepwd #area_section h2 {
+  background-image: url("../images/pagetitle/member_changepwd.gif");
+}
+
+/* 060000 비밀번호변경 */
+body.member.out #area_section h2 {
+  background-image: url("../images/pagetitle/member_out.gif");
+}
+
+/* 070000 회원탈퇴 */
+body.member.pkilogin #area_section h2 {
+  background-image: url("../images/pagetitle/member_pkilogin.gif");
+}
+
+/* 080000 공인인증서 로그인 */
+body.member.certify #area_section h2 {
+  background-image: url("../images/pagetitle/member_certify.gif");
+}
+
+/* 090000 회원인증 */
+body.member.personalinfo #area_section h2 {
+  background-image: url("../images/pagetitle/member_personalinfo.gif");
+}
+
+/* 100000 개인정보제공 재동의 */
+body.mypage.mypage_general #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_general.gif");
+}
+
+/* 010000 일반 */
+body.mypage.mypage_general.memberinfo #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_general_memberinfo.gif");
+}
+
+/* 010100 개인정보수정 */
+body.mypage.mypage_general.question #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_general_question.gif");
+}
+
+/* 010200 질문모아보기 */
+body.mypage.mypage_general.complaint #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_general_complaint.gif");
+}
+
+/* 010300 나의신문고 */
+body.mypage.mypage_general.corruption #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_general_corruption.gif");
+}
+
+/* 010300 직원 부패 및 행동강령 신문고 */
+body.mypage.mypage_general.special #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_general_special.gif");
+}
+
+/* 010900 성희롱,성폭력 피해자 신고센터 */
+body.mypage.mypage_general.comment #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_general_comment.gif");
+}
+
+/* 010400 댓글모음란 */
+body.mypage.mypage_general.memberout #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_general_memberout.gif");
+}
+
+/* 010500 회원탈퇴 */
+body.mypage.mypage_donation #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_donation.gif");
+}
+
+/* 020000 후원 */
+body.mypage.mypage_donation.memberinfo #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_donation_memberinfo.gif");
+}
+
+/* 020100 후원회원정보수정 */
+body.mypage.mypage_donation.breakdown #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_donation_breakdown.gif");
+}
+
+/* 020200 후원내역조회 */
+body.mypage.mypage_donation.mybadge #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_donation_mybadge.gif");
+}
+
+/* 020300 나의뱃지현황 */
+body.mypage.mypage_donation.confirmation #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_donation_confirmation.gif");
+}
+
+/* 020400 후원회원확인서 */
+body.mypage.mypage_donation.paydonation #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_donation_paydonation.gif");
+}
+
+/* 020500 지난후원금내기 */
+body.mypage.mypage_donation.receiption #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_donation_receiption.gif");
+}
+
+/* 020600 기부금영수증 */
+body.mypage.mypage_donation.guide #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_donation_guide.gif");
+}
+
+/* 020700 후원가이드 */
+body.mypage.mypage_donation.out #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_donation_out.gif");
+}
+
+/* 020800 후원회원탈퇴 */
+body.mypage.mypage_volunteer #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_volunteer.gif");
+}
+
+/* 030000 봉사 */
+body.mypage.mypage_volunteer.memberinfo #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_volunteer_memberinfo.gif");
+}
+
+/* 030100 봉사회원정보수정 */
+body.mypage.mypage_volunteer.breakdown #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_volunteer_confirm_cancle.gif");
+}
+
+/* 030100 봉사신청 확인/취소 */
+body.mypage.mypage_volunteer.confirmation #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_volunteer_issue.gif");
+}
+
+/* 030101 봉사활동확인서 발급 */
+body.mypage.mypage_volunteer.diary #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_volunteer_diary.gif");
+}
+
+/* 030300 봉사일기 */
+body.mypage.mypage_volunteer.finishcoursestate #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_volunteer_finishcoursestate.gif");
+}
+
+/* 030400 사이버봉사원교육이수현황 */
+body.mypage.mypage_volunteer.photo #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_volunteer_photo.gif");
+}
+
+/* 030500 포토갤러리 */
+body.mypage.mypage_volunteer.event #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_volunteer_event.gif");
+}
+
+/* 030600 나의 이벤트 */
+body.mypage.mypage_volunteer.quiz #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_volunteer_quiz.gif");
+}
+
+/* 030700 봉사시간 획득퀴즈 */
+body.mypage.mypage_volunteer.localcommunity #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_volunteer_localcommunity.gif");
+}
+
+/* 030800 지역별모임방 */
+body.mypage.mypage_volunteer.memberout #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_volunteer_memberout.gif");
+}
+
+/* 030900 봉사회원 탈퇴 */
+body.mypage.mypage_education #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_education.gif");
+}
+
+/* 040000 교육 */
+body.mypage.mypage_education.applybreakdown #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_education_applybreakdown.gif");
+}
+
+/* 040100 나의교육신청내역 */
+body.mypage.mypage_education.licensebreakdown #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_education_licensebreakdown.gif");
+}
+
+/* 040200 나의자격검정내역 */
+/*  RCY 수정 : (주)코어테크놀로지 */
+body.mypage.myrcy #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_rcy.gif");
+}
+
+/* 050000 RCY */
+body.mypage.myrcy.memberinfo #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_rcy_memberinfo.gif");
+}
+
+/* 050300 RCY회원정보수정 */
+body.mypage.myrcy.history #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_rcy_history.gif");
+}
+
+/* 050100 RCY이력 */
+body.mypage.myrcy.acthistory #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_rcy_acthistory.gif");
+}
+
+/* 050200 활동참가이력 */
+body.mypage.myrcy.voluntary #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_1365title.gif");
+}
+
+/* 050600 봉사활동이력 */
+body.mypage.myrcy.prizeinfo #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_rcy_prizeinfo.gif");
+}
+
+/* 050400 포상정보 */
+body.mypage.myrcy.dan_board #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_rcy_dan_board.gif");
+}
+
+/* 050500 소속단게시판 */
+body.mypage.myrcy.infofind #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_rcy_infofind.gif");
+}
+
+/* 050600 RCY단원정보찾기 */
+body.mypage.myrcy.challenge #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_challenge_title.gif");
+}
+
+/* 050600 봉사활동이력 */
+/* Redcross Academy  */
+body.academy.rescue.introduce #area_section h2 {
+  background-image: url("../images/pagetitle/academy_rescue_introduce.gif");
+}
+
+/* 010100 재난교육 */
+body.academy.rescue.movie #area_section h2 {
+  background-image: url("../images/pagetitle/academy_rescue_movie.gif");
+}
+
+/* 010200 재난교육 */
+body.academy.safety.introduce #area_section h2 {
+  background-image: url("../images/pagetitle/academy_safety_introduce.gif");
+}
+
+/* 020100 안전교육 */
+body.academy.health.introduce #area_section h2 {
+  background-image: url("../images/pagetitle/academy_health_introduce.gif");
+}
+
+/* 030100 보건교육 */
+body.academy.personality.introduce #area_section h2 {
+  background-image: url("../images/pagetitle/academy_personality_introduce.gif");
+}
+
+/* 040100 인성교육 */
+body.academy.international.introduce #area_section h2 {
+  background-image: url("../images/pagetitle/academy_international_introduce.gif");
+}
+
+/* 050100 국제자료 */
+body.academy.center #area_section h2 {
+  background-image: url("../images/pagetitle/academy_center.gif");
+}
+
+/* 060000 교육정보센터 소개 */
+body.academy.greeting #area_section h2 {
+  background-image: url("../images/pagetitle/academy_greeting.gif");
+}
+
+/* 060100 총재 인사말 */
+body.academy.introduce #area_section h2 {
+  background-image: url("../images/pagetitle/academy_introduce.gif");
+}
+
+/* 060200 소개 */
+body.academy.vision #area_section h2 {
+  background-image: url("../images/pagetitle/academy_vision_goal.gif");
+}
+
+/* 060300 비전 */
+/* 후원 */
+body.donation.participation #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation.gif");
+}
+
+/* 010000 후원참여 */
+body.donation.participation.reg #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_reg.gif");
+}
+
+/* 010101 정기후원 */
+/* 재원조성팀 요청에 따른 추가*/
+body.donation.participation.reg.support.youth #area_section h2 {
+  background-image: url("../images/pagetitle/windmill_support_youth2.gif");
+}
+
+/* 010102 정기후원 희망풍차후원*/
+body.donation.participation.reg_nameplate #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_nameplate.gif");
+}
+
+/* 010103 희망나눔명패 */
+body.donation.participation.reg.pregnant #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_prenatal.gif");
+}
+
+/* 010105 나눔태교 */
+body.donation.participation.reg.reg_passbook #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_passbook.gif");
+}
+
+/* 010109 희망풍차희망나눔통장 */
+body.donation.participation.reg_worker #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_worker.gif");
+}
+
+/* 010112 직장인기부 */
+body.donation.participation.reg.old #area_section h2 {
+  background-image: url("../images/pagetitle/windmill_support_old.gif");
+}
+
+/* 010113 희망풍차 어르신 */
+body.donation.participation.reg.culture #area_section h2 {
+  background-image: url("../images/pagetitle/windmill_support_culture.gif");
+}
+
+/* 010114 희망풍차 다문화 */
+body.donation.participation.reg.north #area_section h2 {
+  background-image: url("../images/pagetitle/windmill_support_north.gif");
+}
+
+/* 010115 희망풍차 북한이주민 */
+body.donation.participation.reg.international #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_international_pay.gif");
+}
+
+/* 011101 국제활동 후원 하기*/
+body.donation.participation.reg.youth #area_section h2 {
+  background-image: url("../images/pagetitle/windmill_support_youth2.gif");
+}
+
+/* 010200 어린이/청소년후원 */
+/* body.donation.participation.reg_youth                               #area_section h2 { background-image:url('../images/pagetitle/donation_participation_youth.gif');                         }  */
+/* 010200 어린이/청소년후원 */
+/* 추가 끝 */
+body.donation.participation.prenatal #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_prenatal.gif");
+}
+
+/* 010300 나눔태교 */
+body.donation.participation.prenatal_introduce #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_prenatal_introduce.gif");
+}
+
+/* 010301 나눔태교란? */
+body.donation.participation.prenatal_lovemessage #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_prenatal_lovemessage.gif");
+}
+
+/* 010302 LOVE메세지 */
+body.donation.participation.prenatal_notice #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_prenatal_notice.gif");
+}
+
+/* 010303 나눔태교공지사항 */
+body.donation.participation.nameplate #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_nameplate.gif");
+}
+
+/* 010400 희망나눔명패 */
+body.donation.participation.nameplate_introduce #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_nameplate_introduce.gif");
+}
+
+/* 010401 희망나눔명패란? */
+body.donation.participation.nameplate_honor #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_nameplate_honor.gif");
+}
+
+/* 010402 명예의 전당 */
+body.donation.participation.anniversary #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_anniversary.gif");
+}
+
+/* 010500 기념일 기부 */
+body.donation.participation.anniversary_introduce #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_anniversary_introduce.gif");
+}
+
+/* 010501 기념일 기부란? */
+body.donation.participation.anniversary_story #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_anniversary_story.gif");
+}
+
+/* 010502 사연 게시판 */
+body.donation.participation.worker #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_worker.gif");
+}
+
+/* 010600 직장인기부 */
+body.donation.participation.inheritance #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_inheritance.gif");
+}
+
+/* 010700 더 나은 미래를 위한 실천(유산기부) */
+body.donation.participation.inheritance_introduce #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_inheritance_introduce.gif");
+}
+
+/* 010701 유한기부란? */
+body.donation.participation.inheritance_step #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_inheritance_step.gif");
+}
+
+/* 010702 더 나은 미래를 위한 실천(유산기부)절차 */
+body.donation.participation.inheritance_used #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_inheritance_used.gif");
+}
+
+/* 010703 더 나은 미래를 위한 실천(유산기부)사용처 */
+body.donation.participation.inheritance_faq #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_inheritance_faq.gif");
+}
+
+/* 010704 더 나은 미래를 위한 실천(유산기부) 묻고답하기 */
+body.donation.participation.onetime #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_onetime.gif");
+}
+
+/* 010800 일시후원(Red Cross Story) */
+body.donation.participation.onetime_movement #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_onetime_movement.gif");
+}
+
+/* 010801 Red Cross Movement */
+body.donation.participation.onetime_comment #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_onetime_comment.gif");
+}
+
+/* 010802 일시후원 한마디 */
+body.donation.participation.fee #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_fee.gif");
+}
+
+/* 010900 적십자회비 */
+body.donation.participation.fee_introduce #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_fee_introduce.gif");
+}
+
+/* 010901 적십자 회비란? */
+body.donation.participation.fee_breakdown #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_fee_breakdown.gif");
+}
+
+/* 010902 희망(之路)확인 */
+body.donation.participation.fee_movie #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_fee_movie.gif");
+}
+
+/* 010903 회비모금자료실 */
+body.donation.participation.fee_faq #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_fee_faq.gif");
+}
+
+/* 010904 적십자회비 묻고답하기 */
+body.donation.participation.project #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_project.gif");
+}
+
+/* 011000 프로젝트 후원 */
+body.donation.participation.international #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_international.gif");
+}
+
+/* 011100 국제활동 후원 */
+body.donation.participation.international_pay #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_international_pay.gif");
+}
+
+/* 011101 국제활동 후원 하기*/
+body.donation.participation.international_water #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_international_water.gif");
+}
+
+/* 011102 물과위생*/
+body.donation.participation.company #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_company.gif");
+}
+
+/* 011200 기업 후원 */
+body.donation.participation.company_introduce #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_company_introduce.gif");
+}
+
+/* 011201 사회협력이란? */
+body.donation.participation.company_cowokers #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_company_cowokers.gif");
+}
+
+/* 011202 협력업체 */
+body.donation.participation.company_campaign #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_company_campaign.gif");
+}
+
+/* 011203 공동캠페인 */
+body.donation.participation.passbook #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_passbook.gif");
+}
+
+/* 011300 희망풍차희망나눔통장 */
+body.donation.participation.rchc #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_redcrosshonrsclub.png");
+}
+
+/* 011500 레드크로스아너스클럽  170608 seo추가 */
+body.donation.participation.rchc_introduce #area_section h2 {
+  background-image: url("../images/pagetitle/donation_participation_redcrosshonrsclub.png");
+}
+
+/* 011501 레드크로스아너스클럽  170608 seo추가 */
+body.donation.power #area_section h2 {
+  background-image: url("../images/pagetitle/donation_power.gif");
+}
+
+/* 020000 후원의 힘 */
+body.donation.power.international #area_section h2 {
+  background-image: url("../images/pagetitle/donation_power_international.gif");
+}
+
+/* 020100 국제활동 */
+body.donation.power.international_news #area_section h2 {
+  background-image: url("../images/pagetitle/donation_power_international_news.gif");
+}
+
+/* 020101 대한적십자사 국제활동 소식 */
+body.donation.power.international_wwr #area_section h2 {
+  background-image: url("../images/pagetitle/donation_power_international_wwr.gif");
+}
+
+/* 020102 World Wide RedCross */
+body.donation.power.domestic #area_section h2 {
+  background-image: url("../images/pagetitle/donation_power_domestic.gif");
+}
+
+/* 020200 국내활동 */
+body.donation.power.report #area_section h2 {
+  background-image: url("../images/pagetitle/donation_power_report.gif");
+}
+
+/* 020300 사업보고서 */
+body.donation.question.detail #area_section h2 {
+  background-image: url("../images/pagetitle/donation_question_detail.gif");
+}
+
+/* 후원문의 */
+body.donation.question.detail_write #area_section h2 {
+  background-image: url("../images/pagetitle/donation_question_detail.gif");
+}
+
+/* 후원문의 쓰기 */
+body.donation.memberservice #area_section h2 {
+  background-image: url("../images/pagetitle/donation_memberservice.gif");
+}
+
+/* 030000 후원회원 서비스 */
+body.donation.memberservice.donationinfo #area_section h2 {
+  background-image: url("../images/pagetitle/donation_memberservice_donationinfo.gif");
+}
+
+/* 030100 후원회원정보수정 */
+body.donation.memberservice.breakdown #area_section h2 {
+  background-image: url("../images/pagetitle/donation_memberservice_breakdown.gif");
+}
+
+/* 030200 후원내역조회 */
+body.donation.memberservice.mybadge #area_section h2 {
+  background-image: url("../images/pagetitle/donation_memberservice_mybadge.gif");
+}
+
+/* 030300 나의뱃지현황 */
+body.donation.memberservice.confirmation #area_section h2 {
+  background-image: url("../images/pagetitle/donation_memberservice_confirmation.gif");
+}
+
+/* 030400 후원회원확인서 */
+body.donation.memberservice.paydonation #area_section h2 {
+  background-image: url("../images/pagetitle/donation_memberservice_paydonation.gif");
+}
+
+/* 030500 지난후원금내기 */
+body.donation.memberservice.receiption #area_section h2 {
+  background-image: url("../images/pagetitle/donation_memberservice_receiption.gif");
+}
+
+/* 030600 기부금영수증 */
+body.donation.memberservice.donationguide #area_section h2 {
+  background-image: url("../images/pagetitle/donation_memberservice_donationguide.gif");
+}
+
+/* 030700 후원가이드 */
+body.donation.memberservice.memberout #area_section h2 {
+  background-image: url("../images/pagetitle/donation_memberservice_memberout.gif");
+}
+
+/* 030800 후원회원탈퇴 */
+body.donation.memberservice.inquiry #area_section h2 {
+  background-image: url("../images/pagetitle/donation_memberservice_inquiry.gif");
+}
+
+/* 030900 후원문의 */
+body.redcross.krc #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_krc.gif");
+}
+
+/* 010000 대한적십자사 */
+body.redcross.krc.introduce #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_krc_introduce.gif");
+}
+
+/* 010100 소개 */
+body.redcross.krc.greeting #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_krc_greeting.gif");
+}
+
+/* 010200 인사말 */
+body.redcross.krc.history #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_krc_history.gif");
+}
+
+/* 010300 연혁 */
+body.redcross.krc.strategy2020 #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_krc_strategy2020.gif");
+}
+
+/* 010400 전략2020 */
+body.redcross.krc.organization #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_krc_organization.gif?v=20211104001");
+}
+
+/* 010500 조직 */
+body.redcross.krc.businessdept #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_krc_businessdept.gif?v=20210714001");
+}
+
+/* 010600 업무별 담당자 */
+body.redcross.krc.law #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_krc_law.gif");
+}
+
+/* 010700 적십자 법규집 */
+body.redcross.krc.cybermuseum #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_krc_cybermuseum.gif");
+}
+
+/* 010700 사이버박물관 */
+body.redcross.rcmovement #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_rcmovement.gif");
+}
+
+/* 020000 국제적십자 운동 */
+body.redcross.rcmovement.movement #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_rcmovement_movement.gif");
+}
+
+/* 020100 국제적십자운동의 이해 */
+body.redcross.rcmovement.strategy2020 #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_rcmovement_strategy2020.gif");
+}
+
+/* 020200 전략2020 */
+body.redcross.rcmovement.strategy2030 #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_rcmovement_strategy2030.gif");
+}
+
+/* 020200 전략2030 */
+body.redcross.rcmovement.bornbackground #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_rcmovement_bornbackground.gif");
+}
+
+/* 020300 탄생배경 */
+body.redcross.rcmovement.ideology #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_rcmovement_ideology.gif");
+}
+
+/* 020400 정신과 이념 */
+body.redcross.rcmovement.composition #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_rcmovement_composition.gif");
+}
+
+/* 020500 구성 */
+body.redcross.rcmovement.decisionmaking #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_rcmovement_decisionmaking.gif");
+}
+
+/* 020600 의결기구 */
+body.redcross.rcmovement.humanitariallaw #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_rcmovement_humanitariallaw.gif");
+}
+
+/* 020700 국제인도법 */
+body.redcross.rcmovement.humanitariallaw_introduce #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_rcmovement_humanitariallaw_introduce.gif");
+}
+
+/* 020701 국제인도법이란 */
+body.redcross.rcmovement.humanitariallaw_emblem #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_rcmovement_humanitariallaw_emblem.gif");
+}
+
+/* 020702 적십자 표장 */
+body.redcross.rcmovement.publication #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_rcmovement_publication.gif?v=20200716001");
+}
+
+/* 020800 국제적십자운동간행물 */
+body.redcross.publicrelation #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation.gif");
+}
+
+/* 030000 적십자 홍보관 */
+body.redcross.publicrelation.campaign #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_people.gif");
+}
+
+/* 030100 홍모캠페인 */
+body.redcross.publicrelation.campaign_people #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_campaign_people.gif");
+}
+
+/* 030101 희망을 지키는 사람들 캠페인 */
+body.redcross.publicrelation.campaign_contestgallery #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_campaign_contestgallery.gif");
+}
+
+/* 030102 착한광고 공모전 */
+body.redcross.publicrelation.ambassador #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_ambassador.gif");
+}
+
+/* 030200 홍보대사 */
+body.redcross.publicrelation.movie #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_movie.gif");
+}
+
+/* 030300 홍보 동영상 */
+body.redcross.publicrelation.print #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_print.gif");
+}
+
+/* 030400 홍보 인쇄물 */
+body.redcross.publicrelation.print_poster #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_print_poster.gif");
+}
+
+/* 030401 포스터 */
+body.redcross.publicrelation.print_banner #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_print_banner.gif");
+}
+
+/* 030402 현수막 */
+body.redcross.publicrelation.print_newspaper #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_print_newspaper.gif");
+}
+
+/* 030403 신문광고 */
+body.redcross.publicrelation.print_etc #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_print_etc.gif");
+}
+
+/* 030404 기타 */
+body.redcross.publicrelation.publication #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_publication.gif");
+}
+
+/* 030600 간행물 */
+body.redcross.publicrelation.publication_report #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_publication_report.gif");
+}
+
+/* 030601 사업보고서 */
+body.redcross.publicrelation.publication_news #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_publication_news.gif");
+}
+
+/* 030602 적십자소식지 */
+body.redcross.publicrelation.publication_publication #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_publication_publication.gif");
+}
+
+/* 030603 홍보간행물 */
+body.redcross.publicrelation.publication_publication.brochure #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_brochure.gif");
+}
+
+/* 030603 브로슈어 */
+body.redcross.publicrelation.publication_movement #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_publication_movement.gif");
+}
+
+/* 030604 국제적십자 운동 */
+body.redcross.publicrelation.publication_education #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_publication_education.gif");
+}
+
+/* 030605 교육간행물 */
+body.redcross.publicrelation.publication_rcy #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_publication_rcy.gif");
+}
+
+/* 030606 RCY단지 */
+body.redcross.publicrelation.human #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_human.gif");
+}
+
+/* 030700 인도주의 교육영상 */
+body.redcross.publicrelation.emblem #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_emblem.gif");
+}
+
+/* 030800 적십자 표장 */
+body.redcross.publicrelation.song #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_song.gif");
+}
+
+/* 030900 적십자 노래 */
+body.redcross.publicrelation.logo #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_logo.gif");
+}
+
+/* 031000 적십자 로고/캐릭터 */
+body.redcross.publicrelation.news #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_publicrelation_news.gif");
+}
+
+/* 031000 소식지 */
+body.redcross.whatsnew #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_whatsnew.gif");
+}
+
+/* 040000 실시간 소식통 */
+body.redcross.whatsnew.announcement #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_whatsnew_announcement.gif");
+}
+
+/* 040100 알립니다 */
+body.redcross.whatsnew.notice #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_whatsnew_notice.gif");
+}
+
+/* 040200 공고 */
+body.redcross.whatsnew.notice_general #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_whatsnew_notice_general.gif");
+}
+
+/* 040201 일반공고 */
+body.redcross.whatsnew.notice_bids #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_whatsnew_notice_bids.gif");
+}
+
+/* 040202 입찰공고 */
+body.redcross.whatsnew.notice_openingbids #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_whatsnew_notice_openingbids.gif");
+}
+
+/* 040203 개찰결과 */
+body.redcross.whatsnew.news #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_whatsnew_news.gif");
+}
+
+/* 040300 적십자 뉴스 */
+body.redcross.whatsnew.news_media #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_whatsnew_news_media.gif");
+}
+
+/* 040301 언론보도 */
+body.redcross.whatsnew.news_press #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_whatsnew_news_press.gif");
+}
+
+/* 040302 보도자료 */
+body.redcross.whatsnew.news_news #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_whatsnew_news_news.gif");
+}
+
+/* 040303 새소식 */
+body.redcross.whatsnew.news_announcement #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_whatsnew_announcement.gif");
+}
+
+/* 040304 알립니다 */
+body.redcross.whatsnew.photo #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_whatsnew_photo.gif");
+}
+
+/* 040400 포토갤러리 */
+body.redcross.whatsnew.movie #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_whatsnew_movie.gif");
+}
+
+/* 040500 동영상갤러리 */
+body.redcross.whatsnew.event_enroll #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_whatsnew_event_enroll.gif");
+}
+
+/* 040601 실시간소식통 이벤트안내 */
+body.redcross.whatsnew.event_result #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_whatsnew_event_result.gif");
+}
+
+/* 040602 실시간소식통 이벤트결과보기 */
+body.redcross.whatsnew.survey #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_whatsnew_survey.gif");
+}
+
+/* 040700 설문조사 */
+body.redcross.whatsnew.recruit #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_whatsnew_recruit.gif");
+}
+
+/* 채용공고 */
+body.redcross.morgue #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_morgue.gif");
+}
+
+/* 050000 정보자료센터 */
+body.redcross.morgue.institution #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_morgue_institution.gif");
+}
+
+/* 050100 정보공개제도안내 */
+body.redcross.morgue.publicannouncement #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_morgue_publicannouncement.gif");
+}
+
+/* 050200 경영공시자료 */
+body.redcross.morgue.publicannouncement_summary #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_morgue_publicannouncement_summary.gif");
+}
+
+/* 050201 경영공시 */
+body.redcross.morgue.publicannouncement_result #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_morgue_publicannouncement_result.gif");
+}
+
+/* 050202 사업계획 및 사업실적 */
+body.redcross.morgue.businesscost #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_morgue_businesscost.gif");
+}
+
+/* 050300 업무추진비 */
+body.redcross.morgue.budget_evaluate #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_morgue_budget_evaluate2.gif");
+}
+
+/* 050400 예·결산자료 */
+body.redcross.morgue.budget_evaluate_specification #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_morgue_budget_evaluate_specification.gif?v=20220503001");
+}
+
+/* 050400 기부금품 모집 및 지출명세서 */
+body.redcross.morgue.settlement #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_morgue_settlement.gif");
+}
+
+body.redcross.morgue.inspection #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_morgue_inspection.gif");
+}
+
+/* 050500 국정감시자료 */
+body.redcross.morgue.form #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_morgue_form.gif");
+}
+
+/* 050600 서식자료실 */
+body.redcross.morgue.regulation #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_morgue_regulation.gif");
+}
+
+/* 050700 대한적십자사 법규 */
+body.redcross.morgue.data #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_morgue_data.gif");
+}
+
+/* 050800 공공데이터 개방 */
+body.redcross.morgue.audit #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_morgue_audit.gif");
+}
+
+/* 050900 자체감사결과 */
+body.redcross.morgue.disclosure #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_morgue_business_financial.gif");
+}
+
+/* 051000 기타공시자료 */
+body.redcross.morgue.innovation_plan #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_morgue_innovation_plan.gif");
+}
+
+/* 051200 기타공시자료 */
+/* 2015.02.26 황진호 선생님 요청으로 고객센터 메뉴명 이미지 수의계약현황 -> 고객센터로 수정
+body.redcross.customer                                              #area_section h2 { background-image:url('../images/pagetitle/redcross_customer.gif');                                    } */
+/* 060000 고객센터 */
+body.redcross.customer #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_customer_detail.gif");
+}
+
+/* 060000 고객센터 */
+body.redcross.customer.faq #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_faq.gif");
+}
+
+/* 060100 묻고답하기 */
+body.redcross.customer.faq_category #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_faq.gif");
+}
+
+/* 060100 묻고답하기 */
+body.redcross.customer.faq_write #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_faq.gif");
+}
+
+/* 060100 묻고답하기 */
+body.redcross.customer.complaint #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_complaint2.gif");
+}
+
+/* 060201 직원부패및행동강령위반신고 */
+body.redcross.customer.minwon #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_minwon.gif");
+}
+
+/* 060202 국민신문고 */
+body.redcross.customer.minwon_request #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_minwon_request.gif");
+}
+
+/* 060203 [국민신문고]민원신청 */
+body.redcross.customer.minwon_confirm #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_minwon_confirm.gif");
+}
+
+/* 060204 [국민신문고]나의민원 */
+body.redcross.customer.declaration #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_declaration.gif");
+}
+
+/* 060205 예산낭비신고센터 */
+body.redcross.customer.callcenter #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_callcenter.gif");
+}
+
+/* 060300 콜센터안내 */
+body.redcross.customer.spot #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_spot.gif");
+}
+
+/* 060400 적십자 고객현장 */
+body.redcross.customer.redwhistle #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_redwhistle.gif");
+}
+
+/* 060207 부패익명신고(헬프라인) */
+body.redcross.customer.antigraftlaw #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_antigraftlaw.gif");
+}
+
+/* 060207 부패익명신고(헬프라인) */
+body.redcross.customer.publicinterest #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_publicinterest.gif");
+}
+
+body.redcross.customer.sexualviolence #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_sexualviolence.gif");
+}
+
+body.redcross.customer.mockreportcontest #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_mockreportcontest.gif?v=20210225001");
+}
+
+body.redcross.customer.integrity_step #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_integrity_step1.gif");
+}
+
+body.redcross.customer.integrity_step2 #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_integrity_step2.gif");
+}
+
+body.redcross.customer.publicfinance #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_publicfinance.gif");
+}
+
+body.redcross.customer.special #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_special.gif");
+}
+
+/* 060207 직원부패및행동강령위반신고 */
+body.redcross.customer.ethics #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_ethics.gif");
+}
+
+/* 060600 윤리경영안내 */
+body.redcross.customer.ethics_standard #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_ethics_standard.gif");
+}
+
+/* 060601 윤리경영기준 */
+body.redcross.customer.ethics_human_rights #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_ethics_human_rights.gif");
+}
+
+/* 060613 인권경영기준 */
+body.redcross.customer.ethics_reference #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_ethics_reference.gif");
+}
+
+/* 060602 윤리경영자료실 */
+body.redcross.customer.ethics_public #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_ethics_public.gif");
+}
+
+/* 060604 업무추진비사용현황 */
+body.redcross.customer.ethics_rule #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_ethics_rule.gif");
+}
+
+/* 060603 사규자료 */
+body.redcross.customer.ethics_revision #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_ethics_revision.gif");
+}
+
+/* 060612 사규제개정 */
+body.redcross.customer.ethics_corruption #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_ethics_corruption.gif");
+}
+
+/* 060606 부패공직자현황 */
+body.redcross.customer.ethics_audit #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_ethics_audit.gif");
+}
+
+/* 060607 자체감사결과 */
+body.redcross.customer.ethics_gift #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_ethics_gift.gif");
+}
+
+/* 060608 상품권운영현황 */
+body.redcross.customer.ethics_car #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_ethics_car.gif");
+}
+
+/* 060609 공용차량운영현황 */
+body.redcross.customer.ethics_travel #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_ethics_travel.gif");
+}
+
+/* 060610 공무국외여행현황 */
+body.redcross.customer.ethics_lawsuit #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_ethics_lawsuit.gif");
+}
+
+/* 060611 소송운영현황 */
+body.redcross.customer.ethics_contract #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer.gif");
+}
+
+/* 060611 소송운영현황 */
+body.redcross.customer.quidance #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_quidance.gif");
+}
+
+/* 060600 서비스 이용안내 */
+body.redcross.customer.quidance_homepage #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_quidance_homepage.gif");
+}
+
+/* 060601 홈페이지 주요기능 */
+body.redcross.customer.quidance_download #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_quidance_download.gif");
+}
+
+/* 060602 뷰어 다운로드 */
+body.redcross.customer.quidance_policyofprivateinfo #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_quidance_policyofprivateinfo.gif");
+}
+
+/* 060603 개인정보보호방침 */
+body.redcross.customer.quidance_rejectemail #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_quidance_rejectemail.gif");
+}
+
+/* 060604 이메일 주소 수집 거부 */
+body.redcross.customer.quidance_terms #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_quidance_terms.gif");
+}
+
+/* 060605 이용약관 */
+body.redcross.customer.quidance_infoguideline #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_quidance_infoguideline.gif");
+}
+
+/* 060606 정보공개지침 */
+body.redcross.customer.quidance_pki #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_quidance_pki.gif");
+}
+
+/* 060607 공인인증서 이용안내 */
+body.redcross.customer.quidance_browser #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_quidance_browser.gif");
+}
+
+/* 060608 브라우져 다운로드 */
+body.redcross.customer.quidance_trustprivateinfo #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_quidance_trustprivateinfo.gif");
+}
+
+/* 060609 개인정보처리 위탁현황 */
+body.redcross.coming #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_coming.gif");
+}
+
+/* 070000 찾아오시는 길 */
+body.redcross.coming.map #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_coming_map.gif");
+}
+
+/* 070100 약도 */
+body.redcross.coming.worksite #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_coming_worksite.gif?v=20220105001");
+}
+
+/* 070200 사업장 현황 */
+body.redcross.krc.business #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_krc_business.gif");
+}
+
+/* 999999 사업소개 메인 */
+body.education.inform #area_section h2 {
+  background-image: url("../images/pagetitle/education_inform.gif");
+}
+
+/* 010000 알립니다 */
+body.education.inform.safetylecture #area_section h2 {
+  background-image: url("../images/pagetitle/education_inform_safetylecture.gif");
+}
+
+/* 010100 안전강습 분류 및 시행기준 */
+body.education.inform.healthlecture #area_section h2 {
+  background-image: url("../images/pagetitle/education_inform_healthlecture.gif");
+}
+
+/* 010200 보건강습 분류 및 시행기준 */
+body.education.inform.board #area_section h2 {
+  background-image: url("../images/pagetitle/education_inform_board.gif");
+}
+
+/* 010300 게시판 */
+body.education.safety #area_section h2 {
+  background-image: url("../images/pagetitle/education_safety.gif");
+}
+
+/* 020000 안전교육 */
+body.education.safety.history #area_section h2 {
+  background-image: url("../images/pagetitle/education_safety_history.gif");
+}
+
+/* 020100 안전사업연혁 */
+body.education.safety.emergency #area_section h2 {
+  background-image: url("../images/pagetitle/education_safety_emergency.gif");
+}
+
+/* 020200 응급처치 */
+body.education.safety.rescueagent #area_section h2 {
+  background-image: url("../images/pagetitle/education_safety_rescueagent.gif");
+}
+
+/* 020300 인명구조요원교육 */
+body.education.safety.mountain #area_section h2 {
+  background-image: url("../images/pagetitle/education_safety_mountain.gif");
+}
+
+/* 020400 산악안전교육 */
+body.education.safety.exam #area_section h2 {
+  background-image: url("../images/pagetitle/education_safety_exam.gif");
+}
+
+/* 020500 자격검증 */
+body.education.rescue #area_section h2 {
+  background-image: url("../images/pagetitle/education_rescue.gif");
+}
+
+/* 030000 온라인구호교육 */
+body.education.rescue.online #area_section h2 {
+  background-image: url("../images/pagetitle/education_rescue_online.gif");
+}
+
+/* 030100 온라인구호교육 */
+body.education.rescue.disaster #area_section h2 {
+  background-image: url("../images/pagetitle/education_rescue_disaster.gif");
+}
+
+/* 030200 재난구호요원 온라인교육 */
+body.education.rescue.voluntaryleader #area_section h2 {
+  background-image: url("../images/pagetitle/education_onlinerescuetitle.gif");
+}
+
+/* 030300 재난자원봉사 리더양성교육 */
+body.education.health #area_section h2 {
+  background-image: url("../images/pagetitle/education_health.gif");
+}
+
+/* 040000 보건교육 */
+body.education.health.recuperation #area_section h2 {
+  background-image: url("../images/pagetitle/education_health_recuperation.gif");
+}
+
+/* 040100 요양보호사교육 */
+body.education.health.family #area_section h2 {
+  background-image: url("../images/pagetitle/education_health_family.gif");
+}
+
+/* 040200 가정보건교육 */
+body.education.health.sexeducation #area_section h2 {
+  background-image: url("../images/pagetitle/education_health_sexeducation.gif");
+}
+
+/* 040300 청소년또래성교육 */
+body.education.health.oldereducation #area_section h2 {
+  background-image: url("../images/pagetitle/education_health_oldereducation.gif");
+}
+
+/* 040400 노인건강교육 */
+body.education.health.mental #area_section h2 {
+  background-image: url("../images/pagetitle/education_health_mental.gif");
+}
+
+/* 040500 심리적지지프로그램 */
+body.education.formbox #area_section h2 {
+  background-image: url("../images/pagetitle/education_formbox.gif");
+}
+
+/* 050000 서식함 */
+body.education.formbox.document #area_section h2 {
+  background-image: url("../images/pagetitle/education_formbox_document.gif");
+}
+
+/* 050100 서식함 */
+body.education.formbox.publication #area_section h2 {
+  background-image: url("../images/pagetitle/education_formbox_publication.gif");
+}
+
+/* 050200 교육간행물 */
+body.education.customer #area_section h2 {
+  background-image: url("../images/pagetitle/education_customer.gif");
+}
+
+/* 060000 교육문의 */
+body.education.search #area_section h2 {
+  background-image: url("../images/pagetitle/education_search.gif");
+}
+
+/* 070000 통합검색 */
+body.rcy.info #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_info_being.gif");
+}
+
+/* 010000 RCY되기 */
+body.rcy.info.mean #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_info_mean.gif");
+}
+
+/* 010100 RCY는? */
+body.rcy.info.koreaandworld #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_info_koreaandworld.gif");
+}
+
+/* 010200 우리나라와 세계의 RCY */
+body.rcy.info.group_way #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_info_group_way.gif");
+}
+
+/* 010300 RCY 창단방법 */
+body.rcy.info.music #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_info_music.gif");
+}
+
+/* 010400 RCY 단가 */
+body.rcy.info.purpose_program #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_info_purpose_program.gif");
+}
+
+/* 010500 RCY 활동목표 및 프로그램 */
+body.rcy.info.want #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_info_want_join.gif");
+}
+
+/* 010600 RCY 활동을 하고 싶어요 */
+body.rcy.info.baby #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_info_baby.gif");
+}
+
+/* 010601 유아적십자 */
+body.rcy.info.children #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_info_children.gif");
+}
+
+/* 010602 어린이적십자 */
+body.rcy.info.teen #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_info_teen.gif");
+}
+
+/* 010603 청소년적십자 */
+body.rcy.info.youth #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_info_youth.gif");
+}
+
+/* 010604 대학적십자 */
+body.rcy.info.community_member #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_info_community_member.gif");
+}
+
+/* 010605 커뮤니티회원 */
+body.rcy.info.local #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_info_local.gif");
+}
+
+/* 010606 지역RCY */
+body.rcy.activity #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_introduce.gif");
+}
+
+/* 020000 활동소개하기 */
+body.rcy.activity.teacherday #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_teacherday.gif");
+}
+
+/* 020100 스승의날 */
+body.rcy.activity.teacherday_introduce #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_teacherday_introduce.gif");
+}
+
+/* 020101 스승의날 소개 */
+body.rcy.activity.photoessay #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_photoessay.gif");
+}
+
+/* 020102 포토에세이 수상작 */
+body.rcy.activity.solferino #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_solferino.gif");
+}
+
+/* 020200 솔페리노의 회상 */
+body.rcy.activity.school #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_school.gif");
+}
+
+/* 020300 RCY 활동인증학교 */
+body.rcy.activity.teen #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_teen_camp.gif");
+}
+
+/* 020400 청소년 수련활동 */
+body.rcy.activity.together #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_together.gif");
+}
+
+/* 020401 Together, 아름다운 세상으로 */
+body.rcy.activity.safe_keeper #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_safe_keeper.gif");
+}
+
+/* 020402 생활속의 안전지킴이 */
+body.rcy.activity.post #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_post.gif");
+}
+
+/* 020500 RCY 봉사포스트활동 */
+body.rcy.activity.post_mean #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_post_mean.gif");
+}
+
+/* 020501 봉사포스트 활동이란? */
+body.rcy.activity.post_photo #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_post_photo.gif");
+}
+
+/* 020502 봉사포스트 활동사진 보기 */
+body.rcy.activity.global #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_global_leader_project.gif");
+}
+
+/* 020600 적십자 Global Leader Project */
+body.rcy.activity.un_message #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_un_message.gif");
+}
+
+/* 020601 반기문 UN 사무총장님의 격려 메시지 */
+body.rcy.activity.usa #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_usa.gif");
+}
+
+/* 020602 유엔 및 미국적십자사 견학 프로젝트 */
+body.rcy.activity.annual_report #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_annual_report.gif");
+}
+
+/* 020700 RCY 연간활동안내  */
+body.rcy.activity.meeting #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_meeting.gif");
+}
+
+/* 020800 RCY에서 만나요 */
+body.rcy.activity.tree_planting #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_tree_planting.gif");
+}
+
+/* 020801 남북 RCY 우정의 나무심기 */
+body.rcy.activity.youth_abroad #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_youth_abroad.gif");
+}
+
+/* 020802 대학적십자 해외봉사활동 */
+body.rcy.activity.ifc #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_ifc.gif");
+}
+
+/* 021000 RCY IFC */
+body.rcy.activity.green_school #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_green_school.gif");
+}
+
+/* 021100 우리학교 푸르게 */
+body.rcy.activity.friendship #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_activity_friendship.gif");
+}
+
+/* 029000 우정을 모읍시다 */
+body.rcy.participation #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_participation.gif");
+}
+
+/* 030000 행사참여하기 */
+body.rcy.participation.current #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_participation_current.gif");
+}
+
+/* 030100 진행중인행사 */
+body.rcy.participation.complete #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_participation_complete.gif");
+}
+
+/* 030200 완료된 행사 */
+body.rcy.reference #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_reference.gif");
+}
+
+/* 040000 자료보기 */
+body.rcy.reference.webhard #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_reference_webhard.gif");
+}
+
+/* 040100 RCY 웹하드 */
+body.rcy.reference.myfriend #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_reference_myfriend.gif");
+}
+
+/* 040200 RCY는 내친구 */
+body.rcy.reference.certify_activity #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_reference_certify_activity.gif");
+}
+
+/* 040201 RCY 활동인증 활동안내 */
+body.rcy.reference.program_collection #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_reference_program_collection.gif");
+}
+
+/* 040202 RCY 활동프로그램집(어린이, 청소년) */
+body.rcy.reference.together #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_reference_together.gif");
+}
+
+/* 040300 RCY와 함께하는 아름다운 세상 */
+body.rcy.reference.human_program #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_reference_human_program.gif");
+}
+
+/* 040400 RCY 인도주의 프로그램 */
+body.rcy.reference.general #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_reference_general.gif");
+}
+
+/* 040500 일반자료실 */
+body.rcy.reference.photo #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_reference_photo.gif");
+}
+
+/* 040600 사진자료실 */
+body.rcy.reference.movie #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_reference_movie.gif");
+}
+
+/* 040700 동영상자료실 */
+body.rcy.reference.magazine #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_reference_magazine.gif");
+}
+
+/* 040800 RCY 간행물 */
+body.rcy.reference.magazine_danji #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_reference_magazine_danji.gif");
+}
+
+/* 040801 RCY 단지 */
+body.rcy.reference.magazine_education #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_reference_magazine_education.gif");
+}
+
+/* 040802 RCY 교육간행물 */
+body.rcy.reference.magazine_humanism #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_reference_magazine_humanism.gif");
+}
+
+/* 040903 RCY 교육간행물 */
+body.rcy.reference.ehl #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_reference_ehl.gif");
+}
+
+/* 040900 RCY EHL(인도법탐구) */
+body.rcy.reference.online #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_reference_online.gif");
+}
+
+/* 040500 일반자료실 */
+body.rcy.notice #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_notice.gif");
+}
+
+/* 050000 알립니다 */
+body.rcy.notice.inform #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_notice_inform.gif");
+}
+
+/* 050100 RCY에서 알립니다 */
+body.rcy.notice.focus #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_notice_focus.gif");
+}
+
+/* 050200 RCY Focus 현장스케치 */
+body.rcy.notice.reporter #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_notice_reporter.gif");
+}
+
+/* 050300 나는RCY기자다 */
+body.rcy.notice.place #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_notice_place.gif");
+}
+
+/* 050400 RCY 소문마당 */
+body.rcy.notice.village #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_notice_village.gif");
+}
+
+/* 050500 도란도란RCY마을 */
+body.rcy.notice.ambassador #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_notice_ambassador.gif");
+}
+
+/* 050600 RCY홍보대사소개를 소개합니다 */
+body.rcy.customer #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_customer.gif");
+}
+
+/* 060000 RCY문의*/
+body.rcy.customer.qna #area_section h2 {
+  background-image: url("../images/pagetitle/rcy_customer_qna.gif");
+}
+
+/* 060100 RCY문의*/
+body.jisa.branch #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_branch.gif");
+}
+
+/* 010000 지사소개 */
+body.jisa.branch.greeting #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_branch_greeting.gif");
+}
+
+/* 010100 인사말 */
+body.jisa.branch.history #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_branch_history.gif");
+}
+
+/* 010200 연혁 */
+body.jisa.branch.organization #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_branch_organization.gif");
+}
+
+/* 010300 조직도 */
+body.jisa.branch.contactaddress #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_branch_contactaddress.gif");
+}
+
+/* 010400 업무담당 연락처 */
+body.jisa.bizintroduce #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce.gif");
+}
+
+/* 020000 사업소개 */
+body.jisa.bizintroduce.rcactivity #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_rcactivity.gif");
+}
+
+/* 적십자활동 */
+body.jisa.bizintroduce.walking #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_walking.gif");
+}
+
+/* 적십자활동 */
+body.jisa.bizintroduce.flower #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_flower.gif");
+}
+
+/* 적십자활동 */
+body.jisa.bizintroduce.toad #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_toad.gif");
+}
+
+/* 적십자활동 */
+body.jisa.bizintroduce.share #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_share.gif");
+}
+
+/* 적십자활동 */
+body.jisa.bizintroduce.support #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_support.gif");
+}
+
+/* 적십자활동 */
+body.jisa.bizintroduce.lifebox #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_lifebox.gif");
+}
+
+/* 생명의금고 */
+body.jisa.bizintroduce.rchall #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_rchall.gif");
+}
+
+/* 적십자회관 */
+body.jisa.bizintroduce.freerice #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_freerice.gif");
+}
+
+/* 무료급식소운영 */
+body.jisa.bizintroduce.specialcar #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_specialcar.gif");
+}
+
+/* 특수차량운영 */
+body.jisa.bizintroduce.reliefact #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_reliefact.gif");
+}
+
+/* 구호활동 */
+body.jisa.bizintroduce.reliefact_new #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_reliefact_new.gif");
+}
+
+/* 구호 */
+body.jisa.bizintroduce.relief #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_reliefservice.gif");
+}
+
+body.jisa.bizintroduce.international #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_international.gif");
+}
+
+/* 국제협력사업 */
+body.jisa.bizintroduce.sharingplatform #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_sharingplatform.gif");
+}
+
+/* 나눔플랫폼 */
+body.jisa.bizintroduce.hope #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_hope.gif");
+}
+
+/* 나눔플랫폼 */
+body.jisa.bizintroduce.reliefbiz #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_reliefbiz.gif");
+}
+
+/* 구호사업 */
+body.jisa.bizintroduce.socialservice #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_socialservice.gif");
+}
+
+/* 사회봉사 */
+body.jisa.bizintroduce.voluntary #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_socialvolunteerservice.gif");
+}
+
+/* 사회봉사활동 */
+body.jisa.bizintroduce.socialserviceact #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_socialserviceact.gif");
+}
+
+/* 사회봉사사업 */
+body.jisa.bizintroduce.socialserviceact_new #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_socialserviceact_new.gif");
+}
+
+/* 사회봉사*/
+body.jisa.bizintroduce.socialservicebiz #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_socialservicebiz.gif");
+}
+
+/* 사회봉사사업 */
+body.jisa.bizintroduce.localhealthact #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_localhealthact.gif");
+}
+
+/* 지역보건활동 */
+body.jisa.bizintroduce.localhealthact_new #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_localhealthact_new.gif");
+}
+
+/* 지역보건 및 안전 */
+body.jisa.bizintroduce.localhealthbiz #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_localhealthbiz.gif");
+}
+
+/* 지역보건사업 */
+body.jisa.bizintroduce.safety #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_safetyeducation2.gif");
+}
+
+/* 안전사업 */
+body.jisa.bizintroduce.safetybiz #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_safetybiz.gif");
+}
+
+/* 안전활동 */
+body.jisa.bizintroduce.safetylocal #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_safetylocal.gif");
+}
+
+/* 안전/지역보건 */
+body.jisa.bizintroduce.safetyeducationact #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_safetyeducationact.gif");
+}
+
+/* 안전교육활동 */
+body.jisa.bizintroduce.safetyeducationaction #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_safetyeducationaction.gif");
+}
+
+/* 안전교육보급활동 */
+body.jisa.bizintroduce.rcy #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_rcy.gif");
+}
+
+/* 청소년적십자 */
+body.jisa.bizintroduce.rcyact #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_rcyact.gif");
+}
+
+/* 청소년(RCY)적십자활동 */
+body.jisa.bizintroduce.rcyact_new #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_rcyact_new.gif");
+}
+
+/* 청소년(RCY)적십자활동 */
+body.jisa.bizintroduce.rcybiz #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_rcybiz.gif");
+}
+
+/* 청소년적십자사업 */
+body.jisa.bizintroduce.oldwelfare #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_oldwelfare.gif");
+}
+
+/* 재가노인복지센터 */
+body.jisa.bizintroduce.mainactivity #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_mainactivity.gif");
+}
+
+/* 주요활동 */
+body.jisa.bizintroduce.recuperation #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_recuperation.gif");
+}
+
+/* 요양보호사교육 */
+body.jisa.bizintroduce.globalactivity #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_globalactivity.gif");
+}
+
+/* 국제교류활동 */
+body.jisa.bizintroduce.globalactivity_new #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_globalactivity.gif");
+}
+
+/* 국제교류활동 */
+body.jisa.bizintroduce.globalandlostfamily #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_globalandlostfamily.gif");
+}
+
+/* 국제활동 및 이산가족상봉 */
+body.jisa.bizintroduce.savedisaster #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_savedisaster.gif");
+}
+
+/* 재난/취약계층구호 */
+body.jisa.bizintroduce.rccamp #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_rccamp.gif");
+}
+
+/* 광주적십자수련원 */
+body.jisa.bizintroduce.safetyeducation #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_safetyeducation.gif");
+}
+
+/* 안전교육   <<<<<<<<<<<<<< 여기서 부터 아래로 pagetitle 정의 추가될 부분 */
+body.jisa.bizintroduce.bread #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_bread.gif");
+}
+
+/* 빵나눔터 */
+body.jisa.bizintroduce.makebread #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_makebread.gif");
+}
+
+/* 적십자희망빵만들기 */
+body.jisa.bizintroduce.firstmenses #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_firstmenses.gif");
+}
+
+/* 축복받는초경맞이하기 */
+body.jisa.bizintroduce.onemeterwalking #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_onemeterwalking.gif");
+}
+
+/* 1m1원걷기대회 */
+body.jisa.bizintroduce.mountainsafeteam #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_mountainsafeteam.gif");
+}
+
+/* 산악안전구조대 */
+body.jisa.bizintroduce.contest #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_contest.gif");
+}
+
+/* 백일장 및 그림그리기대회 */
+body.jisa.bizintroduce.safetyact #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_safety.gif");
+}
+
+/* 안전사업 */
+body.chungnam.jisa.bizintroduce.safetyact #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_safetybiz.gif");
+}
+
+/* 안전사업 */
+body.jisa.bizintroduce.health #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_healthcare_service.gif");
+}
+
+/* 보건사업 */
+body.jisa.bizintroduce.healthact #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_health.gif");
+}
+
+/* 보건사업 */
+body.chungnam.jisa.bizintroduce.healthact #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_localhealthact.gif");
+}
+
+/* 보건사업 */
+body.jisa.bizintroduce.loverequest #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_loverequest.gif");
+}
+
+/* 밑반찬나눔 사랑의리퀘스트 */
+body.jisa.bizintroduce.safetyhealthact #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_safetyhealthact.gif");
+}
+
+/* 안전/보건활동 */
+body.jisa.bizintroduce.brightworld #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_brightworld.gif");
+}
+
+/* 밝은세상프로그램 */
+body.jisa.bizintroduce.fixhouse #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_fixhouse.gif");
+}
+
+/* 집고쳐드립니다 */
+body.jisa.publicreference #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_publicreference.gif");
+}
+
+/* 030000 홍보자료실 */
+body.jisa.publicreference.ambassador #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_publicreference_ambassador.gif");
+}
+
+/* 030100 홍보대사 */
+body.jisa.publicreference.photo #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_publicreference_photo.gif");
+}
+
+/* 030200 사진자료실 */
+body.jisa.publicreference.movie #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_publicreference_movie.gif");
+}
+
+/* 030300 동영상자료실 */
+body.jisa.publicreference.publication #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_publicreference_publication.gif");
+}
+
+/* 030400 간행물 */
+body.jisa.publicreference.publication.bizreport #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_publicreference_publication_bizreport.gif");
+}
+
+/* 030401 사업보고서 */
+body.jisa.publicreference.publication.rcnews #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_publicreference_publication_rcnews.gif");
+}
+
+/* 030402 적십자소식지 */
+body.jisa.publicreference.publication.public #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_publicreference_publication_public.gif");
+}
+
+/* 030403 홍보간행물 */
+body.jisa.publicreference.publication.global #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_publicreference_publication_global.gif");
+}
+
+/* 030404 국제적십자 운동 */
+body.jisa.publicreference.publication.edu #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_publicreference_publication_education.gif");
+}
+
+/* 030405 교육간행물 */
+body.jisa.publicreference.publication.rcy #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_publicreference_publication_rcy.gif");
+}
+
+/* 030406 RCY단지 */
+body.jisa.formreference #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_formreference_detail.gif");
+}
+
+/* 040000 서식자료실 */
+body.jisa.news #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_news.gif");
+}
+
+/* 050000 소식란 */
+body.jisa.news.local #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_news_local.gif");
+}
+
+/* 050100 우리지역소식 */
+body.jisa.news.notice #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_news_notice.gif");
+}
+
+/* 050200 알립니다 */
+body.jisa.news.media #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_news_media.gif");
+}
+
+/* 050300 언론보도 */
+body.jisa.customer #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_customer_detail.gif");
+}
+
+/* 060000 고객센터 */
+body.jisa.customer.ethics #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_customer_ethics_reference.gif");
+}
+
+/* 060200 청렴활동소식 */
+body.jisa.coming #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_coming_detail.gif");
+}
+
+/* 070000 찾아오시는길 */
+body.jisa.coming.worksite #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_coming_worksite.gif");
+}
+
+/* 070000 찾아오시는길 */
+body.jisa.transparent.settlement #area_section h2 {
+  background-image: url("../images/pagetitle/redcross_morgue_budget_evaluate.gif");
+}
+
+/* 080000 예결산자료 */
+body.jisa.transparent.bizreport #area_section h2 {
+  background-image: url("../images/pagetitle/jisa_transparent_bizreport_pagetitle.gif");
+}
+
+/* 080000 사업보고서 */
+body.voluntary.activity #area_section h2 {
+  background-image: url("../images/pagetitle/voluntary_activity.gif");
+}
+
+/* 010000 자원봉사활동소개 */
+body.voluntary.activity.introduce #area_section h2 {
+  background-image: url("../images/pagetitle/voluntary_activity_introduce.jpg");
+}
+
+/* 010100 봉사활동소개 */
+body.voluntary.activity.enjoy #area_section h2 {
+  background-image: url("../images/pagetitle/voluntary_activity_enjoy.jpg");
+}
+
+/* 010200 봉사참여방법 */
+body.voluntary.activity.learning #area_section h2 {
+  background-image: url("../images/pagetitle/voluntary_activity_learning.jpg");
+}
+
+/* 010300 명예의전당 */
+body.voluntary.activity.training #area_section h2 {
+  background-image: url("../images/pagetitle/voluntary_activity_training.gif");
+}
+
+/* 010301 자원봉사 예비교육*/
+body.voluntary.activity.movie #area_section h2 {
+  background-image: url("../images/pagetitle/voluntary_activity_movie.gif");
+}
+
+/* 010302 대한적십자사소개영상 */
+body.voluntary.activity.relationship #area_section h2 {
+  background-image: url("../images/pagetitle/voluntary_activity_relationship.gif");
+}
+
+/* 010303 어버이결연 봉사활동 */
+body.voluntary.participation #area_section h2 {
+  background-image: url("../images/pagetitle/voluntary_participation.gif");
+}
+
+/* 020000 봉사참여하기 */
+body.voluntary.participation.diy #area_section h2 {
+  background-image: url("../images/pagetitle/voluntary_participation_diy.gif");
+}
+
+/* 020100 희망 DIY 네트워크 */
+body.voluntary.participation.volunteer #area_section h2 {
+  background-image: url("../images/pagetitle/voluntary_participation_volunteer.gif");
+}
+
+/* 020200 행복한 봉사참여 */
+body.voluntary.empathy #area_section h2 {
+  background-image: url("../images/pagetitle/voluntary_empathy.jpg");
+}
+
+/* 030000 자원봉사 공감하기 */
+body.voluntary.empathy.news #area_section h2 {
+  background-image: url("../images/pagetitle/voluntary_empathy_news.jpg");
+}
+
+/* 030100 우리동네적십자뉴스 */
+body.voluntary.empathy.club #area_section h2 {
+  background-image: url("../images/pagetitle/voluntary_empathy_club.gif");
+}
+
+/* 030201 우수봉사자클럽 */
+body.voluntary.empathy.honor #area_section h2 {
+  background-image: url("../images/pagetitle/voluntary_empathy_honor.gif");
+}
+
+/* 030202 명예의전당 */
+body.voluntary.empathy.photo #area_section h2 {
+  background-image: url("../images/pagetitle/voluntary_empathy_photo.gif");
+}
+
+/* 030300 포토에세이공감 */
+body.voluntary.question #area_section h2 {
+  background-image: url("../images/pagetitle/voluntary_question_detail.gif");
+}
+
+/* 040000 봉사문의 */
+body.site_map #area_section h2 {
+  background-image: url("../images/pagetitle/site_map.gif");
+}
+
+/* 050000 사이트맵 */
+body.windmill.support #area_section h2 {
+  background-image: url("../images/pagetitle/windmill_support.gif");
+}
+
+/* 020100 희망풍차 */
+body.windmill.support.youth #area_section h2 {
+  background-image: url("../images/pagetitle/windmill_support_youth.gif");
+}
+
+/* 020101 희망풍차 아동 청소년 */
+body.windmill.support.old #area_section h2 {
+  background-image: url("../images/pagetitle/windmill_support_old.gif");
+}
+
+/* 020102 희망풍차 어르신 */
+body.windmill.support.culture #area_section h2 {
+  background-image: url("../images/pagetitle/windmill_support_culture.gif");
+}
+
+/* 020103 희망풍차 다문화 */
+body.windmill.support.north #area_section h2 {
+  background-image: url("../images/pagetitle/windmill_support_north.gif");
+}
+
+/* 020104 희망풍차 북한이주민 */
+body.windmill.explain #area_section h2 {
+  background-image: url("../images/pagetitle/windmill_sr_explain.gif");
+}
+
+/* 희망풍차 SR 이란? */
+body.windmill.act #area_section h2 {
+  background-image: url("../images/pagetitle/windmill_sr_act.gif");
+}
+
+/* SR에서 할 수 있는 일 */
+body.windmill.holland #area_section h2 {
+  background-image: url("../images/pagetitle/windmill_sr_holland.gif");
+}
+
+/* 네덜란드 RC 소개 */
+body.windmill.intro #area_section h2 {
+  background-image: url("../images/pagetitle/windmill_sr_intro.gif");
+}
+
+/* 13년도 SR 소개 */
+body.windmill.intro #area_section h2 {
+  background-image: url("../images/pagetitle/windmill_sr_2014_story.gif");
+}
+
+/* 14년도 SR 소개 */
+body.windmill.participation #area_section h2 {
+  background-image: url("../images/pagetitle/windmill_sr_participation.gif");
+}
+
+/* 희망풍차 SR 참여하기 */
+body.windmill.past_story #area_section h2 {
+  background-image: url("../images/pagetitle/windmill_sr_past_story.gif");
+}
+
+/* 지난 SR 이야기 */
+body.windmill.story #area_section h2 {
+  background-image: url("../images/pagetitle/windmill_sr_story.gif");
+}
+
+/* SR 나눔이야기 */
+body.windmill.realtime.story #area_section h2 {
+  background-image: url("../images/pagetitle/windmill_sr_realtime_story.gif");
+}
+
+/* SR생방송 시청하기 */
+body.windmill.participation #area_section h2 {
+  background-image: url("../images/pagetitle/windmill_sr_participation.gif");
+}
+
+/* SR 나눔이야기 */
+body.windmill.media #area_section h2 {
+  background-image: url("../images/pagetitle/windmill_sr_media.gif");
+}
+
+/* 희망풍차 SR 동영상갤러리 */
+body.mypage.mypage_general.declaration #area_section h2 {
+  background-image: url("../images/pagetitle/mypage_general_declaration.gif");
+}
+
+/* 060205 예산낭비신고센터 */
+/* section 영역 - 각 페이지 메세지 정의 - 자동화부분 */
+body.member.register #area_section .page_message {
+  background-image: url("../images/pagemessage/member_register.gif");
+}
+
+/* 010000 회원가입 */
+body.member.search #area_section .page_message {
+  background-image: url("../images/pagemessage/member_find_redcross_info.gif");
+}
+
+/* 010000 회원가입 */
+body.member.register.general #area_section .page_message {
+  background-image: url("../images/pagemessage/member_register_general.gif");
+}
+
+/* 010100 일반회원가입 */
+body.member.register.general_kids #area_section .page_message {
+  background-image: url("../images/pagemessage/member_register_general.gif");
+}
+
+/* 010100 일반회원가입 */
+body.member.register.recovery #area_section .page_message {
+  background-image: url("../images/pagemessage/member_register_recovery.gif");
+}
+
+/* 010100 일반회원가입 */
+body.member.register.donation #area_section .page_message {
+  background-image: url("../images/pagemessage/member_register_donation.gif");
+}
+
+/* 010200 후원회원가입 */
+body.member.register.volunteer #area_section .page_message {
+  background-image: url("../images/pagemessage/member_register_volunteer.gif");
+}
+
+/* 010300 봉사회원가입 */
+body.member.register.rcyjoin #area_section .page_message {
+  background-image: url("../images/pagemessage/member_register_rcy.gif");
+}
+
+/* 010400 RCY등록신청 */
+body.member.register.rcycommunity #area_section .page_message {
+  background-image: url("../images/pagemessage/member_register_rcycommunity.gif");
+}
+
+/* 010500 커뮤니티회원가입 */
+body.member.findid #area_section .page_message {
+  background-image: url("../images/pagemessage/member_findid.gif");
+}
+
+/* 020000 아이디 찾기 */
+body.member.findpwd #area_section .page_message {
+  background-image: url("../images/pagemessage/member_findpwd.gif");
+}
+
+/* 030000 비밀번호 찾기 */
+body.member.login #area_section .page_message {
+  background-image: url("../images/pagemessage/member_login.gif");
+}
+
+/* 040000 로그인 */
+body.member.logout #area_section .page_message {
+  background-image: url("../images/pagemessage/member_logout.gif");
+}
+
+/* 050000 로그아웃 */
+body.member.changepwd #area_section .page_message {
+  background-image: url("../images/pagemessage/member_changepwd.gif");
+}
+
+/* 060000 비밀번호변경 */
+body.member.out #area_section .page_message {
+  background-image: url("../images/pagemessage/member_out.gif");
+}
+
+/* 070000 회원탈퇴 */
+body.member.pkilogin #area_section .page_message {
+  background-image: url("../images/pagemessage/member_login.gif");
+}
+
+/* 080000 공인인증서 로그인 */
+body.member.certify #area_section .page_message {
+  background-image: url("../images/pagemessage/member_certify.gif");
+}
+
+/* 090000 회원인증 */
+body.mypage.mypage_general #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_general.gif");
+}
+
+/* 010000 일반 */
+body.mypage.mypage_general.memberinfo #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_general_memberinfo.gif");
+}
+
+/* 010100 개인정보수정 */
+body.mypage.mypage_general.question #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_general_question.gif");
+}
+
+/* 010200 질문모아보기 */
+body.mypage.mypage_general.complaint #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_general_complaint.gif");
+}
+
+/* 010300 나의신문고 */
+body.mypage.mypage_general.corruption #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_general_complaint.gif");
+}
+
+/* 010600 직원부패 및 행동강령 신문고 */
+body.mypage.mypage_general.special #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_general_complaint.gif");
+}
+
+/* 010600 직원부패 및 행동강령 신문고 */
+body.mypage.mypage_general.comment #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_general_comment.gif");
+}
+
+/* 010400 댓글모음란 */
+body.mypage.mypage_general.memberout #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_general_memberout.gif");
+}
+
+/* 010500 회원탈퇴 */
+body.mypage.mypage_general.declaration #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_general_declaration.gif");
+}
+
+/* 010500 예산신고제안센터*/
+body.mypage.mypage_donation #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_donation.gif");
+}
+
+/* 020000 후원 */
+body.mypage.mypage_donation.memberinfo #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_donation_memberinfo.gif");
+}
+
+/* 020100 후원회원정보수정 */
+body.mypage.mypage_donation.breakdown #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_donation_support.jpg?v=20211021001");
+}
+
+/* 020200 후원내역조회 */
+body.mypage.mypage_donation.mybadge #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_donation_mybadge.gif");
+}
+
+/* 020300 나의뱃지현황 */
+body.mypage.mypage_donation.confirmation #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_donation_confirmation.gif");
+}
+
+/* 020400 후원회원확인서 */
+body.mypage.mypage_donation.paydonation #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_donation_paydonation.gif");
+}
+
+/* 020500 지난후원금내기 */
+body.mypage.mypage_donation.paydonation_end #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_donation_paydonation_end.gif");
+}
+
+/* 020500 지난후원금내기완료 */
+body.mypage.mypage_donation.receiption #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_donation_support.jpg?v=20211021001");
+}
+
+/* 020600 기부금영수증 */
+body.mypage.mypage_donation.guide #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_donation_guide.gif");
+}
+
+/* 020700 후원가이드 */
+body.mypage.mypage_donation.out #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_donation_out.gif");
+}
+
+/* 020800 후원회원탈퇴 */
+body.mypage.mypage_volunteer #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_volunteer.gif");
+}
+
+/* 030000 봉사 */
+body.mypage.mypage_volunteer.breakdown #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_volunteer_breakdown.gif");
+}
+
+/* 030100 봉사신청/참여내역 */
+body.mypage.mypage_volunteer.infofind #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_volunteer_infofind.gif");
+}
+
+/* 030200 봉사원정보찾기 */
+body.mypage.mypage_volunteer.confirmation #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_volunteer_breakdown.gif");
+}
+
+/* 030300 봉사일기 */
+body.mypage.mypage_volunteer.diary #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_volunteer_diary.gif");
+}
+
+/* 030300 봉사일기 */
+body.mypage.mypage_volunteer.finishcoursestate #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_volunteer_finishcoursestate.gif");
+}
+
+/* 030400 사이버봉사원교육이수현황 */
+body.mypage.mypage_volunteer.photo #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_volunteer_photo.gif");
+}
+
+/* 030500 포토갤러리 */
+body.mypage.mypage_volunteer.event #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_volunteer_event.gif");
+}
+
+/* 030600 나의 이벤트 */
+body.mypage.mypage_volunteer.quiz #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_volunteer_quiz.gif");
+}
+
+/* 030700 봉사시간 획득퀴즈 */
+body.mypage.mypage_volunteer.localcommunity #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_volunteer_localcommunity.gif");
+}
+
+/* 030800 지역별모임방 */
+body.mypage.mypage_volunteer.memberout #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_volunteer_memberout.gif");
+}
+
+/* 030900 봉사회원 탈퇴 */
+body.mypage.mypage_education #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_education.gif");
+}
+
+/* 040000 교육 */
+body.mypage.mypage_education.applybreakdown #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_education_applybreakdown.gif");
+}
+
+/* 040100 나의교육신청내역 */
+body.mypage.mypage_education.licensebreakdown #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_education_licensebreakdown.gif");
+}
+
+/* 040200 나의자격검정내역 */
+/*  RCY 수정 : (주)코어테크놀로지 */
+body.mypage.myrcy #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_rcy.gif");
+}
+
+/* 050000 RCY */
+body.mypage.myrcy.memberinfo #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_rcy_memberinfo.gif");
+}
+
+/* 050300 RCY회원정보수정 */
+body.mypage.myrcy.history #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_rcy_history.gif");
+}
+
+/* 050100 RCY이력 */
+body.mypage.myrcy.acthistory #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_rcy_acthistory.gif");
+}
+
+/* 050200 활동참가이력 */
+body.mypage.myrcy.voluntary #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_rcy_voluntary.gif");
+}
+
+/* 050600 봉사활동이력 */
+body.mypage.myrcy.prizeinfo #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_rcy_prizeinfo.gif");
+}
+
+/* 050400 포상정보 */
+body.mypage.myrcy.dan_board #area_section .page_message {
+  background-image: url("../images/pagemessage/mypage_rcy_dan_board.gif");
+}
+
+/* 050500 소속단게시판 */
+/* Redcross Academy  */
+body.academy.rescue.introduce #area_section .page_message {
+  background-image: url("../images/pagemessage/academy_rescue_message.jpg");
+}
+
+/* 010100 재난교육 */
+body.academy.safety.introduce #area_section .page_message {
+  background-image: url("../images/pagemessage/academy_safety_message.jpg");
+}
+
+/* 020100 안전교육 */
+body.academy.health.introduce #area_section .page_message {
+  background-image: url("../images/pagemessage/academy_health_message.jpg");
+}
+
+/* 030100 보건교육 */
+body.academy.personality.introduce #area_section .page_message {
+  background-image: url("../images/pagemessage/academy_personality_message.jpg");
+}
+
+/* 040100 인성교육 */
+body.academy.international.introduce #area_section .page_message {
+  background-image: url("../images/pagemessage/academy_international_message.jpg");
+}
+
+/* 050100 국제자료 */
+body.academy.center #area_section .page_message {
+  background-image: url("../images/pagemessage/academy_center.jpg");
+}
+
+/* 060000 교육정보센터 소개 */
+body.academy.greeting #area_section .page_message {
+  background-image: url("../images/pagemessage/academy_greeting_message.jpg");
+}
+
+/* 060100 총재 인사말 */
+body.academy.introduce #area_section .page_message {
+  background-image: url("../images/pagemessage/academy_introduce_message.jpg");
+}
+
+/* 060200 소개 */
+body.academy.vision #area_section .page_message {
+  background-image: url("../images/pagemessage/academy_vision_message.jpg");
+}
+
+/* 060300 비전 */
+body.donation.participation #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation.gif");
+}
+
+/* 010000 후원참여 */
+body.donation.participation.reg #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_reg_1.jpg");
+}
+
+/* 010100 정기후원 */
+body.donation.participation.reg.normal #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_reg_1.jpg");
+}
+
+/* 010100 정기후원 - 후원회원가입신청 */
+body.donation.participation.reg.normal_inter #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_reg_inter_regsupport.jpg");
+}
+
+/* 010100 정기후원 - 후원회원가입신청_별도페이지 */
+/* 재원조성팀 요청에 따른 추가 */
+body.donation.participation.reg.support.youth #area_section .page_message {
+  background-image: url("../images/pagemessage/windmill_support_youth.jpg");
+}
+
+/* 010102 정기후원 희망풍차후원 */
+body.donation.participation.reg.nameplate #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_nameplate.gif");
+}
+
+/* 010103 희망나눔명패 */
+body.donation.participation.reg.pregnant #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_prenatal.gif");
+}
+
+/* 010105 나눔태교 */
+body.donation.participation.prenatal.reg #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_prenatal_regsupport.gif");
+}
+
+/* 010105 나눔태교 - 후원회원가입신청 */
+body.donation.participation.prenatal_introduce #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_prenatal_introduce.gif");
+}
+
+/* 010105 나눔태교란? */
+body.donation.participation.prenatal_lovemessage #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_prenatal_lovemessage.gif");
+}
+
+/* 010106 LOVE메세지 */
+body.donation.participation.prenatal_notice #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_prenatal_notice.gif");
+}
+
+/* 010107 나눔태교공지사항 */
+body.donation.participation.reg.worker #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_worker.gif");
+}
+
+/* 010112 직장인기부 */
+body.donation.participation.reg.international #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_international_pay.gif");
+}
+
+/* 011101 국제활동 후원 하기*/
+/* 추가 끝 */
+body.donation.participation.youth #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_youth.gif");
+}
+
+/* 010200 어린이/청소년후원 */
+body.donation.participation.youth.reg #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_youth_regsupport.gif");
+}
+
+/* 010200 어린이/청소년후원 - 후원회원가입신청 */
+body.donation.participation.prenatal #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_prenatal.gif");
+}
+
+/* 010300 나눔태교 */
+body.donation.participation.prenatal.reg #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_prenatal_regsupport.gif");
+}
+
+/* 010300 나눔태교 - 후원회원가입신청 */
+body.donation.participation.prenatal_introduce #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_prenatal_introduce.gif");
+}
+
+/* 010301 나눔태교란? */
+body.donation.participation.prenatal_lovemessage #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_prenatal_lovemessage.gif");
+}
+
+/* 010302 LOVE메세지 */
+body.donation.participation.prenatal_notice #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_prenatal_notice.gif");
+}
+
+/* 010303 나눔태교공지사항 */
+body.donation.participation.nameplate #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_nameplate.gif");
+}
+
+/* 010400 희망나눔명패 */
+body.donation.participation.nameplate_introduce #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_nameplate_introduce.gif");
+}
+
+/* 010401 희망나눔명패란? */
+body.donation.participation.nameplate_honor #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_nameplate_honor.gif");
+}
+
+/* 010402 명예의 전당 */
+body.donation.participation.anniversary #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_reg_1.jpg");
+}
+
+/* 010500 기념일 기부 */
+body.donation.participation.anniversary.nrggibu.birthday #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_anniversary_nrggibu_birthday.gif");
+}
+
+/* 010500 기념일 기부 - 생일 */
+body.donation.participation.anniversary.nrggibu.couple #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_anniversary_nrggibu_couple.gif");
+}
+
+/* 010500 기념일 기부 - 커플기념일 */
+body.donation.participation.anniversary.nrggibu.wedding #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_anniversary_nrggibu_wedding.gif");
+}
+
+/* 010500 기념일 기부 - 결혼 */
+body.donation.participation.anniversary.nrggibu.wedding_memorial #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_anniversary_nrggibu_wedding_memorial.gif");
+}
+
+/* 010500 기념일 기부 - 결혼기념일 */
+body.donation.participation.anniversary.nrggibu.firstbirthday #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_anniversary_nrggibu_firstbirthday.gif");
+}
+
+/* 010500 기념일 기부 - 돌잔치 */
+body.donation.participation.anniversary.nrggibu.entrance #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_anniversary_nrggibu_entrance.gif");
+}
+
+/* 010500 기념일 기부 - 입학 */
+body.donation.participation.anniversary.nrggibu.graduation #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_anniversary_nrggibu_graduation.gif");
+}
+
+/* 010500 기념일 기부 - 졸업 */
+body.donation.participation.anniversary.nrggibu.my_memorial #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_anniversary_nrggibu_my_memorial.gif");
+}
+
+/* 010500 기념일 기부 - 나만의기념일 */
+body.donation.participation.anniversary.nrggibu.work #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_anniversary_nrggibu_work.gif");
+}
+
+/* 010500 기념일 기부 - 직장인기부 */
+body.donation.participation.anniversary_introduce #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_anniversary_introduce.gif");
+}
+
+/* 010501 기념일 기부란? */
+body.donation.participation.anniversary_story #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_anniversary_story.gif");
+}
+
+/* 010502 사연 게시판 */
+body.donation.participation.worker #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_worker.gif");
+}
+
+/* 010600 직장인기부 */
+body.donation.participation.worker.nrggibu #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_worker_nrggibu.gif");
+}
+
+/* 010600 직장인기부 - 일시후원참여하기 */
+body.donation.participation.worker.reg.normal #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_worker_regsupport.gif");
+}
+
+/* 010600 직장인기부 - 후원회원가입신청 */
+body.donation.participation.inheritance #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_inheritance.gif");
+}
+
+/* 010700 더 나은 미래를 위한 실천(유산기부) */
+body.donation.participation.inheritance_introduce #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_inheritance_introduce.gif");
+}
+
+/* 010701 유한기부란? */
+body.donation.participation.inheritance_step #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_inheritance_step.gif");
+}
+
+/* 010702 더 나은 미래를 위한 실천(유산기부)절차 */
+body.donation.participation.inheritance_used #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_inheritance_used.gif");
+}
+
+/* 010703 더 나은 미래를 위한 실천(유산기부)사용처 */
+body.donation.participation.inheritance_faq #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_inheritance_faq.gif");
+}
+
+/* 010704 더 나은 미래를 위한 실천(유산기부) 묻고답하기 */
+body.donation.participation.onetime #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_reg_1.jpg");
+}
+
+/* 010800 일시후원(Red Cross Story) */
+body.donation.participation.onetime.nrggibu #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_reg_1.jpg");
+}
+
+/* 010801 Red Cross Movement */
+body.donation.participation.onetime_movement #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_onetime_movement.gif");
+}
+
+/* 010801 Red Cross Movement */
+body.donation.participation.onetime_comment #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_onetime_comment.gif");
+}
+
+/* 010802 일시후원 한마디 */
+body.donation.participation.fee #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_fee.gif");
+}
+
+/* 010900 적십자회비 */
+/*body.donation.participation.fee_introduce.nrggibu                   #area_section .page_message { background-image:url('../images/pagemessage/donation_participation_fee_nrggibu.gif');                             }*/
+/* 010900 적십자회비 */
+body.donation.participation.fee_introduce.nrggibu #area_section .page_message {
+  background-image: url("../images/donation_participation/fee_main_top.jpg");
+}
+
+/* 010900 적십자회비 */
+body.donation.participation.fee_introduce #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_fee_introduce.gif");
+}
+
+/* 010901 적십자 회비란? */
+body.donation.participation.fee_breakdown #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_fee_breakdown.jpg");
+}
+
+/* 010902 희망(之路)확인 */
+body.donation.participation.fee_movie #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_fee_movie.gif");
+}
+
+/* 010903 회비모금자료실 */
+body.donation.participation.fee_faq #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_fee_faq.gif");
+}
+
+/* 010904 적십자회비 묻고답하기 */
+body.donation.participation.project #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_project.gif");
+}
+
+/* 011000 프로젝트 후원 */
+body.donation.participation.project.nrggibu #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_reg_1.jpg");
+}
+
+/* 011000 프로젝트 후원 */
+body.donation.participation.international #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_international.gif");
+}
+
+/* 011100 국제활동 후원 */
+body.donation.participation.international_pay #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_international_pay.gif");
+}
+
+/* 011101 국제활동 후원 하기*/
+body.donation.participation.international_water #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_international_water.jpg");
+}
+
+/* 011102 물과위생 */
+body.donation.participation.international.nrggibu #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_reg_1.jpg");
+}
+
+/* 011100 국제활동 후원 */
+body.donation.participation.company #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_company.gif");
+}
+
+/* 011200 기업 후원 */
+body.donation.participation.company_introduce #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_company_introduce.gif");
+}
+
+/* 011201 사회협력이란? */
+body.donation.participation.company_cowokers #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_company_cowokers.gif");
+}
+
+/* 011202 협력업체 */
+body.donation.participation.company_campaign #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_company_campaign.gif");
+}
+
+/* 011203 공동캠페인 */
+body.donation.participation.passbook #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_participation_passbook.gif");
+}
+
+/* 011300 희망풍차희망나눔통장 */
+body.donation.power #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_power.gif");
+}
+
+/* 020000 후원의 힘 */
+body.donation.power.international #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_power_international.gif");
+}
+
+/* 020100 국제활동 */
+body.donation.power.international_news #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_power_international_news.gif");
+}
+
+/* 020101 대한적십자사 국제활동 소식 */
+body.donation.power.international_wwr #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_power_international_wwr.gif");
+}
+
+/* 020102 World Wide RedCross */
+body.donation.power.domestic #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_power_domestic.gif");
+}
+
+/* 020200 국내활동 */
+body.donation.power.report #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_power_report.gif");
+}
+
+/* 020300 사업보고서 */
+body.donation.question.detail #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_question_detail.gif");
+}
+
+/* 030000 후원문의 서비스 */
+body.donation.question.detail_write #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_question_detail_write.gif");
+}
+
+/* 030000 후원문의 등록 */
+body.donation.memberservice #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_memberservice.gif");
+}
+
+/* 040000 후원회원 서비스 */
+body.donation.memberservice.donationinfo #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_memberservice_donationinfo.gif");
+}
+
+/* 040100 후원회원정보수정 */
+body.donation.memberservice.breakdown #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_memberservice_breakdown.gif");
+}
+
+/* 040200 후원내역조회 */
+body.donation.memberservice.mybadge #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_memberservice_mybadge.gif");
+}
+
+/* 040300 나의뱃지현황 */
+body.donation.memberservice.confirmation #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_memberservice_confirmation.gif");
+}
+
+/* 040400 후원회원확인서 */
+body.donation.memberservice.paydonation #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_memberservice_paydonation.gif");
+}
+
+/* 040500 지난후원금내기 */
+body.donation.memberservice.receiption #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_memberservice_receiption.gif");
+}
+
+/* 040600 기부금영수증 */
+body.donation.memberservice.donationguide #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_memberservice_donationguide.gif");
+}
+
+/* 040700 후원가이드 */
+body.donation.memberservice.memberout #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_memberservice_memberout.gif");
+}
+
+/* 040800 후원회원탈퇴 */
+body.donation.memberservice.inquiry #area_section .page_message {
+  background-image: url("../images/pagemessage/donation_memberservice_inquiry.gif");
+}
+
+/* 040900 후원문의 */
+body.redcross.krc #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_krc.gif");
+}
+
+/* 010000 대한적십자사 */
+body.redcross.krc.introduce #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_krc_introduce.gif");
+}
+
+/* 010100 소개 */
+body.redcross.krc.greeting #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_krc_greeting.gif");
+}
+
+/* 010200 인사말 */
+body.redcross.krc.history #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_krc_history.gif");
+}
+
+/* 010300 연혁 */
+body.redcross.krc.strategy2020 #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_krc_strategy2020.gif");
+}
+
+/* 010400 전략2020 */
+body.redcross.krc.organization #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_krc_organization.gif?v=20211104001");
+}
+
+/* 010500 조직 */
+body.redcross.krc.businessdept #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_krc_businessdept.gif?v=20210714001");
+}
+
+/* 010600 업무별담당자 */
+body.redcross.krc.law #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_krc_law.gif");
+}
+
+/* 010700 적십자 법규집 */
+body.redcross.rcmovement #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_rcmovement.gif");
+}
+
+/* 020000 국제적십자 운동 */
+body.redcross.rcmovement.movement #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_rcmovement_movement.gif");
+}
+
+/* 020100 국제적십자운동의 이해 */
+body.redcross.rcmovement.strategy2020 #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_rcmovement_strategy2020.gif");
+}
+
+/* 020200 전략2020 */
+body.redcross.rcmovement.bornbackground #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_rcmovement_bornbackground.gif");
+}
+
+/* 020300 탄생배경 */
+body.redcross.rcmovement.ideology #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_rcmovement_ideology.gif");
+}
+
+/* 020400 정신과 이념 */
+body.redcross.rcmovement.composition #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_rcmovement_composition.gif");
+}
+
+/* 020500 구성 */
+body.redcross.rcmovement.decisionmaking #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_rcmovement_decisionmaking.gif");
+}
+
+/* 020600 의결기구 */
+body.redcross.rcmovement.humanitariallaw #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_rcmovement_humanitariallaw.gif");
+}
+
+/* 020700 국제인도법 */
+body.redcross.rcmovement.humanitariallaw_introduce #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_rcmovement_humanitariallaw_introduce.gif");
+}
+
+/* 020701 국제인도법이란 */
+body.redcross.rcmovement.humanitariallaw_emblem #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_rcmovement_humanitariallaw_emblem.gif");
+}
+
+/* 020702 적십자 표장 */
+body.redcross.publicrelation #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation.gif");
+}
+
+/* 030000 적십자 홍보관 */
+body.redcross.publicrelation.campaign #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation_people.gif");
+}
+
+/* 030100 홍모캠페인 */
+body.redcross.publicrelation.campaign_people #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation_campaign_people.gif");
+}
+
+/* 030101 희망을 지키는 사람들 캠페인 */
+body.redcross.publicrelation.campaign_contestgallery #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation_campaign_contestgallery.gif");
+}
+
+/* 030102 착한광고 공모전 */
+body.redcross.publicrelation.ambassador #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation_ambassador.gif");
+}
+
+/* 030200 홍보대사 */
+body.redcross.publicrelation.photo #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation_photo.gif");
+}
+
+/* 030300 홍보 사진 */
+body.redcross.publicrelation.movie #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation_movie.gif");
+}
+
+/* 030400 홍보 동영상 */
+body.redcross.publicrelation.contestgallery #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation_contestgallery.gif");
+}
+
+/* 030500 공모전 수상작 */
+body.redcross.publicrelation.contestgallery_2nd #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation_contestgallery_2nd.gif");
+}
+
+/* 030501 2회(2011) */
+body.redcross.publicrelation.contestgallery_1st #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation_contestgallery_1st.gif");
+}
+
+/* 030502 1회(2010) */
+body.redcross.publicrelation.publication #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation_publication.gif");
+}
+
+/* 030600 간행물 */
+body.redcross.publicrelation.publication_report #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation_publication_report.gif");
+}
+
+/* 030601 사업보고서 */
+body.redcross.publicrelation.publication_news #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation_publication_news.gif");
+}
+
+/* 030602 적십자소식지 */
+body.redcross.publicrelation.publication_publication #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation_publication_publication.gif");
+}
+
+/* 030603 홍보간행물 */
+body.redcross.publicrelation.publication_movement #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation_publication_movement.gif");
+}
+
+/* 030604 국제적십자 운동 */
+body.redcross.publicrelation.publication_education #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation_publication_education.gif");
+}
+
+/* 030605 교육간행물 */
+body.redcross.publicrelation.publication_rcy #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation_publication_rcy.gif");
+}
+
+/* 030606 RCY단지 */
+body.redcross.publicrelation.human #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation_human.gif");
+}
+
+/* 030700 인도주의 교육영상 */
+body.redcross.publicrelation.cybermuseum #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation_cybermuseum.gif");
+}
+
+/* 030700 사이버박물관 */
+body.redcross.publicrelation.emblem #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation_emblem.gif");
+}
+
+/* 030800 적십자 표장 */
+body.redcross.publicrelation.song #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation_song.gif");
+}
+
+/* 030900 적십자 노래 */
+body.redcross.publicrelation.logo #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_publicrelation_logo.gif");
+}
+
+/* 031000 적십자 로고/캐릭터 */
+body.redcross.whatsnew #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_whatsnew.gif");
+}
+
+/* 040000 실시간 소식통 */
+body.redcross.whatsnew.announcement #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_whatsnew_announcement.gif");
+}
+
+/* 040300 알립니다 */
+body.redcross.whatsnew.notice #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_whatsnew_notice.gif");
+}
+
+/* 040200 공고 */
+body.redcross.whatsnew.notice_general #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_whatsnew_notice_general.gif");
+}
+
+/* 040201 일반공고 */
+body.redcross.whatsnew.notice_bids #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_whatsnew_notice_bids.gif");
+}
+
+/* 040202 입찰공고 */
+body.redcross.whatsnew.notice_openingbids #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_whatsnew_notice_openingbids.gif");
+}
+
+/* 040203 개찰결과 */
+body.redcross.whatsnew.news #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_whatsnew_news.gif");
+}
+
+/* 040100 적십자 뉴스 */
+body.redcross.whatsnew.news_media #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_whatsnew_news_media.gif");
+}
+
+/* 040101 언론보도 */
+body.redcross.whatsnew.news_press #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_whatsnew_news_press.gif");
+}
+
+/* 040102 보도자료 */
+body.redcross.whatsnew.news_news #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_whatsnew_news_news.gif");
+}
+
+/* 040103 새소식 */
+body.redcross.whatsnew.news_announcement #area_section .page_message {
+  background-image: url("../images/pagetitle/redcross_whatsnew_announcement.gif");
+}
+
+/* 040104 알립니다 */
+body.redcross.whatsnew.event #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_whatsnew_event.gif");
+}
+
+/* 040400 실시간소식통 이벤트 */
+body.redcross.whatsnew.survey #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_whatsnew_survey.gif");
+}
+
+/* 040500 설문조사 */
+body.redcross.whatsnew.recruit #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_whatsnew_recruit.gif");
+}
+
+/* 채용공고 */
+body.redcross.morgue #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_morgue.gif");
+}
+
+/* 050000 정보자료센터 */
+body.redcross.morgue.publicannouncement #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_morgue_publicannouncement.gif");
+}
+
+/* 050100 경영공시자료 */
+body.redcross.morgue.publicannouncement_summary #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_morgue_publicannouncement_summary.gif");
+}
+
+/* 050101 경영공시 */
+body.redcross.morgue.publicannouncement_result #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_morgue_publicannouncement_result.gif");
+}
+
+/* 050102 사업계획 및 사업실적 */
+body.redcross.morgue.inspection #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_morgue_inspection.gif");
+}
+
+/* 050200 국정감시자료 */
+body.redcross.morgue.form #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_morgue_form.gif");
+}
+
+/* 050300 서식자료실 */
+body.redcross.customer #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer.gif");
+}
+
+/* 060000 고객센터 */
+body.redcross.customer.faq #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer_faq.gif");
+}
+
+/* 060100 묻고답하기 */
+body.redcross.customer.faq_category #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer_faq_category.gif");
+}
+
+/* 060100 묻고답하기쓰기 */
+body.redcross.customer.faq_write #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer_faq_write.gif");
+}
+
+/* 060100 묻고답하기쓰기 */
+body.redcross.customer.complaint #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer_complaint2.gif");
+}
+
+/* 060201 직원부패및행동강령위반신고 */
+body.redcross.customer.minwon #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer_minwon.gif");
+}
+
+/* 060202 국민신문고 */
+body.redcross.customer.minwon_request #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer_minwon_request.gif");
+}
+
+/* 060203 [국민신문고]민원신청 */
+body.redcross.customer.minwon_confirm #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer_minwon_confirm.gif");
+}
+
+/* 060204 [국민신문고]나의민원 */
+body.redcross.customer.declaration #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer_declaration.gif");
+}
+
+/* 060205 예산낭비신고센터 */
+body.redcross.customer.callcenter #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer_callcenter.gif");
+}
+
+/* 060300 콜센터안내 */
+body.redcross.customer.spot #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer_spot.gif");
+}
+
+/* 060400 적십자 고객현장 */
+body.redcross.customer.ethics #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer_ethics.gif");
+}
+
+/* 060500 윤리경영안내 */
+body.redcross.customer.quidance #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer_quidance.gif");
+}
+
+/* 060600 서비스 이용안내 */
+body.redcross.customer.quidance_homepage #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer_quidance_homepage.gif");
+}
+
+/* 060601 홈페이지 주요기능 */
+body.redcross.customer.quidance_download #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer_quidance_download.gif");
+}
+
+/* 060602 뷰어 다운로드 */
+body.redcross.customer.quidance_policyofprivateinfo #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer_quidance_policyofprivateinfo.gif");
+}
+
+/* 060603 개인정보보호방침 */
+body.redcross.customer.quidance_rejectemail #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer_quidance_rejectemail.gif");
+}
+
+/* 060604 이메일 주소 수집 거부 */
+body.redcross.customer.quidance_terms #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer_quidance_terms.gif");
+}
+
+/* 060605 이용약관 */
+body.redcross.customer.quidance_infoguideline #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer_quidance_infoguideline.gif");
+}
+
+/* 060606 정보공개지침 */
+body.redcross.customer.quidance_pki #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer_quidance_pki.gif");
+}
+
+/* 060607 공인인증서 이용안내 */
+body.redcross.customer.quidance_browser #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer_quidance_browser.gif");
+}
+
+/* 060608 브라우져 다운로드 */
+body.redcross.coming #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_coming.gif");
+}
+
+/* 070000 찾아오시는 길 */
+body.redcross.coming.map #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_coming_map.gif");
+}
+
+/* 070100 약도 */
+body.redcross.coming.businessstate #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_coming_businessstate.gif");
+}
+
+/* 070200 사업장 현황 */
+body.redcross.krc.business #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_krc_business.gif");
+}
+
+/* 999999 사업소개 메인 */
+body.education.inform #area_section .page_message {
+  background-image: url("../images/pagemessage/education_inform.gif");
+}
+
+/* 010000 알립니다 */
+body.education.inform.safetylecture #area_section .page_message {
+  background-image: url("../images/pagemessage/education_inform_safetylecture.gif");
+}
+
+/* 010100 안전강습 분류 및 시행기준 */
+body.education.inform.healthlecture #area_section .page_message {
+  background-image: url("../images/pagemessage/education_inform_healthlecture.gif");
+}
+
+/* 010200 보건강습 분류 및 시행기준 */
+body.education.inform.board #area_section .page_message {
+  background-image: url("../images/pagemessage/education_inform_board.gif");
+}
+
+/* 010300 게시판 */
+body.education.safety #area_section .page_message {
+  background-image: url("../images/pagemessage/education_safety.gif");
+}
+
+/* 020000 안전교육 */
+body.education.safety.history #area_section .page_message {
+  background-image: url("../images/pagemessage/education_safety_history.gif");
+}
+
+/* 020100 안전사업연혁 */
+body.education.safety.emergency #area_section .page_message {
+  background-image: url("../images/pagemessage/education_safety_emergency.gif");
+}
+
+/* 020200 응급처치 */
+body.education.safety.rescueagent #area_section .page_message {
+  background-image: url("../images/pagemessage/education_safety_rescueagent.gif");
+}
+
+/* 020300 인명구조요원교육 */
+body.education.safety.mountain #area_section .page_message {
+  background-image: url("../images/pagemessage/education_safety_mountain.gif");
+}
+
+/* 020400 산악안전교육 */
+body.education.safety.exam #area_section .page_message {
+  background-image: url("../images/pagemessage/education_safety_exam.gif");
+}
+
+/* 020500 자격검증 */
+body.education.rescue #area_section .page_message {
+  background-image: url("../images/pagemessage/education_rescue.gif");
+}
+
+/* 030000 온라인구호교육 */
+body.education.rescue.online #area_section .page_message {
+  background-image: url("../images/pagemessage/education_rescue_online.gif");
+}
+
+/* 030100 온라인구호교육 */
+body.education.rescue.disaster #area_section .page_message {
+  background-image: url("../images/pagemessage/education_rescue_disaster.gif");
+}
+
+/* 030200 재난구호요원 온라인교육 */
+body.education.health #area_section .page_message {
+  background-image: url("../images/pagemessage/education_health.gif");
+}
+
+/* 040000 보건교육 */
+body.education.health.recuperation #area_section .page_message {
+  background-image: url("../images/pagemessage/education_health_recuperation.gif");
+}
+
+/* 040100 요양보호사교육 */
+body.education.health.family #area_section .page_message {
+  background-image: url("../images/pagemessage/education_health_family.gif");
+}
+
+/* 040200 가정보건교육 */
+body.education.health.sexeducation #area_section .page_message {
+  background-image: url("../images/pagemessage/education_health_sexeducation.gif");
+}
+
+/* 040300 청소년또래성교육 */
+body.education.health.oldereducation #area_section .page_message {
+  background-image: url("../images/pagemessage/education_health_oldereducation.gif");
+}
+
+/* 040400 노인건강교육 */
+body.education.health.mental #area_section .page_message {
+  background-image: url("../images/pagemessage/education_health_mental.gif");
+}
+
+/* 040500 심리적지지프로그램 */
+body.education.formbox #area_section .page_message {
+  background-image: url("../images/pagemessage/education_formbox.gif");
+}
+
+/* 050000 서식함 */
+body.education.formbox.document #area_section .page_message {
+  background-image: url("../images/pagemessage/education_formbox_document.gif");
+}
+
+/* 050000 서식함 */
+body.education.customer #area_section .page_message {
+  background-image: url("../images/pagemessage/education_customer.gif");
+}
+
+/* 060000 교육문의 */
+body.education.customer.qna #area_section .page_message {
+  background-image: url("../images/pagemessage/education_customer_qna.gif");
+}
+
+/* 060000 교육문의 */
+body.education.customer.write #area_section .page_message {
+  background-image: url("../images/pagemessage/education_customer_write.gif");
+}
+
+/* 060000 교육문의 글쓰기 */
+body.education.search #area_section .page_message {
+  background-image: url("../images/pagemessage/education_search.gif");
+}
+
+/* 070000 통합검색 */
+body.education.search.unified #area_section .page_message {
+  background-image: url("../images/pagemessage/education_search_unified.gif");
+}
+
+/* 070000 통합검색 */
+body.rcy.info #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_info_being.gif");
+}
+
+/* 010000 RCY되기 */
+body.rcy.info.mean #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_info_mean.gif");
+}
+
+/* 010100 RCY는? */
+body.rcy.info.koreaandworld #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_info_koreaandworld.gif");
+}
+
+/* 010200 우리나라와 세계의 RCY */
+body.rcy.info.group #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_info_group_way.gif");
+}
+
+/* 010300 RCY 창단방법 */
+body.rcy.info.music #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_info_music.gif");
+}
+
+/* 010400 RCY 단가 */
+body.rcy.info.purpose #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_info_purpose_program.gif");
+}
+
+/* 010500 RCY 활동목표 및 프로그램 */
+body.rcy.info.want #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_info_want_join.gif");
+}
+
+/* 010600 RCY 활동을 하고 싶어요 */
+body.rcy.info.baby #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_info_baby.gif");
+}
+
+/* 010601 유아적십자 */
+body.rcy.info.children #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_info_children.gif");
+}
+
+/* 010602 어린이적십자 */
+body.rcy.info.teen #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_info_teen.gif");
+}
+
+/* 010603 청소년적십자 */
+body.rcy.info.youth #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_info_youth.gif");
+}
+
+/* 010604 대학적십자 */
+body.rcy.info.community_member #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_info_community_member.gif");
+}
+
+/* 010605 커뮤니티회원 */
+body.rcy.info.local #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_info_local.gif");
+}
+
+/* 010606 지역RCY */
+body.rcy.activity #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_introduce.gif");
+}
+
+/* 020000 활동소개하기 */
+body.rcy.activity.teacherday #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_teacherday.gif");
+}
+
+/* 020100 스승의날 */
+body.rcy.activity.teacherday_introduce #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_teacherday_introduce.gif");
+}
+
+/* 020101 스승의날 소개 */
+body.rcy.activity.photoessay #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_photoessay.gif");
+}
+
+/* 020102 포토에세이 수상작 */
+body.rcy.activity.solferino #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_solferino.gif");
+}
+
+/* 020200 솔페리노의 회상 */
+body.rcy.activity.school #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_school.gif");
+}
+
+/* 020300 RCY 활동인증학교 */
+body.rcy.activity.teen #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_teen_camp.gif");
+}
+
+/* 020400 청소년 수련활동 */
+body.rcy.activity.together #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_together.gif");
+}
+
+/* 020401 Together, 아름다운 세상으로 */
+body.rcy.activity.safe_keeper #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_safe_keeper.gif");
+}
+
+/* 020402 생활속의 안전지킴이 */
+body.rcy.activity.post #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_post.gif");
+}
+
+/* 020500 RCY 봉사포스트활동 */
+body.rcy.activity.post_mean #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_post_mean.gif");
+}
+
+/* 020501 봉사포스트 활동이란? */
+body.rcy.activity.post_photo #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_post_photo.gif");
+}
+
+/* 020502 봉사포스트 활동사진 보기 */
+body.rcy.activity.global #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_global_leader_project.gif");
+}
+
+/* 020600 적십자 Global Leader Project */
+body.rcy.activity.un_message #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_un_message.gif");
+}
+
+/* 020601 반기문 UN 사무총장님의 격려 메시지 */
+body.rcy.activity.usa #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_usa.gif");
+}
+
+/* 020602 유엔 및 미국적십자사 견학 프로젝트 */
+body.rcy.activity.annual #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_annual_report.gif");
+}
+
+/* 020700 RCY 연간활동안내  */
+body.rcy.activity.meeting #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_meeting.gif");
+}
+
+/* 020800 RCY에서 만나요 */
+body.rcy.activity.tree_planting #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_tree_planting.gif");
+}
+
+/* 020801 남북 RCY 우정의 나무심기 */
+body.rcy.activity.youth_abroad #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_youth_abroad.gif");
+}
+
+/* 020802 대학적십자 해외봉사활동 */
+body.rcy.activity.ifc #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_ifc.gif");
+}
+
+/* 021000 RCY IFC */
+body.rcy.activity.green #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_green_school.gif");
+}
+
+/* 021100 우리학교 푸르게 */
+body.rcy.activity.friendship #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_activity_friendship.gif");
+}
+
+/* 029000 우정을 모읍시다 */
+body.rcy.participation #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_participation.gif");
+}
+
+/* 030000 행사참여하기 */
+body.rcy.participation.current #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_participation_current.gif");
+}
+
+/* 030100 진행중인행사 */
+body.rcy.reference #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_reference.gif");
+}
+
+/* 040000 자료보기 */
+body.rcy.reference.webhard #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_reference_webhard.gif");
+}
+
+/* 040100 RCY 웹하드 */
+body.rcy.reference.myfriend #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_reference_myfriend.gif");
+}
+
+/* 040200 RCY는 내친구 */
+body.rcy.reference.certify_activity #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_reference_certify_activity.gif");
+}
+
+/* 040201 RCY 활동인증 활동안내 */
+body.rcy.reference.program_collection #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_reference_program_collection.gif");
+}
+
+/* 040202 RCY 활동프로그램집(어린이, 청소년) */
+body.rcy.reference.together #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_reference_together.gif");
+}
+
+/* 040300 RCY와 함께하는 아름다운 세상 */
+body.rcy.reference.human_program #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_reference_human_program.gif");
+}
+
+/* 040400 RCY 인도주의 프로그램 */
+body.rcy.reference.general #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_reference_general.gif");
+}
+
+/* 040500 일반자료실 */
+body.rcy.reference.photo #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_reference_photo.gif");
+}
+
+/* 040600 사진자료실 */
+body.rcy.reference.movie #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_reference_movie.gif");
+}
+
+/* 040700 동영상자료실 */
+body.rcy.reference.magazine #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_reference_magazine.gif");
+}
+
+/* 040800 RCY 단지 */
+body.rcy.notice #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_notice.gif");
+}
+
+/* 050000 알립니다 */
+body.rcy.notice.inform #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_notice_inform.gif");
+}
+
+/* 050100 RCY에서 알립니다 */
+body.rcy.notice.focus #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_notice_focus.gif");
+}
+
+/* 050200 RCY Focus 현장스케치 */
+body.rcy.notice.reporter #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_notice_reporter.gif");
+}
+
+/* 050300 나는RCY기자다 */
+body.rcy.notice.place #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_notice_place.gif");
+}
+
+/* 050400 RCY 소문마당 */
+body.rcy.notice.village #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_notice_village.gif");
+}
+
+/* 050500 도란도란RCY마을 */
+body.rcy.notice.ambassador #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_notice_ambassador.gif");
+}
+
+/* 050600 RCY홍보대사소개를 소개합니다 */
+body.rcy.customer #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_customer.gif");
+}
+
+/* 060000 RCY문의 */
+body.rcy.customer.qna #area_section .page_message {
+  background-image: url("../images/pagemessage/rcy_customer_qna.gif");
+}
+
+/* 060100 RCY문의 */
+body.jisa.branch #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_branch.gif");
+}
+
+/* 010000 지사소개 */
+body.jisa.branch.greeting #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_branch_greeting.gif");
+}
+
+/* 010100 인사말 */
+body.jisa.branch.history #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_branch_history.gif");
+}
+
+/* 010200 연혁 */
+body.jisa.branch.organization #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_branch_organization.gif");
+}
+
+/* 010300 조직도 */
+body.jisa.branch.contactaddress #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_branch_contactaddress.gif");
+}
+
+/* 010400 업무담당 연락처 */
+body.jisa.bizintroduce #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce.gif");
+}
+
+/* 020000 사업소개 */
+body.jisa.bizintroduce.rcactivity #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_rcactivity.gif");
+}
+
+/* 적십자활동 */
+body.jisa.bizintroduce.walking #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_walking.gif");
+}
+
+/* 적십자활동 */
+body.jisa.bizintroduce.flower #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_flower.gif");
+}
+
+/* 적십자활동 */
+body.jisa.bizintroduce.toad #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_toad.gif");
+}
+
+/* 적십자활동 */
+body.jisa.bizintroduce.share #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_share.gif");
+}
+
+/* 적십자활동 */
+body.jisa.bizintroduce.support #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_support.gif");
+}
+
+/* 적십자활동 */
+body.jisa.bizintroduce.lifebox #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_lifebox.gif");
+}
+
+/* 생명의금고 */
+body.jisa.bizintroduce.rchall #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_rchall.gif");
+}
+
+/* 적십자회관 */
+body.jisa.bizintroduce.freerice #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_freerice.gif");
+}
+
+/* 무료급식소운영 */
+body.jisa.bizintroduce.specialcar #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_specialcar.gif");
+}
+
+/* 특수차량운영 */
+body.jisa.bizintroduce.reliefact #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_reliefact.gif");
+}
+
+/* 구호활동 */
+body.jisa.bizintroduce.international #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_international.gif");
+}
+
+/* 국제협력활동 */
+body.jisa.bizintroduce.reliefbiz #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_reliefbiz.gif");
+}
+
+/* 구호사업 */
+body.jisa.bizintroduce.socialservice #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_socialservice.gif");
+}
+
+/* 사회봉사 */
+body.jisa.bizintroduce.socialserviceact #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_socialserviceact.gif");
+}
+
+/* 사회봉사활동 */
+body.jisa.bizintroduce.socialservicebiz #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_socialservicebiz.gif");
+}
+
+/* 사회봉사사업 */
+body.jisa.bizintroduce.localhealthact #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_localhealthact.gif");
+}
+
+/* 지역보건활동 */
+body.jisa.bizintroduce.localhealthbiz #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_localhealthbiz.gif");
+}
+
+/* 지역보건사업 */
+body.jisa.bizintroduce.safetybiz #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_safetybiz.gif");
+}
+
+/* 안전사업 */
+body.jisa.bizintroduce.safetylocal #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_safetylocal.gif");
+}
+
+/* 안전/지역보건 */
+body.jisa.bizintroduce.safetyeducationact #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_safetyeducationact.gif");
+}
+
+/* 안전교육활동 */
+body.jisa.bizintroduce.safetyeducationaction #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_safetyeducationaction.gif");
+}
+
+/* 안전교육보급활동 */
+body.jisa.bizintroduce.rcy #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_rcy.gif");
+}
+
+/* 청소년적십자 */
+body.jisa.bizintroduce.rcyact #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_rcyact.gif");
+}
+
+/* 청소년적십자활동 */
+body.jisa.bizintroduce.rcybiz #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_rcybiz.gif");
+}
+
+/* 청소년적십자사업 */
+body.jisa.bizintroduce.oldwelfare #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_oldwelfare.gif");
+}
+
+/* 재가노인복지센터 */
+body.jisa.bizintroduce.mainactivity #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_mainactivity.gif");
+}
+
+/* 주요활동 */
+body.jisa.bizintroduce.recuperation #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_recuperation.gif");
+}
+
+/* 요양보호사교육 */
+body.jisa.bizintroduce.globalactivity #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_globalactivity.gif");
+}
+
+/* 국제교류활동 */
+body.jisa.bizintroduce.globalandlostfamily #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_globalandlostfamily.gif");
+}
+
+/* 국제활동 및 이산가족상봉 */
+body.jisa.bizintroduce.savedisaster #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_savedisaster.gif");
+}
+
+/* 재난/취약계층구호 */
+body.jisa.bizintroduce.rccamp #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_bizintroduce_rccamp.gif");
+}
+
+/* 광주적십자수련원 */
+body.jisa.bizintroduce.safetyeducation #area_section .page_message {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_safetyeducation.gif");
+}
+
+/* 안전교육   <<<<<<<<<<<<<< 여기서 부터 아래로 page_message 추가될 부분 */
+body.jisa.bizintroduce.bread #area_section .page_message {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_bread.gif");
+}
+
+/* 빵나눔터 */
+body.jisa.bizintroduce.firstmenses #area_section .page_message {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_firstmenses.gif");
+}
+
+/* 축복받는초경맞이하기 */
+body.jisa.bizintroduce.onemeterwalking #area_section .page_message {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_onemeterwalking.gif");
+}
+
+/* 1m1원걷기대회 */
+body.jisa.bizintroduce.mountainsafeteam #area_section .page_message {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_mountainsafeteam.gif");
+}
+
+/* 산악안전구조대 */
+body.jisa.bizintroduce.contest #area_section .page_message {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_contest.gif");
+}
+
+/* 백일장 및 그림그리기대회 */
+body.jisa.bizintroduce.safetyact #area_section .page_message {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_safetyact.gif");
+}
+
+/* 안전활동 */
+body.jisa.bizintroduce.loverequest #area_section .page_message {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_loverequest.gif");
+}
+
+/* 밑반찬나눔 사랑의리퀘스트 */
+body.jisa.bizintroduce.safetyhealthact #area_section .page_message {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_safetyhealthact.gif");
+}
+
+/* 안전/보건활동 */
+body.jisa.bizintroduce.brightworld #area_section .page_message {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_brightworld.gif");
+}
+
+/* 밝은세상프로그램 */
+body.jisa.bizintroduce.fixhouse #area_section .page_message {
+  background-image: url("../images/pagetitle/jisa_bizintroduce_fixhouse.gif");
+}
+
+/* 집고쳐드립니다 */
+body.jisa.publicreference #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_publicreference.gif");
+}
+
+/* 030000 홍보자료실 */
+body.jisa.publicreference.ambassador #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_publicreference_ambassador.gif");
+}
+
+/* 030100 홍보대사 */
+body.jisa.publicreference.photo #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_publicreference_photo.gif");
+}
+
+/* 030200 사진자료실 */
+body.jisa.publicreference.movie #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_publicreference_movie.gif");
+}
+
+/* 030300 동영상자료실 */
+body.jisa.publicreference.publication #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_publicreference_publication.gif");
+}
+
+/* 030400 간행물 */
+body.jisa.formreference #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_formreference.gif");
+}
+
+/* 040000 서식자료실 */
+body.jisa.news #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_news.gif");
+}
+
+/* 050000 소식란 */
+body.jisa.news.local #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_news_local.gif");
+}
+
+/* 050100 우리지역소식 */
+body.jisa.news.notice #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_news_notice.gif");
+}
+
+/* 050200 알립니다 */
+body.jisa.news.media #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_news_media.gif");
+}
+
+/* 050300 언론보도 */
+body.jisa.customer #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_customer.gif");
+}
+
+/* 060000 고객센터 */
+body.jisa.customer.ethics #area_section .page_message {
+  background-image: url("../images/pagemessage/redcross_customer_ethics_reference.gif");
+}
+
+/* 060200 청렴활동소식 */
+body.jisa.coming #area_section .page_message {
+  background-image: url("../images/pagemessage/jisa_coming.gif");
+}
+
+/* 070000 찾아오시는길 */
+body.voluntary.activity #area_section .page_message {
+  background-image: url("../images/pagemessage/voluntary_activity.gif");
+}
+
+/* 010000 자원봉사활동소개 */
+body.voluntary.activity.introduce #area_section .page_message {
+  background-image: url("../images/pagemessage/voluntary_activity_introduce.gif");
+}
+
+/* 010100 적십자봉사활동 */
+body.voluntary.activity.enjoy #area_section .page_message {
+  background-image: url("../images/pagemessage/voluntary_activity_enjoy.gif");
+}
+
+/* 010200 봉사참여방법*/
+body.voluntary.activity.training #area_section .page_message {
+  background-image: url("../images/pagemessage/voluntary_activity_training.gif");
+}
+
+/* 010301 자원봉사예비교육*/
+body.voluntary.activity.movie #area_section .page_message {
+  background-image: url("../images/pagemessage/voluntary_activity_movie.gif");
+}
+
+/* 010302 대한적십자사소개영상 */
+body.voluntary.activity.relationship #area_section .page_message {
+  background-image: url("../images/pagemessage/voluntary_activity_relationship.gif");
+}
+
+/* 010303 어버이결연봉사활동 */
+body.voluntary.participation #area_section .page_message {
+  background-image: url("../images/pagemessage/voluntary_participation.gif");
+}
+
+/* 020000 봉사참여하기 */
+body.voluntary.participation.diy #area_section .page_message {
+  background-image: url("../images/pagemessage/voluntary_participation_diy.gif");
+}
+
+/* 020100 희망 DIY 네트워크 */
+body.voluntary.participation.diy.reg.normal #area_section .page_message {
+  background-image: url("../images/pagemessage/voluntary_participation_diy_regsupport.gif");
+}
+
+/* 020100 희망 DIY 네트워크 */
+body.voluntary.participation.volunteer #area_section .page_message {
+  background-image: url("../images/pagemessage/voluntary_participation_volunteer.gif");
+}
+
+/* 020200 행복한 봉사참여 */
+body.voluntary.empathy #area_section .page_message {
+  background-image: url("../images/pagemessage/voluntary_enjoyment.gif");
+}
+
+/* 040000 봉사즐기기 */
+body.voluntary.empathy.news #area_section .page_message {
+  background-image: url("../images/pagemessage/voluntary_enjoyment_photo.gif");
+}
+
+/* 040100 포토갤러리 */
+body.voluntary.empathy.society #area_section .page_message {
+  background-image: url("../images/pagemessage/voluntary_enjoyment_impression.gif");
+}
+
+/* 040200 감동100% */
+body.voluntary.empathy.club #area_section .page_message {
+  background-image: url("../images/pagemessage/voluntary_activity_club.gif");
+}
+
+/* 040400 봉사 이벤트 */
+body.voluntary.empathy.honor #area_section .page_message {
+  background-image: url("../images/pagemessage/voluntary_empathy_honors.gif");
+}
+
+/* 040400 봉사 이벤트 */
+body.voluntary.empathy.photo #area_section .page_message {
+  background-image: url("../images/pagemessage/voluntary_empathy_photo.gif");
+}
+
+/* 040400 포토에세이공감 */
+body.voluntary.question #area_section .page_message {
+  background-image: url("../images/pagemessage/voluntary_question.gif");
+}
+
+/* 050000 봉사문의 */
+body.voluntary.question.detail #area_section .page_message {
+  background-image: url("../images/pagemessage/voluntary_question_detail.gif");
+}
+
+/* 050000 봉사문의 */
+body.voluntary.question.write #area_section .page_message {
+  background-image: url("../images/pagemessage/voluntary_question_write.gif");
+}
+
+/* 050000 봉사문의 글쓰기 */
+body.windmill.support #area_section .page_message {
+  background-image: url("../images/pagemessage/windmill_support.gif");
+}
+
+/* 020100 희망풍차 */
+body.windmill.support.youth #area_section .page_message {
+  background-image: url("../images/pagemessage/windmill_support_youth.jpg");
+}
+
+/* 020101 희망풍차 아동 청소년 */
+body.windmill.support.old #area_section .page_message {
+  background-image: url("../images/pagemessage/windmill_support_old.jpg");
+}
+
+/* 020102 희망풍차 어르신 */
+body.windmill.support.culture #area_section .page_message {
+  background-image: url("../images/pagemessage/windmill_support_culture.jpg");
+}
+
+/* 020103 희망풍차 다문화 */
+body.windmill.support.north #area_section .page_message {
+  background-image: url("../images/pagemessage/windmill_support_north.jpg");
+}
+
+/* 020104 희망풍차 북한이주민 */
+/* section 영역 - 각 페이지 메세지 높이 정의 */
+body.member.register #area_section .page_message {
+  height: 70px;
+}
+
+/* 010000 회원가입 */
+body.member.register.general #area_section .page_message {
+  height: 70px;
+}
+
+/* 010100 일반회원가입 */
+body.member.register.general_kids #area_section .page_message {
+  height: 70px;
+}
+
+/* 010100 일반회원가입 */
+body.member.register.donation #area_section .page_message {
+  height: 70px;
+}
+
+/* 010200 후원회원가입 */
+body.member.register.volunteer #area_section .page_message {
+  height: 70px;
+}
+
+/* 010300 봉사회원가입 */
+body.member.register.rcy #area_section .page_message {
+  height: 70px;
+}
+
+/* 010400 RCY단원 */
+body.member.register.rcycommunity #area_section .page_message {
+  height: 70px;
+}
+
+/* 010500 RCY지도자 */
+body.member.findid #area_section .page_message {
+  height: 148px;
+}
+
+/* 020000 아이디 찾기 */
+body.member.findpwd #area_section .page_message {
+  height: 148px;
+}
+
+/* 030000 비밀번호 찾기 */
+body.member.login #area_section .page_message {
+  height: 30px;
+}
+
+/* 040000 로그인 */
+body.member.logout #area_section .page_message {
+  height: 70px;
+}
+
+/* 050000 로그아웃 */
+body.member.changepwd #area_section .page_message {
+  height: 106px;
+}
+
+/* 060000 비밀번호변경 */
+body.member.out #area_section .page_message {
+  height: 70px;
+}
+
+/* 070000 회원탈퇴 */
+body.member.pkilogin #area_section .page_message {
+  height: 140px;
+}
+
+/* 080000 로그인 */
+body.member.certify #area_section .page_message {
+  height: 70px;
+}
+
+/* 090000 회원인증 */
+body.mypage.mypage_general #area_section .page_message {
+  height: 58px;
+}
+
+/* 010000 일반 */
+body.mypage.mypage_general.memberinfo #area_section .page_message {
+  height: 58px;
+}
+
+/* 010100 개인정보수정 */
+body.mypage.mypage_general.question #area_section .page_message {
+  height: 58px;
+}
+
+/* 010200 질문모아보기 */
+body.mypage.mypage_general.complaint #area_section .page_message {
+  height: 58px;
+}
+
+/* 010300 나의신문고 */
+body.mypage.mypage_general.corruption #area_section .page_message {
+  height: 58px;
+}
+
+/* 010600 직원 부패 및 행동강령 신문고 */
+body.mypage.mypage_general.special #area_section .page_message {
+  height: 58px;
+}
+
+/* 010600 직원 부패 및 행동강령 신문고 */
+body.mypage.mypage_general.comment #area_section .page_message {
+  height: 58px;
+}
+
+/* 010400 댓글모음란 */
+body.mypage.mypage_general.memberout #area_section .page_message {
+  height: 58px;
+}
+
+/* 010500 회원탈퇴 */
+body.mypage.mypage_general.declaration #area_section .page_message {
+  height: 58px;
+}
+
+/* 010700 예산신고제안센터 */
+body.mypage.mypage_donation #area_section .page_message {
+  height: 58px;
+}
+
+/* 020000 후원 */
+body.mypage.mypage_donation.memberinfo #area_section .page_message {
+  height: 58px;
+}
+
+/* 020100 후원회원정보수정 */
+body.mypage.mypage_donation.breakdown #area_section .page_message {
+  height: 58px;
+}
+
+/* 020200 후원내역조회 */
+body.mypage.mypage_donation.mybadge #area_section .page_message {
+  height: 58px;
+}
+
+/* 020300 나의뱃지현황 */
+body.mypage.mypage_donation.confirmation #area_section .page_message {
+  height: 58px;
+}
+
+/* 020400 후원회원확인서 */
+body.mypage.mypage_donation.paydonation #area_section .page_message {
+  height: 58px;
+}
+
+/* 020500 지난후원금내기 */
+body.mypage.mypage_donation.paydonation_end #area_section .page_message {
+  height: 58px;
+}
+
+/* 020500 지난후원금내기완료 */
+body.mypage.mypage_donation.receiption #area_section .page_message {
+  height: 58px;
+}
+
+/* 020600 기부금영수증 */
+body.mypage.mypage_donation.guide #area_section .page_message {
+  height: 58px;
+}
+
+/* 020700 후원가이드 */
+body.mypage.mypage_donation.out #area_section .page_message {
+  height: 58px;
+}
+
+/* 020800 후원회원탈퇴 */
+body.mypage.mypage_volunteer #area_section .page_message {
+  height: 58px;
+}
+
+/* 030000 봉사 */
+body.mypage.mypage_volunteer.memberinfo #area_section .page_message {
+  height: 58px;
+}
+
+/* 030100 봉사회원정보수정 */
+body.mypage.mypage_volunteer.breakdown #area_section .page_message {
+  height: 58px;
+}
+
+/* 030200 봉사신청/참여내역 */
+body.mypage.mypage_volunteer.diary #area_section .page_message {
+  height: 58px;
+}
+
+/* 030300 봉사일기 */
+body.mypage.mypage_volunteer.finishcoursestate #area_section .page_message {
+  height: 58px;
+}
+
+/* 030400 사이버봉사원교육이수현황 */
+body.mypage.mypage_volunteer.photo #area_section .page_message {
+  height: 58px;
+}
+
+/* 030500 포토갤러리 */
+body.mypage.mypage_volunteer.event #area_section .page_message {
+  height: 58px;
+}
+
+/* 030600 나의 이벤트 */
+body.mypage.mypage_volunteer.quiz #area_section .page_message {
+  height: 58px;
+}
+
+/* 030700 봉사시간 획득퀴즈 */
+body.mypage.mypage_volunteer.localcommunity #area_section .page_message {
+  height: 58px;
+}
+
+/* 030800 지역별모임방 */
+body.mypage.mypage_volunteer.memberout #area_section .page_message {
+  height: 58px;
+}
+
+/* 030900 봉사회원 탈퇴 */
+body.mypage.mypage_education #area_section .page_message {
+  height: 58px;
+}
+
+/* 040000 교육 */
+body.mypage.mypage_education.finishbreakdown #area_section .page_message {
+  height: 58px;
+}
+
+/* 040100 나의교육신청내역 */
+body.mypage.mypage_education.applybreakdown #area_section .page_message {
+  height: 58px;
+}
+
+/* 040200 나의자격검정내역 */
+body.mypage.myrcy #area_section .page_message {
+  height: 58px;
+}
+
+/* 050000 RCY */
+body.mypage.myrcy.memberinfo #area_section .page_message {
+  height: 58px;
+}
+
+/* 050300 RCY회원정보수정 */
+body.mypage.myrcy.history #area_section .page_message {
+  height: 58px;
+}
+
+/* 050100 RCY이력 */
+body.mypage.myrcy.acthistory #area_section .page_message {
+  height: 58px;
+}
+
+/* 050200 행사참가이력 */
+body.donation.participation #area_section .page_message {
+  height: 0px;
+}
+
+/* 010000 후원참여 */
+body.donation.participation.reg #area_section .page_message {
+  height: 76px;
+}
+
+/* 010100 정기후원 */
+body.donation.participation.reg.normal #area_section .page_message {
+  height: 76px;
+}
+
+/* 010100 정기후원 - 후원회원가입신청 */
+body.donation.participation.youth #area_section .page_message {
+  height: 181px;
+}
+
+/* 010200 어린이/청소년후원 */
+body.donation.participation.youth.reg #area_section .page_message {
+  height: 175px;
+}
+
+/* 010200 어린이/청소년후원 - 후원회원가입신청 */
+body.donation.participation.prenatal #area_section .page_message {
+  height: 76px;
+}
+
+/* 010300 나눔태교 */
+body.donation.participation.prenatal.reg #area_section .page_message {
+  height: 175px;
+}
+
+/* 010300 나눔태교 - 후원회원가입신청 */
+body.donation.participation.nameplate #area_section .page_message {
+  height: 76px;
+}
+
+/* 010400 희망나눔명패 */
+body.donation.participation.anniversary #area_section .page_message {
+  height: 76px;
+}
+
+/* 010500 기념일 기부 */
+body.donation.participation.anniversary.nrggibu.birthday #area_section .page_message {
+  height: 175px;
+}
+
+/* 010500 기념일 기부 - 생일 */
+body.donation.participation.anniversary.nrggibu.couple #area_section .page_message {
+  height: 175px;
+}
+
+/* 010500 기념일 기부 - 커플기념일 */
+body.donation.participation.anniversary.nrggibu.wedding #area_section .page_message {
+  height: 175px;
+}
+
+/* 010500 기념일 기부 - 결혼 */
+body.donation.participation.anniversary.nrggibu.wedding_memorial #area_section .page_message {
+  height: 175px;
+}
+
+/* 010500 기념일 기부 - 결혼기념일 */
+body.donation.participation.anniversary.nrggibu.firstbirthday #area_section .page_message {
+  height: 175px;
+}
+
+/* 010500 기념일 기부 - 돌잔치 */
+body.donation.participation.anniversary.nrggibu.entrance #area_section .page_message {
+  height: 175px;
+}
+
+/* 010500 기념일 기부 - 입학 */
+body.donation.participation.anniversary.nrggibu.graduation #area_section .page_message {
+  height: 175px;
+}
+
+/* 010500 기념일 기부 - 졸업 */
+body.donation.participation.anniversary.nrggibu.my_memorial #area_section .page_message {
+  height: 175px;
+}
+
+/* 010500 기념일 기부 - 나만의기념일 */
+body.donation.participation.anniversary.nrggibu.work #area_section .page_message {
+  height: 175px;
+}
+
+/* 010500 기념일 기부 - 직장인기부 */
+body.donation.participation.anniversary_introduce #area_section .page_message {
+  height: 76px;
+}
+
+/* 010501 기념일 기부란? */
+body.donation.participation.anniversary_story #area_section .page_message {
+  height: 76px;
+}
+
+/* 010502 사연 게시판 */
+body.donation.participation.worker #area_section .page_message {
+  height: 76px;
+}
+
+/* 010600 더 나은 미래를 위한 실천(유산기부) */
+body.donation.participation.worker.nrggibu #area_section .page_message {
+  height: 175px;
+}
+
+/* 010600 직장인기부 - 일시후원참여하기 */
+body.donation.participation.worker.reg.normal #area_section .page_message {
+  height: 175px;
+}
+
+/* 010600 직장인기부 - 후원회원가입신청 */
+body.donation.participation.inheritance #area_section .page_message {
+  height: 76px;
+}
+
+/* 010700 더 나은 미래를 위한 실천(유산기부) */
+body.donation.participation.onetime #area_section .page_message {
+  height: 76px;
+}
+
+/* 010800 일시후원(Red Cross Story) */
+body.donation.participation.onetime.nrggibu #area_section .page_message {
+  height: 76px;
+}
+
+/* 010801 Red Cross Movement */
+body.donation.participation.onetime_movement #area_section .page_message {
+  height: 0px;
+}
+
+/* 010801 Red Cross Movement */
+body.donation.participation.onetime_comment #area_section .page_message {
+  height: 0px;
+}
+
+/* 010802 일시후원 한마디 */
+body.donation.participation.fee #area_section .page_message {
+  height: 0px;
+}
+
+/* 010900 적십자회비 */
+body.donation.participation.fee_introduce.nrggibu #area_section .page_message {
+  height: 152px;
+  margin-bottom: 0px;
+}
+
+/* 010900 적십자회비 */
+body.donation.participation.fee_introduce #area_section .page_message {
+  height: 0px;
+}
+
+/* 010901 적십자 회비란? */
+body.donation.participation.fee_breakdown #area_section .page_message {
+  height: 152px;
+  margin-bottom: 0px;
+}
+
+/* 010902 희망(之路)확인 */
+body.donation.participation.fee_movie #area_section .page_message {
+  height: 0px;
+}
+
+/* 010903 회비모금자료실 */
+body.donation.participation.fee_faq #area_section .page_message {
+  height: 58px;
+}
+
+/* 010904 적십자회비 묻고답하기 */
+body.donation.participation.project #area_section .page_message {
+  height: 76px;
+}
+
+/* 011000 프로젝트 후원 */
+body.donation.participation.project.nrggibu #area_section .page_message {
+  height: 76px;
+}
+
+/* 011000 프로젝트 후원 */
+body.donation.participation.international #area_section .page_message {
+  height: 76px;
+}
+
+/* 011100 국제활동 후원 */
+body.donation.participation.international_pay #area_section .page_message {
+  height: 76px;
+}
+
+/* 011101 국제활동 후원 하기*/
+body.donation.participation.international_water #area_section .page_message {
+  height: 447px;
+}
+
+/* 011102 물과위생 */
+body.donation.participation.international.nrggibu #area_section .page_message {
+  height: 76px;
+}
+
+/* 011100 국제활동 후원 */
+body.donation.participation.company #area_section .page_message {
+  height: 76px;
+}
+
+/* 011200 기업 후원 */
+body.donation.participation.company_introduce #area_section .page_message {
+  height: 76px;
+}
+
+/* 011201 사회협력이란? */
+body.donation.participation.company_cowokers #area_section .page_message {
+  height: 76px;
+}
+
+/* 011202 협력업체 */
+body.donation.participation.company_campaign #area_section .page_message {
+  height: 76px;
+}
+
+/* 011203 공동캠페인 */
+body.donation.participation.passbook #area_section .page_message {
+  height: 76px;
+}
+
+/* 011300 희망풍차희망나눔통장 */
+body.donation.power #area_section .page_message {
+  height: 0px;
+}
+
+/* 020000 후원의 힘 */
+body.donation.power.international #area_section .page_message {
+  height: 0px;
+}
+
+/* 020100 국제활동 */
+body.donation.power.international_news #area_section .page_message {
+  height: 58px;
+}
+
+/* 020101 대한적십자사 국제활동 소식 */
+body.donation.power.international_wwr #area_section .page_message {
+  height: 58px;
+}
+
+/* 020102 World Wide RedCross */
+body.donation.power.domestic #area_section .page_message {
+  height: 58px;
+}
+
+/* 020200 국내활동 */
+body.donation.power.report #area_section .page_message {
+  height: 0px;
+}
+
+/* 020300 사업보고서 */
+body.donation.question.detail #area_section .page_message {
+  height: 80px;
+}
+
+/* 030000 후원문의 서비스 */
+body.donation.question.detail_write #area_section .page_message {
+  height: 80px;
+}
+
+/* 030000 후원문의 등록 */
+body.donation.memberservice #area_section .page_message {
+  height: 67px;
+}
+
+/* 030000 후원회원 서비스 */
+body.donation.memberservice.donationinfo #area_section .page_message {
+  height: 67px;
+}
+
+/* 030100 후원회원정보변경 */
+body.donation.memberservice.breakdown #area_section .page_message {
+  height: 67px;
+}
+
+/* 030200 후원내역조회 */
+body.donation.memberservice.correction #area_section .page_message {
+  height: 67px;
+}
+
+/* 030300 후원금 상향조정 */
+body.donation.memberservice.receiption #area_section .page_message {
+  height: 67px;
+}
+
+/* 030400 기부금 영수증 */
+body.donation.memberservice.guide #area_section .page_message {
+  height: 0px;
+}
+
+/* 030500 후원가이드 */
+body.donation.memberservice.inquiry #area_section .page_message {
+  height: 0px;
+}
+
+/* 030600 후원문의 */
+body.redcross.krc #area_section .page_message {
+  height: 0px;
+}
+
+/* 000000 대한적십자사 메인페이지 */
+body.redcross.krc #area_section .page_message {
+  height: 0px;
+}
+
+/* 010000 대한적십자사 */
+body.redcross.krc.introduce #area_section .page_message {
+  height: 0px;
+}
+
+/* 010100 소개 */
+body.redcross.krc.greeting #area_section .page_message {
+  height: 96px;
+}
+
+/* 010200 인사말 */
+body.redcross.krc.history #area_section .page_message {
+  height: 96px;
+}
+
+/* 010300 연혁 */
+body.redcross.krc.strategy2020 #area_section .page_message {
+  height: 0px;
+}
+
+/* 010400 전략2020 */
+body.redcross.krc.organization #area_section .page_message {
+  height: 96px;
+}
+
+/* 010500 조직 */
+body.redcross.krc.businessdept #area_section .page_message {
+  height: 96px;
+}
+
+/* 010600 업무별담당자 */
+body.redcross.krc.law #area_section .page_message {
+  height: 96px;
+}
+
+/* 010700 적십자 법규집 */
+body.redcross.rcmovement #area_section .page_message {
+  height: 0px;
+}
+
+/* 020000 국제적십자 운동 */
+body.redcross.rcmovement.movement #area_section .page_message {
+  height: 40px;
+}
+
+/* 020100 국제적십자운동의 이해 */
+body.redcross.rcmovement.strategy2020 #area_section .page_message {
+  height: 0px;
+}
+
+/* 020200 전략2020 */
+body.redcross.rcmovement.bornbackground #area_section .page_message {
+  height: 0px;
+}
+
+/* 020300 탄생배경 */
+body.redcross.rcmovement.ideology #area_section .page_message {
+  height: 0px;
+}
+
+/* 020400 정신과 이념 */
+body.redcross.rcmovement.composition #area_section .page_message {
+  height: 0px;
+}
+
+/* 020500 구성 */
+body.redcross.rcmovement.decisionmaking #area_section .page_message {
+  height: 0px;
+}
+
+/* 020600 의결기구 */
+body.redcross.rcmovement.humanitariallaw #area_section .page_message {
+  height: 0px;
+}
+
+/* 020700 국제인도법 */
+body.redcross.rcmovement.humanitariallaw_introduce #area_section .page_message {
+  height: 0px;
+}
+
+/* 020701 국제인도법이란 */
+body.redcross.rcmovement.humanitariallaw_emblem #area_section .page_message {
+  height: 0px;
+}
+
+/* 020702 적십자 표장 */
+body.redcross.publicrelation #area_section .page_message {
+  height: 78px;
+}
+
+/* 030000 적십자 홍보관 */
+body.redcross.publicrelation.campaign #area_section .page_message {
+  height: 50px;
+}
+
+/* 030100 홍모캠페인 */
+body.redcross.publicrelation.campaign_people #area_section .page_message {
+  height: 50px;
+}
+
+/* 030101 희망을 지키는 사람들 캠페인 */
+body.redcross.publicrelation.campaign_contestgallery #area_section .page_message {
+  height: 50px;
+}
+
+/* 030102 착한광고 공모전 */
+body.redcross.publicrelation.ambassador #area_section .page_message {
+  height: 78px;
+}
+
+/* 030200 홍보대사 */
+body.redcross.publicrelation.photo #area_section .page_message {
+  height: 78px;
+}
+
+/* 030300 홍보 사진 */
+body.redcross.publicrelation.movie #area_section .page_message {
+  height: 78px;
+}
+
+/* 030400 홍보 동영상 */
+body.redcross.publicrelation.contestgallery #area_section .page_message {
+  height: 78px;
+}
+
+/* 030500 공모전 수상작 */
+body.redcross.publicrelation.contestgallery_2nd #area_section .page_message {
+  height: 78px;
+}
+
+/* 030501 2회(2011) */
+body.redcross.publicrelation.contestgallery_1st #area_section .page_message {
+  height: 78px;
+}
+
+/* 030502 1회(2010) */
+body.redcross.publicrelation.publication #area_section .page_message {
+  height: 78px;
+}
+
+/* 030600 간행물 */
+body.redcross.publicrelation.publication_report #area_section .page_message {
+  height: 78px;
+}
+
+/* 030601 사업보고서 */
+body.redcross.publicrelation.publication_news #area_section .page_message {
+  height: 78px;
+}
+
+/* 030602 적십자소식지 */
+body.redcross.publicrelation.publication_publication #area_section .page_message {
+  height: 78px;
+}
+
+/* 030603 홍보간행물 */
+body.redcross.publicrelation.publication_movement #area_section .page_message {
+  height: 0px;
+}
+
+/* 030604 국제적십자 운동 */
+body.redcross.publicrelation.publication_education #area_section .page_message {
+  height: 0px;
+}
+
+/* 030605 교육간행물 */
+body.redcross.publicrelation.publication_rcy #area_section .page_message {
+  height: 0px;
+}
+
+/* 030606 RCY단지 */
+body.redcross.publicrelation.human #area_section .page_message {
+  height: 0px;
+}
+
+/* 030700 인도주의 교육영상 */
+body.redcross.publicrelation.cybermuseum #area_section .page_message {
+  height: 0px;
+}
+
+/* 030700 사이버박물관 */
+body.redcross.publicrelation.emblem #area_section .page_message {
+  height: 78px;
+}
+
+/* 030800 적십자 표장 */
+body.redcross.publicrelation.song #area_section .page_message {
+  height: 78px;
+}
+
+/* 030900 적십자 노래 */
+body.redcross.publicrelation.logo #area_section .page_message {
+  height: 78px;
+}
+
+/* 031000 적십자 로고/캐릭터 */
+body.redcross.whatsnew #area_section .page_message {
+  height: 0px;
+}
+
+/* 040000 실시간 소식통 */
+body.redcross.whatsnew.announcement #area_section .page_message {
+  height: 0px;
+}
+
+/* 040100 알립니다 */
+body.redcross.whatsnew.notice #area_section .page_message {
+  height: 0px;
+}
+
+/* 040200 공고 */
+body.redcross.whatsnew.notice_general #area_section .page_message {
+  height: 0px;
+}
+
+/* 040201 일반공고 */
+body.redcross.whatsnew.notice_bids #area_section .page_message {
+  height: 0px;
+}
+
+/* 040202 입찰공고 */
+body.redcross.whatsnew.notice_openingbids #area_section .page_message {
+  height: 0px;
+}
+
+/* 040203 개찰결과 */
+body.redcross.whatsnew.news #area_section .page_message {
+  height: 0px;
+}
+
+/* 040300 적십자 뉴스 */
+body.redcross.whatsnew.news_media #area_section .page_message {
+  height: 0px;
+}
+
+/* 040301 언론보도 */
+body.redcross.whatsnew.news_press #area_section .page_message {
+  height: 0px;
+}
+
+/* 040302 보도자료 */
+body.redcross.whatsnew.news_news #area_section .page_message {
+  height: 0px;
+}
+
+/* 040303 새소식 */
+body.redcross.whatsnew.event #area_section .page_message {
+  height: 0px;
+}
+
+/* 040400 실시간소식통 이벤트 */
+body.redcross.whatsnew.survey #area_section .page_message {
+  height: 0px;
+}
+
+/* 040500 설문조사 */
+body.redcross.whatsnew.recruit #area_section .page_message {
+  height: 0px;
+}
+
+/* 채용공고 */
+body.redcross.morgue #area_section .page_message {
+  height: 0px;
+}
+
+/* 050000 정보자료센터 */
+body.redcross.morgue.publicannouncement #area_section .page_message {
+  height: 0px;
+}
+
+/* 050100 경영공시자료 */
+body.redcross.morgue.publicannouncement_summary #area_section .page_message {
+  height: 0px;
+}
+
+/* 050101 경영공시 */
+body.redcross.morgue.publicannouncement_result #area_section .page_message {
+  height: 0px;
+}
+
+/* 050102 사업계획 및 사업실적 */
+body.redcross.morgue.inspection #area_section .page_message {
+  height: 0px;
+}
+
+/* 050200 국정감시자료 */
+body.redcross.morgue.form #area_section .page_message {
+  height: 0px;
+}
+
+/* 050300 서식자료실 */
+body.redcross.customer #area_section .page_message {
+  height: 100px;
+}
+
+/* 060000 고객센터 */
+body.redcross.customer.faq #area_section .page_message {
+  height: 80px;
+}
+
+/* 060100 묻고답하기 */
+body.redcross.customer.faq_category #area_section .page_message {
+  height: 80px;
+}
+
+/* 060100 묻고답하기쓰기 */
+body.redcross.customer.faq_write #area_section .page_message {
+  height: 80px;
+}
+
+/* 060100 묻고답하기쓰기 */
+body.redcross.customer.complaint #area_section .page_message {
+  height: 76px;
+}
+
+/* 060200 신문고 */
+body.redcross.customer.callcenter #area_section .page_message {
+  height: 58px;
+}
+
+/* 060300 콜센터안내 */
+body.redcross.customer.spot #area_section .page_message {
+  height: 58px;
+}
+
+/* 060400 적십자 고객현장 */
+body.redcross.customer.quidance #area_section .page_message {
+  height: 76px;
+}
+
+/* 060500 서비스 이용안내 */
+body.redcross.customer.quidance_homepage #area_section .page_message {
+  height: 76px;
+}
+
+/* 060501 홈페이지 주요기능 */
+body.redcross.customer.quidance_download #area_section .page_message {
+  height: 76px;
+}
+
+/* 060502 뷰어 다운로드 */
+body.redcross.customer.quidance_policyofprivateinfo #area_section .page_message {
+  height: 112px;
+}
+
+/* 060503 개인정보보호방침 */
+body.redcross.customer.quidance_rejectemail #area_section .page_message {
+  height: 58px;
+}
+
+/* 060504 이메일 주소 수집 거부 */
+body.redcross.customer.quidance_terms #area_section .page_message {
+  height: 58px;
+}
+
+/* 060505 이용약관 */
+body.redcross.customer.quidance_infoguideline #area_section .page_message {
+  height: 58px;
+}
+
+/* 060506 정보공개지침 */
+body.redcross.customer.quidance_pki #area_section .page_message {
+  height: 76px;
+}
+
+/* 060507 공인인증서 이용안내 */
+body.redcross.customer.quidance_browser #area_section .page_message {
+  height: 76px;
+}
+
+/* 060508 브라우져 다운로드 */
+body.redcross.coming #area_section .page_message {
+  height: 0px;
+}
+
+/* 070000 찾아오시는 길 */
+body.redcross.coming.map #area_section .page_message {
+  height: 58px;
+}
+
+/* 070100 약도 */
+body.redcross.coming.businessstate #area_section .page_message {
+  height: 0px;
+}
+
+/* 070200 사업장 현황 */
+body.redcross.krc.business #area_section .page_message {
+  height: 0px;
+}
+
+/* 999999 사업소개 메인 */
+body.mypage.mypage_mypage #area_section .page_message {
+}
+
+/* 010000 일반 */
+body.mypage.mypage_privateinfo.mypage_privateinfo #area_section .page_message {
+  height: 67px;
+}
+
+/* 010100 개인정보수정 */
+body.mypage.mypage_question.mypage_question #area_section .page_message {
+  height: 68px;
+}
+
+/* 010200 질문모아보기 */
+body.mypage.mypage_complaint.mypage_complaint #area_section .page_message {
+}
+
+/* 010300 나의신문고 */
+body.mypage.mypage_corruption.mypage_corruption #area_section .page_message {
+}
+
+/* 010600 직원 부패 및 행동강령 신문고 */
+body.mypage.mypage_corruption.mypage_special #area_section .page_message {
+}
+
+body.mypage.mypage_comment.mypage_comment #area_section .page_message {
+}
+
+/* 010400 댓글모음란 */
+body.mypage.mypage_memberout.mypage_memberout #area_section .page_message {
+}
+
+/* 010500 회원탈퇴 */
+body.mypage.mypage_donation #area_section .page_message {
+}
+
+/* 020000 후원 */
+body.mypage.mypage_donationinfo.mypage_donationinfo #area_section .page_message {
+}
+
+/* 020100 후원회원정보수정 */
+body.mypage.mypage_donationlist.mypage_donationlist #area_section .page_message {
+  height: 68px;
+}
+
+/* 020200 후원내역조회 */
+body.mypage.mypage_mybadge.mypage_mybadge #area_section .page_message {
+}
+
+/* 020300 나의뱃지현황 */
+body.mypage.mypage_confirmation.mypage_confirmation #area_section .page_message {
+  height: 70px;
+}
+
+/* 020400 후원회원확인서 */
+body.mypage.mypage_paydonation.mypage_paydonation #area_section .page_message {
+  height: 68px;
+}
+
+/* 020500 지난후원금내기 */
+body.mypage.mypage_paydonation.mypage_paydonation_end #area_section .page_message {
+  height: 68px;
+}
+
+/* 020500 지난후원금내기완료 */
+body.mypage.mypage_receiption.mypage_receiption #area_section .page_message {
+  height: 68px;
+}
+
+/* 020600 기부금영수증 */
+body.mypage.mypage_donationguide.mypage_donationguide #area_section .page_message {
+  height: 68px;
+}
+
+/* 020700 후원가이드 */
+body.mypage.mypage_outdonation.mypage_outdonation #area_section .page_message {
+}
+
+/* 020800 후원회원탈퇴 */
+body.mypage.mypage_volunteer #area_section .page_message {
+}
+
+/* 030000 봉사 */
+body.mypage.mypage_volunteer.memberinfo #area_section .page_message {
+}
+
+/* 030100 봉사회원정보수정 */
+body.mypage.mypage_volunteer.breakdown #area_section .page_message {
+}
+
+/* 030200 봉사신청/참여내역 */
+body.mypage.mypage_volunteer.diary #area_section .page_message {
+}
+
+/* 030300 봉사일기 */
+body.mypage.mypage_volunteer.finishcoursestate #area_section .page_message {
+}
+
+/* 030400 사이버봉사원교육이수현황 */
+body.mypage.mypage_volunteer.photo #area_section .page_message {
+}
+
+/* 030500 포토갤러리 */
+body.mypage.mypage_volunteer.event #area_section .page_message {
+}
+
+/* 030600 나의 이벤트 */
+body.mypage.mypage_volunteer.quiz #area_section .page_message {
+}
+
+/* 030700 봉사시간 획득퀴즈 */
+body.mypage.mypage_volunteer.localcommunity #area_section .page_message {
+}
+
+/* 030800 지역별모임방 */
+body.mypage.mypage_volunteer.memberout #area_section .page_message {
+}
+
+/* 030900 봉사회원 탈퇴 */
+body.mypage.mypage_education #area_section .page_message {
+}
+
+/* 040000 교육신청 */
+body.mypage.mypage_education.coursefinish #area_section .page_message {
+}
+
+/* 040100 교육이수내역 */
+body.mypage.mypage_education.applybreakdown #area_section .page_message {
+}
+
+/* 040200 교육신청내역 */
+body.mypage.mypage_rcy #area_section .page_message {
+}
+
+/* 050000 RCY */
+body.education.inform #area_section .page_message {
+}
+
+/* 010000 알립니다 */
+body.education.inform.safetylecture #area_section .page_message {
+  height: 58px;
+}
+
+/* 010100 안전강습 분류 및 시행기준 */
+body.education.inform.healthlecture #area_section .page_message {
+  height: 58px;
+}
+
+/* 010200 보건강습 분류 및 시행기준 */
+body.education.inform.board #area_section .page_message {
+  height: 58px;
+}
+
+/* 010300 게시판 */
+body.education.safety #area_section .page_message {
+}
+
+/* 020000 안전교육 */
+body.education.safety.history #area_section .page_message {
+}
+
+/* 020100 안전사업연혁 */
+body.education.safety.emergency #area_section .page_message {
+}
+
+/* 020200 응급처치 */
+body.education.safety.rescueagent #area_section .page_message {
+}
+
+/* 020300 인명구조요원교육 */
+body.education.safety.mountain #area_section .page_message {
+}
+
+/* 020400 산악안전교육 */
+body.education.safety.exam #area_section .page_message {
+}
+
+/* 020400 산악안전교육 */
+body.education.rescue #area_section .page_message {
+}
+
+/* 030000 온라인구호교육 */
+body.education.rescue.online #area_section .page_message {
+}
+
+/* 030100 온라인구호교육 */
+body.education.health #area_section .page_message {
+}
+
+/* 040000 보건교육 */
+body.education.health.recuperation #area_section .page_message {
+}
+
+/* 040100 요양보호사교육 */
+body.education.health.family #area_section .page_message {
+}
+
+/* 040200 가정보건교육 */
+body.education.health.sexeducation #area_section .page_message {
+}
+
+/* 040300 청소년또래성교육 */
+body.education.health.oldereducation #area_section .page_message {
+}
+
+/* 040400 노인건강교육 */
+body.education.health.mental #area_section .page_message {
+}
+
+/* 040500 심리적지지프로그램 */
+body.education.formbox #area_section .page_message {
+}
+
+/* 050000 서식함 */
+body.education.formbox.document #area_section .page_message {
+}
+
+/* 050000 서식함 */
+body.education.customer #area_section .page_message {
+}
+
+/* 060000 교육문의 */
+body.education.customer.qna #area_section .page_message {
+  height: 80px;
+}
+
+/* 060000 교육문의 */
+body.education.customer.write #area_section .page_message {
+  height: 80px;
+}
+
+/* 060000 교육문의 글쓰기 */
+body.education.search #area_section .page_message {
+}
+
+/* 070000 통합검색 */
+body.education.search.unified #area_section .page_message {
+  height: 58px;
+}
+
+/* 070000 통합검색 */
+body.voluntary.activity #area_section .page_message {
+}
+
+/* 010000 자원봉사활동소개 */
+body.voluntary.activity.introduce #area_section .page_message {
+  height: 76px;
+}
+
+/* 010100 봉사활동소개 */
+body.voluntary.activity.enjoy #area_section .page_message {
+  height: 94px;
+}
+
+/* 010200 봉사참여방법 */
+body.voluntary.activity.training #area_section .page_message {
+  height: 40px;
+}
+
+/* 010301 자원봉사예비교육 */
+body.voluntary.activity.movie #area_section .page_message {
+  height: 76px;
+}
+
+/* 010302 대한적십자사소개영상 */
+body.voluntary.activity.relationship #area_section .page_message {
+  height: 89px;
+}
+
+/* 010303 어버이결연봉사활동 */
+body.voluntary.participation #area_section .page_message {
+}
+
+/* 020000 봉사참여하기 */
+body.voluntary.participation.diy #area_section .page_message {
+  height: 521px;
+}
+
+/* 020100 희망 DIY 네트워크 */
+body.voluntary.participation.diy.reg.normal #area_section .page_message {
+  height: 175px;
+}
+
+/* 020100 희망 DIY 네트워크 */
+body.voluntary.participation.volunteer #area_section .page_message {
+  height: 76px;
+}
+
+/* 020200 행복한 봉사참여 */
+body.voluntary.empathy #area_section .page_message {
+}
+
+/* 040000 봉사즐기기 */
+body.voluntary.empathy.news #area_section .page_message {
+}
+
+/* 040100 포토갤러리 */
+body.voluntary.empathy.society #area_section .page_message {
+}
+
+/* 040200 감동100% */
+body.voluntary.empathy.club #area_section .page_message {
+  height: 76px;
+}
+
+/* 040300 지역별모임방 */
+body.voluntary.empathy.honor #area_section .page_message {
+  height: 76px;
+}
+
+/* 040400 봉사 이벤트 */
+body.voluntary.empathy.photo #area_section .page_message {
+  height: 112px;
+}
+
+/* 040400 봉사 이벤트 */
+body.voluntary.question #area_section .page_message {
+}
+
+/* 050000 봉사문의 */
+body.voluntary.question.detail #area_section .page_message {
+  height: 80px;
+}
+
+/* 050000 봉사문의 */
+body.voluntary.question.write #area_section .page_message {
+  height: 80px;
+}
+
+/* 050000 봉사문의 글쓰기 */
+body.rcy.notice.village #area_section .page_message {
+  height: 81px;
+}
+
+/* RCY 도란도란 RCY 마을 */
+body.rcy.participation.current #area_section .page_message {
+  height: 94px;
+}
+
+/* RCY행사 */
+body.jisa.branch #area_section .page_message {
+}
+
+/* 010000 지사소개 */
+body.jisa.branch.greeting #area_section .page_message {
+}
+
+/* 010100 인사말 */
+body.jisa.branch.history #area_section .page_message {
+}
+
+/* 010200 연혁 */
+body.jisa.branch.organization #area_section .page_message {
+}
+
+/* 010300 조직도 */
+body.jisa.branch.contactaddress #area_section .page_message {
+}
+
+/* 010400 업무담당 연락처 */
+body.jisa.bizintroduce #area_section .page_message {
+}
+
+/* 020000 사업소개 */
+body.jisa.bizintroduce.rcactivity #area_section .page_message {
+}
+
+/* 적십자활동 */
+body.jisa.bizintroduce.lifebox #area_section .page_message {
+}
+
+/* 생명의금고 */
+body.jisa.bizintroduce.rchall #area_section .page_message {
+}
+
+/* 적십자회관 */
+body.jisa.bizintroduce.freerice #area_section .page_message {
+}
+
+/* 무료급식소운영 */
+body.jisa.bizintroduce.specialcar #area_section .page_message {
+}
+
+/* 특수차량운영 */
+body.jisa.bizintroduce.reliefact #area_section .page_message {
+}
+
+/* 구호활동 */
+body.jisa.bizintroduce.international #area_section .page_message {
+}
+
+/* 국제협력활동 */
+body.jisa.bizintroduce.reliefbiz #area_section .page_message {
+}
+
+/* 구호사업 */
+body.jisa.bizintroduce.socialservice #area_section .page_message {
+}
+
+/* 사회봉사 */
+body.jisa.bizintroduce.socialserviceact #area_section .page_message {
+}
+
+/* 사회봉사활동 */
+body.jisa.bizintroduce.socialservicebiz #area_section .page_message {
+}
+
+/* 사회봉사사업 */
+body.jisa.bizintroduce.localhealthact #area_section .page_message {
+}
+
+/* 지역보건활동 */
+body.jisa.bizintroduce.localhealthbiz #area_section .page_message {
+}
+
+/* 지역보건사업 */
+body.jisa.bizintroduce.safetybiz #area_section .page_message {
+}
+
+/* 안전사업 */
+body.jisa.bizintroduce.safetylocal #area_section .page_message {
+}
+
+/* 안전/지역보건 */
+body.jisa.bizintroduce.safetyeducationact #area_section .page_message {
+}
+
+/* 안전교육활동 */
+body.jisa.bizintroduce.safetyeducationaction #area_section .page_message {
+}
+
+/* 안전교육보급활동 */
+body.jisa.bizintroduce.rcy #area_section .page_message {
+}
+
+/* 청소년적십자 */
+body.jisa.bizintroduce.rcyact #area_section .page_message {
+}
+
+/* 청소년적십자활동 */
+body.jisa.bizintroduce.rcybiz #area_section .page_message {
+}
+
+/* 청소년적십자사업 */
+body.jisa.bizintroduce.oldwelfare #area_section .page_message {
+}
+
+/* 재가노인복지센터 */
+body.jisa.bizintroduce.mainactivity #area_section .page_message {
+}
+
+/* 주요활동 */
+body.jisa.bizintroduce.recuperation #area_section .page_message {
+}
+
+/* 요양보호사교육 */
+body.jisa.bizintroduce.globalactivity #area_section .page_message {
+}
+
+/* 국제교류활동 */
+body.jisa.bizintroduce.globalandlostfamily #area_section .page_message {
+}
+
+/* 국제활동 및 이산가족상봉 */
+body.jisa.bizintroduce.savedisaster #area_section .page_message {
+}
+
+/* 재난/취약계층구호 */
+body.jisa.bizintroduce.rccamp #area_section .page_message {
+}
+
+/* 광주적십자수련원 */
+body.jisa.bizintroduce.safetyeducation #area_section .page_message {
+}
+
+/* 안전교육 */
+body.jisa.bizintroduce.bread #area_section .page_message {
+}
+
+/* 빵나눔터 */
+body.jisa.bizintroduce.firstmenses #area_section .page_message {
+}
+
+/* 축복받는초경맞이하기 */
+body.jisa.bizintroduce.onemeterwalking #area_section .page_message {
+}
+
+/* 1m1원걷기대회 */
+body.jisa.bizintroduce.mountainsafeteam #area_section .page_message {
+}
+
+/* 산악안전구조대 */
+body.jisa.bizintroduce.contest #area_section .page_message {
+}
+
+/* 백일장 및 그림그리기대회 */
+body.jisa.bizintroduce.safetyact #area_section .page_message {
+}
+
+/* 안전활동 */
+body.jisa.bizintroduce.loverequest #area_section .page_message {
+}
+
+/* 밑반찬나눔 사랑의리퀘스트 */
+body.jisa.bizintroduce.safetyhealthact #area_section .page_message {
+}
+
+/* 안전/보건활동 */
+body.jisa.bizintroduce.brightworld #area_section .page_message {
+}
+
+/* 밝은세상프로그램 */
+body.jisa.bizintroduce.fixhouse #area_section .page_message {
+}
+
+/* 집고쳐드립니다 */
+body.jisa.publicreference #area_section .page_message {
+}
+
+/* 030000 홍보자료실 */
+body.jisa.publicreference.ambassador #area_section .page_message {
+}
+
+/* 030100 홍보대사 */
+body.jisa.publicreference.photo #area_section .page_message {
+}
+
+/* 030200 사진자료실 */
+body.jisa.publicreference.movie #area_section .page_message {
+}
+
+/* 030300 동영상자료실 */
+body.jisa.publicreference.publication #area_section .page_message {
+}
+
+/* 030400 간행물 */
+body.jisa.formreference #area_section .page_message {
+}
+
+/* 040000 서식자료실 */
+body.jisa.news #area_section .page_message {
+}
+
+/* 050000 소식란 */
+body.jisa.news.local #area_section .page_message {
+}
+
+/* 050100 우리지역소식 */
+body.jisa.news.notice #area_section .page_message {
+}
+
+/* 050200 알립니다 */
+body.jisa.news.media #area_section .page_message {
+}
+
+/* 050300 언론보도 */
+body.jisa.customer #area_section .page_message {
+}
+
+/* 060000 고객센터 */
+body.jisa.customer.ethics #area_section .page_message {
+}
+
+/* 060200 청렴활동소식 */
+body.jisa.coming #area_section .page_message {
+}
+
+/* 070000 찾아오시는길 */
+body.windmill.support #area_section .page_message {
+}
+
+/* 020100 희망풍차 */
+body.windmill.support.youth #area_section .page_message {
+  height: 175px;
+}
+
+/* 020101 희망풍차 아동 청소년 */
+body.windmill.support.old #area_section .page_message {
+  height: 175px;
+}
+
+/* 020102 희망풍차 어르신 */
+body.windmill.support.culture #area_section .page_message {
+  height: 175px;
+}
+
+/* 020103 희망풍차 다문화 */
+body.windmill.support.north #area_section .page_message {
+  height: 175px;
+}
+
+/* 020104 희망풍차 북한이주민 */
+/* 웹접근성 관련 수정 s*/
+/* #area_section {margin-top:0;padding-top:243px;background-position:100% 172px;}
+#outline {margin-top:0 !important;padding-top:0 !important;}
+#area_lnb {margin-top:243px !important;} */
+/* 웹접근성 관련 수정 e*/
+/*코로나19 게시판 배경*/
+.customer-bg-s1 {
+  background-image: url(/images/redcross_customer/section_bg.jpg);
+}
+
+h2.covid19-QA-s1 {
+  background-image: url(/images/redcross_customer/redcross_covid19_img01.gif) !important;
+  /* height: 25px !important; */
+  /* position: absolute; */
+  /* top: 16%; */
+  /* margin-bottom:40px !important; */
+}
+
+h2.covid19-QA-s2 {
+  background-image: url(/images/redcross_customer/redcross_covid19_img01.gif) !important;
+  /* height: 25px !important; */
+  /* position: absolute; */
+  /* top: 245px; */
+  /* margin-bottom:40px !important; */
+}
+
+/* .area_contents_utility_s1{margin-top: 65px;} */
+/* .covid19-QA-div1.mgt-s1 {margin-top: 0px !important;} */
+/*=====================1024=====================*/
+@media screen and (max-width: 1024px) {
+  .customer-bg-s1 {
+    background: none !important;
+  }
+
+  h2.covid19-QA-s1 {
+    position: static;
+    margin-top: 52px !important;
+    margin-bottom: -30px !important;
+  }
+
+  h2.covid19-QA-s2 {
+    position: static;
+    margin-top: 52px !important;
+    margin-bottom: -30px !important;
+  }
+
+  .covid19-QA-div1.mgt-s1 {
+    margin-top: 50px !important;
+  }
+}

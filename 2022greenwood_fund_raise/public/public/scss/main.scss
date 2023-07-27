@@ -1,0 +1,1239 @@
+@charset "UTF-8";
+@import "mixset.scss";
+
+/* only start */
+.only_wide {
+    display: block;
+}
+
+.only_mob {
+    display: none !important;
+}
+
+/* only end */
+
+
+
+
+/* mainvisual start */
+.mainvisual {}
+
+/* mainvisual end */
+
+/* intro start */
+.intro {
+    padding: 90px 0 0 0;
+    background: #f5f5f5;
+
+    .margin100 {
+        font-family: "NotoSansMedium";
+        padding: 0 0 90px 0
+    }
+
+    .infor {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 24px;
+        font-family: "NotoSansMedium";
+        line-height: 36px;
+
+
+
+        strong {
+            font-family: "NotoSansBold";
+        }
+
+        h2 {
+            font-family: "Cafe24SsurroundAir";
+            font-size: 50px;
+            color: #21430f;
+            text-align: center;
+            line-height: 70px;
+            margin: 0 0 45px 0;
+
+            strong {
+                font-weight: 700;
+                font-family: "Cafe24SsurroundAir";
+            }
+
+            span {
+                font-family: "Cafe24Ssurround";
+                font-size: 60px;
+            }
+        }
+
+
+
+        img {
+
+            width: auto;
+            margin: 0 auto 30px auto
+        }
+
+        .box {
+
+            padding: 30px 0 0 0;
+
+            .text {
+                background: #fff;
+                width: 700px;
+                margin: 0 auto 30px auto;
+                padding: 30px 0 31px 100px;
+                text-align: start;
+                font-size: 22px;
+                border-radius: 30px;
+                font-family: "NotoSansMedium";
+
+
+
+                p {
+
+                    color: #666;
+
+
+                    strong {
+                        font-family: "NotoSansBold";
+                    }
+
+
+                }
+            }
+
+
+
+
+        }
+    }
+
+
+    .picture {
+        padding: 100px 0 0 0;
+        background: #fff;
+
+        img {
+            width: auto;
+            margin: 0 auto;
+        }
+
+        p {
+            padding: 15px 0 0 0;
+            font-family: "NotoSansRegular";
+            font-size: 24px;
+            color: #222;
+            text-align: center;
+            line-height: 36px;
+
+
+
+
+
+            strong {
+                font-family: "NotoSansBold";
+                color: #029569;
+            }
+        }
+
+
+    }
+
+    .campaign {
+        padding: 55px 0 0 0;
+        margin: 0 auto;
+        background-color: #fff;
+
+        .text {
+            width: 700px;
+            height: 265px;
+            background-color: #f6f6f6;
+            border-radius: 40px;
+            padding: 40px 60px;
+            margin: 0 auto;
+        }
+
+
+        h3 {
+            font-family: "Cafe24Ssurround";
+            font-size: 27px;
+            color: #fff;
+            background: url(../img/intro_line.png);
+            background-repeat: no-repeat;
+            margin: 0 auto 13px auto;
+            width: 494px;
+            height: 68px;
+            text-align: center;
+            padding: 23px 0 0 0;
+        }
+
+        p {
+
+            font-family: "NotoSansBold";
+            font-size: 21px;
+            color: #666;
+            line-height: 36px;
+
+        }
+    }
+}
+
+/* intro end */
+
+/* forest start */
+.forest {
+    background-image: url(../img/forest.jpg);
+    padding: 410px 0 1px 0;
+
+    p {
+        font-family: "NotoSansBold";
+        font-size: 26px;
+        line-height: 40px;
+        text-align: center;
+        color: #222;
+    }
+
+    h2 {
+
+        font-family: "Cafe24SsurroundAir";
+        font-size: 50px;
+        font-weight: 700;
+        color: #21430f;
+        text-align: center;
+        line-height: 70px;
+        margin: 0 0 33px 0;
+
+        strong {
+            font-family: "Cafe24Ssurround";
+            font-size: 60px;
+        }
+
+    }
+
+    .picture {
+
+        .location {
+            margin: 0 auto 100px auto
+        }
+
+        img {
+            margin: 0 auto 10px auto;
+            width: auto;
+        }
+
+        .bold {
+            font-family: "NotoSansBold";
+        }
+
+        p {
+            font-family: "NotoSansMedium";
+            font-size: 26px;
+            line-height: 40px;
+            text-align: center;
+            margin: 0 0 40px 0;
+
+            span {
+                font-family: "NotoSansBold";
+                color: #029569;
+            }
+        }
+
+        .green {
+            font-family: "Cafe24Ssurround";
+            color: #029569;
+            font-size: 24px;
+            margin: 0 0 15px 0;
+
+        }
+    }
+}
+
+/* forest end */
+
+/* forest_pic start */
+.forest_pic {
+    padding: 65px 0 0 0;
+
+    img {
+        margin: 0 auto;
+        width: auto;
+    }
+
+    .tree {
+        ul {
+            padding: 50px 0 0 0;
+            display: flex;
+            width: 1200px;
+            gap: 14.5px;
+            margin: 0 auto;
+
+            li {
+                margin: 0 0 40px 0;
+            }
+        }
+
+        p {
+            font-family: "NotoSansBold";
+            font-size: 26px;
+            color: #222;
+            text-align: center;
+            margin: 0 0 65px 0;
+
+            span {
+                color: #029569;
+            }
+        }
+    }
+
+    .flower {
+
+
+        ul {
+            width: 1200px;
+            display: flex;
+            margin: 0 auto;
+
+            li {
+                margin: 0 0 35px 0;
+            }
+        }
+
+        p {
+            font-family: "NotoSansRegular";
+            font-size: 26px;
+            color: #222;
+            text-align: center;
+            line-height: 40px;
+            margin: 0 0 95px 0;
+
+            strong {
+                font-family: "NotoSansBold";
+            }
+
+            span {
+                font-family: "NotoSansBold";
+                color: #029569;
+            }
+        }
+
+    }
+}
+
+/* forest_pic end */
+
+/* donator start */
+.donator {
+    padding: 117px 0 127px 0;
+    background: url(../img/donator.jpg);
+
+
+
+    h2 {
+        font-family: "Cafe24SsurroundAir";
+        font-size: 50px;
+        color: #21430f;
+        text-align: center;
+        line-height: 70px;
+        margin: 0 0 50px 0;
+
+        strong {
+            font-family: "Cafe24Ssurround";
+            font-size: 60px;
+        }
+    }
+
+
+    .wrap_tabs {
+        width: 1200px;
+        margin: 0 auto;
+
+        .tab_btn_list {
+            display: flex;
+            margin: 0 0 30px 0;
+
+            .tab_btn_item {
+                flex: 1;
+                text-align: center;
+                background: #fff;
+                height: 65px;
+                padding: 13px 0;
+                border-bottom: 2px solid #029569;
+                cursor: pointer;
+
+                .tab_btn_anchor {
+                    font-family: "NotoSansBold";
+                    font-size: 26px;
+                    color: #666;
+
+
+
+                    &.on {
+                        color: #fff;
+                    }
+                }
+
+                &.on {
+                    background: #029569;
+
+                }
+            }
+        }
+
+        .search_box {
+            display: flex;
+            border-radius: 30px;
+            background: #fff;
+            border: 2px solid #d7d7d7;
+            margin: 0 0 30px 0;
+            position: relative;
+
+            .search_input {
+                padding: 0 0 0 30px;
+                border-radius: 30px;
+                font-family: "NotoSansMedium";
+                font-size: 18px;
+                color: #333;
+                width: 1200px;
+            }
+
+            .search_btn {
+                position: absolute;
+                right: 40px;
+                top: 10px;
+
+                img {
+                    width: auto;
+                    padding: 0 0 0 0;
+                }
+            }
+        }
+
+        .tab_contents_list {
+            .tab_contents {
+                display: none;
+                position: relative;
+
+
+
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 1200px;
+                    height: 460px;
+                    background: #fff;
+                    margin: 0 auto;
+                    padding: 10px 0;
+                    overflow: scroll;
+                    overflow-x: hidden;
+                    padding: 30px 30px;
+
+
+
+                    li {
+                        position: relative;
+                        border: 2px solid #69b258;
+                        border-radius: 30px;
+                        height: 50px;
+                        padding: 13px 20px;
+                        margin: 0 10px 10px 0;
+
+                        &::before {
+                            position: absolute;
+                            content: "";
+                            top: -13px;
+                            right: 0;
+                            width: 27px;
+                            height: 25px;
+                            background: url(../img/leaf.png);
+                        }
+                    }
+
+
+                }
+
+                &.on {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+/* donator end */
+
+
+/* donator_forest start */
+.donator_forest {
+    padding: 90px 0 0 0;
+
+    .picture {
+        img {
+            margin: 0 auto 60px auto;
+            width: auto;
+
+        }
+
+        p {
+            font-family: "NotoSansMedium";
+            font-size: 27px;
+            color: #333;
+            text-align: center;
+            line-height: 35px;
+        }
+
+        .line {
+            font-family: "NotoSansBold";
+            font-size: 35px;
+            line-height: 60px;
+            color: #21430f;
+            background: url(../img/donator_line.png);
+            background-repeat: no-repeat;
+            background-position: bottom;
+            margin: 0 0 40px 0;
+        }
+
+        ul {
+            margin: 0 auto 65px auto;
+            background: #f6f6f6;
+            border-radius: 30px;
+            width: 904px;
+            height: 360px;
+            padding: 40px 0 0 67px;
+
+
+            li {
+
+                font-family: "NotoSansBold";
+                font-size: 23px;
+                color: #333;
+                margin: 0 0 39px 0;
+                position: relative;
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    top: -5px;
+                    left: -40px;
+                    width: 22px;
+                    height: 31px;
+                    background: url(../img/tree_icon.png);
+                }
+            }
+        }
+    }
+}
+
+/* donator_forest end */
+
+/* footer start  */
+.footer {
+    background: url(../img/footer.jpg);
+    padding: 175px 0 50px 0;
+
+
+    .bold {
+        font-family: "Cafe24Ssurround";
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+        color: #fff;
+        margin: 0 0 50px 0;
+    }
+
+    p {
+
+        font-family: "Cafe24Ssurroundair";
+        font-size: 24px;
+        text-align: center;
+        color: #fff;
+
+    }
+}
+
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
+/* 모바일 반응형 */
+
+@media screen and (max-width:1024px) {}
+
+
+@media screen and (max-width:768px) {
+
+
+
+
+    /* yt player end */
+    /* only start */
+    .only_wide {
+        display: none !important;
+    }
+
+    .only_mob {
+        display: block !important;
+    }
+
+    /* only end */
+
+
+
+    /* mainvisual start */
+    .mainvisual {}
+
+    /* mainvisual end */
+
+    /* intro start */
+    .intro {
+
+        padding: 55px 15px 0 15px;
+
+        .infor {
+            margin: 0 auto;
+            text-align: center;
+            font-size: 17px;
+            font-family: "NotoSansMedium";
+            line-height: 27px;
+
+
+            h2 {
+                font-family: "Cafe24SsurroundAir";
+                font-size: 21px;
+                color: #21430f;
+                text-align: center;
+                line-height: 33px;
+                margin: 0 0 32px 0;
+
+                strong {
+                    font-family: "Cafe24SsurroundAir";
+                    font-weight: 700;
+                }
+
+                span {
+                    font-family: "Cafe24Ssurround";
+                    font-size: 29px;
+                }
+            }
+
+
+
+
+
+
+
+            img {
+
+                width: 132px;
+                margin: 0 auto 18px auto
+            }
+
+            .box {
+
+                padding: 25px 0 0 0;
+
+                .text {
+                    background: #fff;
+                    width: calc(100vw - 30px);
+                    margin: 0 auto 25px auto;
+                    padding: 20px 0 20px 20px;
+                    text-align: start;
+                    font-size: 13px;
+                    line-height: 23px;
+                    border-radius: 20px;
+                    font-family: "NotoSansMedium";
+
+
+
+                    p {
+
+                        color: #666;
+
+
+                        strong {
+                            font-family: "NotoSansBold";
+                        }
+
+
+                    }
+                }
+
+
+
+
+            }
+        }
+
+        .picture {
+            padding: 40px 0 25px 0;
+            width: 100vw;
+            transform: translateX(-15px);
+
+            img {
+                width: 120px;
+                margin: 0 auto;
+            }
+
+            p {
+                padding: 15px 0 0 0;
+                font-family: "NotoSansRegular";
+                font-size: 16px;
+                color: #222;
+                text-align: center;
+                line-height: 26px;
+                margin: 0 0 0 0;
+
+
+
+                strong {
+                    font-family: "NotoSansBold";
+                }
+            }
+
+
+        }
+
+        .campaign {
+            margin: 0 auto 100px auto;
+            width: 100vw;
+            transform: translateX(-15px);
+
+            height: auto;
+            background-color: #fff;
+            border-radius: 0;
+            padding: 0 0 0 0;
+
+            .text {
+                width: calc(100vw - 30px);
+                height: auto;
+                background-color: #f6f6f6;
+                border-radius: 20px;
+                padding: 20px 13px;
+                margin: 0 auto;
+
+                h3 {
+                    font-family: "Cafe24Ssurround";
+                    font-size: 18px;
+                    color: #fff;
+                    background: url(../img/intro_line.png);
+                    background-repeat: no-repeat;
+                    background-size: calc(100vw - 54px);
+                    margin: 0 auto 10px auto;
+                    width: calc(100vw - 54px);
+                    height: auto;
+                    text-align: center;
+                    padding: 4vw 0;
+                }
+
+                p {
+
+                    font-family: "NotoSansBold";
+                    font-size: 13px;
+                    color: #666;
+                    line-height: 23px;
+                    padding: 0 20px;
+
+                    span {
+                        font-family: "NotoSansRegular";
+                    }
+
+                }
+            }
+        }
+
+        .margin100 {
+            padding: 0 0 48px 0
+        }
+
+
+    }
+
+
+
+
+
+
+    /* intro end */
+
+    /* forest start */
+    .forest {
+
+        background: #fffdf0;
+        padding: 80px 15px 50px 15px;
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: "";
+            top: -70px;
+            left: 0;
+            width: 100vw;
+            height: 130px;
+            background: url(../img/mobile/forest_m.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        .icon {
+            width: 54px !important;
+
+        }
+
+        h2 {
+
+            font-family: "Cafe24SsurroundAir";
+            font-size: 21px;
+            font-weight: 700;
+            color: #21430f;
+            text-align: center;
+            line-height: 38px;
+            margin: 0 0 15px 0;
+
+            strong {
+                font-family: "Cafe24Ssurround";
+                font-size: 33px;
+            }
+
+        }
+
+        .picture {
+            .location {
+                margin: 0 auto;
+            }
+
+            img {
+                margin: 0 auto 15px auto;
+                width: calc(100vw - 30px);
+            }
+
+            p {
+                font-family: "NotoSansMedium";
+                font-size: 17px;
+                line-height: 26px;
+                text-align: center;
+                margin: 0 0 27px 0;
+
+                span {
+                    font-family: "NotoSansBold";
+                    color: #029569;
+                }
+            }
+
+            .green {
+                font-family: "Cafe24Ssurround";
+                color: #029569;
+                font-size: 13px;
+                margin: 0 0 0 0;
+
+            }
+
+            .bold {
+                margin: 0 0 28px 0;
+            }
+        }
+    }
+
+    /* forest end */
+
+    /* forest_pic start */
+    .forest_pic {
+
+        padding: 50px 15px 0 15px;
+
+        img {
+            margin: 0 auto;
+            width: 233px;
+        }
+
+        .tree {
+            ul {
+                padding: 30px 0 0 0;
+                display: flex;
+                width: calc(100vw - 30px);
+                gap: 10px;
+                margin: 0 auto 23px auto;
+                flex-wrap: wrap;
+
+                li {
+
+                    margin: 0 0 0 0;
+
+                    img {
+                        width: calc(50vw - 20px);
+                    }
+                }
+            }
+
+            p {
+                font-family: "NotoSansBold";
+                font-size: 16px;
+                line-height: 24px;
+                color: #222;
+                text-align: center;
+                margin: 0 0 35px 0;
+
+                span {
+                    color: #029569;
+                }
+            }
+        }
+
+        .flower {
+
+
+            ul {
+                width: calc(100vw - 30px);
+                display: flex;
+                margin: 0 auto;
+                gap: 10px;
+                flex-wrap: wrap;
+
+                li {
+                    margin: 0 0 0 0;
+
+                    .big {
+                        width: calc(100vw - 30px);
+
+                    }
+
+                    img {
+                        width: calc(50vw - 20px);
+
+
+                    }
+                }
+
+
+            }
+
+            p {
+                padding: 25px 0 0 0;
+                font-family: "NotoSansRegular";
+                font-size: 16px;
+                color: #222;
+                text-align: center;
+                line-height: 24px;
+                margin: 0 0 0 0;
+
+                strong {
+                    font-family: "NotoSansBold";
+                }
+
+                span {
+                    font-family: "NotoSansBold";
+                    color: #029569;
+
+                    .margin30 {
+                        margin: 0 0 30px 0;
+                    }
+
+                }
+
+
+
+            }
+
+            .margin30 {
+                margin: 0 0 33px 0;
+            }
+
+
+
+
+
+        }
+    }
+
+    /* forest_pic end */
+
+    /* donator start */
+    .donator {
+
+        padding: 55px 15px 60px 15px;
+        background: url(../img/mobile/donator_m.jpg);
+        background-size: 100%;
+
+        // &::before {
+        //     position: absolute;
+        //     content: "";
+        //     top: 0;
+        //     right: 0;
+        //     width: 100vw;
+        //     height: 100px;
+        //     background: url(../img/mobile/donator_01_m.png);
+        // }
+
+        // &::after {
+        //     position: absolute;
+        //     content: "";
+        //     bottom: 0;
+        //     right: 0;
+        //     width: 100vw;
+        //     height: 100px;
+        //     background: url(../img/mobile/donator_02_m.png);
+        // }
+
+
+
+        h2 {
+            font-family: "Cafe24SsurroundAir";
+            font-size: 23px;
+            color: #21430f;
+            text-align: center;
+            line-height: 35px;
+            margin: 0 0 25px 0;
+
+            strong {
+                font-family: "Cafe24Ssurround";
+                font-size: 33px;
+            }
+        }
+
+
+        .wrap_tabs {
+            width: calc(100vw - 30px);
+            margin: 0 auto;
+
+            .tab_btn_list {
+                display: flex;
+                margin: 0 0 20px 0;
+
+                .tab_btn_item {
+                    flex: 1;
+                    text-align: center;
+                    background: #fff;
+                    height: 47px;
+                    padding: 8px 0;
+                    border-bottom: 2px solid #029569;
+                    cursor: pointer;
+
+                    .tab_btn_anchor {
+                        font-family: "NotoSansBold";
+                        font-size: 19px;
+                        color: #666;
+
+
+
+                        &.on {
+                            color: #fff;
+                        }
+                    }
+
+                    &.on {
+                        background: #029569;
+
+                    }
+                }
+            }
+
+            .search_box {
+                display: flex;
+                border-radius: 30px;
+                background: #fff;
+                border: 2px solid #d7d7d7;
+                margin: 0 0 20px 0;
+
+
+                .search_input {
+                    padding: 0 0 0 20px;
+                    border-radius: 30px;
+                    font-family: "NotoSansMedium";
+                    font-size: 15px;
+                    height: 45px;
+                    color: #333;
+                }
+
+                .search_btn {
+                    right: 20px;
+
+                    img {
+                        width: 26px;
+
+
+                    }
+                }
+            }
+
+            .tab_contents_list {
+                .tab_contents {
+                    display: none;
+                    position: relative;
+
+
+                    ul {
+                        font-size: 15px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        width: calc(100vw - 30px);
+                        height: 320px;
+                        background: #fff;
+                        margin: 0 auto;
+                        padding: 20px 20px;
+                        overflow: scroll;
+                        overflow-x: hidden;
+                        gap: 8px;
+
+
+
+                        li {
+                            position: relative;
+                            border: 2px solid #69b258;
+                            border-radius: 30px;
+                            height: 50px;
+                            padding: 15px 15px;
+                            margin: 0 0 8px 0;
+
+                            &::before {
+                                position: absolute;
+                                content: "";
+                                top: -13px;
+                                right: 0;
+                                width: 27px;
+                                height: 25px;
+                                background: url(../img/leaf.png);
+                            }
+                        }
+
+
+
+                    }
+
+                    &.on {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    /* donator end */
+
+
+    /* donator_forest start */
+    .donator_forest {
+
+        padding: 60px 15px 0 15px;
+
+        .picture {
+            img {
+                margin: 0 auto 38px auto;
+                width: 100vw;
+                transform: translateX(-15px);
+
+            }
+
+            p {
+                font-family: "NotoSansMedium";
+                font-size: 15px;
+                color: #333;
+                text-align: center;
+                line-height: 20px;
+                margin: 0 0 10px 0;
+            }
+
+            .line {
+                font-family: "NotoSansBold";
+                font-size: 22px;
+                line-height: 28px;
+                color: #21430f;
+                background: url(../img/mobile/donator_line_m.png);
+                background-size: 271px;
+                background-repeat: no-repeat;
+                background-position: bottom;
+                margin: 0 0 23px 0;
+            }
+
+            ul {
+                margin: 0 auto 110px auto;
+                background: #f6f6f6;
+                border-radius: 20px;
+                width: calc(100vw - 30px);
+                height: auto;
+                padding: 20px 0 20px 43px;
+
+
+                li {
+
+                    font-family: "NotoSansBold";
+                    font-size: 15px;
+                    color: #333;
+                    margin: 0 0 22px 0;
+                    position: relative;
+                    line-height: 23px;
+
+                    &:last-child {
+                        margin: 0 0 0 0;
+                    }
+
+                    &::before {
+                        position: absolute;
+                        content: "";
+                        top: 0;
+                        left: -24px;
+                        width: 14px;
+                        height: 30px;
+                        background: url(../img/mobile/tree_icon_m.png);
+                        background-repeat: no-repeat;
+                        background-size: 100%;
+
+                    }
+                }
+            }
+        }
+    }
+
+    /* donator_forest end */
+
+    /* footer start  */
+    .footer {
+
+        background: #69b258;
+        padding: 40px 15px 35px 15px;
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: "";
+            top: -21vw;
+            left: 0;
+            width: 100vw;
+            height: 110px;
+            background: url(../img/mobile/footer_m.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+
+        }
+
+
+        .bold {
+            font-family: "Cafe24Ssurround";
+            font-size: 18px;
+            line-height: 26px;
+            text-align: center;
+            color: #fff;
+            margin: 0 0 35px 0;
+        }
+
+        .margin30 {
+            margin: 0 0 32px 0;
+        }
+
+        p {
+
+            font-family: "Cafe24Ssurroundair";
+            font-size: 15px;
+            line-height: 23px;
+            text-align: center;
+            color: #fff;
+            margin: 0 0 0 0;
+
+        }
+    }
+}
+
+
+/* footer end */

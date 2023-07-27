@@ -1,0 +1,1435 @@
+@charset "UTF-8";
+.flex_center {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+/* font size */
+.only_mob {
+  display: none;
+}
+
+.only_wide {
+  display: block;
+}
+
+.mg_05 {
+  margin: 0 0 5px 0 !important;
+}
+
+.brand {
+  padding: 75px 55px;
+  width: 920px;
+}
+.brand .intro {
+  color: #444;
+}
+.brand .intro h2 {
+  font-family: "NotoSansBold";
+  font-size: 28px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 45px;
+}
+.brand .intro p {
+  font-family: "NotoSansRegular";
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.brand .intro p:first-child {
+  margin-bottom: 0px !important;
+}
+.brand .intro p span {
+  background: #e4e4e4;
+}
+.brand .purpose h3 {
+  position: relative;
+  font-family: "NotoSansBold";
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: 13px;
+}
+.brand .purpose h3::before {
+  position: absolute;
+  content: "";
+  top: 7px;
+  left: -11px;
+  width: 4px;
+  height: 12px;
+  background-color: #ec1b23;
+}
+.brand .purpose p {
+  font-family: "NotoSansLight";
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: -0.42px;
+  text-align: left;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.brand .purpose .mgb_20 {
+  margin-bottom: 20px !important;
+}
+.brand .brand_system h3 {
+  position: relative;
+  font-family: "NotoSansBold";
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: 13px;
+}
+.brand .brand_system h3::before {
+  position: absolute;
+  content: "";
+  top: 7px;
+  left: -11px;
+  width: 4px;
+  height: 12px;
+  background-color: #ec1b23;
+}
+.brand .brand_system p {
+  font-family: "NotoSansLight";
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: -0.42px;
+  text-align: left;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.brand .brand_system .mgb_20 {
+  margin-bottom: 15px !important;
+}
+.brand .corporate img {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.brand .direction h3 {
+  position: relative;
+  font-family: "NotoSansBold";
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  margin-left: 13px;
+}
+.brand .direction h3::before {
+  position: absolute;
+  content: "";
+  top: 7px;
+  left: -11px;
+  width: 4px;
+  height: 12px;
+  background-color: #ec1b23;
+}
+.brand .direction ul {
+  margin: 0 0;
+  padding: 0 0;
+  list-style-type: none;
+  font-size: 14px;
+}
+.brand .direction ul li h4 {
+  font-size: 14px;
+  font-family: "NotoSansRegular";
+  line-height: 1.5;
+  color: #444;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.brand .direction ul li p {
+  font-family: "NotoSansLight";
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: -0.42px;
+  text-align: left;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 15px;
+  margin-left: 16px;
+}
+.brand .direction ul li .no_rmargin {
+  padding-top: 10px;
+  margin-left: 0 !important;
+  margin-bottom: 20px;
+}
+.brand .direction ul li .dir_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 55px;
+}
+.brand .direction ul li .dir_img img {
+  min-width: 0;
+  width: 100%;
+  margin-bottom: 7px;
+}
+.brand .direction ul li .pd_top10 {
+  padding-top: 10px;
+}
+.brand .direction ul li img {
+  width: 100%;
+}
+.brand .download {
+  padding-top: 30px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-bottom: 60px;
+}
+.brand .download p {
+  display: block;
+  width: 180px;
+  height: 30px;
+  padding-top: 5px;
+  border-radius: 60px;
+  background-color: #c7c7c7;
+  text-align: center;
+  font-family: "NotoSansBold";
+  color: #fff;
+  font-size: 12px;
+  margin: 0 auto;
+}
+.brand .download p:hover {
+  background-color: #EC1B23;
+}
+/* 아이패드 가로 모드*/
+@media screen and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+  .only_mob {
+    display: block;
+  }
+  .only_wide {
+    display: none;
+  }
+  .mg_05 {
+    margin: 0 0 !important;
+  }
+  .bd_red {
+    border: 1px solid #EC1B23 !important;
+  }
+  .bg_fff {
+    background-color: #fff !important;
+  }
+  .font_red {
+    color: #EC1B23 !important;
+  }
+  .content {
+    padding-left: 0;
+    padding-top: 0;
+    position: relative;
+    background-color: #fafafa;
+  }
+  .menu {
+    display: none;
+  }
+  .side-menu {
+    display: none;
+  }
+  .header {
+    display: none;
+  }
+  .header {
+    padding: 0 10px;
+    height: auto;
+    border-bottom: 0px solid #ec1b23;
+    min-width: 0;
+  }
+  .header h1 {
+    font-family: "NanumBarunGothicBold";
+    font-size: 27px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.81px;
+    text-align: left;
+    color: #000;
+    margin-bottom: 36px;
+    margin-top: 0;
+    padding-top: 53px;
+  }
+  .header .downloads {
+    margin: 0 auto;
+    width: 94.6vw;
+    height: auto;
+    border: 1px solid #BFBFBF;
+    background-color: #FAFAFA;
+    padding: 10.7vw 9.5vw;
+  }
+  .header .downloads a {
+    line-height: inherit;
+    display: block;
+    padding: 20px 0;
+    width: auto;
+    height: auto;
+    border-radius: 59px;
+    background-color: #EC1B23;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: 0;
+    font-family: "NotoSansBold";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #FFF;
+    background-image: none !important;
+  }
+  .header .downloads a:last-child {
+    margin-bottom: 0;
+  }
+  .header .downloads .file_download p {
+    position: relative;
+    display: inline-block;
+    margin: 0 0;
+    -webkit-transform: translateX(14px);
+            transform: translateX(14px);
+  }
+  .header .downloads .file_download p::before {
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/CI_01.png);
+    top: 0px;
+    left: -30px;
+  }
+  .header .downloads .font_download p {
+    position: relative;
+    display: inline-block;
+    margin: 0 0;
+    -webkit-transform: translateX(14px);
+            transform: translateX(14px);
+  }
+  .header .downloads .font_download p::before {
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/CI_02.png);
+    top: 0;
+    left: -30px;
+  }
+  .header .downloads .ci_download {
+    padding: 20px 0 !important;
+    height: auto !important;
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+    margin-left: auto !important;
+    margin-right: 0 !important;
+    line-height: 20px !important;
+    border-radius: 59px !important;
+    background-color: #ffffff !important;
+    display: block !important;
+    color: #ec1b23 !important;
+    border: 1px solid #ec1b23 !important;
+    letter-spacing: -0.03em !important;
+    background-image: none !important;
+  }
+  .header .downloads .ci_download p {
+    position: relative;
+    display: inline-block;
+    margin: 0 0;
+    -webkit-transform: translateX(14px);
+            transform: translateX(14px);
+  }
+  .header .downloads .ci_download p::before {
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/CI_03.png);
+    top: 0;
+    left: -30px;
+  }
+  .organ {
+    background-color: #fafafa;
+    padding: 0 10px;
+  }
+  .organ .current_page {
+    background-color: #ec1b23 !important;
+  }
+  .organ h1 {
+    font-family: "NanumBarunGothicBold";
+    font-size: 27px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.81px;
+    text-align: left;
+    color: #000;
+    padding-top: 53px;
+    margin-bottom: 37px;
+    margin-top: 0;
+  }
+  .organ .organ_ul {
+    list-style: none;
+    padding: 0 0;
+  }
+  .organ .organ_ul .organ_box {
+    border: solid 1px #bfbfbf;
+    margin-bottom: 20px;
+    background: #fff;
+  }
+  .organ .organ_ul .organ_box li {
+    padding: 14px 8.5vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-bottom: 1px solid #eee;
+  }
+  .organ .organ_ul .organ_box li p {
+    font-size: 14px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  .organ .organ_ul .organ_box li .organ_button {
+    font-family: "NanumBarunGothicRegular";
+    font-size: 14px;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    margin: 0 0;
+    padding: 8px 30px;
+    background-color: #c7c7c7;
+    color: #fff;
+  }
+  .organ .organ_ul li {
+    padding: 14px 8.5vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-bottom: 1px solid #eee;
+  }
+  .organ .organ_ul li p {
+    font-size: 14px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  .organ .organ_ul li .organ_button {
+    font-family: "NanumBarunGothicRegular";
+    font-size: 14px;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    margin: 0 0;
+    padding: 8px 30px;
+    background-color: #c7c7c7;
+    color: #fff;
+  }
+  .tab-menu {
+    height: auto !important;
+    background-color: #fafafa;
+    padding: 0 10px;
+    position: static !important;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100vw;
+  }
+  .tab-menu .two_line {
+    padding: 4px 0 !important;
+  }
+  .tab-menu h1 {
+    font-family: "NanumBarunGothicBold";
+    font-size: 27px;
+    letter-spacing: -0.81px;
+    text-align: left;
+    color: #000;
+    padding-top: 53px;
+    margin-bottom: 34px;
+    margin-top: 0;
+  }
+  .tab-menu .current_page {
+    position: relative;
+    background-color: #ec1b23 !important;
+    color: #fff !important;
+  }
+  .tab-menu .current_page::before {
+    position: absolute;
+    content: "";
+    bottom: -5px;
+    left: calc(50% - 6.3px);
+    width: 9px;
+    height: 9px;
+    background-color: #fafafa;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  .tab-menu ul {
+    margin-bottom: 60px;
+    padding: 0 0;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-family: "NotoSansRegular";
+    font-size: 14px;
+    gap: 1%;
+    height: auto !important;
+    white-space: wrap !important;
+    background-color: transparent !important;
+    border-bottom: 0px solid #eee !important;
+  }
+  .tab-menu ul li {
+    padding: 11px 0;
+    width: calc(50% - 5px);
+    background-color: #fff;
+    color: #8f8f8f;
+    border: solid 1px #e7e7e7;
+    line-height: 1.21;
+    margin-right: 0 !important;
+    margin-bottom: 1%;
+  }
+  .tab-menu ul li a {
+    padding: 0 10px !important;
+  }
+  .brand {
+    padding: 0 10px;
+    width: 100vw;
+  }
+  .brand .intro {
+    color: #000;
+  }
+  .brand .intro h2 {
+    font-family: "NotoSansBold";
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2px;
+  }
+  .brand .intro p {
+    font-family: "NotoSansRegular";
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  .brand .intro p span {
+    background: transparent;
+  }
+  .brand .purpose h3 {
+    position: relative;
+    font-family: "NotoSansBold";
+    font-size: 18px;
+    margin-top: 0;
+    margin-left: 13px;
+    margin-bottom: 10px;
+  }
+  .brand .purpose h3::before {
+    position: absolute;
+    content: "";
+    top: 3px;
+    left: -11px;
+    width: 4px;
+    height: 18px;
+    background-color: #ec1b23;
+  }
+  .brand .purpose p {
+    font-family: "NotoSansLight";
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -0.42px;
+    text-align: left;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0px;
+  }
+  .brand .purpose .mgb_20 {
+    margin-bottom: 20px !important;
+  }
+  .brand .brand_system h3 {
+    position: relative;
+    font-family: "NotoSansBold";
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 13px;
+  }
+  .brand .brand_system h3::before {
+    position: absolute;
+    content: "";
+    top: 3px;
+    left: -11px;
+    width: 4px;
+    height: 18px;
+    background-color: #ec1b23;
+  }
+  .brand .brand_system p {
+    font-family: "NotoSansLight";
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -0.42px;
+    text-align: left;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .brand .brand_system p .mgb_20 {
+    margin-bottom: 20px;
+  }
+  .brand .corporate img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .brand .direction h3 {
+    position: relative;
+    font-family: "NotoSansBold";
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 13px;
+  }
+  .brand .direction h3::before {
+    position: absolute;
+    content: "";
+    top: 3px;
+    left: -11px;
+    width: 4px;
+    height: 18px;
+    background-color: #ec1b23;
+  }
+  .brand .direction ul {
+    margin: 0 0;
+    padding: 0 0;
+    list-style-type: none;
+    font-size: 14px;
+  }
+  .brand .direction ul li h4 {
+    font-size: 14px;
+    font-family: "NotoSansRegular";
+    line-height: 1.3;
+    color: #000;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+  .brand .direction ul li p {
+    font-family: "NotoSansLight";
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -0.42px;
+    text-align: left;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 16px;
+  }
+  .brand .direction ul li .no_rmargin {
+    padding-top: 10px;
+    margin-left: 0 !important;
+    margin-bottom: 20px;
+  }
+  .brand .direction ul li .dir_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .brand .direction ul li .dir_img img {
+    width: 100%;
+    margin-bottom: 7px;
+  }
+  .brand .direction ul li .pd_top10 {
+    padding-top: 10px;
+  }
+  .brand .direction ul img {
+    width: 100%;
+    margin-bottom: 7px;
+  }
+  .brand .download {
+    padding-top: 50px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-bottom: 70px;
+  }
+  .brand .download p {
+    display: block;
+    width: 282px;
+    height: 60px;
+    padding-top: 20px;
+    border-radius: 60px;
+    background-color: #c7c7c7;
+    text-align: center;
+    font-family: "NotoSansBold";
+    color: #fff;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+  .brand .download p:hover {
+    background-color: #EC1B23;
+  }
+  .row > * {
+    float: unset !important;
+  }
+  .row > .clearfix {
+    clear: unset !important;
+    height: auto !important;
+    overflow: unset !important;
+    float: unset !important;
+  }
+  .basic_sys {
+    padding: 0 10px;
+  }
+  .basic_sys .down_button {
+    padding-top: 50px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-bottom: 70px;
+  }
+  .basic_sys .down_button p {
+    display: block;
+    width: 282px;
+    height: 60px;
+    padding-top: 20px;
+    border-radius: 60px;
+    background-color: #c7c7c7;
+    text-align: center;
+    font-family: "NotoSansBold";
+    color: #fff;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+  .basic_sys .down_button p:hover {
+    background-color: #EC1B23;
+  }
+  .basic_sys .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 15px;
+  }
+  .basic_sys .list .item {
+    padding: 0 0;
+    width: 170px;
+    margin-bottom: 30px;
+  }
+  .basic_sys .list .item label {
+    font-size: 14px;
+    position: absolute;
+    top: -23px;
+    right: 0px;
+    left: 0px;
+    cursor: pointer;
+    padding-right: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .basic_sys .list .item label input {
+    position: absolute;
+    right: 0px;
+    top: 0;
+  }
+  .basic_sys .list .item .thumb {
+    width: 170px;
+    height: 170px;
+    padding-top: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #eee;
+  }
+  .basic_sys .list .item .thumb img {
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .basic_sys .list .item .download {
+    margin-top: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .basic_sys .list .item .download div {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 0 5px;
+  }
+  .basic_sys .list .item .download div:first-child {
+    padding-left: 0;
+  }
+  .basic_sys .list .item .download div:last-child {
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .tab-menu {
+    height: auto !important;
+    background-color: #fafafa;
+    padding: 0 10px;
+    position: static !important;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100vw;
+  }
+  .tab-menu h1 {
+    font-family: "NanumBarunGothicBold";
+    font-size: 27px;
+    letter-spacing: -0.81px;
+    text-align: left;
+    color: #000;
+    padding-top: 53px;
+    margin-bottom: 34px;
+    margin-top: 0;
+  }
+  .tab-menu .current_page {
+    position: relative;
+    background-color: #ec1b23 !important;
+    color: #fff !important;
+  }
+  .tab-menu .current_page::before {
+    position: absolute;
+    content: "";
+    bottom: -5px;
+    left: calc(50% - 6.3px);
+    width: 9px;
+    height: 9px;
+    background-color: #fafafa;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  .tab-menu ul {
+    margin-bottom: 60px;
+    padding: 0 0;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-family: "NotoSansRegular";
+    font-size: 14px;
+    gap: 1.2%;
+    height: auto !important;
+    white-space: wrap !important;
+    background-color: transparent !important;
+    border-bottom: 0px solid #eee !important;
+  }
+  .tab-menu ul .two_line {
+    padding: 4px 0 !important;
+  }
+  .tab-menu ul li {
+    padding: 11px 0;
+    width: calc(50% - 5px);
+    background-color: #fff;
+    color: #8f8f8f;
+    border: solid 1px #e7e7e7;
+    line-height: 1.21;
+    margin-right: 0 !important;
+    margin-bottom: 1.2%;
+  }
+  .tab-menu ul li a {
+    padding: 0 5px !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+  .only_mob {
+    display: block;
+  }
+  .mg_05 {
+    margin: 0 0 !important;
+  }
+  .only_wide {
+    display: none;
+  }
+  .bd_red {
+    border: 1px solid #EC1B23 !important;
+  }
+  .bg_fff {
+    background-color: #fff !important;
+  }
+  .font_red {
+    color: #EC1B23 !important;
+  }
+  .content {
+    padding-left: 0;
+    padding-top: 0;
+    position: relative;
+    background-color: #fafafa;
+  }
+  .menu {
+    display: none;
+  }
+  .side-menu {
+    display: none;
+  }
+  .header {
+    display: none;
+  }
+  .header {
+    padding: 0 10px;
+    height: auto;
+    border-bottom: 0px solid #ec1b23;
+    min-width: 0;
+  }
+  .header h1 {
+    font-family: "NanumBarunGothicBold";
+    font-size: 27px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.81px;
+    text-align: left;
+    color: #000;
+    margin-bottom: 36px;
+    margin-top: 0;
+    padding-top: 53px;
+  }
+  .header .downloads {
+    margin: 0 auto;
+    width: 94.6vw;
+    height: auto;
+    border: 1px solid #BFBFBF;
+    background-color: #FAFAFA;
+    padding: 10.7vw 9.5vw;
+  }
+  .header .downloads a {
+    line-height: inherit;
+    display: block;
+    padding: 20px 0;
+    width: auto;
+    height: auto;
+    border-radius: 59px;
+    background-color: #EC1B23;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: 0;
+    font-family: "NotoSansBold";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #FFF;
+    background-image: none !important;
+  }
+  .header .downloads a:last-child {
+    margin-bottom: 0;
+  }
+  .header .downloads .file_download p {
+    position: relative;
+    display: inline-block;
+    margin: 0 0;
+    -webkit-transform: translateX(14px);
+            transform: translateX(14px);
+  }
+  .header .downloads .file_download p::before {
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/CI_01.png);
+    top: 0px;
+    left: -30px;
+  }
+  .header .downloads .font_download p {
+    position: relative;
+    display: inline-block;
+    margin: 0 0;
+    -webkit-transform: translateX(14px);
+            transform: translateX(14px);
+  }
+  .header .downloads .font_download p::before {
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/CI_02.png);
+    top: 0;
+    left: -30px;
+  }
+  .header .downloads .ci_download {
+    padding: 20px 0 !important;
+    height: auto !important;
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+    margin-left: auto !important;
+    margin-right: 0 !important;
+    line-height: 20px !important;
+    border-radius: 59px !important;
+    background-color: #ffffff !important;
+    display: block !important;
+    color: #ec1b23 !important;
+    border: 1px solid #ec1b23 !important;
+    letter-spacing: -0.03em !important;
+    background-image: none !important;
+  }
+  .header .downloads .ci_download p {
+    position: relative;
+    display: inline-block;
+    margin: 0 0;
+    -webkit-transform: translateX(14px);
+            transform: translateX(14px);
+  }
+  .header .downloads .ci_download p::before {
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/CI_03.png);
+    top: 0;
+    left: -30px;
+  }
+  .organ {
+    background-color: #fafafa;
+    padding: 0 10px;
+  }
+  .organ .current_page {
+    background-color: #ec1b23 !important;
+  }
+  .organ h1 {
+    font-family: "NanumBarunGothicBold";
+    font-size: 27px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.81px;
+    text-align: left;
+    color: #000;
+    padding-top: 53px;
+    margin-bottom: 37px;
+    margin-top: 0;
+  }
+  .organ .organ_ul {
+    list-style: none;
+    padding: 0 0;
+  }
+  .organ .organ_ul .organ_box {
+    border: solid 1px #bfbfbf;
+    margin-bottom: 20px;
+    background: #fff;
+  }
+  .organ .organ_ul .organ_box li {
+    padding: 14px 8.5vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-bottom: 1px solid #eee;
+  }
+  .organ .organ_ul .organ_box li p {
+    font-size: 14px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  .organ .organ_ul .organ_box li .organ_button {
+    font-family: "NanumBarunGothicRegular";
+    font-size: 14px;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    margin: 0 0;
+    padding: 8px 30px;
+    background-color: #c7c7c7;
+    color: #fff;
+  }
+  .organ .organ_ul li {
+    padding: 14px 8.5vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-bottom: 1px solid #eee;
+  }
+  .organ .organ_ul li p {
+    font-size: 14px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  .organ .organ_ul li .organ_button {
+    font-family: "NanumBarunGothicRegular";
+    font-size: 14px;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    margin: 0 0;
+    padding: 8px 30px;
+    background-color: #c7c7c7;
+    color: #fff;
+  }
+  .tab-menu {
+    height: auto !important;
+    background-color: #fafafa;
+    padding: 0 10px;
+    position: static !important;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100vw;
+  }
+  .tab-menu h1 {
+    font-family: "NanumBarunGothicBold";
+    font-size: 27px;
+    letter-spacing: -0.81px;
+    text-align: left;
+    color: #000;
+    padding-top: 53px;
+    margin-bottom: 34px;
+    margin-top: 0;
+  }
+  .tab-menu .current_page {
+    position: relative;
+    background-color: #ec1b23 !important;
+    color: #fff !important;
+  }
+  .tab-menu .current_page::before {
+    position: absolute;
+    content: "";
+    bottom: -5px;
+    left: calc(50% - 6.3px);
+    width: 9px;
+    height: 9px;
+    background-color: #fafafa;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  .tab-menu ul {
+    margin-bottom: 60px;
+    padding: 0 0;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-family: "NotoSansRegular";
+    font-size: 14px;
+    gap: 2.2%;
+    height: auto !important;
+    white-space: wrap !important;
+    background-color: transparent !important;
+    border-bottom: 0px solid #eee !important;
+  }
+  .tab-menu ul .two_line {
+    padding: 4px 0 !important;
+  }
+  .tab-menu ul li {
+    padding: 11px 0;
+    width: calc(50% - 5px);
+    background-color: #fff;
+    color: #8f8f8f;
+    border: solid 1px #e7e7e7;
+    line-height: 1.21;
+    margin-right: 0 !important;
+    margin-bottom: 2%;
+  }
+  .tab-menu ul li a {
+    padding: 0 5px !important;
+  }
+  .brand {
+    padding: 0 10px;
+    width: 100vw;
+  }
+  .brand .intro {
+    color: #000;
+  }
+  .brand .intro h2 {
+    font-family: "NotoSansBold";
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2px;
+  }
+  .brand .intro p {
+    font-family: "NotoSansRegular";
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  .brand .intro p span {
+    background: transparent;
+  }
+  .brand .purpose h3 {
+    position: relative;
+    font-family: "NotoSansBold";
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 13px;
+  }
+  .brand .purpose h3::before {
+    position: absolute;
+    content: "";
+    top: 3px;
+    left: -11px;
+    width: 4px;
+    height: 18px;
+    background-color: #ec1b23;
+  }
+  .brand .purpose p {
+    font-family: "NotoSansLight";
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -0.42px;
+    text-align: left;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0px;
+  }
+  .brand .purpose .mgb_20 {
+    margin-bottom: 20px !important;
+  }
+  .brand .brand_system h3 {
+    position: relative;
+    font-family: "NotoSansBold";
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 13px;
+  }
+  .brand .brand_system h3::before {
+    position: absolute;
+    content: "";
+    top: 3px;
+    left: -11px;
+    width: 4px;
+    height: 18px;
+    background-color: #ec1b23;
+  }
+  .brand .brand_system p {
+    font-family: "NotoSansLight";
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -0.42px;
+    text-align: left;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .brand .brand_system .mgb_20 {
+    margin-bottom: 20px;
+  }
+  .brand .corporate img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .brand .direction img {
+    width: 100%;
+    margin-bottom: 7px;
+  }
+  .brand .direction h3 {
+    position: relative;
+    font-family: "NotoSansBold";
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 13px;
+  }
+  .brand .direction h3::before {
+    position: absolute;
+    content: "";
+    top: 3px;
+    left: -11px;
+    width: 4px;
+    height: 18px;
+    background-color: #ec1b23;
+  }
+  .brand .direction ul {
+    margin: 0 0;
+    padding: 0 0;
+    list-style-type: none;
+    font-size: 14px;
+  }
+  .brand .direction ul li h4 {
+    font-size: 14px;
+    font-family: "NotoSansRegular";
+    line-height: 1.3;
+    color: #000;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+  .brand .direction ul li p {
+    font-family: "NotoSansLight";
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -0.42px;
+    text-align: left;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 16px;
+  }
+  .brand .direction ul li .no_rmargin {
+    padding-top: 10px;
+    margin-left: 0 !important;
+    margin-bottom: 20px;
+  }
+  .brand .direction ul li .dir_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .brand .direction ul li .dir_img img {
+    width: 100%;
+    margin-bottom: 7px;
+  }
+  .brand .direction ul li .pd_top10 {
+    padding-top: 10px;
+  }
+  .brand .direction ul img {
+    width: 100%;
+    margin-bottom: 7px;
+  }
+  .brand .download {
+    padding-top: 50px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-bottom: 70px;
+  }
+  .brand .download p {
+    display: block;
+    width: 282px;
+    height: 60px;
+    padding-top: 20px;
+    border-radius: 60px;
+    background-color: #c7c7c7;
+    text-align: center;
+    font-family: "NotoSansBold";
+    color: #fff;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+  .brand .download p:hover {
+    background-color: #EC1B23;
+  }
+}
+@media screen and (max-width: 340px) {
+  .tab-menu {
+    word-break: keep-all;
+    height: auto !important;
+    background-color: #fafafa;
+    padding: 0 10px;
+    position: static !important;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100vw;
+  }
+  .tab-menu .two_line {
+    padding: 4px 0 !important;
+  }
+  .tab-menu h1 {
+    font-family: "NanumBarunGothicBold";
+    font-size: 27px;
+    letter-spacing: -0.81px;
+    text-align: left;
+    color: #000;
+    padding-top: 53px;
+    margin-bottom: 34px;
+    margin-top: 0;
+  }
+  .tab-menu .current_page {
+    position: relative;
+    background-color: #ec1b23 !important;
+    color: #fff !important;
+  }
+  .tab-menu .current_page::before {
+    position: absolute;
+    content: "";
+    bottom: -5px;
+    left: calc(50% - 6.3px);
+    width: 9px;
+    height: 9px;
+    background-color: #fafafa;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  .tab-menu ul {
+    margin-bottom: 60px;
+    padding: 0 0;
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-family: "NotoSansRegular";
+    font-size: 14px;
+    gap: 3%;
+    height: auto !important;
+    white-space: wrap !important;
+    background-color: transparent !important;
+    border-bottom: 0px solid #eee !important;
+  }
+  .tab-menu ul li {
+    padding: 11px 0;
+    width: calc(50% - 5px);
+    background-color: #fff;
+    color: #8f8f8f;
+    border: solid 1px #e7e7e7;
+    line-height: 1.3;
+    margin-right: 0 !important;
+    margin-bottom: 3%;
+  }
+  .tab-menu ul li a {
+    padding: 0 10px !important;
+  }
+}

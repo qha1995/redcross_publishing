@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <title>마이페이지</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../js/jquery-ui-1.13.2/jquery-ui.min.css" />
+    <!-- <link rel="stylesheet" href="../css/fontset.css" /> -->
+
+
+    <!--     
+    <link rel="stylesheet" type="text/css" href="../css/common_v2.css">
+    <link rel="stylesheet" type="text/css" href="../css/mypage_main_new.css?v=2020200914001">
+    <link rel="stylesheet" type="text/css" href="../css/sub0104.css?v=20230419001">
+    <link rel="stylesheet" type="text/css" href="../css/member_certify.css">
+    <link rel="stylesheet" type="text/css" href="../css/print.css" media="print"> -->
+
+
+    <!-- 반응형  -->
+    <!-- <link rel="stylesheet" type="text/css" href="/css/main_v13/main_v13.css?v=20191028001">
+    <link rel="stylesheet" type="text/css" href="/css/common_v3.css?v=20190725002">
+    <link rel="stylesheet" type="text/css" href="/css/style_v3.css">
+    <link rel="stylesheet" type="text/css" href="/css/donation_participation_v2/donation_custom.css">
+    <link rel="stylesheet" type="text/css" href="/css/donation_participation_v2/colorbox.css">
+    <link rel="stylesheet" type="text/css" href="/css/donation_participation_v2/rc_style_v1.css?v=20190521">
+    <link rel="stylesheet" type="text/css" href="/css/respon.css"> -->
+
+
+    <!-- custom -->
+    <link rel="stylesheet" href="../css/fontset.css" />
+
+
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- <link rel="stylesheet" href="../css/layout.css" /> -->
+    <link rel="stylesheet" href="../css/mypage_main.css" />
+
+    <!-- JS -->
+    <script src="../js/jquery-3.6.3/jquery.min.js"></script>
+    <script src="../js/jquery-ui-1.13.2/jquery-ui.min.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/nav.js"></script>
+</head>
+
+<body>
+
+    <div id="area_container">
+
+        <div class="wrap_page_mypage">
+
+            <!-- <section></section> -->
+
+            <div class="page_mypage">
+
+                <!-- pc -->
+
+                <div class=" area_mypage_top">
+                    <!-- <div class=" area_mypage_top_inner"> -->
+                    <h2><span class="member_info_name font_bold">심은지</span><span class="font_bold">님,</span> 반갑습니다!</h2>
+                    <h4>회원님의 개인정보 및 회원가입 상태와<br>
+                        후원, 교육, 봉사 신청 현황 등을 확인하실 수 있습니다.
+                    </h4>
+                    <p>휴대폰 번호 : <span class="member_info_phone">010 - 1100 - 0000</span></p>
+                    <p>총방문 : <span class="member_info_count">837</span> 회</p>
+                    <p>마지막 방문 : <span class="member_info_last">2023-03-27</span></p>
+
+                    <div class="wrap_top_visual_anchor">
+                        <a href="https://www.redcross.or.kr/mypage/mypage_general_memberinfo.do" target="_self" class="top_visual_anchor">개인정보 수정</a>
+                        <a href="https://www.redcross.or.kr/redcross_customer/redcross_customer_faq.do" target="_self" class="top_visual_anchor">FAQ</a>
+                        <a href="https://www.redcross.or.kr/redcross_customer/redcross_customer_faq.do?action=SetWriteCategory" target="_self" class="top_visual_anchor">문의하기</a>
+                    </div>
+                    <!-- </div>   -->
+                </div>
+
+                <!-- mob -->
+
+                <div class="wrap_box_myinfo">
+
+                    <!-- 후원 box_myinfo_type01 -->
+                    <div class="box_myinfo box_myinfo_type01">
+
+                        <div class="box_myinfo_tit">
+                            <h2>후원</h2>
+                            <div class="box_myinfo_subtit">
+                                <h3>적십자 후원회원이신가요?</h3>
+                                <a href="https://www.redcross.or.kr/mypage_donation/mypage_donation_breakdown.do" target="_self" class="box_myinfo_tit_anchor">후원내역 확인하기</a>
+                            </div>
+                        </div>
+
+                        <div class="wrap_box_myinfo_cnt">
+                            <!-- 정보등록 전 box_myinfo_before-->
+                            <div class="box_myinfo_before">
+                                <div class="myinfo_cnt_inner">
+                                    <h4>후원내역이 없습니다.</h4>
+                                    <h3>‘후원정보연결’ 버튼을 클릭하신 후 후원 정보를 연결해 주세요.</h3>
+                                    <div class="box_btn_bottom">
+                                        <div class="box_links">
+                                            <a href="https://www.redcross.or.kr/member/member_info_search.do?action=dmsMatching" target="_self" class="box_myinfo_cnt_anchor">후원정보 연결하기</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 정보등록 후 box_myinfo_after -->
+                            <div class="box_myinfo_after">
+                                <div class="myinfo_cnt_inner">
+
+                                    <div class="wrap_box_txt">
+                                        <div class="box_info_detail">
+                                            <h4>정기후원: <span class="font_bold">1</span><span>건 </span><span class="befor_left_bar font_bold">30,000</span>원</h4>
+                                        </div>
+                                        <div class="box_info_detail">
+                                            <!-- <h4>총 후원금액: <span class="font_bold">117</span>건 <span class="befor_left_bar">3,000,000</span>원</h4> -->
+                                            <h4>총 후원금액: <span class="font_bold">117</span>건 <span class="befor_left_bar">3,000,000,000,000,000</span>원</h4>
+                                        </div>
+                                    </div>
+                                    <div class="wrap_box_detail">
+                                        <div class="box_links">
+                                            <a href="javascript:;" target="_self" class="box_myinfo_cnt_anchor">기부금 영수증</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 후원 end -->
+
+                    <!-- 교육 box_myinfo_type02 -->
+                    <div class="box_myinfo box_myinfo_type02">
+                        <div class="box_myinfo_tit">
+                            <h2>교육</h2>
+                            <div class="box_myinfo_subtit">
+                                <h3>적십자의 강의를 들으셨나요?</h3>
+                                <a href="https://www.redcross.or.kr/learn/mypage/my_req_history.do" target="_self" class="box_myinfo_tit_anchor">세부내역 확인하기</a>
+                            </div>
+                        </div>
+                        <div class="wrap_box_myinfo_cnt">
+                            <!-- 정보등록 전 -->
+                            <div class="box_myinfo_before">
+                                <div class="myinfo_cnt_inner">
+                                    <h4>내역이 없습니다.</h4>
+                                    <h3>기존 활동 내역과 홈페이지 회원정보가 일치하지 않는 경우 정보연결이 불가능합니다. <br />
+                                        홈페이지 회원 정보를 확인해 주세요.</h3>
+                                </div>
+                            </div>
+                            <!-- 정보등록 후 -->
+                            <div class="box_myinfo_after">
+                                <div class="myinfo_cnt_inner">
+                                    <div class="wrap_box_txt">
+                                        <div class="box_info_detail">
+                                            <h4>일반교육: <span>신청</span><span class="font_bold">11</span>건
+                                                <span class="befor_left_bar font_bold">이수</span><span class="font_bold">2</span>건</h4>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 교육 end -->
+
+                    <!-- 봉사 box_myinfo_type03 -->
+                    <div class="box_myinfo box_myinfo_type03">
+                        <div class="box_myinfo_tit">
+                            <h2>봉사</h2>
+                            <div class="box_myinfo_subtit">
+                                <h3>적십자 봉사원이신가요?</h3>
+                                <a href="https://www.redcross.or.kr/mypage_volunteer/mypage_volunteer_breakdown.do" target="_self" class="box_myinfo_tit_anchor">봉사신청 확인하기</a>
+                            </div>
+                        </div>
+
+                        <div class="wrap_box_myinfo_cnt">
+                            <!-- 정보등록 전 -->
+                            <!-- <div class="box_myinfo_before">
+                                <div class="myinfo_cnt_inner">
+                                    <h4>내역이 없습니다.</h4>
+                                    <h3>기존 활동 내역과 홈페이지 회원정보가 일치하지 않는 경우 정보연결이 불가능합니다. <br />
+                                        홈페이지 회원 정보를 확인해 주세요.</h3>
+                                    <h4 class="font_bold color_red">RCY단원은 아래의 ‘RCY’메뉴를 이용해주세요!</h4>
+                                    <div class="box_btn_bottom">
+                                        <div class="box_links">
+                                            <a href="https://www.redcross.or.kr/member/member_register_voluntary.do" target="_self" class="box_myinfo_cnt_anchor">봉사원가입</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- 정보등록 후 -->
+                            <div class="box_myinfo_after">
+                                <div class="myinfo_cnt_inner">
+                                    <div class="wrap_box_txt">
+                                        <div class="box_info_detail">
+                                            <h4>소속: <span>서울지사</span></h4>
+                                        </div>
+                                        <div class="box_info_detail">
+                                            <h4>활동: <span class="font_bold">총 </span><span class="font_bold">1</span><span class="font_bold">년 </span><span class="font_bold">2</span><span class="font_bold">개월</span>
+                                                <span class="befor_left_bar font_bold">2</span><span class="font_bold">회</span>
+                                                <span class="befor_left_bar font_bold">4</span><span class="font_bold">시간</span>
+                                        </div>
+                                        <div class="box_info_detail">
+                                            <h4>가입일자: <span class="font_bold">2022-03-01</span></h4>
+                                        </div>
+                                        <div class="box_btn_bottom">
+                                            <a href="javascript:;" target="_self" class="box_myinfo_cnt_anchor">경력 확인서</a>
+                                        </div>
+                                    </div>
+                                    <div class="wrap_box_detail">
+                                        <div class="box_detail_inner">
+                                            <div class="box_checkbox">
+                                                <label for="checkbox1">1365 연계 동의</label>
+                                                <input type="checkbox" name="chkbox" value="checkbox" id="checkbox1" class="checkbox" checked />
+                                            </div>
+                                            <h4><span>2019-02-02 15:19</span>에 연계에 동의 하셨습니다.</h4>
+                                            <h4 class="font_bold color_red">RCY단원은 아래의 ‘RCY’메뉴를 이용해주세요!</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 봉사 end -->
+
+                    <!-- RCY box_myinfo_type04 -->
+                    <div class="box_myinfo box_myinfo_type04">
+                        <div class="box_myinfo_tit">
+                            <h2>RCY</h2>
+                            <div class="box_myinfo_subtit">
+                                <h3>RCY 단원이신가요?</h3>
+                                <a href="https://www.redcross.or.kr/mypage_rcy/mypage_rcy_history_v2.do" target="_self" class="box_myinfo_tit_anchor">RCY내역 확인하기</a>
+                            </div>
+                        </div>
+
+                        <div class="wrap_box_myinfo_cnt">
+                            <!-- 정보등록 전 -->
+                            <div class="box_myinfo_before">
+                                <div class="myinfo_cnt_inner">
+                                    <h4>내역이 없습니다.</h4>
+                                    <h3>기존 활동 내역과 홈페이지 회원정보가 일치하지 않는 경우 정보연결이 불가능합니다. <br />
+                                        홈페이지 회원 정보를 확인해 주세요.</h3>
+                                    <div class="box_btn_bottom">
+                                        <div class="box_links">
+                                            <a href="https://www.redcross.or.kr/member_rcy/member_register_rcy.do" target="_self" class="box_myinfo_cnt_anchor">RCY 가입</a>
+                                            <a href="https://www.redcross.or.kr/member_rcy/member_register_rcycommunity.do" target="_self" class="box_myinfo_cnt_anchor">RCY 준단원가입</a>
+                                            <a href="https://www.redcross.or.kr/mypage_rcy/mypage_rcy_acthistory_v2.do" target="_self" class="box_myinfo_cnt_anchor">활동 확인서, 증명서 발급</a>
+                                            <a href="https://www.redcross.or.kr/mypage_rcy/mypage_rcy_voluntary_v2.do" target="_self" class="box_myinfo_cnt_anchor">1365 연계</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 정보등록 후 -->
+                            <!-- <div class="box_myinfo_after">
+                                <div class="myinfo_cnt_inner">
+                                    <div class="wrap_box_txt">
+                                        <div class="box_info_detail">
+                                            <h4>소속: <span>서울지사 준단원</span></h4>
+                                        </div>
+                                        <div class="box_info_detail">
+                                            <h4>활동: <span>단원 </span><span class="font_bold">11</span>개월 <span class="font_bold">8</span>일</h4>
+                                        </div>
+                                        <div class="box_info_detail">
+                                            <h4>가입일자: <span class="font_bold">2022-03-01</span></h4>
+                                        </div>
+                                    </div>
+                                    <div class="wrap_box_detail">
+                                        <div class="box_links">
+                                            <a href="javascript:;" target="_self" class="box_myinfo_cnt_anchor">활동 확인서, 증명서 발급</a>
+                                            <a href="javascript:;" target="_self" class="box_myinfo_cnt_anchor">1365 연계</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <!-- RCY end -->
+
+                    <div class="wrap_bottom_btns">
+                        <a href="https://www.redcross.or.kr/redcross_customer/redcross_customer_faq.do" target="_self" class="q_anchor">
+                            <!-- <i><img src="../img/mypage/icon_05.png" alt=""></i> -->
+                            <span>자주묻는 질문</span>
+                        </a>
+                        <a href="https://www.redcross.or.kr/redcross_customer/redcross_customer_faq.do?action=SetWriteCategory" target="_self" class="q_anchor">
+                            <!-- <i><img src="../img/mypage/icon_06.png" alt=""></i> -->
+                            <span>문의하기</span>
+                        </a>
+                        <a href="https://www.redcross.or.kr/mypage/mypage_general_question.do" trget="_self" class="q_anchor">
+                            <!-- <i><img src="../img/mypage/icon_07.png" alt=""></i> -->
+                            <span>나의 문의내역</span>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+</body>
+
+</html>

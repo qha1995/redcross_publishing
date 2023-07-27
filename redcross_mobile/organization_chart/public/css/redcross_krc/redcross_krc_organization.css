@@ -1,0 +1,510 @@
+/*대한적십자사 조직페이지*/
+/*tab_조직도 임위원고문 사무총장 협의회위원회_tab*/
+.tab_wrap_organization {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 30px;
+  padding-top: 15px;
+}
+.tab_wrap_organization li {
+  float: left;
+  margin-right: 3px;
+  height: 30px;
+}
+.tab_wrap_organization li a {
+  display: block;
+  width: 181px;
+  height: 30px;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+.tab_wrap_organization li.on {
+  background-position: 0 -30px;
+}
+.tab_wrap_organization .tab_organization {
+  background-image: url("../../images/redcross_krc/organization/tab_organization.gif");
+}
+.tab_wrap_organization .tab_member_adviser {
+  background-image: url("../../images/redcross_krc/organization/tab_member_adviser.gif");
+}
+.tab_wrap_organization .tab_secretary_general {
+  background-image: url("../../images/redcross_krc/organization/tab_secretary_general.gif");
+}
+.tab_wrap_organization .tab_committee {
+  background-image: url("../../images/redcross_krc/organization/tab_committee.gif");
+}
+
+/*조직도이미지
+- 기획조정실
+- 재무관리실
+- 대외협력실
+- 재난안전국
+- 국제남북국
+- 봉사&middot;청소년 RCY국
+- 병원사업국
+- ICT지원실
+- 특수복지사업소
+- 인도법연구소
+*/
+.bg_organization {
+  position: relative;
+  /* background: url("/images/redcross_krc_organization/organization_tree_renewal-01-s2_23615.jpg") no-repeat; */
+  width: 735px;
+  height: 1155px;
+  text-indent: 0;
+  overflow: hidden;
+}
+#li_link01 {
+  position: absolute;
+  top: 527px;
+  left: 45px;
+}
+#li_link02 {
+  position: absolute;
+  top: 527px;
+  left: 166px;
+}
+#li_link03 {
+  position: absolute;
+  top: 562px;
+  left: 45px;
+}
+#li_link04 {
+  position: absolute;
+  top: 562px;
+  left: 166px;
+}
+#li_link05 {
+  position: absolute;
+  top: 530px;
+  left: 0px;
+}
+#li_link06 {
+  position: absolute;
+  top: 530px;
+  left: 140px;
+}
+#li_link07 {
+  position: absolute;
+  top: 566px;
+  left: 0px;
+}
+#li_link08 {
+  position: absolute;
+  top: 566px;
+  left: 140px;
+}
+#li_link09 {
+  position: absolute;
+  top: 431px;
+  left: 604px;
+}
+#li_link10 {
+  position: absolute;
+  top: 523px;
+  left: 606px;
+}
+#li_link11 {
+  position: absolute;
+  top: 431px;
+  left: 606px;
+}
+#li_link12 {
+  position: absolute;
+  top: 600px;
+  left: 140px;
+}
+
+.a_link {
+  display: block;
+  width: 112px;
+  height: 28px;
+  overflow: hidden;
+}
+.a_link_whild {
+  display: block;
+  width: 130px;
+  height: 36px;
+  overflow: hidden;
+}
+
+@media (max-width: 1024px) {
+  .bg_organization {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+  .bg_organization_out {
+    overflow: auto;
+    width: 100%;
+  }
+  #li_link01 {
+    top: 527px;
+    left: 45px;
+  }
+  #li_link02 {
+    top: 527px;
+    left: 166px;
+  }
+  #li_link03 {
+    top: 562px;
+    left: 45px;
+  }
+  #li_link04 {
+    top: 562px;
+    left: 166px;
+  }
+  #li_link01_blood {
+    top: 527px !important;
+    left: 312px !important;
+  }
+  #li_link02_blood {
+    top: 527px !important;
+    left: 433px !important;
+  }
+  #li_link03_blood {
+    top: 562px !important;
+    left: 312px !important;
+  }
+  #li_link04_blood {
+    top: 562px !important;
+    left: 458px !important;
+  }
+  #li_link09 {
+    top: 431px;
+    left: 604px;
+  }
+}
+
+/*혈액관리본부 
+- 기획관리국
+- 헌혈증진국
+- 혈액안전국
+- 정보관리국
+*/
+#li_link01_blood {
+  position: absolute;
+  top: 527px;
+  left: 312px;
+}
+#li_link02_blood {
+  position: absolute;
+  top: 527px;
+  left: 433px;
+}
+#li_link03_blood {
+  position: absolute;
+  top: 562px;
+  left: 312px;
+}
+#li_link04_blood {
+  position: absolute;
+  top: 562px;
+  left: 433px;
+}
+#li_link05_blood {
+  position: absolute;
+  top: 500px;
+  left: 441px;
+}
+
+/*링크_조직도싸이트 위치*/
+/*
+a#link01                                               { overflow:hidden; position:absolute; top:650px; left:100px; display:block; width:24px; height:145px; }
+a#link02                                               { overflow:hidden; position:absolute; top:650px; left:125px; display:block; width:24px; height:145px; }
+a#link03                                               { overflow:hidden; position:absolute; top:650px; left:150px; display:block; width:24px; height:145px; }
+a#link04                                               { overflow:hidden; position:absolute; top:650px; left:175px; display:block; width:24px; height:145px; }
+a#link05                                               { overflow:hidden; position:absolute; top:650px; left:200px; display:block; width:24px; height:145px; }
+a#link06                                               { overflow:hidden; position:absolute; top:650px; left:225px; display:block; width:24px; height:145px; }
+a#link07                                               { overflow:hidden; position:absolute; top:650px; left:250px; display:block; width:24px; height:145px; }
+a#link08                                               { overflow:hidden; position:absolute; top:650px; left:275px; display:block; width:24px; height:145px; }
+a#link09                                               { overflow:hidden; position:absolute; top:650px; left:300px; display:block; width:24px; height:145px; }
+a#link10                                               { overflow:hidden; position:absolute; top:650px; left:325px; display:block; width:24px; height:145px; }
+a#link11                                               { overflow:hidden; position:absolute; top:650px; left:350px; display:block; width:24px; height:145px; }
+a#link12                                               { overflow:hidden; position:absolute; top:650px; left:375px; display:block; width:24px; height:145px; }
+a#link13                                               { overflow:hidden; position:absolute; top:650px; left:400px; display:block; width:24px; height:145px; }
+a#link14                                               { overflow:hidden; position:absolute; top:650px; left:425px; display:block; width:24px; height:145px; }
+a#link15                                               { overflow:hidden; position:absolute; top:650px; left:450px; display:block; width:24px; height:145px; }
+a#link16                                               { overflow:hidden; position:absolute; top:650px; left:475px; display:block; width:24px; height:145px; }
+a#link17                                               { overflow:hidden; position:absolute; top:650px; left:500px; display:block; width:24px; height:145px; }
+a#link18                                               { overflow:hidden; position:absolute; top:650px; left:525px; display:block; width:24px; height:145px; }
+a#link19                                               { overflow:hidden; position:absolute; top:650px; left:550px; display:block; width:24px; height:145px; }
+a#link20                                               { overflow:hidden; position:absolute; top:650px; left:575px; display:block; width:24px; height:145px; }
+*/
+/*임위원_고문*/
+h5.president {
+  background: url("../../images/redcross_krc/organization/stitle_president.gif") no-repeat;
+  width: 100%;
+  height: 15px;
+  padding-bottom: 10px;
+  text-indent: -9999px;
+}
+h5.vicepresident {
+  background: url("../../images/redcross_krc/organization/stitle_vicepresident.gif") no-repeat;
+  width: 100%;
+  height: 15px;
+  padding-bottom: 10px;
+  text-indent: -9999px;
+}
+h5.financial_control {
+  background: url("../../images/redcross_krc/organization/stitle_financial_control.gif") no-repeat;
+  width: 100%;
+  height: 15px;
+  padding-bottom: 10px;
+  text-indent: -9999px;
+}
+h5.legal_adviser {
+  background: url("../../images/redcross_krc/organization/stitle_legal_adviser.gif") no-repeat;
+  width: 100%;
+  height: 15px;
+  padding-bottom: 10px;
+  text-indent: -9999px;
+}
+h5.national_representative {
+  background: url("../../images/redcross_krc/organization/stitle_national_representative.gif") no-repeat;
+  width: 100%;
+  height: 15px;
+  padding-bottom: 10px;
+  text-indent: -9999px;
+}
+
+.btn_president {
+  overflow: hidden;
+  position: absolute;
+  top: -5px;
+  left: 642px;
+  background: url("../../images/redcross_krc/organization/btn_president.gif") no-repeat;
+  width: 94px;
+  height: 20px;
+  text-indent: -9999px;
+}
+.btn_vicepresident {
+  overflow: hidden;
+  position: absolute;
+  top: -5px;
+  left: 642px;
+  background: url("../../images/redcross_krc/organization/btn_vicepresident.gif") no-repeat;
+  width: 94px;
+  height: 20px;
+  text-indent: -9999px;
+}
+
+.wrap_list ul.top_line {
+  border-top: 1px solid #d7d7d7;
+  height: 90px;
+  padding: 10px 0;
+}
+.wrap_list ul.top_line_short {
+  border-top: 1px solid #d7d7d7;
+  height: 75px;
+  padding: 10px 0;
+}
+.member_adviser {
+  position: relative;
+  width: 100%;
+  height: 215px;
+  border-bottom: 1px solid #d7d7d7;
+}
+.member_adviser_under {
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #d7d7d7;
+  margin-top: 20px;
+}
+.wrap_list {
+  color: #666;
+}
+.wrap_list ul {
+}
+.wrap_list ul span {
+  line-height: 130%;
+}
+.wrap_list ul li.photo {
+  float: left;
+  width: 110px;
+}
+.wrap_list .name {
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 10px;
+}
+.wrap_list span.section_title {
+  margin-bottom: 5px;
+}
+.wrap_list span.section_title strong {
+  color: #db0606;
+}
+.wrap_list ul li.left {
+  float: left;
+  width: 255px;
+}
+.wrap_list ul li span {
+  display: block;
+}
+.wrap_list ul li.right {
+  float: left;
+  width: 370px;
+}
+.wrap_list ul li span {
+  display: block;
+}
+.wrap_list ul li span.bullet {
+  background: url("../../images/common/bullet_arrow_middle.gif") no-repeat 0 3px;
+  padding-left: 8px;
+}
+
+/*사무총장*/
+h5.title_secretary_general {
+  background: url("../../images/redcross_krc/secretary_general/stitle_secretary_general.gif") no-repeat;
+  width: 100%;
+  height: 15px;
+  padding-bottom: 10px;
+  text-indent: -9999px;
+}
+.secretary_general {
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #d7d7d7;
+}
+.btn_secretary_general {
+  overflow: hidden;
+  position: absolute;
+  top: -5px;
+  left: 642px;
+  background: url("../../images/redcross_krc/secretary_general/btn_secretary_general.gif") no-repeat;
+  width: 94px;
+  height: 20px;
+  text-indent: -9999px;
+}
+.wrap_list ul.top_line_long {
+  border-top: 1px solid #d7d7d7;
+  height: 230px;
+  padding: 10px 0;
+}
+
+/*협의회_위원회*/
+.area_volunteerwork {
+  position: relative;
+  width: 100%;
+  height: 273px;
+  background: url("../../images/board/comment_dotted_line.gif") repeat-x bottom left;
+  text-indent: -9999px;
+  margin-bottom: 30px;
+}
+.area_volunteerwork h5 {
+  background: url("../../images/redcross_krc/committee/stitle_volunteerwork.gif") no-repeat;
+  width: 128px;
+  height: 15px;
+  margin-bottom: 20px;
+}
+.area_volunteerwork a.btn_volunteerwork {
+  overflow: hidden;
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  display: block;
+  background: url("../../images/redcross_krc/committee/btn_belongmember.gif") no-repeat;
+  width: 101px;
+  height: 20px;
+}
+.area_volunteerwork .img_volunteerwork {
+  background: url("../../images/redcross_krc/committee/img_volunteerwork.jpg") no-repeat;
+  width: 735px;
+  height: 219px;
+}
+
+.area_womanvolunteer {
+  position: relative;
+  width: 100%;
+  height: 273px;
+  background: url("../../images/board/comment_dotted_line.gif") repeat-x bottom left;
+  text-indent: -9999px;
+  margin-bottom: 30px;
+}
+.area_womanvolunteer h5 {
+  background: url("../../images/redcross_krc/committee/stitle_womanvolunteer.gif") no-repeat;
+  width: 170px;
+  height: 15px;
+  margin-bottom: 20px;
+}
+.area_womanvolunteer a.btn_womanvolunteer {
+  overflow: hidden;
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  display: block;
+  background: url("../../images/redcross_krc/committee/btn_belongmember.gif") no-repeat;
+  width: 101px;
+  height: 20px;
+}
+.area_womanvolunteer .img_womanvolunteer {
+  background: url("../../images/redcross_krc/committee/img_womanvolunteer.jpg") no-repeat;
+  width: 735px;
+  height: 220px;
+}
+
+.area_relief_work {
+  position: relative;
+  width: 100%;
+  height: 206px;
+  background: url("../../images/board/comment_dotted_line.gif") repeat-x bottom left;
+  text-indent: -9999px;
+  margin-bottom: 30px;
+}
+.area_relief_work h5 {
+  background: url("../../images/redcross_krc/committee/stitle_relief_work2.gif?v=20210616001") no-repeat;
+  width: 170px;
+  height: 16px;
+  margin-bottom: 20px;
+}
+.area_relief_work a.btn_relief_work {
+  overflow: hidden;
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  display: block;
+  background: url("../../images/redcross_krc/committee/btn_belongmember.gif") no-repeat;
+  width: 101px;
+  height: 20px;
+}
+.area_relief_work .img_relief_work {
+  background: url("../../images/redcross_krc/committee/img_relief_work.jpg?v=20210616001") no-repeat;
+  width: 735px;
+  height: 219px;
+}
+
+.area_iredcross {
+  position: relative;
+  width: 100%;
+  text-indent: -9999px;
+}
+.area_iredcross h5 {
+  background: url("../../images/redcross_krc/committee/stitle_i_red.gif") no-repeat;
+  width: 127px;
+  height: 15px;
+  margin-bottom: 20px;
+}
+.area_iredcross a.btn_iredcross {
+  overflow: hidden;
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  display: block;
+  background: url("../../images/redcross_krc/committee/btn_belongmember.gif") no-repeat;
+  width: 101px;
+  height: 20px;
+}
+.area_iredcross .img_iredcross {
+  background: url("../../images/redcross_krc/committee/p_i_redcross.gif") no-repeat;
+  width: 735px;
+  height: 219px;
+}
+#iredcross span.bullet {
+  background: url("../../images/common/bullet_arrow_middle.gif") no-repeat 0 3px;
+  padding-left: 8px;
+}
+/*
+.area_i_redcross                                       { position:relative; width:100%;}
+.area_i_redcross h5                                    { background:url('../../images/redcross_krc/committee/stitle_i_red.gif') no-repeat; width:127px; height:15px; margin-top:30px; margin-bottom:20px; }
+.area_i_redcross a.btn_i_redcross                      { position:absolute; top:5px; right:0px; display:block; background:url('../../images/redcross_krc/committee/btn_belongmember.gif') no-repeat; width:101px; height:20px;}
+.area_i_redcross .img_aaa                       { border:1px solid red; background:url('../../images/redcross_krc/committee/img_relief_work.jpg')no-repeat; width:735px; height:219px; }*/

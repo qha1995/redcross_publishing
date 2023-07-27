@@ -1,0 +1,182 @@
+@charset "utf-8";
+#outline {
+  width: 1200px !important;
+  margin-top: 125px !important;
+  padding-top: 58px !important;
+}
+#outline #area_container {
+  width: 100% !important;
+  background: url(/images/rcy_notice/rcy_notice_ambassador/container_bg2.gif) repeat-y 196px 0;
+}
+.area_sectionB_S1 {
+  width: 948px !important;
+  padding: 57px 0 50px 22px !important;
+}
+
+.area_sectionB_S1 {
+  background-image: none !important;
+}
+.area_sectionB_S1 ul.siteNav {
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+.area_sectionB_S1 ul.siteNav:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.area_sectionB_S1 ul.siteNav li a {
+  color: #666;
+}
+.area_sectionB_S1 ul.siteNav li:hover a {
+  color: #f50b0c;
+  text-decoration: underline;
+}
+.area_sectionB_S1 ul.siteNav li {
+  float: left;
+  padding: 0px 10px;
+  background: url("/images/v3/siteNav_ico01.png") no-repeat 0 center;
+}
+.area_sectionB_S1 ul.siteNav li:first-child {
+  padding: 0 10px 0 0;
+  background: none;
+  text-indent: -9999px;
+}
+.area_sectionB_S1 ul.siteNav li:first-child a {
+  display: block;
+  width: 11px;
+  background: url("/images/v3/siteNav_ico.png") no-repeat 0 center;
+  text-indent: -9999px;
+}
+
+/* pageTop --------------------*/
+.area_sectionB_S1 .pageTop {
+  position: relative;
+  margin-bottom: 35px;
+}
+.area_sectionB_S1 .pageTop .h2-tit {
+  font-size: 27px;
+  line-height: 30px;
+  color: #444;
+}
+.area_sectionB_S1 .pageTop .pageUtile {
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+}
+.area_sectionB_S1 .pageTop .pageUtile a {
+  display: block;
+  float: left;
+  width: 22px;
+  height: 22px;
+  text-indent: -99999px;
+}
+.area_sectionB_S1 .pageTop .pageUtile a.sns {
+  margin-right: 5px;
+  background: url("/images/v3/pageUtile_ico01.png") no-repeat 0 center;
+}
+.area_sectionB_S1 .pageTop .pageUtile a.printer {
+  margin-right: 5px;
+  background: url("/images/v3/pageUtile_ico02.png") no-repeat 0 center;
+}
+.area_sectionB_S1 .pageTop .pageUtile a.pageZoom {
+  width: 18px;
+  background: url("/images/v3/pageUtile_ico03.png") no-repeat left center;
+}
+.area_sectionB_S1 .pageTop .pageUtile a.pageZoom.plus {
+  width: 17px;
+  background: url("/images/v3/pageUtile_ico03.png") no-repeat right center;
+}
+.area_sectionB_S1 .pageTop .pageUtile a.pageZoom:hover {
+  background: url("/images/v3/pageUtile_ico04.png") no-repeat left center;
+}
+.area_sectionB_S1 .pageTop .pageUtile a.pageZoom.plus:hover {
+  background: url("/images/v3/pageUtile_ico04.png") no-repeat right center;
+}
+.area_sectionB_S1 .siteNav {
+  top: 64px !important;
+  z-index: 999;
+}
+.area_sectionB_S1 .pageTop .h2-tit {
+  margin-bottom: 35px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #dedede;
+  width: 100% !important;
+  font-weight: bold;
+}
+
+#navigator {
+  display: none;
+}
+
+#area_section h3 {
+  width: 100% !important;
+}
+#area_lnb h2 {
+  margin-top: 27px !important;
+}
+#navigator-s2 {
+  top: 16px !important;
+}
+
+.lnabArea h2 {
+  margin: 50px 0 20px 0px !important;
+}
+
+.contentsBox .pageTop h3 {
+  font-size: 28px;
+  color: #444444;
+  line-height: 32px;
+  margin-bottom: 35px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #dedede;
+}
+.contentsBox ul.siteNav {
+  top: 60px !important;
+  z-index: 2;
+}
+.container .contentsArea {
+  background: none !important;
+}
+.lnabArea {
+  border-right: none !important;
+}
+
+.contentsBox {
+  position: relative;
+  margin-left: 43px !important;
+  width: 948px !important;
+  height: 100%;
+  padding: 45px 0px 60px 0 !important;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+}
+
+.wrap.subPage {
+  padding-top: 146px !important;
+}
+
+/*======1024======*/
+@media screen and (max-width: 1024px) {
+  #outline {
+    width: 100% !important;
+    margin-top: 35px !important;
+  }
+  .area_sectionB_S1 {
+    width: 100% !important;
+    padding: 0px !important;
+  }
+  .area_sectionB_S1 .siteNav {
+    display: none;
+  }
+  .contentsBox {
+    margin-left: 0 !important;
+  }
+  .wrap.subPage {
+    padding-top: 70px !important;
+  }
+  #outline #area_container {
+    background: none;
+  }
+}

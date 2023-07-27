@@ -1,0 +1,403 @@
+@charset "UTF-8";
+@import "mixset.scss";
+
+.only_mob {
+    display: none;
+}
+
+.only_wide {
+    display: block;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1024px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    #outline {
+        position: relative;
+        margin: 0 auto;
+        width: auto;
+
+
+        #area_container {
+            z-index: 10;
+            width: 100vw !important;
+            height: 100%;
+            position: relative;
+            clear: both;
+            background: url(../images/common/container_bg.gif) repeat-y 196px 0;
+
+            #area_section {
+
+
+
+                width: 100% !important;
+                padding: 0 0 !important;
+                box-sizing: border-box;
+                margin-left: 0;
+                background: none !important;
+
+                h2 {
+                    font-family: "NanumBarunGothicBold" !important;
+                    font-size: 27px !important;
+                    margin-bottom: 36px !important;
+                    height: auto !important;
+                    letter-spacing: -0.81px;
+                    text-align: left;
+                    color: #000;
+                }
+
+                h3 {
+                    width: 100% !important;
+                }
+
+                .area_jisa_businessdept {
+                    padding: 0 0 0 0 !important;
+                    font-size: 14px;
+                    margin-bottom: 10px !important;
+                    background: none !important;
+
+                    h4 {
+                        top: 0 !important;
+                        position: relative;
+
+                        text-indent: 0px !important;
+                        overflow: visible;
+                        background: none !important;
+                        background-repeat: no-repeat;
+                        background-position: 0 0;
+                        width: auto;
+                        height: auto;
+                        margin-block-start: 0;
+                        margin-block-end: 0;
+                        margin-right: 13.8666vw;
+
+                        &::after {
+                            position: absolute;
+                            content: "";
+                            top: 25%;
+                            right: -6.4vw;
+                            width: 1px;
+                            height: 10px;
+                            background: #ddd;
+                        }
+                    }
+
+                    p {
+
+                        margin-block-start: 0;
+                        margin-block-end: 0;
+                        position: relative;
+
+                        &::before {
+                            position: absolute;
+                            content: "";
+                            top: 35%;
+                            left: -4px;
+                            width: 2px;
+                            height: 2px;
+                            border-radius: 50%;
+                            background: #e40000;
+                        }
+
+                    }
+
+                    .area_brdclasscode {
+                        display: flex;
+                        padding: 14px 0 14px 5.3333vw;
+
+                        ul {
+                            margin-left: 0 !important;
+                        }
+
+                        h4 {
+                            padding-left: 0 !important;
+                            margin-bottom: 0 !important;
+                            width: auto;
+                            height: auto;
+                            color: #e40000;
+
+                            &::after {}
+
+                        }
+
+                        .total {
+                            top: 0 !important;
+                            color: #e40000;
+
+
+
+                            &.on {
+                                position: relative;
+                                left: 0;
+
+                                a {
+                                    color: inherit !important;
+                                    text-decoration: none !important;
+
+                                }
+                            }
+                        }
+                    }
+
+                    .clearfix {
+                        display: flex;
+                        padding-inline-start: 0;
+                        margin-block-end: 0;
+
+
+                        li {
+                            background: none;
+                            padding-left: 0;
+                            min-width: auto;
+                            float: unset;
+                            line-height: inherit;
+                            margin: 0 0;
+                            margin-left: 6.4vw;
+                            position: relative;
+
+                            &::before {
+                                position: absolute;
+                                content: "";
+                                top: 35%;
+                                left: -4px;
+                                width: 2px;
+                                height: 2px;
+                                border-radius: 50%;
+                                background: #8f8f8f;
+                            }
+
+                            &:last-child {
+                                gap: 0 !important
+                            }
+
+                            a {}
+                        }
+                    }
+                }
+            }
+
+            .area_search {
+                border: 0px solid #fff;
+                margin-bottom: 55px;
+
+                .btn_search {
+                    font-family: "NanumBarunGothicBold";
+                    padding: 0 20px;
+                    width: auto !important;
+                    background-image: none;
+                    text-indent: 0;
+                    background-color: #e40000;
+                    color: #fff;
+                    font-size: 14px;
+                }
+
+                .inline {
+                    display: flex;
+                    gap: 1.6vw;
+
+
+
+                    select {
+                        border: 1px solid #d5d5d5;
+                        height: auto !important;
+                        height: 35px !important;
+                        width: 186.4px;
+
+                    }
+
+                    input {
+                        width: 100%;
+                        margin-bottom: 5px;
+                        height: 35px;
+
+
+                    }
+
+
+                }
+            }
+
+            .area_movie {
+                .youtobe_player {
+                    max-width: none !important;
+                }
+
+                .detail {
+                    .contents {
+                        margin: 10px 0 60px 0;
+                        padding: 10px;
+                        border: 1px solid #DEDEDE;
+                        height: 220px;
+                        overflow: auto;
+                        font-family: "NanumBarunGothicRegular";
+                        font-size: 14px;
+                        line-height: 1.5;
+                        letter-spacing: -0.42px;
+                        text-align: center;
+                        color: #000;
+                    }
+
+                    table {
+                        margin-top: 20px;
+                        width: 100%;
+                        border-collapse: collapse;
+
+                        td {
+                            padding-left: 0px !important;
+                            line-height: 1.5 !important;
+                            font-size: 14px !important;
+                            color: #000 !important;
+                            width: auto !important;
+
+
+                        }
+
+                        tr {
+
+                            .subject {
+                                color: #000 !important;
+                            }
+
+                            th {
+                                font-family: "MalgunGothic";
+                                font-size: 13px !important;
+                                font-weight: 700;
+                                height: 37px !important;
+                                position: relative;
+                                padding-right: 1vw;
+                                background: none !important;
+
+
+                                &::after {
+                                    position: absolute;
+                                    content: "";
+                                    top: 32%;
+                                    right: 3px;
+                                    width: 1px;
+                                    height: 13px;
+                                    background: #666;
+                                }
+
+                            }
+
+                            td {
+                                font-family: "MalgunGothic";
+                                font-size: 13px !important;
+                                font-weight: normal;
+                                color: #666 !important;
+                                height: auto !important;
+
+
+
+                                &:first-child {
+                                    padding-bottom: 10px !important;
+                                    font-size: 14px !important;
+                                    font-weight: 400 !important;
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+                .list {
+
+                    position: static;
+
+                    .pagenation {
+                        display: flex;
+                        gap: 15px;
+                        justify-content: end;
+                        margin-bottom: 10px;
+
+                        p {
+                            font-family: "NanumBarunGothicRegular";
+                            font-size: 14px;
+                            text-align: left;
+                            color: #656565;
+                        }
+
+
+                    }
+
+                    .movie_list {
+                        border-bottom: 0px solid #DEDEDE !important;
+
+                        li {
+
+                            .sub_tit {
+                                font-family: "NanumBarunGothicBold";
+                                font-size: 14px;
+                                text-align: left;
+                                color: #656565;
+                            }
+
+                            p {
+text-indent: 0ch;
+                                text-align: left !important;
+
+                            }
+
+                            a {
+                                font-family: "NanumBarunGothicRegular";
+                                font-size: 14px;
+                                text-align: left;
+                                color: #656565;
+                            }
+
+                            &.on {
+                                a {
+                                    font-family: "NanumBarunGothicRegular";
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    text-align: left;
+                                    color: #656565;
+                                }
+                            }
+                        }
+
+                    }
+
+                    .area_page {
+
+                        margin-bottom: 70px;
+
+                        ul {
+                            li {
+                                font-size: 14px !important;
+
+                                .current_page {
+                                    color:
+                                        #e40000;
+                                }
+
+                                a {
+                                    color: #000;
+
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+
+
+@media screen and (max-width:768px) {}
+
+
+@media screen and (max-width:480px) {}

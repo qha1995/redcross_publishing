@@ -1,0 +1,1006 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>조직(조직도)</title>
+    <link rel="stylesheet" type="text/css" href="../css/common_v2.css" />
+    <!--0106-->
+    <link rel="stylesheet" type="text/css" href="../css/redcross_krc/area_sectionB_S1.css" />
+    <link rel="stylesheet" type="text/css" href="../css/redcross_krc/redcross_krc_organization.css" />
+    <link rel="stylesheet" type="text/css" href="../css/print.css" media="print" />
+    <!-- <script type="text/javascript" src="https://connect.facebook.net/ko_KR/all.js" charset="utf-8"></script> -->
+    <script type="text/javascript" src="../script/jquery.js"></script>
+    <script type="text/javascript" src="../script/facebook_util.js"></script>
+    <script type="text/javascript" src="../script/twitter_util.js"></script>
+    <script type="text/javascript" src="../script/common/contents_utility.js"></script>
+    <script type="text/javascript" src="../script/common/quickmenu.js"></script>
+    <script type="text/javascript" src="../script/common/logger.js"></script>
+    <script type="text/javascript" src="../script/common/world_redcross_layer.js"></script>
+    <script type="text/javascript" src="../script/common/total_menu_layer.js"></script>
+
+    <!-- 반응형 s -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <link rel="stylesheet" type="text/css" href="../css/main_v13/main_v13.css?v=20191028001" />
+    <link rel="stylesheet" type="text/css" href="../css/common_v3.css?v=20190725002" />
+    <link rel="stylesheet" type="text/css" href="../css/style_v3.css" />
+    <link rel="stylesheet" type="text/css" href="../css/donation_participation_v2/donation_custom.css" />
+    <link rel="stylesheet" type="text/css" href="../css/donation_participation_v2/colorbox.css" />
+    <link rel="stylesheet" type="text/css" href="../css/donation_participation_v2/rc_style_v1.css?v=20190521" />
+    <link rel="stylesheet" type="text/css" href="../css/respon.css" />
+    <link rel="stylesheet" type="text/css" href="../css/fontset.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <script src="../script/main_v14/header_v14_m.js"></script>
+    <script type="text/javascript" src="../script/donation_participation_v2/donation_custom_sub.js" charset="euc-kr"></script><!-- //서브페이지 js -->
+    <!-- 반응형 e -->
+
+</head>
+
+<body class="redcross krc organization">
+    <div id="area_header" class="header">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script type="text/javascript" charset="UTF-8" src="//t1.daumcdn.net/adfit/static/kp.js"></script>
+        <script type="text/javascript">
+            kakaoPixel('1248050712434883608').pageView();
+
+            function sendPcLogout() {
+                $.ajax({
+                    dataType: "text",
+                    async: false,
+                    url: "/member/member_logout.do",
+                    type: "POST",
+                    success: function(data) {
+                        //alert("PC 성공");
+                    },
+                    error: function(xhr, status, err) {
+                        //alert(" error xhr : "+xhr+"\n status : "+status+"\n err : "+err);
+                    }
+                });
+            }
+
+            function sendMobileLogout() {
+                $.ajax({
+                    dataType: "text",
+                    async: false,
+                    url: "/m/static/j_spring_security_logout.do",
+                    type: "POST",
+                    success: function(data) {
+                        //alert("모바일성공");
+                    },
+                    error: function(xhr, status, err) {
+                        //alert(" error xhr : "+xhr+"\n status : "+status+"\n err : "+err);
+                    }
+                });
+            }
+        </script>
+        <!-- <script language="Javascript" type="text/javascript">
+var host = location.host.toLowerCase();
+var currentAddress = location.href;
+	if(window.location.hostname != "dev.www.redcross.or.kr"){
+		if (host.indexOf("www")== -1){
+		currentAddress = currentAddress.replace("//","//www.");
+		location.href = currentAddress;
+	}
+}
+</script> -->
+        <style>
+            .grayBtn03 {
+                display: inline-block;
+                text-align: center;
+                height: 28px;
+                line-height: 28px;
+                padding: 0 9px;
+                border-radius: 2px;
+                font-size: 12px;
+                color: #fff;
+                background: #4f4f4f;
+            }
+
+            .redBtn03 {
+                display: inline-block;
+                text-align: center;
+                height: 28px;
+                line-height: 28px;
+                padding: 0 9px;
+                border-radius: 2px;
+                font-size: 12px;
+                color: #fff;
+                background: #ed1c24;
+            }
+
+            .redLBtn03 {
+                display: inline-block;
+                text-align: center;
+                height: 26px;
+                line-height: 26px;
+                padding: 0 8px;
+                border: 1px solid #ed1c24;
+                border-radius: 2px;
+                font-size: 12px;
+                color: #ed1c24;
+                background: #fff;
+            }
+
+            #aside_banner {
+                position: absolute;
+                position: fixed;
+                top: 300px;
+                right: 30px;
+                z-index: 3;
+                width: 128px;
+                height: 198px;
+                border: 0px solid;
+            }
+        </style>
+        <!--0625 퀵메뉴 추가 시작-->
+        <style type="text/css">
+            .cquick_imgs {
+                position: fixed;
+                right: 20px;
+                top: 534px;
+                text-align: center;
+                z-index: 999999 !important;
+            }
+
+            .cquick_imgs a {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            .cquick_area {
+                position: fixed;
+                right: 20px;
+                top: 4px;
+                text-align: center;
+                z-index: 999999 !important;
+            }
+
+            .cquick_area .cquick_box {
+                width: 80px;
+                box-shadow: 7px 8px 15px rgba(0, 0, 0, 0.2);
+                text-align: center;
+                z-index: 999999 !important;
+            }
+
+            .cquick_area .cquick_box>p {
+                width: 100%;
+                height: 30px;
+                background: #cf3e23 url(/images/qc.png) no-repeat center center;
+                border-radius: 5px 5px 0 0;
+            }
+
+            .cquick_area .cquick_box>ul>li {
+                padding: 4px 0;
+                border-top: 1px solid #fff;
+                background: #f0e9e7;
+            }
+
+            .cquick_area .cquick_box>ul>li:last-child {
+                border-radius: 0 0 5px 5px;
+            }
+
+            .cquick_area .cquick_box>ul>li>a {
+                display: block;
+                padding-top: 35px;
+                font-size: 12px;
+                line-height: 17px;
+                color: #827371;
+                font-family: '맑은 고딕';
+                font-weight: bold;
+            }
+
+            .cquick_area .cquick_box>ul>li:hover {
+                background: #fae7e2;
+            }
+
+            .cquick_area .cquick_box>ul>li.bg1>a {
+                background: url(/images/cic1.png?v=20210614001) no-repeat center top;
+            }
+
+            .cquick_area .cquick_box>ul>li.bg2>a {
+                background: url(/images/cic2.png?v=20210614001) no-repeat center top;
+            }
+
+            .cquick_area .cquick_box>ul>li.bg3>a {
+                background: url(/images/cic3.png?v=20210614001) no-repeat center top;
+            }
+
+            .cquick_area .cquick_box>ul>li.bg7>a {
+                background: url(/images/cic7.png?v=20210614001) no-repeat center top;
+                padding-top: 20px;
+            }
+
+            .cquick_area .cquick_box>ul>li.bg4>a {
+                background: url(/images/cic4.png?v=20210614001) no-repeat center top;
+            }
+
+            .cquick_area .cquick_box>ul>li.bg5>a {
+                background: url(/images/cic5.png?v=20210614001) no-repeat center top;
+            }
+
+            .cquick_area .cquick_box>ul>li.bg6>a {
+                background: url(/images/cic6.png?v=20210614001) no-repeat center top;
+            }
+
+            .cquick_area .cquick_box>ul>li.bg8>a {
+                background: url(/images/cic8.png) no-repeat center top;
+            }
+
+            .main-ct3 .bx-controls-direction {
+                z-index: 999 !important;
+            }
+
+            .slider1 .bx-controls-direction {
+                z-index: 99 !important;
+            }
+
+            @media screen and (max-width:1024px) {
+
+                /* .cquick_imgs {display: block;right: 0;top: auto;bottom:0;}
+	    .cquick_imgs a{display:block;width:120px;}
+	    .cquick_imgs a:last-child{display:none;}
+	    .cquick_imgs a img {width:100%;} */
+                .cquick_imgs {
+                    display: none;
+                }
+
+                .cquick_area {
+                    display: none;
+                }
+            }
+        </style>
+        <!-- <script type="text/javascript" src="../script/common/logger.js?v=20191004001"></script> -->
+        <script type="text/javascript" src="../script/common/logger.js?v=20221114001"></script>
+        <meta name="google-site-verification" content="so2xk46oHgX8IBUeMDuP37b0wvFEe2Q2B_xoWF_doeY" />
+
+        <script>
+            function skipmain() {
+                if (document.getElementById('area_section') != null) {
+                    document.getElementById('area_section').tabIndex = -1;
+                    document.getElementById('area_section').focus();
+                    return true;
+                }
+                if (document.getElementById('main_area_container') != null) {
+                    document.getElementById('main_area_container').tabIndex = -1;
+                    document.getElementById('main_area_container').focus();
+                    return true;
+                }
+
+                return false;
+            }
+
+            function skipmenu() {
+                if (document.getElementById('gnb') != null) {
+                    ddocument.getElementById('gnb').tabIndex = -1;
+                    document.getElementById('gnb').focus();
+                    return true;
+                }
+
+                return false;
+            }
+        </script>
+
+
+
+
+
+
+        <!--0625 퀵메뉴 추가 끝-->
+        <!-- header pc // -->
+        <!-- <div class="menuMain s2">
+    <div class="top">
+        <div class="center-width clearfix">
+            <div class="left-button">
+                <ul class="clearfix">
+                    <li><a href="/localunion_totalmain/localunion_totalmain.do" title="지사소개 사이트로 이동" target="_blank">지사소개</a></li>
+                    <li><a href="/ihl/main/main.do" title="인도법연구소 사이트로 이동" target="_blank">인도법연구소</a></li>
+                    <li><a href="http://kr.icrc.org" title="ICRC 사이트로 이동" target="_blank">ICRC</a></li>
+                    <li><a href="http://www.ifrc.org/" title="IFRC 사이트로 이동" target="_blank">IFRC</a></li>
+                    <li><a href="https://www.apdisasterresilience.org/" title="APDRC(재난복원력센터) 사이트로 이동" target="_blank">APDRC(재난복원력센터)</a></li>
+                    
+                    <li><a href="http://www.redcross21.or.kr/" title="온라인쇼핑몰(수품센터) 사이트로 이동" target="_blank">온라인쇼핑몰(수품센터)</a></li>
+                </ul>
+            </div>
+            <div class="right-button clearfix">
+                <a href="/site_map/site_map.do" title="사이트맵 페이지로 이동" class="a3-1">사이트맵</a>
+                <a href="/eng/eng_main/main.do" title="영문사이트 링크" class="a3" target="_blank">ENG</a>
+            </div>
+        </div>
+    </div>
+    <div class="logo-div clearfix">
+        <div class="center-width posi-relative">
+            <div class="logo-btn">
+            <h1>
+			    <a href="/" class="logo">
+			    <span class="hide">대한적십자사</span>
+			    </a>
+			</h1>
+            </div>
+            <div class="menu-t-btn">
+                <ul class="clearfix">
+                    
+                    
+	                    <li><a href="/voluntary/volunteer_guide.do" title="봉사 페이지로 이동" class="bg1">봉사</a></li>
+	                    <li><a href="/rcy/rcy_main.do" title="RCY(청소년적십자) 페이지로 이동" class="bg2">RCY(청소년적십자)</a></li>
+	                    <li><a href="/education/education_main.do" title="재난안전교육 페이지로 이동" class="bg3">재난안전교육</a></li>
+	                    <li><a href="https://www.bloodinfo.net" title="혈액 사이트로 이동" target="_blank" class="bg4">혈액</a></li>
+	                    <li><a href="http://www.rch.or.kr/" title="병원 사이트로 이동" target="_blank" class="bg5">병원</a></li>
+	                    <li><a href="/redcross_customer/redcross_customer_integrity_step1.do" title="청렴핫라인 사이트로 이동" target="_blank" class="bg10">청렴핫라인</a></li>
+                    
+                </ul>
+            </div>
+            <div class="button">
+                <ul class="clearfix">
+                    
+                     <li><a href="/member/member_login.do" title="로그인" class="bg2">로그인</a></li>
+                    
+                    
+                    
+                     <li><a href="/member/member_register_general.do" title="회원가입 페이지로 이동" class="bg3">회원가입</a></li>
+                    
+                    <li><a href="/mypage/mypage_main.do" title="마이페이지(적십자활동 내역연결)" class="bg4">마이페이지(적십자활동연결)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="center-width">            
+            <a href="javascript:;" class="menu-bt">전체메뉴보기</a>
+            <div class="allMenu-hbg">
+                <div class="top_menuH">
+                    <ul class="clearfix">
+                        <li>
+                            <a href="/redcross_krc/redcross_krc_main.do">대한적십자사 소개</a>
+                            <ul>
+                                <li>
+                                    <a href="/redcross_krc/redcross_krc_main.do" title="대한적십자사 페이지로 이동">대한적십자사</a>
+                                </li>
+                                <li>
+                                    <a href="/redcross_rcmovement/redcross_rcmovement_bornbackground.do" title="국제적십자운동 페이지로 이동">국제적십자운동</a>
+                                </li>
+                                <li>
+                                    <a href="/design/basic_system/category1.htm" title="홍보자료실 페이지로 이동" target="_blank">홍보자료실</a>
+                                </li>
+                                <li>
+                                    <a href="/redcross_whatsnew/redcross_whatsnew_news_announcement.do" title="소식 페이지로 이동">소식</a>
+                                </li>
+                                <li>
+                                    <a href="/redcross_customer/redcross_customer_integrity_step1.do" title="청렴핫라인 페이지로 이동">청렴핫라인</a>
+                                </li>
+                                <li>
+                                    <a href="/redcross_morgue/redcross_morgue_institution.do" title="투명경영 페이지로 이동">투명경영</a>
+                                </li>
+                                <li>
+                                    <a href="/redcross_krc/redcross_krc_safety.do" title="안전보건 경영 페이지로 이동">안전보건 경영</a>
+                                </li>
+                                <li>
+                                    <a href="/redcross_customer/redcross_customer_spot.do" title="고객센터 페이지로 이동">고객센터</a>
+                                </li>
+                                <li>
+                                    <a href="/redcross_coming/redcross_coming_map.do" title="찾아오시는 길 페이지로 이동">찾아오시는 길</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/business/business_main.do">사업안내</a>
+                            <ul>
+                                <li>
+                                    <a href="/business/calamity.do" title="재난 구호사업 페이지로 이동">재난 구호사업</a>
+                                </li>
+                                <li>
+                                    <a href="/business/crisishouse_support.do" title="복지사업(평시 구호) 페이지로 이동">복지사업(평시 구호)</a>
+                                </li>
+                                <li>
+                                    <a href="/business/international_cooperation.do" title="국제사업 페이지로 이동">국제사업</a>
+                                </li>
+                                <li>
+                                    <a href="/business/calamity_restore.do" title="교육 및 연구 페이지로 이동">교육 및 연구</a>
+                                </li>
+                                <li>
+                                    <a href="/business/volunteer_operation.do" title="인도주의 활동가 양성 페이지로 이동">인도주의 활동가 양성</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:alert('준비중입니다.');" title="공공의료사업 페이지로 이동">공공의료사업</a>
+                                </li>
+                                <li>
+                                    <a href="/business/blood_support.do" title="혈액사업 페이지로 이동">혈액사업</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/donation_participation_v2/donation_participation.do">후원 프로그램</a>
+                            <ul>
+                                <li>
+                                    <a href="/donation_participation_v2/donation_participation_reg.do?action=komkom" title="개인후원 페이지로 이동">개인후원</a>
+                                </li>
+                                <li>
+                                    <a href="/donation_participation_v2/donation_participation_company_cowokers.do" title="단체/기업후원 페이지로 이동">단체/기업후원</a>
+                                </li>
+                                <li>
+                                    <a href="/donation_participation_v2/donation_participation_rchc.do" title="고액후원 페이지로 이동">고액후원</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.redcross.or.kr/donation_participation_v2/donation_participation_fee_introduce.do" title="적십자회비 페이지로 이동">적십자회비</a>
+                                </li>
+                                <li>
+                                    <a href="/donation_participation_v2/donation_participation_onetime_detail05.do" title="후원 소식 페이지로 이동" style="letter-spacing:-2px;" >후원 소식</a>
+                                </li>
+                                <li>
+                                    <a href="/mypage_donation/mypage_donation_breakdown.do" title="나의 후원 페이지로 이동">나의 후원</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/voluntary/windmill_introduce.jsp">SOS 지원신청</a>
+                            <ul>
+                                <li>
+                                    <a href="/voluntary/windmill_introduce.jsp" title="희망풍차 페이지로 이동">희망풍차</a>
+                                </li>
+                                <li>
+                                    <a href="/voluntary/windmill_support.jsp" title="긴급지원 페이지로 이동">긴급지원</a>
+                                </li>
+                                <li>
+                                    <a href="/voluntary/windmill_custom_support.jsp" title="맞춤지원 신청하기 페이지로 이동">맞춤지원 신청하기</a>
+                                </li>
+                                <li>
+                                    <a href="/voluntary/windmill_relationship.jsp" title="결연하기 페이지로 이동">결연하기</a>
+                                </li>
+                               
+                                <li>
+                                    <a href="#none" title="나의신청 페이지로 이동">나의신청</a>
+                                </li>
+                                -->
+        <!-- </ul>
+                        </li>
+                        <li>
+                            <a href="/voluntary/volunteer_guide.do">봉사</a>
+                            <ul>
+                                <li>
+                                    <a href="/voluntary/volunteer_guide.do" title="봉사활동안내 페이지로 이동">봉사활동안내</a>
+                                </li>
+                                <li>
+                                    <a href="/voluntary/volunteer.do" title="봉사활동 신청 페이지로 이동">봉사활동 신청</a>
+                                </li>
+                                <li>
+                                    <a href="/voluntary/member_register_voluntary.do" title="봉사원 가입 페이지로 이동">봉사원 가입</a>
+                                </li>
+                                <li>
+                                    <a href="/voluntary/vipmember_data_photo.do" title="자료실 페이지로 이동">자료실</a>
+                                </li>
+                                <li>
+                                    <a href="/mypage_volunteer/mypage_volunteer_breakdown.do" title="나의 봉사 페이지로 이동">나의 봉사</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/rcy_info/rcy_info_mean.do">RCY(청소년적십자)</a>
+                            <ul>
+                                <li>
+                                    <a href="/rcy_info/rcy_info_mean.do" title="RCY 되기 페이지로 이동">RCY 되기</a>
+                                </li>
+                                <li>
+                                    <a href="/rcy_activity/rcy_activity_humanitarian_education.do" title="RCY 활동소개 페이지로 이동">RCY 활동소개</a>
+                                </li>
+                                <li>
+                                    <a href="/rcy_participation/rcy_participation_current_v2.do" title="행사참여하기 페이지로 이동">행사참여하기</a>
+                                </li>
+                                <li>
+                                    <a href="/rcy_reference/rcy_reference_human_program.do" title="자료보기 페이지로 이동">자료보기</a>
+                                </li>
+                                <li>
+                                    <a href="/rcy_notice/rcy_notice_inform.do" title="알립니다 페이지로 이동">알립니다</a>
+                                </li>
+                                <li>
+                                    <a href="/mypage_rcy/mypage_rcy_voluntary_v2.do" title="나의 RCY 페이지로 이동">나의 RCY</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="https://www.redcross.or.kr/education/education_main.do">재난안전교육신청</a>
+                            <ul>
+                                <li>
+                                    <a href="/education_safety/education_safety_emergency.do" title="교육소개 페이지로 이동">교육소개</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.redcross.or.kr/learn/edu/edu.do" title="교육신청 페이지로 이동">교육신청</a>
+                                </li>
+                                <li>
+                                    <a href="/education_formbox/education_formbox_publication.do" title="교육자료 페이지로 이동">교육자료</a>
+                                </li>
+                                <li>
+                                    <a href="/education_inform/education_inform_board.do" title="알립니다. 페이지로 이동">알립니다.</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.redcross.or.kr/learn/mypage/my_main.do" title="나의 교육 페이지로 이동">나의 교육</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/redcross_krc/redcross_krc_safety.do">안전보건 경영</a>
+                            <ul>
+                                <li>
+                                    <a href="/redcross_krc/redcross_krc_safety.do" title="안전보건 경영방침 페이지로 이동">안전보건 경영방침</a>
+                                </li>
+                                <li>
+                                    <a href="/redcross_krc/redcross_krc_visionstrategy.do" title="비전 및 전략 페이지로 이동">비전 및 전략</a>
+                                </li>
+                                <li>
+                                	<a href="/redcross_krc/redcross_krc_safety_improvement.do" title="산업·중대재해 예방 신고센터 페이지로 이동">산업·중대재해 예방 신고센터</a>
+                                </li>
+                                <li>
+                                    <a href="/education_formbox/education_formbox_publication.do" title="교육자료 페이지로 이동">교육자료</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>  -->
+
+
+
+        <!-- header_mobile // -->
+
+    </div>
+    <div id="outline">
+
+
+        <div id="area_container">
+
+
+
+
+
+
+            <!-- <div id="area_lnb">
+    <h2>대한적십자사</h2>
+ 
+        <ul>
+            
+            <li class="introduce">
+                
+                    <a href="/redcross_krc/redcross_krc_introduce.do" title="기관 소개" >기관 소개</a>
+               
+                
+                 
+                
+            </li>
+            
+            
+            <li class="greeting">
+                
+                    <a href="/redcross_krc/redcross_krc_greeting.do" title="인사말" >인사말</a>
+                
+                 
+                
+            </li>
+         
+            
+            <li class="category1.htm">
+                
+                    <a href="/design/basic_system/category1.htm" title="브랜드 CI" >브랜드 CI</a>
+                
+                
+                 
+                
+            </li>
+
+            
+            
+            <li class="history">
+                
+                    <a href="/redcross_krc/redcross_krc_history.do" title="연혁" >연혁</a>
+                
+                
+            </li>
+      
+            
+            <li class="organization on">
+                
+                    <a href="/redcross_krc/redcross_krc_organization.do" title="조직(조직도)" >조직(조직도)</a>
+               
+                 
+                
+            </li>
+       
+            
+            
+            <li class="businessdept">
+                
+                    <a href="/redcross_krc/redcross_krc_businessdept.do" title="업무 담당자" >업무 담당자</a>
+               
+                
+                 
+                
+            </li>
+      
+            
+            <li class="map">
+                
+                    <a href="/redcross_coming/redcross_coming_map.do" title="오시는 길" >오시는 길</a>
+               
+                 
+                
+            </li>
+
+            
+            <li class="worksite">
+                
+                    <a href="/redcross_coming/redcross_coming_worksite.do" title="사업장 현황" >사업장 현황</a>
+                  
+                
+                 
+                
+            </li>
+       
+            
+            
+        </ul>
+    
+</div> -->
+
+
+
+
+
+
+            <div id="area_section" class="area_sectionB_S1">
+                <ul class="siteNav">
+                    <li><a href="../main/main.do" title="home">Home</a></li>
+                    <li><strong><a href="../redcross_krc/redcross_krc_main.do" title="대한적십자 소개">대한적십자사 소개</a></strong></li>
+                    <li><strong><a href="../redcross_krc/redcross_krc.do" title="대한적십자사">대한적십자사</a></strong></li>
+                    <li><strong>조직(조직도)</strong></li>
+                </ul>
+                <div class="pageTop">
+                    <p class="h2-tit">조직(조직도)</p>
+                    <div class="pageUtile">
+                        <!-- <a class="sns" href="#none">트위터</a>
+					<a class="printer" href="#none">프린터</a>
+					<a class="pageZoom minus" href="#none">확대</a>
+					<a class="pageZoom plus" href="#none">축소</a> -->
+                    </div>
+                </div>
+
+
+
+
+
+                <div id="area_contents_utility">
+                    <hr />
+                </div>
+
+
+
+                <ul class="tab_wrap_organization clearfix">
+                    <li class="tab_organization on"><a href="../redcross_krc/redcross_krc_organization.do?tabno=01" title="조직도(현재 페이지)">조직도</a></li>
+                    <li class="tab_member_adviser"><a href="../redcross_krc/redcross_krc_organization.do?tabno=02" title="임원&middot;위원/고문">임&middot;위원/고문</a></li>
+                    <li class="tab_secretary_general"><a href="../redcross_krc/redcross_krc_organization.do?tabno=03" title="사무총장">사무총장</a></li>
+                    <li class="tab_committee"><a href="../redcross_krc/redcross_krc_organization.do?tabno=04" title="협의회/위원회">협의회/위원회</a></li>
+                </ul>
+
+                <div class="bg_organization_out">
+                    <div class="bg_organization">
+                        <ul>
+                            <div class="bd_gray">
+                                <li>명예회장 대통령</li>
+
+                                <li>명예부회장 국무총리</li>
+
+                                <li class="red">회장</li>
+
+                                <li class="red">부회장</li>
+                            </div>
+                            <div class="bd_black">
+                                <li>재정감독/법률고문</li>
+                                <li>비서실</li>
+
+                            </div>
+                            <table class="tb_01">
+                                <th colspan="2">전국대의원총회</th>
+
+
+                                <tr>
+                                    <td>대의원 : <span class="gray">145명(회장포함)</span></td>
+                                    <td>각 시&middot;도 위촉 :<span class="gray"> 34명</span> </td>
+
+                                </tr>
+                                <tr>
+                                    <td class="pdb15">대통령위촉 : <span class="gray">8명</span></td>
+                                    <td class="pdb15">각 지사 선출 :<span class="gray"> 90명</span></td>
+                                </tr>
+
+                            </table>
+
+                            <div class="bd_black">
+                                <li>감사실</li>
+                            </div>
+                            <div class="flex">
+                                <table class="tb_02">
+                                    <th colspan="3">중앙위원회</th>
+                                    <tr>
+
+                                        <td>위원 : <span class="gray">28명 (회장포함)</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>국무위원 : <span class="gray"> 8명(기획재정, 교육, 통일, 외교, 법무, 국방, 행정자치부, 보건복지부)</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pdb15">전국대의원총회선출 : <span class="gray">19명</span></td>
+
+                                    </tr>
+                                </table>
+
+                                <table class="tb_02">
+                                    <th colspan="3">운영위원회</th>
+                                    <tr>
+
+                                        <td>위원 : <span class="gray"> 7명(회장포함)</span> </td>
+                                    </tr>
+                                    <tr>
+                                        <td>중앙위원회에서 선호하는 위원 : <span class="gray"> 4명</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pdb15">행정안전부, 보건복지부 장관</td>
+                                    </tr>
+
+                                    </tr>
+                                </table>
+
+                            </div>
+                            <div class="bd_red">
+                                <li>사무총장</li>
+                                <li class="gray mgb10">본사</li>
+                            </div>
+                            <ul>
+                                <li class="h4_organ">본사 - 원폭피해자 사할린동포 지원본부</li>
+                                <div class="bd_lg">
+                                    <li><a href="/redcross_krc/redcross_krc_businessdept.do" class="a_link" title="기획조정실">기획조정실</a></li>
+                                    <li><a href="/redcross_krc/redcross_krc_businessdept.do?action=init&program_id=program1" title="모금전략본부">모금전략본부</a></li>
+                                    <li><a href="/redcross_krc/redcross_krc_businessdept.do?action=init&program_id=program2" title="국내사업본부">국내사업본부</a></li>
+                                    <li><a href="/redcross_krc/redcross_krc_businessdept.do?action=init&program_id=program3" title="국제남북사업본부">국제남북사업본부</a></li>
+
+                                </div>
+                                <ul>
+                                    <li class="h4_organ">인도법연구소</li>
+                                    <div class="bd_lg">
+                                        <li>인재개발원</li>
+                                        <li>서울특별시지사</li>
+                                        <li>부산광역시지사</li>
+                                        <li>대구광역시지사</li>
+                                        <li>인천광역시지사</li>
+                                        <li>울산광역시지사</li>
+                                        <li>대전&middot;세종지사</li>
+                                        <li>경기도지사</li>
+                                        <li>강원특별자치도지사 </li>
+                                        <li>충청북도지사</li>
+                                        <li>충청남도지사</li>
+                                        <li>전라북도지사</li>
+                                        <li>광주&middot;전남지사</li>
+                                        <li>경상북도지사</li>
+                                        <li>경상남도지사</li>
+                                        <li>제주특별자치도지사</li>
+                                    </div>
+                                </ul>
+                                <ul>
+
+                                    <div class="bd_dg">
+                                        <li> 혈액관리본부 </li>
+                                    </div>
+
+                                    <!--혈액관리본부  -->
+                                    <li class="h4_organ">원폭피해자,사할린동포 지원본부</li>
+                                    <div class="bd_lg">
+                                        <li><a href="https://www.bloodinfo.net/knrcbs/om/orgnzt/orgdept.do?mi=1174" target="_blank" title="기획관리국(새창)">기획관리국</a></li>
+                                        <li><a href="https://www.bloodinfo.net/knrcbs/om/orgnzt/orgdept.do?mi=1174" target="_blank" title="헌혈증진국(새창)">헌혈증진국</a></li>
+                                        <li><a href="https://www.bloodinfo.net/knrcbs/om/orgnzt/orgdept.do?mi=1174" target="_blank" title="혈액안전국(새창)">혈액안전국</a></li>
+                                        <li><a href="https://www.bloodinfo.net/knrcbs/om/orgnzt/orgdept.do?mi=1174" target="_blank" title="정보관리국(새창)">정보관리국</a></li>
+
+                                    </div>
+                                </ul>
+                                <ul>
+                                    <li class="h4_organ">인도법연구소</li>
+                                    <div class="bd_lg">
+                                        <li>서울중앙혈액원</li>
+                                        <li>서울남부혈액원</li>
+                                        <li>서울동부혈액원</li>
+                                        <li>부산혈액원</li>
+                                        <li>대구.경북혈액원</li>
+                                        <li>인천혈액원</li>
+                                        <li>울산혈액원</li>
+                                        <li>경기혈액원</li>
+                                        <li>강원혈액원</li>
+                                        <li>충북혈액원</li>
+                                        <li>대전.세종.충남혈액원</li>
+                                        <li>전북혈액원</li>
+                                        <li>광주.전남혈액원</li>
+                                        <li>경남혈액원</li>
+                                        <li>제주특별자치도혈액원</li>
+                                        <li>혈장분획센터</li>
+                                        <li>혈액수혈연구원</li>
+                                        <li>중앙혈액검사센터</li>
+                                        <li>중부혈액검사센터</li>
+                                        <li>남부혈액검사센터</li>
+                                    </div>
+                                </ul>
+
+                                <ul>
+                                    <div class="bd_dg">
+                                        <li>적십자의료원</li>
+                                    </div>
+
+                                    <li class="h4_organ">원폭피해자,사할린동포 지원본부</li>
+                                    <div class="bd_lg">
+                                        <li>
+                                            <!-- <a href="/redcross_krc/redcross_krc_businessdept.do?action=init&program_id=program7" class="a_link_whild" title="병원사업본부 이동"> -->병원사업본부
+                                            <!-- </a> -->
+                                        </li>
+                                    </div>
+                                </ul>
+
+                                <ul>
+                                    <li class="h4_organ">인도법연구소</li>
+                                    <div class="bd_lg">
+                                        <li>서울적십자병원</li>
+                                        <li>인천적십자병원</li>
+                                        <li>상주적십자병원</li>
+                                        <li>통영적십자병원</li>
+                                        <li>거창적십자병원</li>
+                                        <li>경인권역재활병원</li>
+                                        <li>영주적십자병원</li>
+                                    </div>
+                                </ul>
+
+                            </ul>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(function() {
+            $('#new_area_localunion_and_worldredcross .btn_link_open2').click(function(e) {
+                e.stopPropagation();
+                e.preventDefault();
+                $('#footerArea #foot_wrapper_layer2').show();
+                $('.area_jisa .item_01 > a').focus();
+                $('#new_area_localunion_and_worldredcross .btn_link_close2').show();
+                $(this).hide();
+            });
+            $('#new_area_localunion_and_worldredcross .btn_link_close2').click(function(e) {
+                e.stopPropagation();
+                e.preventDefault();
+                $('#footerArea #foot_wrapper_layer2').hide();
+                $('#new_area_localunion_and_worldredcross .btn_link_open2').show();
+                $(this).hide();
+                return false;
+            });
+            $('.area_redcross_othernation .item_23 > a').keydown(function(e) {
+                e.preventDefault();
+                $('#footerArea #foot_wrapper_layer2').hide();
+                $('#new_area_localunion_and_worldredcross .btn_link_close2').hide();
+                $('#new_area_localunion_and_worldredcross .btn_link_open2').show();
+                $('#new_area_localunion_and_worldredcross .btn_link_open2').focus();
+                return false;
+            });
+        });
+    </script>
+
+
+    <!--네이버 공통스크립트-->
+    <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+    <script type="text/javascript">
+        if (!wcs_add) var wcs_add = {};
+        wcs_add["wa"] = "s_eb14e20257c";
+        if (!_nasa) var _nasa = {};
+        wcs.inflow();
+        wcs_do(_nasa);
+    </script>
+    <style type="text/css">
+        @import url("/css/main_v14/accessibility.css");
+    </style>
+
+
+    <!-- LOGGER(TM) TRACKING SCRIPT V.40 FOR logger.co.kr / 13490 : COMBINE TYPE / DO NOT ALTER THIS SCRIPT. -->
+    <script type="text/javascript">
+        var _TRK_LID = "13490";
+        var _L_TD = "ssl.logger.co.kr";
+        var _TRK_CDMN = ".redcross.or.kr";
+    </script>
+    <script type="text/javascript">
+        var _CDN_DOMAIN = location.protocol == "https:" ? "https://fs.bizspring.net" : "http://fs.bizspring.net";
+        (function(b, s) {
+            var f = b.getElementsByTagName(s)[0],
+                j = b.createElement(s);
+            j.async = true;
+            j.src = '//fs.bizspring.net/fs4/bstrk.1.js';
+            f.parentNode.insertBefore(j, f);
+        })(document, 'script');
+    </script>
+    <noscript><img alt="Logger Script" width="1" height="1" src="http://ssl.logger.co.kr/tracker.tsp?u=13490&amp;js=N" /></noscript>
+    <!-- END OF LOGGER TRACKING SCRIPT -->
+
+
+
+    <!-- script type="text/javascript">
+ var _mfq = _mfq || [];
+ (function() {
+
+ var mf = document.createElement("script");
+ mf.type = "text/javascript"; mf.async = true;
+ mf.src = "//cdn.mouseflow.com/projects/16c87bfa-a9e6-4628-99b7-6d44b860feb6.js";
+ document.getElementsByTagName("head")[0].appendChild(mf);
+})();
+</script -->
+
+
+    <!-- adinsight 공통스크립트 start -->
+    <!-- 
+<script type="text/javascript">
+var TRS_AIDX = 10543;
+var TRS_PROTOCOL = document.location.protocol;
+document.writeln();
+var TRS_URL = TRS_PROTOCOL + '//' + ((TRS_PROTOCOL=='https:')?'analysis.adinsight.co.kr':'adlog.adinsight.co.kr') +  '/emnet/trs_esc.js';
+document.writeln("<scr"+"ipt language='javascript' src='" + TRS_URL + "'></scr"+"ipt>");
+</script>
+ -->
+    <!-- adinsight 공통스크립트 end -->
+
+    <!-- Google Tag Manager -->
+    <!-- 
+<noscript><iframe title="구글테그메니져" src="//www.googletagmanager.com/ns.html?id=GTM-KXXDX6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script type="text/javascript">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KXXDX6');
+</script>
+ -->
+    <!-- End Google Tag Manager -->
+
+    <!-- Google Tag Manager By 누구나데이터 | 2019.9 -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXXDX6&noscript=true" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager -->
+
+    <!-- Facebook Pixel Code
+<noscript>
+  <img height="1" width="1" style="display:none" 
+       src="https://www.facebook.com/tr?id={your-pixel-id-goes-here}&ev=PageView&noscript=1"/>
+</noscript>
+ End Facebook Pixel Code -->
+
+</body>
+
+</html>

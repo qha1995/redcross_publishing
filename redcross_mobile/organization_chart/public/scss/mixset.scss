@@ -1,0 +1,372 @@
+@charset "UTF-8";
+// @import "mixset.scss";
+//  Color System common $SCSS
+$color_white: #fff;
+$color_aaa: #aaa; // hsl 67%
+$color_ddd: #ddd; // 87%
+$color_eee: #eee; // 93% 
+$color_f5: #f5f5f5; // 96%
+
+// 명암비 관련 정리
+// $color_white: #fff; 의  3:1
+// $color_aaa: #828282; // 27% -> 46
+// $color_ddd: #878787; // 37% ->49
+// $color_eee: #8c8c8c; // 47% -> 52
+// $color_f5: #919191; // 3:1 57% 이하여야함..
+
+// font #111 의 3:1 최소 8:1
+
+
+$color_ft_aaa: #919191; // hsl 67%
+$color_ft_ddd: #919191; // 87%
+$color_ft_eee: #919191; // 93% 
+$color_ft_f5: #919191; // 96%
+$color_ft_777: #919191; // 96%
+
+// 명암비 관련 임시 수정
+$color_bg_aaa: #aaa; // hsl 67%
+$color_bg_ddd: #ddd; // 87%
+$color_bg_eee: #eee; // 93% 
+$color_bg_f5: #f5f5f5; // 96%
+
+// $color_aaa: #828282; // 27% -> 46
+// $color_ddd: #878787; // 37% ->49
+// $color_eee: #8c8c8c; // 47% -> 52
+// $color_f5: #919191; // 3:1 57% 이하여야함..
+
+$color_red: #f00;
+$color_black: #111;
+$color_blue: #1953d5;
+$color_blue_disabled: #a3baee;
+// /* Color admin mainA */
+$color_mainA_indigo: #131f55;
+$color_mainA_duskblue: #26357c;
+// /* Color user mainU*/
+$color_mainU_navy: #15285f;
+// /* font */
+$font_regular: 'NotoSansRegular',
+'나눔바른고딕',
+'NanumBarunGothic',
+'Apple SD 산돌고딕 Neo',
+'Apple SD Gothic Neo',
+-apple-system,
+BlinkMacSystemFont,
+'Segoe UI',
+sans-serif;
+$font_medium: 'NotoSansMedium',
+'나눔바른고딕',
+'NanumBarunGothic',
+'Apple SD 산돌고딕 Neo',
+'Apple SD Gothic Neo',
+-apple-system,
+BlinkMacSystemFont,
+'Segoe UI',
+sans-serif;
+$font_bold: 'NotoSansBold',
+'나눔바른고딕',
+'NanumBarunGothic',
+'Apple SD 산돌고딕 Neo',
+'Apple SD Gothic Neo',
+-apple-system,
+BlinkMacSystemFont,
+'Segoe UI',
+sans-serif;
+// /* mixin style */
+
+
+
+// /* flex */
+.flex_center {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@mixin flex_center {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+// /*  button style */
+@mixin filled_blue {
+    color: #fff;
+    background-color: #1953d5;
+}
+
+@mixin lined_blue {
+    color: #1953d5;
+    background-color: #fff;
+    border: 1px solid #1953d5;
+}
+
+@mixin filled_sky {
+    color: #fff;
+    background-color: #3295e8;
+}
+
+@mixin lined_sky {
+    color: #3295e8;
+    background-color: #fff;
+    border: 1px solid #1953d5;
+}
+
+@mixin filled_dark {
+    color: #fff;
+    background-color: $color_mainA_duskblue;
+}
+
+@mixin lined_dark {
+    color: $color_mainA_duskblue;
+    background-color: #fff;
+    border: 1px solid $color_mainA_duskblue;
+}
+
+@mixin filled_gray {
+    color: #111;
+    background-color: #eee;
+}
+
+@mixin lined_black {
+    color: #111;
+    background-color: #fff;
+    border: 1px solid #111;
+}
+
+@mixin lined_white {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+@mixin line_height_40 {
+    line-height: 4rem;
+}
+
+@mixin line_height_38 {
+    line-height: 3.8rem;
+}
+
+@mixin line_height_20 {
+    line-height: 2rem;
+}
+
+@mixin line_height_18 {
+    line-height: 1.8rem;
+}
+
+// width: rem;
+// height: rem;
+// background-image: url("../../public/img/");
+@mixin bg_center {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+@mixin bg_after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+@mixin after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    // width: rem;
+    // height: rem;
+    // background-image: url("../../public/img/");
+}
+
+@mixin before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    // /* 	width: rem;
+    // 	height: rem;
+    // 	background-image: url("../../public/img/"); */
+}
+
+//  border 
+@mixin b_ddd {
+    border: 1px solid $color_ddd;
+}
+
+@mixin b_f5 {
+    border: 1px solid $color_f5;
+}
+
+@mixin bb_f5 {
+    border-bottom: 1px solid $color_f5;
+}
+
+@mixin bt_f5 {
+    border-top: 1px solid $color_f5;
+}
+
+@mixin br_f5 {
+    border-right: 1px solid $color_f5;
+}
+
+@mixin bl_f5 {
+    border-left: 1px solid $color_f5;
+}
+
+@mixin bb_ddd {
+    border-bottom: 1px solid $color_ddd;
+}
+
+@mixin bt_ddd {
+    border-top: 1px solid $color_ddd;
+}
+
+@mixin br_ddd {
+    border-right: 1px solid $color_ddd;
+}
+
+@mixin bl_ddd {
+    border-left: 1px solid $color_ddd;
+}
+
+// 반응형 관련	
+@mixin unset_all {
+    all: unset;
+}
+
+// transform position unset 
+@mixin unset_transform {
+    transform: unset;
+    transform: translate(0, 0);
+    top: unset;
+    bottom: unset;
+    left: unset;
+    right: unset;
+}
+
+// transform float unset 
+@mixin unset_float {
+    float: unset;
+}
+
+@mixin unset_clear {
+    clear: unset;
+}
+
+// 한줄라인 글자수 제한 말줄임 표시
+@mixin ellipsis_one {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-break: break-all;
+
+}
+
+// 멀티라인 말줄임 표시
+// $line-cnt : 라인 수
+// $line-height : line-height값
+// 사용법 : @include ellipsis(3, 1.6em);
+// @mixin ellipsis_multi($line-cnt, $line-height) {
+// 	overflow: hidden;
+// 	text-overflow: ellipsis;
+// 	// display: -webkit-box;
+// 	// -webkit-line-clamp: $line-cnt;
+// 	// /* 라인수 */
+// 	// -webkit-box-orient: vertical;
+// 	display: flex;
+// 	-webkit-line-clamp: $line-cnt;
+// 	/* 라인수 */
+// 	word-wrap: break-word;
+// 	line-height: $line-height;
+// 	height: $line-height * $line-cnt;
+// 	/* line-height 가 1.2em 이고 3라인을 자르기 때문에 height는 1.2em * 3 = 3.6em */
+// }
+
+@mixin ellipsis_multi {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    line-height: 1.5;
+    text-align: left;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+
+/* font size */
+
+@mixin fs_xxxl {
+    font-size: 40px;
+}
+
+@mixin fs_xxl {
+    font-size: 40px;
+}
+
+@mixin fs_xl {
+    font-size: 35px;
+}
+
+@mixin fs_l {
+    font-size: 35px;
+}
+
+
+@mixin fs_l {
+    font-size: 18px;
+}
+
+
+@mixin fs_m {
+    font-size: 16px;
+}
+
+@mixin fs_b {
+    font-size: 16px;
+}
+
+@mixin fs_b16 {
+    font-size: 16px;
+}
+
+@mixin fs_b18 {
+    font-size: 18px;
+}
+
+@mixin fs_s {
+    font-size: 14px;
+}
+
+@mixin fs_xs {
+    font-size: 12px;
+}
+
+@mixin fs_xxs {
+    font-size: 10px;
+}
+
+

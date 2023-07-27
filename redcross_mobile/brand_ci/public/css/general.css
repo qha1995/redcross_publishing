@@ -1,0 +1,35 @@
+* {
+  font-family: "Noto Sans KR", "Malgun Gothic", "Dotum", "돋움", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-size: 12px;
+}
+a,
+img {
+  border: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+body > div {
+  /* min-width: 1000px; */
+}
+
+.row > * {
+  float: left;
+}
+.row > .clearfix {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  float: left;
+}
+
+.logo img {
+  width: 130px;
+}

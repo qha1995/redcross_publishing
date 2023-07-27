@@ -1,0 +1,199 @@
+@charset "UTF-8";
+@import "mixset.scss";
+
+.only_mob {
+    display: none;
+}
+
+.only_wide {
+    display: block;
+}
+
+
+/* 아이패드 가로 모드*/
+@media screen and (max-width:1366px) {}
+
+@media screen and (max-width:1024px) {}
+
+/* 모바일 반응형,  아이패드 세로 모드 */
+
+@media screen and (max-width:768px) {
+    .only_mob {
+        display: block;
+    }
+
+    .bd_red {
+        border: 1px solid #EC1B23 !important;
+    }
+
+    .bg_fff {
+        background-color: #fff !important;
+    }
+
+    .font_red {
+        color: #EC1B23 !important;
+    }
+
+    .content {
+        padding-left: 0;
+        padding-top: 0;
+        position: relative;
+        background-color: #fafafa;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .side-menu {
+        display: none;
+    }
+
+
+    .header {
+        padding: 0 2.7vw;
+        height: auto;
+        border-bottom: 0px solid #ec1b23;
+        min-width: 0;
+
+
+
+        h1 {
+            font-family: "NanumBarunGothicBold";
+            font-size: 27px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: -0.81px;
+            text-align: left;
+            color: #000;
+            margin-bottom: 36px;
+            margin-top: 0;
+            padding-top: 53px;
+
+            //margin-bottom:9.6vw
+        }
+
+        .downloads {
+            margin: 0 auto;
+            width: 94.6vw;
+            height: auto;
+            border: 1px solid #BFBFBF;
+            background-color: #FAFAFA;
+            padding: 10.7vw 9.5vw;
+
+
+            a {
+
+                line-height: inherit;
+                display: block;
+                padding: 20px 0;
+                width: auto;
+                height: auto;
+                border-radius: 59px;
+                background-color: #EC1B23;
+                margin-top: 0;
+                margin-bottom: 10px;
+                margin-left: auto;
+                margin-right: 0;
+                font-family: "NotoSansBold";
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 20px;
+                letter-spacing: -0.03em;
+                text-align: center;
+                color: #FFF;
+                background-image: none !important;
+
+
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+            }
+
+            .file_download {
+                p {
+                    position: relative;
+                    display: inline-block;
+                    margin: 0 0;
+                    transform: translateX(14px);
+
+
+                    &::before {
+                        position: absolute;
+                        content: "";
+                        width: 24px;
+                        height: 24px;
+                        background-image: url(../img/CI_01.png);
+                        top: 0px;
+                        left: -30px;
+
+                    }
+                }
+            }
+
+            .font_download {
+                p {
+                    position: relative;
+                    display: inline-block;
+                    margin: 0 0;
+                    transform: translateX(14px);
+
+                    &::before {
+                        position: absolute;
+                        content: "";
+                        width: 24px;
+                        height: 24px;
+                        background-image: url(../img/CI_02.png);
+                        top: 0;
+                        left: -30px;
+
+                    }
+                }
+            }
+
+            .ci_download {
+                padding: 20px 0 !important;
+                height: auto !important;
+                margin-top: 0 !important;
+                margin-bottom: 10px !important;
+                margin-left: auto !important;
+                margin-right: 0 !important;
+                line-height: 20px !important;
+                border-radius: 59px !important;
+                background-color: #ffffff !important;
+                display: block !important;
+                color: #ec1b23 !important;
+                border: 1px solid #ec1b23 !important;
+                letter-spacing: -0.03em !important;
+                background-image: none !important;
+
+                p {
+                    position: relative;
+                    display: inline-block;
+                    margin: 0 0;
+                    transform: translateX(14px);
+
+                    &::before {
+                        position: absolute;
+                        content: "";
+                        width: 24px;
+                        height: 24px;
+                        background-image: url(../img/CI_03.png);
+                        top: 0;
+                        left: -30px;
+                    }
+                }
+
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width:480px) {}
+
+@media screen and (max-width:340px) {}

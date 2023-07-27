@@ -1,0 +1,1282 @@
+@import url("gnb_v2.css");
+@import url("lnb_v3.css?v=20220418001");
+@import url("page.css?v=20220503001"); /*@import url('header_v2.css');*/
+@import url("footer_v2.css?v=20220118001"); /* 전역 설정 */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "맑은 고딕", "돋움", "Dotum", "AppleGothic", "sans-serif";
+  color: #000;
+}
+
+img,
+fieldset {
+  border: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+em,
+address {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1em;
+}
+
+.none {
+  position: absolute;
+  top: -9999px;
+  text-indent: -9999em;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.height_1 {
+  height: 1px;
+}
+
+.blind {
+  text-indent: -9999px;
+}
+
+.hide {
+  text-indent: -9999px;
+  position: absolute;
+  top: -99999px;
+  overflow: hidden;
+}
+
+legend.screen_out {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  font-size: 0;
+  line-height: 0;
+  padding: 0;
+}
+
+.short_word {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.textbox {
+  border: 1px solid #d5d5d5;
+}
+
+.readonly {
+  background-color: #f5f5f5;
+  color: #aaa;
+}
+
+.fail {
+  color: #f00;
+  padding-left: 10px;
+}
+
+input.date {
+  background-image: url("../images/icon/icon_calendar.gif");
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+}
+
+caption,
+legend {
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+  text-indent: -9999em;
+}
+
+/* 텍스트박스 ime-mode설정 */
+.imemode_only_eng {
+  ime-mode: disabled;
+}
+
+.imemode_kor {
+  ime-mode: active;
+}
+
+.imemode_eng {
+  ime-mode: inactive;
+}
+
+/* 전체 배경 */
+body {
+  /*background:url('../images/common/bg_top.png') repeat-x top left;*/
+  min-width: 1200px;
+  font-size: 12px;
+}
+
+/* container 영역 정의 */
+/* 페이지 최 외곽 구조 */
+/* #outline                                                                { width:1030px; margin:0 auto; position:relative; } */
+/* #outline_1                                                              { width:750px; margin:0 auto; position:relative; } */
+#outline {
+  position: relative;
+  margin: 0 auto;
+  width: 1030px;
+}
+
+#area_container {
+  z-index: 10;
+  width: 990px;
+  height: 100%;
+  position: relative;
+  clear: both;
+  background: url("../images/common/container_bg.gif") repeat-y 196px 0;
+}
+
+#area_container_longer_height {
+  z-index: 10;
+  width: 990px;
+  height: 1600px;
+  position: relative;
+  margin-top: 1px;
+  clear: both;
+  background: url("../images/common/container_bg.gif") repeat-y 0 0;
+}
+
+#area_container2 {
+  width: 1200px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+/* Aside 영역 */
+#area_aside {
+  position: absolute;
+  top: 0;
+  right: 100px;
+  z-index: 100;
+  width: 131px;
+  height: 3350px;
+  background-color: #ed1c24;
+}
+
+#area_aside2 {
+  position: absolute;
+  top: 150px;
+  right: 200px;
+  z-index: 100;
+  width: 132px;
+  height: 100%;
+}
+
+/* section 영역 */
+#area_section {
+  position: relative;
+  margin-left: 225px;
+  width: 736px;
+  height: 100%;
+  padding: 70px 29px 60px 0;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+}
+
+#area_section h2 {
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  height: 26px;
+  width: 95%;
+  margin-bottom: 40px;
+}
+
+#area_section .box {
+  background: url("../images/common/box_bg_bottom.gif") no-repeat 0 100%;
+  padding: 0 0 10px 0;
+  position: relative;
+}
+
+#area_section .box .inner {
+  background: url("../images/common/box_bg_top.gif") no-repeat top left;
+  padding: 10px 20px 0 20px;
+  position: relative;
+}
+
+#area_section .page_message {
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  text-indent: -9999px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+#area_section.contentsBox {
+  background-color: transparent !important;
+  margin-left: 0px !important;
+  width: 966px !important;
+  padding: 57px 0 0 50px !important;
+}
+
+#area_section.content_area {
+  background-color: transparent !important;
+  width: 966px !important;
+  padding: 57px 0 50px 50px !important;
+}
+
+#area_section.visual_wrap {
+  background-color: transparent !important;
+  background-image: none !important;
+  margin-left: 0px;
+  width: 100%;
+  padding: 162px 0 0 0;
+  height: inherit;
+}
+
+/* section 영역 */
+#area_container2 #area_section {
+  position: relative;
+  margin-left: 0px;
+  width: 1200px;
+  height: 100%;
+  padding: 0;
+}
+
+#area_container2 #area_section h2 {
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  height: 26px;
+  width: 95%;
+  margin-bottom: 40px;
+}
+
+#area_container2 #area_section .box {
+  background: url("../images/common/box_bg_bottom.gif") no-repeat 0 100%;
+  padding: 0 0 10px 0;
+  position: relative;
+}
+
+#area_container2 #area_section .box .inner {
+  background: url("../images/common/box_bg_top.gif") no-repeat top left;
+  padding: 10px 20px 0 20px;
+  position: relative;
+}
+
+#area_container2 #area_section .page_message {
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  text-indent: -9999px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.education_new #outline {
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+#area_navi {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+/* section 영역 - navigator */
+#navigator {
+  position: absolute;
+  top: 26px;
+  left: 225px;
+  z-index: 10;
+}
+
+#navigator li {
+  float: left;
+  background: url("../images/common/navigator_splitor.gif") no-repeat 0 20%;
+  padding: 0 7px 0 12px;
+}
+
+#navigator li a {
+  position: relative;
+  top: -1px;
+  color: #666;
+  display: block;
+  height: 1.5em;
+  line-height: 1.5em;
+}
+
+#navigator li.first {
+  background: none;
+  padding-left: 0;
+}
+
+#navigator li.first a {
+  text-indent: -9999px;
+  overflow: hidden;
+  background: url("../images/common/navigator_home.gif") no-repeat 50% 30%;
+  width: 11px;
+  height: 100%;
+}
+
+#navigator li.last a {
+  font-weight: bold;
+  color: #666;
+  border-bottom: 1px dashed #e4e4e4;
+}
+
+/* section 영역 - navigator v2  */
+#navigator_v2 {
+  margin: 12px 0;
+  overflow: hidden;
+}
+
+#navigator_v2 li {
+  float: left;
+  background: url("../images/common/navigator_splitor.gif") no-repeat 0 20%;
+  padding: 0 7px 0px 12px;
+}
+
+#navigator_v2 li a {
+  position: relative;
+  top: -1px;
+  color: #666;
+  display: block;
+  height: 1.5em;
+  line-height: 1.5em;
+}
+
+#navigator_v2 li.first {
+  background: none;
+  padding-left: 0;
+}
+
+#navigator_v2 li.first a {
+  text-indent: -9999px;
+  overflow: hidden;
+  background: url("../images/education/common_v2/edu_sprit_notice.gif") no-repeat 0 3px;
+  width: 14px;
+  height: 100%;
+}
+
+#navigator_v2 li.last a {
+  font-weight: bold;
+  color: #666;
+  border-bottom: 1px dashed #e4e4e4;
+}
+
+/* section 영역 - contents_utility */
+/* #area_contents_utility                                                  { height:17px; margin-bottom:21px; } */
+/* #area_contents_utility ul                                               { float:right; margin-right:29px; } */
+/* #area_contents_utility ul li                                            { float:left; } */
+#area_contents_utility ul li a {
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  height: 16px;
+}
+
+#area_contents_utility ul li.facebook input {
+  background-image: url("../images/icon/icon_facebook.gif");
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  border: 0;
+  display: block;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+/* #area_contents_utility ul li.twitter   input                            { background-image:url('../images/icon/icon_twitter.gif'); width:16px; height:16px; margin-right:5px; border:0; display:block; text-indent:-9999px; cursor:pointer; } */
+#area_contents_utility ul li.naverblog input {
+  background-image: url("../images/icon/icon_naver.gif");
+  width: 16px;
+  height: 16px;
+  margin-right: 13px;
+  border: 0;
+  display: block;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+/* #area_contents_utility ul li.print input                                { background-image:url('../images/common/bt_print.gif'); width:37px; height:16px; margin-right:13px; border:0; display:block; text-indent:-9999px; cursor:pointer; } */
+/* #area_contents_utility ul li.font_smaller input                         { background-image:url('../images/common/bt_font_smaller.gif'); width:22px; height:16px; border:0; display:block; text-indent:-9999px; cursor:pointer; } */
+/* #area_contents_utility ul li.font_larger input                          { background-image:url('../images/common/bt_font_larger.gif'); width:22px; height:16px; position:relative; left:-1px; border:0; display:block; text-indent:-9999px; cursor:pointer; } */
+#area_contents_utility hr {
+  clear: both;
+  visibility: hidden;
+}
+
+/* section 영역 - contents_utility v3 */
+#area_contents_utility {
+  height: 22px;
+  margin-bottom: 21px;
+}
+
+#area_contents_utility ul {
+  float: right;
+  margin-right: 29px;
+}
+
+#area_contents_utility ul li {
+  float: left;
+}
+
+#area_contents_utility ul li input {
+  display: block;
+  float: left;
+  width: 22px;
+  height: 22px;
+  text-indent: -99999px;
+  cursor: pointer;
+}
+
+#area_contents_utility ul li.advertise {
+  display: none;
+  width: 0;
+  height: 0;
+  margin-right: 5px;
+  text-indent: -9999px;
+}
+
+#area_contents_utility ul li.twitter input {
+  background: url("/images/v3/pageUtile_ico01.png") no-repeat 0 center;
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+  border: 0;
+}
+
+#area_contents_utility ul li.print input {
+  background: url("/images/v3/pageUtile_ico02.png") no-repeat 0 center;
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+  border: 0;
+}
+
+#area_contents_utility ul li.font_smaller input {
+  background: url("/images/v3/pageUtile_ico03.png") no-repeat left center;
+  width: 18px;
+  height: 18px;
+  border: 0;
+  overflow: hidden;
+}
+
+#area_contents_utility ul li.font_larger input {
+  background: url("/images/v3/pageUtile_ico03.png") no-repeat right center;
+  width: 17px;
+  height: 18px;
+  margin-right: 5px;
+  border: 0;
+  overflow: hidden;
+}
+
+#area_contents_utility ul li.font_smaller input:hover,
+#area_contents_utility ul li.font_smaller input:focus {
+  background: url("/images/v3/pageUtile_ico04.png") no-repeat left center;
+  width: 18px;
+  height: 18px;
+  border: 0;
+  overflow: hidden;
+}
+
+#area_contents_utility ul li.font_larger input:hover,
+#area_contents_utility ul li.font_larger input:focus {
+  background: url("/images/v3/pageUtile_ico04.png") no-repeat right center;
+  width: 17px;
+  height: 18px;
+  margin-right: 5px;
+  border: 0;
+  overflow: hidden;
+}
+
+/* section 영역 - 고유식별정보 수집 및 이용 */
+#area_section .area_pin_agree .pin_title {
+  margin-top: 28px;
+  background: url("../images/nrggibu/nrggibu_auth_title_pin.gif") no-repeat top left;
+  text-indent: -9999px;
+  overflow: hidden;
+  height: 27px;
+}
+
+#area_section .area_pin_agree .pin_title2 {
+  margin-top: 28px;
+  background: url("../images/donation_participation/stitle_privacy.gif") no-repeat top left;
+  text-indent: -9999px;
+  overflow: hidden;
+  height: 27px;
+}
+
+#area_section .area_pin_agree .area_pin_agree_box {
+  border: 1px solid #e1e1e1;
+  padding: 12px;
+}
+
+#area_section .area_pin_agree .area_pin_agree_box * {
+  color: #666;
+}
+
+#area_section .area_pin_agree .area_pin_agree_box p {
+  line-height: 160%;
+}
+
+#area_section .area_pin_agree .area_pin_agree_box strong {
+  font-weight: bold;
+  color: #eb0029;
+}
+
+#area_section .area_pin_agree .area_pin_agree_box ul {
+}
+
+#area_section .area_pin_agree .area_pin_agree_box li {
+  line-height: 160%;
+  padding-left: 10px;
+}
+
+#area_section .area_pin_agree .agreement {
+  margin: 5px 0 0 0;
+  color: #666;
+  text-align: right;
+}
+
+#area_section .area_pin_agree .agreement input {
+  margin: 0 0 0 5px;
+  position: relative;
+  top: 2px;
+}
+
+#area_section .area_pin_agree .agreement label {
+  margin: 0 0 0 3px;
+  color: #666;
+}
+
+/* 희망풍차 영역 */
+#area_windmill {
+  position: fixed;
+  top: 155px;
+  left: 50%;
+  margin-left: 610px;
+  width: 55px;
+  height: 55px;
+  z-index: 10;
+  overflow: hidden;
+}
+
+/* #area_windmill .btn_open_windmill                        { position:absolute; top:20px; right:0px; width:118px; height:210px; } */
+/* #area_windmill .btn_open_windmill a                      { display:block; width:118px; height:210px; text-indent:-9999px; background:url('../images/common/windmill_banner.gif') no-repeat top left; cursor:pointer; overflow:hidden; } */
+/* #area_windmill #area_windmill_hidden                     { position:absolute; top:0px; right:128px; width:396px; height:563px; background:url('../images/common/windmill_info.png') no-repeat top left; text-indent:-9999px; } */
+/* #area_windmill #area_windmill_hidden .btn_close_windmill { position:absolute; top:540px; right:4px; width:50px; height:20px; background:url('../images/common/') no-repeat top left; text-indent:-9999px; overflow:hidden; } */
+/* #area_windmill #area_windmill_hidden .btn_widmill a      { position:absolute; top:0px; left:20px; width:376px; height:530px; overflow:hidden; } */
+/* #area_windmill .donation_reg a							 { display:block; width:117px; height:130px; text-indent:-9999px; background-image:url('../images/common/windmill_banner.png'); background-repeat: no-repeat;  overflow:hidden; } */
+/* #area_windmill .donation_reg a.btn_quick_m01             { background-position:left top; }  */
+/* #area_windmill .donation_onetime                         { position:absolute; left:0; top:130px; width:117px; height:160px; z-index:480; overflow:hidden;} */
+/* #area_windmill .donation_onetime a 						 {display:block; width:117px; height:160px; text-indent:-9999px; background-image:url('../images/common/windmill_banner.png'); background-repeat: no-repeat; overflow:hidden;} */
+/* #area_windmill .donation_onetime a.btn_quick_m02         { height:160px; background-position:left -130px;   }  */
+/* #area_windmill .donation_nameplate                       { position:absolute; left:0; top:290px; width:117px; height:168px; z-index:480; overflow:hidden;} */
+/* #area_windmill .donation_nameplate a 					 { display:block; width:117px; height:125px; text-indent:-9999px; background-image:url('../images/common/windmill_banner.png'); background-repeat: no-repeat; overflow:hidden;} */
+/* #area_windmill .donation_nameplate a.btn_quick_m03       { height:125px; background-position:left bottom;  } */
+/*********************************************************************************************************************************/
+/* layer popup 영역 */
+.layer_outline {
+  z-index: 100;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  font-size: 11px;
+  border-color: #e10000;
+  background: #fff url("../images/common/layer_titlebg_left.gif") no-repeat top left;
+  padding: 0 0 0 23px;
+  min-width: 500px;
+  position: relative;
+}
+
+/*2018.01.02 표옆에 빨간 세로줄 삭제요청
+.layer_outline .inner                                                   { background:url('../images/common/layer_titlebg_right.gif') no-repeat 0% 100px; padding:0 22px 0px 0px; margin:0; }
+*/
+.layer_outline .inner {
+  padding: 0 22px 0px 0px;
+  margin: 0;
+}
+
+.layer_outline * {
+  color: #666;
+}
+
+.layer_outline h2 {
+  height: 35px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 0 11px;
+}
+
+.layer_outline h2.loading {
+  background-image: url("../images/common/layer_loading.gif");
+}
+
+/* layer popup 영역 - 창닫기 */
+.layer_outline .btn_close {
+  position: absolute;
+  top: 11px;
+  right: 10px;
+  width: 14px;
+  height: 15px;
+  text-indent: -9999px;
+  font-size: 11px;
+  color: #878787;
+  overflow: hidden;
+  background: url("../images/btn/btn_layer_close.gif") no-repeat top left;
+}
+
+.layer_outline .btn_close a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* 메세지 영역 */
+.result_message {
+  position: relative;
+  width: 563px;
+  margin: 0 auto 200px auto;
+  padding-bottom: 32px;
+  background: url("../images/common/result_message_bg_bottom.gif") no-repeat 0 100%;
+}
+
+.result_message .inner {
+  padding: 32px 30px 5px 30px;
+  background: url("../images/common/result_message_bg_top.gif") no-repeat top left;
+}
+
+.result_message .inner2 {
+  padding: 32px 30px 5px 106px;
+  background: url("../images/common/result_message_bg_top.gif") no-repeat top left;
+}
+
+.result_message h3 {
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  height: 16px;
+}
+
+.result_message p {
+  line-height: 160%;
+}
+
+/* 메세지 영역 - 일반 */
+.result_message .ment {
+  background: url("../images/common/popup_line.gif") no-repeat 50% 0;
+  padding-top: 21px;
+  color: #878787;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.result_message .area_button {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.result_message .area_button a {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding: 15px 50px;
+  color: #ef0000;
+  font-size: 0;
+  text-indent: -9999px;
+}
+
+.result_message .area_button a.check {
+  background-image: url("../images/btn/btn_ok.gif");
+}
+
+.result_message .area_button a.btn_pwset {
+  background-image: url("../images/btn/btn_pwset.gif");
+  width: 141px;
+  background-position: center;
+}
+
+.result_message .area_button a.upgrade {
+  background-image: url("../images/btn/btn_upgrade.gif");
+}
+
+.result_message .area_button a.cancel {
+  background-image: url("../images/btn/btn_cancel.gif");
+}
+
+.result_message .area_button a.login {
+  background-image: url("../images/btn/btn_login.gif");
+}
+
+.result_message .area_button a.next {
+  background-image: url("../images/btn/btn_next.gif");
+}
+
+.result_message .area_button a.prev {
+  background-image: url("../images/btn/btn_prev.gif");
+}
+
+.result_message .area_button a.list {
+  background-image: url("../images/btn/btn_list2.gif");
+}
+
+.result_message .area_button a.detail {
+  background-image: url("../images/btn/btn_detail3.gif");
+}
+
+.result_message .area_button a.pwd_login {
+  background-image: url("../images/member/pw_btn_login.gif");
+}
+
+.result_message .area_button a.pwd_main {
+  background-image: url("../images/member/pw_btn_main.gif");
+}
+
+.result_message .area_button a.return {
+  background-image: url("../images/member/btn_return.gif");
+}
+
+.result_message .area_button a.callcenter {
+  background-image: url("../images/member/btn_callcenter.gif");
+}
+
+.result_message .area_button a.apply {
+  background-image: url("../images/btn/btn_register.gif");
+}
+
+.result_message .area_button a.connect {
+  background-image: url("../images/member/btn_connect.gif");
+}
+
+.result_message .area_button a.mypage {
+  background-image: url("../images/btn/btn_mypage.gif");
+}
+
+/* 메세지 영역 - 일반 추가 */
+.result_message .area_button_20190604 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.result_message .area_button_20190604 a {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding: 15px 50px;
+  color: #ef0000;
+  font-size: 0;
+  text-indent: -9999px;
+}
+
+.result_message .area_button_20190604 a.check {
+  background-image: url("../images/btn/btn_ok.gif");
+}
+
+.result_message .area_button_20190604 a.btn_pwset {
+  background-image: url("../images/btn/btn_pwset.gif");
+  width: 141px;
+  background-position: center;
+}
+
+.result_message .area_button_20190604 a.upgrade {
+  background-image: url("../images/btn/btn_upgrade.gif");
+}
+
+.result_message .area_button_20190604 a.cancel {
+  background-image: url("../images/btn/btn_cancel.gif");
+}
+
+.result_message .area_button_20190604 a.login {
+  background-image: url("../images/btn/btn_login.gif");
+}
+
+.result_message .area_button_20190604 a.next {
+  background-image: url("../images/btn/btn_next.gif");
+}
+
+.result_message .area_button_20190604 a.prev {
+  background-image: url("../images/btn/btn_prev.gif");
+}
+
+.result_message .area_button_20190604 a.list {
+  background-image: url("../images/btn/btn_list2.gif");
+}
+
+.result_message .area_button_20190604 a.detail {
+  background-image: url("../images/btn/btn_detail3.gif");
+}
+
+.result_message .area_button_20190604 a.pwd_login {
+  background-image: url("../images/member/pw_btn_login.gif");
+}
+
+.result_message .area_button_20190604 a.pwd_main {
+  background-image: url("../images/member/pw_btn_main.gif");
+}
+
+.result_message .area_button_20190604 a.return {
+  background-image: url("../images/member/btn_return.gif");
+}
+
+.result_message .area_button_20190604 a.callcenter {
+  background-image: url("../images/member/btn_callcenter.gif");
+}
+
+.result_message .area_button_20190604 a.apply {
+  background-image: url("../images/btn/btn_register.gif");
+}
+
+.result_message .area_button_20190604 a.connect {
+  background-image: url("../images/member/btn_connect.gif");
+}
+
+.result_message .area_button_20190604 a.mypage {
+  background-image: url("../images/btn/btn_mypage.gif");
+}
+
+.result_message .area_button_20190604 a.check {
+  background-image: url("../images/apyce/btn/btn_ok2.gif");
+}
+
+.result_message .area_button_20190604 a.cancel {
+  background-image: url("../images/apyce/btn/btn_cancel.gif");
+}
+
+/* 메세지 영역 - 경고/알림/에러 */
+.result_message .alert {
+  min-height: 90px;
+  background: url("../images/common/message_alert.gif") no-repeat top left;
+}
+
+.result_message .information {
+  min-height: 90px;
+  background: url("../images/common/message_information.gif") no-repeat top left;
+}
+
+.result_message .error {
+  min-height: 90px;
+  background: url("../images/common/message_error.gif") no-repeat top left;
+}
+
+.result_message .login {
+  min-height: 90px;
+  background: url("../images/common/message_login_information.gif") no-repeat top left;
+}
+
+.result_message .alert h3 {
+  background: url("../images/common/message_alert_title.gif") no-repeat 0 10px;
+  margin-left: 120px;
+  height: 30px;
+}
+
+.result_message .information h3 {
+  background: url("../images/common/message_information_title.gif") no-repeat 0 10px;
+  margin-left: 120px;
+  height: 30px;
+}
+
+.result_message .error h3 {
+  background: url("../images/common/message_error_title.gif") no-repeat 0 10px;
+  margin-left: 120px;
+  height: 30px;
+}
+
+.result_message .alert .ment,
+.result_message .information .ment,
+.result_message .error .ment {
+  min-height: 60px;
+  padding-left: 120px;
+  margin-top: 0;
+  padding-top: 0;
+  background: none;
+  text-align: left;
+}
+
+.result_message .alert .area_button,
+.result_message .information .area_button,
+.result_message .error .area_button {
+  background: url("../images/common/popup_line.gif") no-repeat 50% 0;
+}
+
+/* 레이어 메세지 영역 */
+.result_message.layer {
+  background-image: url("../images/common/layer_message_bg_bottom.gif");
+}
+
+.result_message.layer .inner {
+  background-image: url("../images/common/layer_message_bg_top.gif");
+}
+
+/* 메세지 영역2 */
+.result_message2 {
+  position: relative;
+  width: 563px;
+  margin: 0 auto 200px auto;
+  padding-bottom: 32px;
+  background: url("../images/common/result_message_bg_bottom.gif") no-repeat 0 100%;
+}
+
+.result_message2 .inner {
+  padding: 32px 30px 5px 30px;
+  background: url("../images/common/result_message_bg_top.gif") no-repeat top left;
+}
+
+.result_message2 h3 {
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  height: 16px;
+}
+
+.result_message2 p {
+  line-height: 160%;
+}
+
+/* 메세지 영역2 - 일반 */
+.result_message2 .ment {
+  background: url("../images/common/popup_line.gif") no-repeat 50% 0;
+  padding-top: 21px;
+  color: #878787;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.result_message2 .area_button {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.result_message2 .area_button a {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding: 15px 50px;
+  color: #ef0000;
+  font-size: 0;
+  text-indent: -9999px;
+}
+
+.result_message2 .area_button a.check {
+  background-image: url("../images/btn/btn_ok.gif");
+}
+
+.result_message2 .area_button a.btn_pwset {
+  background-image: url("../images/btn/btn_pwset.gif");
+  width: 141px;
+  background-position: center;
+}
+
+.result_message2 .area_button a.upgrade {
+  background-image: url("../images/btn/btn_upgrade.gif");
+}
+
+.result_message2 .area_button a.cancel {
+  background-image: url("../images/btn/btn_cancel.gif");
+}
+
+.result_message2 .area_button a.login {
+  background-image: url("../images/btn/btn_login.gif");
+}
+
+.result_message2 .area_button a.next {
+  background-image: url("../images/btn/btn_next.gif");
+}
+
+.result_message2 .area_button a.prev {
+  background-image: url("../images/btn/btn_prev.gif");
+}
+
+.result_message2 .area_button a.list {
+  background-image: url("../images/btn/btn_list2.gif");
+}
+
+.result_message2 .area_button a.detail {
+  background-image: url("../images/btn/btn_detail3.gif");
+}
+
+.result_message2 .area_button a.pwd_login {
+  background-image: url("../images/member/pw_btn_login.gif");
+}
+
+.result_message2 .area_button a.pwd_main {
+  background-image: url("../images/member/pw_btn_main.gif");
+}
+
+.result_message2 .area_button a.return {
+  background-image: url("../images/member/btn_return.gif");
+}
+
+.result_message2 .area_button a.callcenter {
+  background-image: url("../images/member/btn_callcenter.gif");
+}
+
+.result_message2 .area_button a.apply {
+  background-image: url("../images/btn/btn_register.gif");
+}
+
+.result_message2 .area_button a.connect {
+  background-image: url("../images/member/btn_connect.gif");
+}
+
+.result_message2 .area_button a.mypage {
+  background-image: url("../images/btn/btn_mypage.gif");
+}
+
+/* 메세지 영역2 - 경고/알림/에러 */
+.result_message2 .alert {
+  min-height: 90px;
+  background: url("../images/common/message_alert.gif") no-repeat top left;
+}
+
+.result_message2 .information {
+  min-height: 90px;
+  background: url("../images/common/message_information.gif") no-repeat top left;
+}
+
+.result_message2 .error {
+  min-height: 90px;
+  background: url("../images/common/message_error.gif") no-repeat top left;
+}
+
+.result_message2 .login {
+  min-height: 90px;
+  background: url("../images/common/message_login_information.gif") no-repeat top left;
+}
+
+.result_message2 .alert h3 {
+  background: url("../images/common/message_alert_title.gif") no-repeat 0 10px;
+  margin-left: 120px;
+}
+
+.result_message2 .information h3 {
+  background: url("../images/common/message_information_title.gif") no-repeat 0 10px;
+  margin-left: 120px;
+}
+
+.result_message2 .error h3 {
+  background: url("../images/common/message_error_title.gif") no-repeat 0 10px;
+  margin-left: 120px;
+}
+
+.result_message2 .alert .ment,
+.result_message2 .information .ment,
+.result_message2 .error .ment {
+  min-height: 60px;
+  padding-left: 120px;
+  margin-top: 0;
+  padding-top: 0;
+  background: none;
+  text-align: left;
+}
+
+.result_message2 .alert .area_button,
+.result_message2 .information .area_button,
+.result_message2 .error .area_button {
+  background: url("../images/common/popup_line.gif") no-repeat 50% 0;
+}
+
+/* 레이어 메세지 영역 */
+.result_message2.layer {
+  background-image: url("../images/common/layer_message_bg_bottom.gif");
+}
+
+.result_message2.layer .inner {
+  background-image: url("../images/common/layer_message_bg_top.gif");
+}
+
+/* 폼에서 에러 메세지 디자인 */
+.form_error_message {
+  background: url("../images/common/form_msg_bottom.gif") no-repeat 0 100%;
+  padding-bottom: 15px;
+  margin-top: 15px;
+}
+
+.form_error_message .form_error_inner {
+  background: url("../images/common/form_msg_top.gif") no-repeat top left;
+  padding-top: 15px;
+}
+
+.form_error_message .form_error_inner .msg {
+  background: url("../images/common/form_msg_icon.gif") no-repeat 0 50%;
+  padding: 10px 0 10px 50px;
+  min-height: 28px;
+  width: 70%;
+  margin: 0 auto;
+  line-height: 160%;
+}
+
+.form_error_message .form_error_inner .online_edu_msg {
+  background: url("../images/common/form_online_edu_msg_icon.gif") no-repeat 0 20%;
+  padding: 20px 0 10px 60px;
+  min-height: 28px;
+  width: 70%;
+  margin: 0 auto;
+  line-height: 160%;
+}
+
+.form_error_message .form_error_inner .msg a {
+  color: #00f;
+  text-decoration: underline;
+  margin-left: 10px;
+  padding-left: 15px;
+  background: url("../images/icon/icon_arrow.gif") no-repeat 0 35%;
+}
+
+/* tabmenu 영역 */
+ul.tabmenu {
+  float: left;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+
+ul.tabmenu li {
+  float: left;
+  position: relative;
+  top: 1px;
+  margin-right: 2px;
+  min-width: 120px;
+}
+
+ul.tabmenu li a {
+  text-align: center;
+  display: block;
+  background: url("../images/common/tab_bg_right.gif") no-repeat 100% -90px;
+  padding-right: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ul.tabmenu li a:hover {
+  text-decoration: none;
+}
+
+ul.tabmenu li a:visited {
+  text-decoration: none;
+}
+
+ul.tabmenu li a span {
+  display: block;
+  background: url("../images/common/tab_bg_left.gif") no-repeat 0 -90px;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: bold;
+  color: #fff;
+}
+
+ul.tabmenu li.on a {
+  background-position: 100% 0;
+}
+
+ul.tabmenu li.on a span {
+  background-position: 0 0;
+  color: #777;
+}
+
+/* pink_tabmenu */
+ul.tabmenu.pink li a {
+  background-image: url("../images/common/tab_bg_right_pink.gif");
+}
+
+ul.tabmenu.pink li a span {
+  background-image: url("../images/common/tab_bg_left_pink.gif");
+}
+
+/* blue_tabmenu */
+ul.tabmenu.blue li a {
+  background-image: url("../images/common/tab_bg_right_blue.gif");
+}
+
+ul.tabmenu.blue li a span {
+  background-image: url("../images/common/tab_bg_left_blue.gif");
+}
+
+/* red_tabmenu*/
+ul.tabmenu.red li a {
+  background-image: url("../images/common/tab_bg_right_red.gif");
+}
+
+ul.tabmenu.red li a span {
+  background-image: url("../images/common/tab_bg_left_red.gif");
+}
+
+/* 페이징 */
+.area_page {
+  clear: both;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.area_page ul {
+  list-style-type: none;
+}
+
+.area_page ul li {
+  display: inline;
+}
+
+.area_page ul li.number img {
+  padding-bottom: 4px;
+}
+
+.area_page ul li.number a {
+  font-weight: bold;
+  padding: 8px;
+  color: #666666;
+}
+
+.area_page ul li.number a.current_page {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #ed1c24;
+}
+
+.area_page img {
+  position: relative;
+  margin: 0 6px 0 6px;
+}
+
+/* Google Tag Manager By 누구나데이터 | 2019.9 */
+.async-hide {
+  opacity: 0 !important;
+}
